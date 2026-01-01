@@ -1,0 +1,1569 @@
+[
+  {
+    "n": "Abrigo Invisível",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": 50,
+    "df": 14,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Invisibilidade 2"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico sobre uma pequena construção (um casebre, uma carruagem, uma guarita) você torna ela e tudo em seu interior invisível. Se a construção tiver alguma abertura (uma janela aberta, uma carroça sem teto) o interior da construção será visível através da abertura. <br/>&emsp;A Runa Arcana ou Selo Místico dura 24 horas, mas se a construção for perturbada (uma porta é aberta, a carruagem se move) ela se dissipa imediatamente.",
+    "es": "",
+    "re": "Pequena construção invisível, exceto aberturas, até 24 horas ou movido",
+    "e": []
+  },
+  {
+    "n": "Absorver Alma",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 10,
+    "df": -3,
+    "r": [],
+    "d": "Se alguma criatura do tipo Humanoide ou Esfinge chegou a 0 Pontos de Vida no último minuto, você pode desenhar uma Runa Arcana sobre ela e absorver a energia vital daquela criatura, restaurando uma quantidade de Pontos de Mana igual à quantidade de Pontos de Mana permanentes do alvo – se a criatura estiver Por um Fio, ela morre imediatamente.<br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.<br/>&emsp;Este é um efeito de dreno de energia.",
+    "es": "",
+    "re": "Absorve Mana de criatura morta em ate 1min ou Por um Fio, matando-a",
+    "e": []
+  },
+  {
+    "n": "Ampliar Invocação",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": 15,
+    "df": 15,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Invocação Persistente"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico sobre um Elemental ou Golem, você pode fazer com ele aumente de tamanho uma categoria. <br/>&emsp;A Runa ou Selo se mantém ativa por tanto tempo quanto o elemental ou golem estiver coeso, mas você pode dissipá-la a qualquer momento.",
+    "es": "",
+    "re": "Aumenta tamanho de elemental ou golem em uma categoria",
+    "e": []
+  },
+  {
+    "n": "Aparência Ilusória",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 10,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Ilusão 2"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico sobre um Humanóide, você pode modificar quaisquer características da aparência do alvo (raça, gênero, constituição, etc.) incluindo suas roupas, mas não seu tamanho relativo (um Metadílio não poderia se parecer com um Humano, nem um Elfo com um Mahok, por exemplo). Para copiar a aparência de alguém específico você precisa estar olhando para o alvo. <br/>&emsp;A Runa Arcana dura até que a criatura afetada durma, mas se dissipa imediatamente se ela sofrer qualquer dano.",
+    "es": "",
+    "re": "Modifica características estéticas, mas não tamanho relativo",
+    "e": []
+  },
+  {
+    "n": "Arco Voltaico",
+    "c": "Magia",
+    "t": "Reação",
+    "ct": 450,
+    "m": 15,
+    "df": 12,
+    "r": [
+      "h",
+      [
+        "Relâmpago 1",
+        "Teleporte 1"
+      ]
+    ],
+    "d": "Você aprendeu a usar sua capacidade de teleporte na velocidade de um raio! Desenhando uma Runa Arcana sobre si mesmo, você sempre pode ativá-la se for alvo de um ataque ou magia que cause dano (mas não perda de vida ou outros efeitos que não causem dano). Quando fizer isso, você se teleporta para algum lugar que você possa ver e que esteja a um número de metros igual à sua Inteligência de onde você está, evitando a ação completamente. <br/>&emsp;Essa Runa Arcana dura uma quantidade de horas igual à sua Vontade, mas se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Teleporte até <a class='int'></a> metros para ignorar dano uma vez",
+    "e": []
+  },
+  {
+    "n": "Área de Anti-Magia",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 700,
+    "m": 60,
+    "df": 16,
+    "r": [
+      "n",
+      5
+    ],
+    "d": "Desenhando uma Runa Arcana no solo, você cria uma área esférica de magia morta cujo raio é igual à sua Vontade em metros. Dentro desta área é impossível conjurar Magias, e todos os efeitos de itens mágicos ficam inativos enquanto eles estiverem dentro dessa área, e o mesmo ocorre com qualquer construto. Além disso, qualquer morto-vivo com a Habilidade Mente Vazia, elementais ou qualquer criatura que tenha sido invocada que entrem na área são imediatamente destruídos. <br/>&emsp;Essa área de magia morta persistirá até o próximo nascer do sol. <br/>&emsp;Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.",
+    "es": "",
+    "re": "Cria esfera de magia morta com raio de <a class='von'></a> metros. Até prox. amanhecer.",
+    "e": []
+  },
+  {
+    "n": "Aríete Mágico",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 10,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Telecinésia"
+      ]
+    ],
+    "d": "Você projeta um poderoso golpe mágico capaz de derrubar oponentes – e estruturas! Desenhando uma runa arcana no ar, você projeta uma rajada de energia mágica bruta que causa dano igual a <a class='cont'>10</a>/Contusão em um alvo em sua linha de visão, e obriga o alvo a vencer um teste de Força com dificuldade igual à Determinação do conjurador para não ser derrubado. Itens inanimados e estruturas sofrem o dobro do dano normal. <br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Rajada <a class='cont'>10</a>/Cont. vsInanimados dano*2. Alvo FOR[DET]: Derruba",
+    "e": []
+  },
+  {
+    "n": "Arma dos Mortos",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": 10,
+    "df": 11,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana sobre um osso, você o imbuí com energia espiritual, transformando-o em uma arma necromântica. A Arma dos Mortos será uma arma corporal com FN 1 que causa dano igual à Força + Inteligência do conjurador – o tipo de dano deve ser escolhido entre contusão, corte ou perfuração, no momento em que a magia é conjurada. A arma é considerada como tendo a sua Runa pessoal desenhada sobre ela, e, enquanto você estiver usando a Arma dos Mortos, qualquer ataque que atinja uma criatura viva faz com que o alvo perca uma quantidade de Pontos de Vida iguais à sua Vontade além do dano normal da arma (este é um efeito de sangramento).<br/>&emsp;Esta Runa Arcana dura 1 minuto, e quando se dissipa, o osso volta à sua forma original.",
+    "es": "",
+    "re": "Osso vira arma de FN1, dano For+Int/Escolha, sangramento VON se acertar",
+    "e": []
+  },
+  {
+    "n": "Arma Fiel",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 20,
+    "df": 12,
+    "r": [
+      "h",
+      [
+        "Enfeitiçar Arma 1"
+      ]
+    ],
+    "d": "Você pode fazer um item portátil vir até você desenhando uma Runa Arcana no ar entre você e o objeto. O item precisa estar em sua linha de visão, e irá desaparecer de onde está e aparecer na sua mão. Essa magia só funciona com itens portáteis como armas, escudos, ferramentas ou frascos e o item precisa estar marcado com sua Runa pessoal. Além disso, você precisa ter pelo menos uma mão livre para que essa magia funcione.",
+    "es": "",
+    "re": "Teleporta objeto portátil (runa pessoal) no campo de visão para mão livre",
+    "e": []
+  },
+  {
+    "n": "Armadura de Gelo",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 500,
+    "m": 25,
+    "df": 11,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Parede de Gelo"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre uma criatura, você a envolve em uma camada de gelo mágico que age como uma armadura. A armadura não compromete a movimentação ou os sentidos da criatura dentro dela, e permite respirar e falar normalmente, e a criatura não sofre dano por frio, apenas sentindo-se levemente refrescada. A armadura absorve os ataques que atingiriam a criatura dentro dela, e deve ser destruída antes que a criatura possa ser atingida – note que qualquer ataque que exceda os Pontos de Vida da armadura serão aplicados ao usuário dentro dela (assim, se a armadura tiver 5 Pontos de Vida e sofrer um ataque que cause 12 de dano, a armadura será destruída e a criatura dentro dela sofrerá 7 de dano). A armadura tem uma quantidade de Pontos de Vida igual a 5 vezes a Vontade do conjurador, é Vulnerável a Fogo e sempre que receber dano por Frio recupera Pontos de Vida ao invés de sofrer dano. Ataques de Eletricidade causam dano normal à armadura e à criatura no interior dela. Essa Runa Arcana dura por 1 minuto, mas se dissipa imediatamente se a armadura perder todos os seus Pontos de Vida.",
+    "es": "",
+    "re": "Cria armadura de gelo com 5*<a class='von'></a> de Vida. Absorve Frio. 1min",
+    "e": []
+  },
+  {
+    "n": "Armadura Fiel",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": 30,
+    "df": 12,
+    "r": [
+      "h",
+      [
+        "Arma Fiel",
+        "Enfeitiçar Armadura"
+      ]
+    ],
+    "d": "Você pode fazer uma vestimenta vir até você desenhando uma Runa Arcana no ar entre você e ela. O item precisa estar em sua linha de visão, e irá desaparecer de onde está e aparecer vestido no seu corpo. Essa magia só funciona com itens que possam ser vestidos, como armaduras, roupas, mochilas ou cintos e o item precisa estar marcado com sua Runa pessoal. Além disso, você precisa ter espaço para que o item seja vestido para que essa magia funcione – é impossível trazer uma mochila se você já estiver usando alguma coisa nas costas, ou trazer uma armadura se você já estiver usando uma.",
+    "es": "",
+    "re": "Veste automaticamente armadura (runa pessoal) no campo de visão",
+    "e": []
+  },
+  {
+    "n": "Armadura Necromântica",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 10,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Contato com Espíritos"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre uma Sombra, você transforma a energia dela em uma armadura de energia que protege o usuário. A Sombra perde todos os seus Pontos de Mana e é imediatamente enviada para o Plano Espiritual. A energia retirada da sombra é transferida para uma criatura que você possa tocar, que fica envolta em uma aura espiritual com uma Resistência igual aos Pontos de Mana da Sombra + a Determinação do conjurador. Quando um ataque, magia ou efeito causar dano, remover Pontos de Vida ou de Mana do alvo, o efeito afetará a Resistência da armadura antes de afetar o usuário.<br/>&emsp;Essa Runa Arcana dura 1 minuto, ou até que a armadura fique sem Resistência.",
+    "es": "",
+    "re": "Consome Sombra. Armadura de PV igual a <a class='det'></a> + PM da sombra usada",
+    "e": []
+  },
+  {
+    "n": "Arremesso Cinético",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": 25,
+    "df": 15,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Empurrão Cinético"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre um alvo, você o arremessa no ar a uma altura igual à sua Determinação. O alvo (e qualquer criatura atingida por ele) sofre o dano apropriado pela altura que cair (causando essa mesma quantidade de dano em qualquer criatura que atingir). Além disso, quando atingir o solo, o alvo (e qualquer criatura que ele tenha atingido) precisa vencer um teste de Agilidade (Dificuldade igual à Determinação do conjurador) ou cairá. Você pode utilizar essa Magia sobre si mesmo ou sobre um aliado, para alcançar uma área elevada. Nesse caso, diminua a Vontade do alvo da Dificuldade da Magia e o alvo não sofre dano nem chance de queda.",
+    "es": "Criaturas com as Habilidades Combate Gigante ou Colosso são arremessadas a uma altura igual à metade da Determinação do Conjurador (arredondado para baixo). No entanto, elas causam quatro vezes o dano de queda que sofrerem em qualquer criatura sobre a qual caiam (se estas não tiverem as Habilidades Combate Gigante ou Colosso).",
+    "re": "Arremessa alvo <a class='det'></a> metros para cima, Dif-VON p/ aliados",
+    "e": []
+  },
+  {
+    "n": "Aura Congelante",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 10,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Congelar"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre um objeto ou criatura, você faz com que o alvo passe a emitir uma aura de frio intensa que causa dano igual a <a class='frio'> 6 </a>/Frio em todas as criaturas ao seu redor. No momento em que desenha a Runa dessa Magia, o conjurador deve escolher qual será o alcance da aura, até um máximo de 3 metros. Se a magia tiver como alvo um objeto inanimado, ela congela até 100 litros ou 100 quilos de material – que então passa a emitir a aura de frio ao seu redor. Além disso, objetos inanimados dentro da área de efeito da aura tendem a se congelar se ficarem dentro da área de efeito por 5 ou mais turnos, enquanto criaturas que sofram o dano da aura por 5 ou mais turnos ficam Enregeladas enquanto estiverem dentro da área de efeito da magia. <br/>&emsp;Esta Runa Arcana dura por 1 minuto, mas o gelo criado é permanente e descongela em velocidade normal depois que a Runa se dissipar.",
+    "es": "",
+    "re": "Alvo emite aura de frio (<a class='frio'>6</a>/Frio) congelante (5t) em até 3 metros, 1min",
+    "e": []
+  },
+  {
+    "n": "Barreira de Gelo",
+    "c": "Magia",
+    "t": "Reação",
+    "ct": 300,
+    "m": 10,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Parede de Gelo",
+        "Mente Disciplinada"
+      ]
+    ],
+    "d": "Esta Runa Arcana desenvolvida especificamente para defesa tem um desenho simples e rápido de fazer, e gera uma fina camada de gelo que absorve danos de ataques direcionados contra o conjurador. Sempre que for alvo de um ataque ou magia que cause dano ou perda de vida, você pode utilizar esta Runa. Ela absorve uma quantidade de dano igual à sua Determinação. Se o ataque causar dano por Frio, a barreira absorve todo o dano daquele ataque. Se o ataque causar dano por Fogo, a barreira absorve apenas metade da Determinação do conjurador (arredondado para cima) de dano. <br/>&emsp;Essa Habilidade pode ser usada uma vez por rodada. <br/>&emsp;Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.",
+    "es": "",
+    "re": "Absorve DET pontos de dano, DET/2 para Fogo e ignora Frio",
+    "e": []
+  },
+  {
+    "n": "Bola de Fogo",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 20,
+    "df": 12,
+    "r": [
+      "h",
+      [
+        "Inflamar"
+      ]
+    ],
+    "d": "Desenhando uma runa Arcana no ar você projeta uma esfera de chamas de 20 cm de diâmetro contra um alvo na sua linha de visão. A esfera explode ao atingir o alvo, causando dano igual a <a class='fogo'>20</a>/Fogo nele e <a class='fogo'>10</a>/Fogo em tudo e todos em até 2 metros dele. Objetos inanimados inflamáveis atingidos por essa magia tendem a entrar em combustão. <br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "<a class='fogo'>20</a>/Fogo em alvo e <a class='fogo'>10</a>/Fogo num raio de 2 metros",
+    "e": []
+  },
+  {
+    "n": "Causar Horror",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": 10,
+    "df": 10,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana sobre si mesmo, você se imbui de energias dos planos infernais que causam uma onda de repulsa à sua presença. Todos os oponentes que estiverem a até 10 metros de você recebem -1 em todas as rolagens. Além disso, qualquer criatura viva que tentar uma ação agressiva contra você precisa passar em um teste de Vontade (Dificuldade igual à sua Determinação) ou ficará Amedrontado em relação a você até o final do seu próximo turno. Qualquer criatura que passe neste teste fica imune a este efeito – mas não ao redutor – pelo próximo dia.<br/>&emsp;Esta Runa Arcana dura por 1 minuto.",
+    "es": "",
+    "re": "Oponentes até 10m: testes -1 & Von(Det) ação agressiva",
+    "e": []
+  },
+  {
+    "n": "Coagular Sangue",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": -2,
+    "df": 13,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Percepção Sanguínea"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre uma criatura viva, você pode engrossar seu sangue com efeitos benéficos – ou mortais! Você pode coagular apenas sangue exposto, cessando assim todos os efeitos de Sangramento que a criatura estiver sofrendo por um custo de 5 Pontos de Mana. Você pode engrossar levemente o sangue dentro das veias da criatura fazendo com que ela fique desorientada, ficando Atordoada por um número de turnos igual à Vontade do Conjurador por 15 Pontos de Mana. Ou você pode coagular o sangue do alvo, fazendo com que o alvo perca 30 Pontos de Vida e fique Distraído por 1 turno devido ao mal estar súbito por um custo de 30 Pontos de Mana.",
+    "es": "",
+    "re": "Consulte a descrição completa.",
+    "e": []
+  },
+  {
+    "n": "Condenar a Alma",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 10,
+    "df": -3,
+    "r": [
+      "h",
+      [
+        "Contato com Espíritos"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana entre você e uma criatura viva, você enfraquece a ligação entre o corpo e o espírito daquela criatura, fazendo com que, se a criatura morrer, sua alma se desligue do corpo imediatamente tornando-se uma Sombra que virá até você o mais rápido que puder. Ela permanecerá sob seu controle até ser destruída de alguma forma.<br/>&emsp;Esta Runa Arcana dura uma quantidade de dias igual à sua Determinação.",
+    "es": "",
+    "re": "Se alvo morrer em até <a class='det'></a> dias sua Sombra vai até você",
+    "e": []
+  },
+  {
+    "n": "Condenar o Corpo",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 15,
+    "df": -3,
+    "r": [
+      "h",
+      [
+        "Despertar dos Mortos 1"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana entre você e uma criatura viva, você enfraquece a ligação entre o corpo e o espírito daquela criatura, fazendo com que, se a criatura morrer, sua alma se desligue do corpo imediatamente, indo para o Plano Espiritual, enquanto o corpo se erguerá como um zumbi. Se o alvo desta magia estiver dentro da sua linha de visão no momento em que morrer, o zumbi estará automaticamente sob seu controle – caso contrário, ele se erguerá como um morto-vivo errante.<br/>&emsp;Esta Runa Arcana dura uma quantidade de dias igual à sua Determinação, mas assim que o corpo morrer, ela se torna uma Runa Arcana idêntica àquela de Despertar dos Mortos 1.",
+    "es": "",
+    "re": "Se alvo morrer em até <a class='det'></a> sofre Despertar dos Mortos 1",
+    "e": []
+  },
+  {
+    "n": "Congelar",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 10,
+    "df": 8,
+    "r": [],
+    "d": "Desenhando uma runa Arcana sobre um objeto ou superfície, você infunde um frio intenso congelando-o. Essa magia pode congelar até 200 litros de líquido ou de material sólido por ponto de Inteligência do conjurador. Apenas matéria inanimada pode ser afetada por essa magia. Essa magia pode ser usada para criar uma camada de gelo grosso (cerca de 5 centímetros) e extremamente escorregadio numa área circular com um diâmetro igual à sua Inteligência. Qualquer criatura sobre essa superfície (incluindo você) precisa fazer um teste de Agilidade (Dificuldade 12) sempre que realizar um ataque, se mover ou tentar se levantar. Uma falha nesse teste significa que o personagem cai. <br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas o gelo criado é permanente e descongela em velocidade normal.",
+    "es": "",
+    "re": "Congela inanimado. 200*<a class='int'></a> L ou camada de gelo num raio de <a class='int'></a> m",
+    "e": []
+  },
+  {
+    "n": "Conjurar Escudo",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 10,
+    "df": 10,
+    "r": [],
+    "d": "Você desenha uma Runa Arcana no ar e ela se transforma em um escudo de energia para proteger uma criatura dentro de sua linha de visão. O escudo flutua ao redor do alvo, bloqueando ataques, mas pode ser segurado como um escudo normal. Ele garante um Bônus de Bloqueio de +2, e se for segurado tem FN 2 e ocupa 1 mão. <br/>&emsp;A Runa Arcana que mantém o escudo se dissipa depois de 1 minuto.",
+    "es": "",
+    "re": "Escudo Blq+2 e FN 2, 1 min",
+    "e": []
+  },
+  {
+    "n": "Conjurar Objeto",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": 15,
+    "df": 10,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana sobre um item, você o envia para o plano etéreo. Qualquer item cujo peso seja igual ou menor do que a Carga Básica do conjurador pode ser afetado por essa Magia. Quando a Runa desenhada sobre o item for dissipada, o objeto aparece imediatamente nas mãos do conjurador. <br/>&emsp;Esta Runa Arcana dura indefinidamente, mas pode ser dissipada a qualquer momento pelo conjurador. Enquanto estiver ativa, os Pontos de Mana usados para Conjurar Objeto não podem ser recuperados.",
+    "es": "",
+    "re": "Envia item (até Carga Básica) para Plano Etéreo, Mana presa até dissipar",
+    "e": []
+  },
+  {
+    "n": "Controlar Mortos-Vivos",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 10,
+    "df": -3,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana sobre um morto-vivo ou espírito, ele fica sob seu controle. Se o morto-vivo estiver sendo controlado por outra criatura, a dificuldade será igual à Determinação do controlador. Um morto-vivo ou espírito controlado dessa forma será completamente leal ao conjurador e aceitará quaisquer comandos verbais simples (Me proteja, ataque meus inimigos, defenda esse local, carregue esses itens, etc.).<br/>&emsp;Alvos com Mente Bloqueada são imunes a este efeito.<br/>&emsp;Essa Runa Arcana dura por uma quantidade de horas igual à sua Determinação.",
+    "es": "",
+    "re": "Se Morto-Vivo controlado por outrem, a dificuldade é sua Determinação",
+    "e": []
+  },
+  {
+    "n": "Crânio Guardião",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 20,
+    "df": 13,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Crânio Sentinela"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre um crânio que esteja sob efeito de Crânio Sentinela, o Conjurador cria um elo poderoso entre si mesmo e o crânio. Além de todos os efeitos de um Crânio Vigia, o Conjurador será capaz de conjurar magias através dele – embora seja impossível fazer isso enquanto estiver dormindo ou desacordado.<br/>&emsp;Um Crânio Guardião é considerado como um de seus Crânios Vigias para propósitos de definir o limite de Crânios ativos ao mesmo tempo.<br/>&emsp;Essa Runa Arcana é perene.",
+    "es": "",
+    "re": "Conjura magia através de Crânio Sentinela",
+    "e": []
+  },
+  {
+    "n": "Crânio Sentinela",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 10,
+    "df": 11,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana sobre um crânio intacto, você cria uma ligação necromântica com ele. Um Crânio Sentinela tem uma quantidade de Pontos de Vida igual à sua Determinação, e você pode ver através dos olhos dele (a visão será em preto-e-branco, mas funciona mesmo na escuridão completa), ouvir o que se passa em seus arredores e falar através dele (isso exige concentração e impede que você faça qualquer ação e o deixa Desprevenido). Além disso, sempre que uma criatura se aproxima a uma quantidade de metros do crânio igual à sua Determinação, ou se o crânio for destruído ou a Runa Arcana nele for dissipada, você ficará ciente disso imediatamente. Se estiver dormindo ou desacordado, você ainda pode interagir com o crânio (como uma espécie de sonho consciente).<br/>&emsp;Você pode ter uma quantidade máxima de Crânios Sentinelas ativos igual à sua Vontade.<br/>&emsp;Essa Runa Arcana é perene, mas pode ser dissipada a qualquer momento pelo conjurador.",
+    "es": "",
+    "re": "Crânio DET PV, vê (escuro, p&b) e ouve ao seu redor, Alarme DET m",
+    "e": []
+  },
+  {
+    "n": "Cura Sombria",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 10,
+    "df": 9,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana sobre uma criatura, você a envolve em energia espectral que cura uma quantidade de Pontos de Vida igual à sua Determinação se o alvo for um morto-vivo ou espírito. Se o alvo for uma criatura viva, ele perde uma quantidade de Pontos de Vida igual à sua Determinação e você recupera uma quantidade de Pontos de Vida igual à quantidade perdida pelo alvo.<br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.<br/>&emsp;Quando usada sobre uma criatura viva esta magia é considerada um efeito de dreno de energia.",
+    "es": "",
+    "re": "Toque Drena DET PV de vivo, Cura DET PV de Morto-Vivo",
+    "e": []
+  },
+  {
+    "n": "Deflagrar Ossos",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": -2,
+    "df": 13,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana entre você e uma pilha de ossos ou um cadáver dentro da sua linha de visão, você faz com que os ossos explodam lançando estilhaços em todas as direções. Todas as criaturas a uma quantidade de metros igual à sua Determinação ao redor da pilha de ossos sofrem dano por Corte dependendo da quantidade de ossos afetados – o que também afeta o custo em Mana da magia. Um único osso grande (Fêmur, caixa torácica ou crânio) de uma criatura média terá um custo em Mana de 5 e causa 10 de dano. Restos de uma criatura pequena ou o único osso de uma criatura grande terá um custo em Mana de 10 e causa 15 de dano. Restos de uma criatura média ou o único osso de uma criatura enorme terá um custo de 15 pontos de Mana e causa 20 de dano. Restos de uma criatura grande terá um custo de 20 pontos de Mana e causa 25 pontos de dano. Restos de uma criatura colossal terá um custo de Mana de 25 e causa 30 pontos de dano.<br/>&emsp;Mortos-vivos com Mente Vazia podem ser afetados por essa magia, e contam como restos de uma criatura de seu tamanho. Eles perdem uma quantidade de Pontos de Vida igual à quantidade de dano que causam, mais uma quantidade de Pontos de Vida iguais à sua Determinação.<br/>&emsp;Essa Runa Arcana se dissipa assim que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Explode carcaça ou morto-vivo, Consulte a descrição completa",
+    "e": []
+  },
+  {
+    "n": "Desativar Item",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 20,
+    "df": 11,
+    "r": [],
+    "d": "Você pode desativar temporariamente um item mágico desenhando uma Runa Arcana sobre ele, fazendo com que todos os efeitos mágicos fornecidos pelo item (incluindo sua resistência, que será definida pelo material original do item ao invés de ser calculada como se ele fosse feito de Drakonite) deixem de funcionar. Além disso, todas as Runas Arcanas e Selos Místicos sobre o item são dissipadas imediatamente. Itens abençoados não são afetados por essa Habilidade. <br/>&emsp;Essa Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas o item mágico permanece desativado por 10 minutos por ponto de Inteligência que você tiver.",
+    "es": "",
+    "re": "Desativa itens mágicos por <a class='int'></a>*10 minutos.",
+    "e": []
+  },
+  {
+    "n": "Despertar dos Mortos 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 15,
+    "df": 10,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana sobre os restos de uma Besta ou Humanoide de tamanho Médio ou menor, você o transforma em um morto-vivo do tipo apropriado: ossadas vão se transformar em Esqueletos enquanto cadáveres com quantidades consideráveis de carne vão se transformar em Zumbis. Os restos não precisam estar intactos ou sequer completos, mas dependendo do estado em que estiverem, podem ter formas bizarras e dificuldades para realizar certas ações.<br/>&emsp;O morto-vivo estará sob seu controle e acatará quaisquer comandos verbais simples (Ataque aquela criatura, defenda esse local, carregue esses itens, etc.).<br/>&emsp;Essa Runa Arcana dura uma quantidade de horas igual à sua Determinação.",
+    "es": "",
+    "re": "Cria zumbi ou esqueleto de criatura Média ou menor, DET horas",
+    "e": []
+  },
+  {
+    "n": "Despertar dos Mortos 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 20,
+    "df": 13,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Despertar dos Mortos 1"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre os restos de uma criatura qualquer, você os transforma em um morto-vivo do tipo apropriado: ossadas vão se transformar em Esqueletos enquanto cadáveres com quantidades consideráveis de carne vão se transformar em Zumbis. Os restos não precisam estar intactos ou sequer completos, mas dependendo do estado em que estiverem, podem ter formas bizarras ou dificuldades para realizar certas ações.<br/>&emsp;O morto-vivo criado é permanente, e será completamente leal a você e acatará quaisquer comandos verbais simples (Me proteja, ataque meus inimigos, defenda esse local, carregue esses itens, etc.) pela duração da magia – quando a Runa se dissipa, o morto-vivo passa a agir de forma independente.<br/>&emsp;Essa Runa Arcana dura uma quantidade de horas igual à sua Determinação.",
+    "es": "",
+    "re": "Cria zumbi ou esqueleto de criatura, DET horas",
+    "e": []
+  },
+  {
+    "n": "Dom do Artífice",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": 20,
+    "df": 14,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Mente Disciplinada"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre si mesmo, o conjurador recebe +2 em um Atributo à sua escolha. Além disso, se essa Runa for realizada antes de uma sessão de encantamento, o Artífice não fica exausto no fim do dia, recuperando metade dos seus Pontos de Mana totais durante o ritual. Isso não permite ao Artífice apressar o processo de um encantamento, mas ele pode se dedicar à dois encantamentos ao mesmo tempo. <br/>&emsp;Essa Runa Arcana dura 1 minuto.",
+    "es": "",
+    "re": "Recebe +2 em atributo à escolha, Não exausto após encantamento, 1min",
+    "e": []
+  },
+  {
+    "n": "Eletricidade Estática",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 10,
+    "df": 8,
+    "r": [],
+    "d": "Desenhando uma runa Arcana sobre um objeto ou criatura, você o carrega com uma forte carga de eletricidade estática, prendendo-o à qualquer superfície em que estiver tocando. Pode ser usado em um item portátil para tornar impossível que ele seja derrubado ou em uma criatura para impedir que ela tire os pés do chão – reduzindo seu Deslocamento para 0 e sua Agilidade em -2. Um alvo afetado dessa forma pode fazer um teste de Força com dificuldade igual à Determinação do conjurador como uma ação de movimento para tentar tirar os pés do chão. <br/>&emsp;Essa Runa Arcana dura 1 minuto, mas se a criatura afetada conseguir tirar um dos pés do chão, seus efeitos sobre ela se dissipam imediatamente.",
+    "es": "",
+    "re": "Prende o alvo a qualquer superfície por 1min, Escapar FOR[DET]",
+    "e": []
+  },
+  {
+    "n": "Eletrosfera",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 40,
+    "df": 13,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Relâmpago 2"
+      ]
+    ],
+    "d": "Você desenha uma Runa Arcana sobre si mesmo, fazendo um turbilhão de raios elétricos emanarem a partir dela. No final do seu turno, tudo e todos que estiver a uma quantidade de metros igual à sua Inteligência ao seu redor sofrem uma quantidade de dano igual a <a class='elet'>20</a>/Eletricidade. Alvos usando armaduras com a Característica Pesada que sofram esse dano também ficam Atordoadas por 1 turno. <br/>&emsp;Essa Runa Arcana dura uma quantidade de turnos igual à sua Vontade.",
+    "es": "",
+    "re": "Área de <a class='int'></a> m: <a class='elet'>20</a>/Elet por <a class='von'></a> turnos",
+    "e": []
+  },
+  {
+    "n": "Empurrão Cinético",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 350,
+    "m": 15,
+    "df": 13,
+    "r": [
+      "h",
+      [
+        "Telecinésia"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana entre você e um alvo, você faz com que ele seja projetado em linha reta um número de metros igual à Vontade do conjurador. Se o alvo atingir uma superfície sólida ou outra criatura no trajeto que foi projetado, ele (e qualquer criatura que atinja no trajeto) sofre dano como se tivesse caído aquela distância. O alvo empurra tudo o que atingir no trajeto, que só será interrompido se o alvo atingir um objeto que não possa ser empurrado – como uma parede ou árvore. Além disso, no final do trajeto em que foi projetado, o alvo (e qualquer criatura que ele tenha atingido no trajeto) precisa vencer um teste de Agilidade (Dificuldade igual à Determinação do conjurador) ou cairá. <br/>&emsp;Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.",
+    "es": "Criaturas com as Habilidades Combate Gigante ou Colosso são empurrados apenas um número de metros igual à metade da Vontade do Conjurador (arredondado para baixo).",
+    "re": "Empurra alvo VON metros, Dano queda, Alvo AGI[DET]: Caído",
+    "e": []
+  },
+  {
+    "n": "Encarnar Espírito",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 600,
+    "m": 30,
+    "df": -3,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Contato com Espíritos",
+        "Despertar dos Mortos 1"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre um cadáver, você o reanima induzindo uma Sombra próxima para dentro dele. Ossadas vão se transformar em Esqueletos enquanto cadáveres com quantidades consideráveis de carne vão se transformar em Zumbis. Os restos não precisam estar intactos ou sequer completos, mas dependendo do estado em que estiverem, podem ter formas bizarras ou dificuldades para realizar certas ações.<br/>&emsp;Diferente de um esqueleto ou zumbi normal, no entanto, esse morto-vivo não terá Mente Vazia e possui a consciência da Sombra contida dentro dele – incluindo sua Inteligência, Vontade e quaisquer Habilidades que a Sombra possuísse em vida, exceto Características. Sombras encarnadas dessa forma não são capazes de Conjurar Magias ou utilizar Músicas que tenham um custo em Mana maior do que zero. Um morto-vivo criado dessa forma será completamente leal a você e aceitará quaisquer comandos verbais simples (Me proteja, ataque meus inimigos, defenda esse local, carregue esses itens, etc.), mas ainda é capaz de raciocinar normalmente, e pode criar estratégias ou táticas tão elaboradas quanto apropriado.<br/>&emsp;Essa Runa Arcana dura uma quantidade de horas igual à sua Vontade, e o morto-vivo se desfaz em pó quando a Runa se dissipa.",
+    "es": "",
+    "re": "Cria morto-vivo com a consciência de uma sombra, VON horas",
+    "e": []
+  },
+  {
+    "n": "Energia Sombria 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 0,
+    "df": 9,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana no ar, você projeta uma rajada de energia espectral que, ao atingir uma criatura viva, faz com que ela perca uma quantidade de Pontos de Vida e Pontos de Mana igual à sua Vontade – se o alvo for um morto-vivo ou espírito, ele recupera uma quantidade de Pontos de Vida igual à sua Vontade ao invés disso.<br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.<br/>&emsp;Quando usada sobre uma criatura viva esta magia é considerada um efeito de dreno de energia.",
+    "es": "",
+    "re": "Rajada provoca de -<a class='-vida'><a class='von'><>/a></a>PV e -<a class='-mana'><a class='von'><>/a></a>PM, mortos-vivos recuperam <a class='von'></a> PV, Dreno",
+    "e": []
+  },
+  {
+    "n": "Energia Sombria 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 20,
+    "df": 11,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Energia Sombria 1"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana no ar, você projeta uma rajada de energia espectral que, ao atingir uma criatura viva, faz com que ela perca uma quantidade de Pontos de Vida e Pontos de Mana igual à sua Determinação – se o alvo for um morto-vivo ou espírito, ele recupera uma quantidade de Pontos de Vida igual à sua Determinação ao invés disso.<br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.<br/>&emsp;Quando usada sobre uma criatura viva esta magia é considerada um efeito de dreno de energia.",
+    "es": "",
+    "re": "Rajada provoca de -<a class='-vida'><a class='det'><>/a></a>PV e -<a class='-mana'><a class='det'><>/a></a>PM, mortos-vivos recuperam <a class='det'></a> PV, Dreno",
+    "e": []
+  },
+  {
+    "n": "Enfeitiçar Arma 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 10,
+    "df": 10,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana sobre uma arma, você confere um bônus de +1 nas rolagens de ataque e nos danos dessa arma. <br/>&emsp;Essa Runa Arcana dura 1 minuto.",
+    "es": "",
+    "re": "Toque Arma: teste+1 dano+1 por 1 minuto",
+    "e": []
+  },
+  {
+    "n": "Enfeitiçar Arma 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 25,
+    "df": 12,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Enfeitiçar Arma 1"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre uma arma, você confere um bônus de +3 nas rolagens de ataque e nos danos dessa arma. <br/>&emsp;Essa Runa Arcana dura 1 minuto.",
+    "es": "",
+    "re": "Toque Arma: teste+3 dano+3 por 1 minuto",
+    "e": []
+  },
+  {
+    "n": "Enfeitiçar Armadura",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 20,
+    "df": 10,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana sobre uma armadura ou vestimenta, você aumenta o bônus de defesa do item em +1 (ou confere +1 de Armadura para uma peça de roupa comum). <br/>&emsp;Essa Runa Arcana dura 1 minuto.",
+    "es": "",
+    "re": "Bônus de Armadura +1 por 1 minuto",
+    "e": []
+  },
+  {
+    "n": "Esconjurar",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 10,
+    "df": -2,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana sobre uma criatura, você desfaz quaisquer ligações sobrenaturais que ela possua. Se a criatura estiver sendo controlada, o controlador do alvo imediatamente perde 10 Pontos de Mana e fica Atordoada por um número de turnos igual à sua Vontade. Se o alvo for um elemental, infernal, deva, espírito ou criatura invocada, ela é imediatamente banida para seu plano de origem. Se for uma criatura convocada, ela retorna ao seu comportamento normal – geralmente fugindo em confusão. Se o alvo for um construto, todos os Selos Místicos e Runas Arcanas sobre ele são dissipados. Se o alvo for um morto-vivo, ele se torna um cadáver inanimado e não pode mais ser reanimado.<br/>&emsp;A dificuldade desta magia é igual à Determinação da criatura OU da criatura controlando o alvo, se ele estiver sendo controlado.<br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Desfaz ligações sobrenaturais, se houver Controlador:-10PM",
+    "e": []
+  },
+  {
+    "n": "Ilusão 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 350,
+    "m": 20,
+    "df": 11,
+    "r": [
+      "h",
+      [
+        "Ilusão 1"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você cria uma ilusão visual de tamanho máximo de um elefante ou uma carruagem. <br/>&emsp;A Runa Arcana ou Selo Místico que mantém a ilusão dura até 30 minutos, mas se dissipa se o conjurador perder contato visual com ela.",
+    "es": "",
+    "re": "Cria ilusão de tamanho Grande (ex: Elefante) à visão por 30 minutos",
+    "e": []
+  },
+  {
+    "n": "Ilusão 3",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": 30,
+    "df": 13,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Ilusão 2"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você cria uma ilusão visual de tamanho máximo de um dragão ancião ou um casarão. <br/>&emsp;A Runa Arcana ou Selo Místico que mantém a ilusão dura até 30 minutos, mas se dissipa se o conjurador perder contato visual com ela.",
+    "es": "",
+    "re": "Cria ilusão de tamanho Colossal (ex: Dragão) à visão por 30 minutos",
+    "e": []
+  },
+  {
+    "n": "Ilusão Persistente",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 700,
+    "m": -2,
+    "df": 12,
+    "r": [
+      "n",
+      5
+    ],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico sobre uma ilusão, você aumenta sua duração em 1 hora para cada 10 Pontos de Mana que gastar e não precisa manter contato visual para que ela continue ativa. <br/>&emsp;A Runa Arcana ou Selo Místico se dissipa assim que seus efeitos são desencadeados, mas o conjurador pode dissipar a ilusão afetada a qualquer momento.",
+    "es": "",
+    "re": "Ilusão persiste +1h para cada +10PM",
+    "e": []
+  },
+  {
+    "n": "Incandescer",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 50,
+    "df": 14,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Inferno"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre um objeto ou superfície, você faz com que ele aquece ao ponto de incandescer ou inflamar. Objetos de pedra e metal se tornarão quentes ao ponto de tornarem-se candentes, causando dano igual a <a class='fogo'>20</a>/Fogo em qualquer coisa que tocarem – e produzindo uma quantidade considerável de calor. Metais aquecidos a esse ponto amolecem e podem ser facilmente dobrados ou quebrados. Objetos combustíveis irão se inflamar instantaneamente, e pegarão fogo mesmo que estejam ensopados – a água vai evaporar em segundos antes que eles entrem em combustão. Essa magia pode ser usada em armas, armaduras e vestimentas de criaturas vivas. <br/>&emsp;Note que o objeto alvo se aquece por inteiro. Assim, uma árvore inteira secaria e então irromperia em chamas, e uma imensa sessão de uma caverna poderia subitamente se tornar mortalmente quente. <br/>&emsp;Essa Runa dura um número de turnos igual à sua Inteligência, mas materiais inflamáveis que irrompam em chamas vão queimar enquanto houver combustível disponível, mesmo depois da runa se dissipar.",
+    "es": "",
+    "re": "Metal/Pedra:<a class='fogo'>20</a>/Fogo ao toque por <a class='int'></a> turnos",
+    "e": []
+  },
+  {
+    "n": "Inferno",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 40,
+    "df": 13,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Bola de Fogo"
+      ]
+    ],
+    "d": "Desenhando uma Runa arcana sobre o solo, você faz com que uma área de 4 metros de diâmetro dentro da sua linha de visão entre em combustão enquanto é atingido por uma chuva de brasas e fogo. Todos que tiverem nessa área sofrem dano igual a <a class='fogo'>30</a>/Fogo quando essa magia for lançada e mais <a class='fogo'>30</a>/Fogo no início de cada turno que iniciarem dentro da área. <br/>&emsp;Esta Runa Arcana dura 1 rodada por ponto de Inteligência que você tiver, mas você posse dissipá-la a qualquer momento. <br/>&emsp;Material inflamável na área irrompe em chamas instantaneamente.",
+    "es": "",
+    "re": "Linha de visão. 4m diâmetro. <a class='fogo'>30</a>/Fogo por <a class='int'></a> turnos.",
+    "e": []
+  },
+  {
+    "n": "Inflamar",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": -2,
+    "df": 8,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana entre você e um objeto ou superfície dentro de sua linha de visão você faz com que ele irrompa em chamas. O custo depende do tamanho da chama criada: criar a chama em uma vela tem custo 0, enquanto uma chama suficiente para acender uma tocha tem custo 5 e fazer uma fogueira de acampamento irromper em chamas imediatamente tem custo 10. Você pode produzir uma explosão de chamas diretamente sobre um item segurado por uma criatura ou na superfície onde ela está, causando dano igual a <a class='fogo'>4</a>/Fogo, por 0 Pontos de Mana, <a class='fogo'>8</a>/Fogo por 5 Pontos de Mana ou <a class='fogo'>12</a>/Fogo por 10 Pontos de Mana. <br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas material combustível afetado se incendeia automaticamente.",
+    "es": "",
+    "re": "Inflama objeto à vista. Dano[Mana]: <a class='fogo'>4</a>/Fogo[0] <a class='fogo'>8</a>/Fogo[5] <a class='fogo'>12</a>/Fogo[10].",
+    "e": []
+  },
+  {
+    "n": "Infravisão",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": 5,
+    "df": 9,
+    "r": [
+      "h",
+      [
+        "Detectar Magia",
+        "Inflamar"
+      ]
+    ],
+    "d": "Você desenha uma Runa Arcana sobre um alvo, que passa a perceber o calor que emana dos objetos e criaturas sobrepondo a sua visão normal. Ele pode enxergar normalmente em locais sem iluminação nenhuma, pode perceber criaturas invisíveis pelo calor (ou frio) que elas emanam e consegue identificar ilusões, já que elas não emanam calor nem frio. <br/>&emsp;Essa Runa Arcana dura 1 hora.",
+    "es": "",
+    "re": "Alvo enxerga calor por uma hora",
+    "e": []
+  },
+  {
+    "n": "Invisibilidade 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": 20,
+    "df": 11,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico sobre uma criatura, você a torna – assim como todas as suas posses – invisível. <br/>&emsp;Essa Runa Arcana ou Selo Místico dura por uma quantidade de minutos igual à Inteligência do conjurador.",
+    "es": "",
+    "re": "Alvo, e posses, invisíveis por <a class='int'></a> minutos",
+    "e": []
+  },
+  {
+    "n": "Invisibilidade 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": 30,
+    "df": 13,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Invisibilidade 1"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre uma criatura, você a torna – assim como todas as suas posses – invisível. <br/>&emsp;Essa Runa Arcana ou Selo Místico dura por uma quantidade de horas igual à Inteligência do conjurador.",
+    "es": "",
+    "re": "Alvo, e posses, invisíveis por <a class='int'></a> horas",
+    "e": []
+  },
+  {
+    "n": "Invocar Elemental 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": 15,
+    "df": 9,
+    "r": [
+      "h",
+      [
+        "Congelar",
+        "Inflamar"
+      ]
+    ],
+    "d": "Você conjura um pequeno Elemental de Fogo ou do Gelo desenhando uma Runa Arcana no ar. O Elemental obedecerá todos os seus comandos e agirá a partir do turno seguinte, logo depois de você. <br/>&emsp;A runa que mantém o Elemental coeso se dissipa depois de 10 minutos.",
+    "es": "",
+    "re": "Invoca Elemental do Fogo, Gelo ou Relâmpago Pequeno por 10 min",
+    "e": []
+  },
+  {
+    "n": "Invocar Elemental 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 30,
+    "df": 11,
+    "r": [
+      "h",
+      [
+        "Invocar Elemental 1"
+      ]
+    ],
+    "d": "Você conjura um Elemental Médio de Fogo ou do Gelo desenhando uma Runa arcana no ar. O Elemental obedecerá todos os seus comandos e agirá a partir do turno seguinte, logo depois de você. <br/>&emsp;A runa que mantém o Elemental coeso se dissipa depois de 10 minutos.",
+    "es": "",
+    "re": "Invoca Elemental do Fogo, Gelo ou Relâmpago Médio por 10 min",
+    "e": []
+  },
+  {
+    "n": "Invocar Elemental 3",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 60,
+    "df": 13,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Invocar Elemental 2"
+      ]
+    ],
+    "d": "Você conjura um grande Elemental de Fogo ou do Gelo desenhando uma runa Arcana no ar. O Elemental obedecerá todos os seus comandos e agirá a partir do turno seguinte, logo depois de você. <br/>&emsp;A Runa Arcana que mantém o Elemental coeso se dissipa depois de 10 minutos.",
+    "es": "",
+    "re": "Invoca Elemental do Fogo, Gelo ou Relâmpago Grande por 10 min",
+    "e": []
+  },
+  {
+    "n": "Invocar Elemental do Fogo 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": -2,
+    "df": 10,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do fogo. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do fogo pequeno custa 15 Pontos de Mana e um elemental do fogo médio custa 30 Pontos de Mana. <br/>&emsp;A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.",
+    "es": "",
+    "re": "Invoca Elemental do Fogo por 10min, 15PM Pequeno, 30PM Médio",
+    "e": []
+  },
+  {
+    "n": "Invocar Elemental do Fogo 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": -2,
+    "df": 14,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Invocar Elemental do Fogo 1"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do fogo. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do fogo grande custa 50 Pontos de Mana e um elemental do fogo gigante custa 100 Pontos de Mana. <br/>&emsp;A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.",
+    "es": "",
+    "re": "Invoca Elemental do Fogo por 10min, 50PM Grande, 100PM Gigante",
+    "e": []
+  },
+  {
+    "n": "Invocar Elemental do Gelo 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": -2,
+    "df": 10,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do gelo. O elemental age logo depois de você a partir do turno em que for invocado.Um elemental do gelo pequeno custa 15 Pontos de Mana e um elemental do gelo médio custa 30 Pontos de Mana. <br/>&emsp;A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.",
+    "es": "",
+    "re": "Invoca Elemental do Gelo por 10min, 15PM Pequeno, 30PM Médio",
+    "e": []
+  },
+  {
+    "n": "Invocar Elemental do Gelo 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": -2,
+    "df": 14,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Invocar Elemental do Gelo 1"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do gelo. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do gelo grande custa 50 Pontos de Mana e um elemental do gelo gigante custa 100 Pontos de Mana. <br/>&emsp;A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.",
+    "es": "",
+    "re": "Invoca Elemental do Gelo por 10min, 50PM Grande, 100PM Gigante",
+    "e": []
+  },
+  {
+    "n": "Invocar Elemental do Relampago 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": -2,
+    "df": 10,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do relâmpago. O elemental age logo depois de você a partir do turno em que for invocado.Um elemental do relâmpago pequeno custa 15 Pontos de Mana e um elemental do gelo médio custa 30 Pontos de Mana. <br/>&emsp;A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.",
+    "es": "",
+    "re": "Invoca Elemental do Relâmpago por 10min, 15PM Pequeno, 30PM Médio",
+    "e": []
+  },
+  {
+    "n": "Invocar Elemental do Relâmpago 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": -2,
+    "df": 14,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Invocar Elemental do Relâmpago 1"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do relâmpago. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do relâmpago grande custa 50 Pontos de Mana e um elemental do relâmpago gigante custa 100 Pontos de Mana. <br/>&emsp;A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.",
+    "es": "",
+    "re": "Invoca Elemental do Relâmpago por 10min, 50PM Grande, 100PM Gigante",
+    "e": []
+  },
+  {
+    "n": "Invocar Espectro",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 20,
+    "df": -1,
+    "r": [
+      "h",
+      [
+        "Contato com Espíritos"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre uma Sombra, você a transforma em um Espectro Soldado sob seu comando. O espectro criado é permanente, será completamente leal a você e acatará quaisquer comandos verbais simples (Me proteja, ataque meus inimigos, defenda esse local, carregue esses itens, etc.) pela duração da magia.<br/>&emsp; Runa Arcana dura uma quantidade de minutos igual à Vontade do conjurador, mas a transformação em Espectro é permanente – quando a Runa se dissipa, o espectro passa a agir de forma independente.",
+    "es": "",
+    "re": "Sombra->Espectro Soldado. Sob comando por <a class='von'></a> minutos",
+    "e": []
+  },
+  {
+    "n": "Invocar Golem 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": -2,
+    "df": 12,
+    "r": [],
+    "d": "Você desenha uma Runa Arcana ou Selo Místico sobre uma superfície invocando um golem do tipo adequado. O golem age logo depois de você a partir do turno em que for invocado. É possível invocar qualquer tipo de golem com esta Magia desde que haja uma quantidade suficiente de matéria prima adequada. Um golem pequeno custa 20 Pontos de Mana e um golem médio custa 40 Pontos de Mana. <br/>&emsp;A runa que mantém o golem coeso se dissipa depois de 10 minutos ou assim que o golem for destruído.",
+    "es": "",
+    "re": "Invoca Golem de matéria prima por 10min, 20PM Pequeno, 40PM Médio",
+    "e": []
+  },
+  {
+    "n": "Invocar Golem 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": -2,
+    "df": 16,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Invocar Golem 1"
+      ]
+    ],
+    "d": "Você desenha uma Runa Arcana ou Selo Místico sobre uma superfície invocando um golem do tipo adequado. O golem age logo depois de você a partir do turno em que for invocado. É possível invocar qualquer tipo de golem com esta Magia desde que haja uma quantidade suficiente de matéria prima adequada. um golem grande custa 60 Pontos de Mana e um golem gigante custa 120 Pontos de Mana. <br/>&emsp;A runa que mantém o golem coeso se dissipa depois de 10 minutos ou assim que o golem for destruído.",
+    "es": "",
+    "re": "Invoca Golem de matéria prima por 10min, 60PM Grande, 120PM Gigante",
+    "e": []
+  },
+  {
+    "n": "Levitar",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 20,
+    "df": 11,
+    "r": [
+      "h",
+      [
+        "Telecinésia"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre uma criatura, você faz com que ela seja capaz de voar livremente no ar para qualquer direção no seu deslocamento normal. <br/>&emsp;Essa Runa Arcana dura 1 hora, mas se dissipa automaticamente se alvo tocar o solo.",
+    "es": "",
+    "re": "Alvo é capaz de voar livremente em qualquer direção por 1 hora",
+    "e": []
+  },
+  {
+    "n": "Ligação de Sangue",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": 20,
+    "df": -3,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana sobre uma criatura viva, você cria um vínculo vital entre ele e você. Sempre que o alvo sofrer dano ou perder Pontos de Vida, você recupera metade da quantidade de dano sofrido ou Pontos de Vida perdidos.<br/>&emsp;Esta Runa Arcana dura 1 minuto.<br/>&emsp;Este efeito é considerado como uma Maldição.",
+    "es": "",
+    "re": "Sobre, Alvo dano ou perda de PV, você recupera 1/2 em PV, 1min, Maldição",
+    "e": []
+  },
+  {
+    "n": "Luz Mágica",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": 5,
+    "df": 8,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico sobre um objeto, você imbui ele com uma luz própria. A duração dessa magia depende da intensidade da luz: uma luz fraca como de uma vela dura 6 horas, uma luz moderada semelhante à de uma tocha dura 1 hora, e uma luz intensa como a do sol dura 1 minuto.",
+    "es": "",
+    "re": "Imbui luz à objeto: Vela 6 horas, Tocha 1 hora, Sol 1 minuto",
+    "e": []
+  },
+  {
+    "n": "Manter Invocação",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": 10,
+    "df": 12,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Invocação Persistente"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico sobre uma criatura que você tenha invocado, a duração da Runa ou Selo que mantém a invocação é duplicada. Você pode desenhar quantas Runas ou Selos desses quiser sobre uma criatura invocada, e seus efeitos são cumulativos.",
+    "es": "",
+    "re": "Duplica a duração de uma invocação, Cumulativo",
+    "e": []
+  },
+  {
+    "n": "Manto Crepitante",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 15,
+    "df": 9,
+    "r": [
+      "h",
+      [
+        "Eletricidade Estática"
+      ]
+    ],
+    "d": "Você desenha uma Runa Arcana sobre uma criatura, envolvendo-a numa aura elétrica. A aura ilumina uma área de 20 metros ao seu redor, tornando-a clara como se fosse dia. A aura elétrica causa dano igual a 10/Eletricidade em qualquer um que tocar em você - o que inclui todos os ataques corporais feitos contra ou por você. <br/>&emsp;Essa Runa dura 1 minuto, mas pode ser dissipada a qualquer momento pela criatura sobre a qual foi desenhada.",
+    "es": "",
+    "re": "Sobre, Ilumina 20m e causa <a class='elet'>10</a>/Elet ao toque, 1min",
+    "e": []
+  },
+  {
+    "n": "Parede de Gelo",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 15,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Congelar"
+      ]
+    ],
+    "d": "Desenhando uma runa Arcana no ar, você congela a umidade do ambiente na forma de uma grossa parede de gelo. A parede tem 3 metros de altura por 3 de largura e 1 metro de espessura, e deve ser conjurada diretamente sobre uma superfície firme, mas pode ser criada em qualquer ângulo ou formato desde que respeite seu volume e fique firmemente presa na posição onde foi conjurada. A parede tem 60 Pontos de Vida, Defesa 10, é Vulnerável ao Fogo e sempre que receber dano por Frio recupera Pontos de Vida ao invés de sofrer dano. Ela pode suportar até 500 quilos de peso sobre ela antes de quebrar. <br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas o gelo criado é permanente e descongela em velocidade normal.",
+    "es": "",
+    "re": "3x3x1m³, Vida 60, Def 10, Vulnerável à Fogo, Absorve Frio, Suporta 500kg",
+    "e": []
+  },
+  {
+    "n": "Percepção Sanguínea",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": 15,
+    "df": 11,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana sobre uma criatura viva, você faz com que ela ganhe uma percepção sobre o fluxo de sangue e batimentos cardíacos ao seu redor. Ele consegue perceber se uma criatura está viva, morta, se é um morto-vivo, espírito ou se possui Corpo Amórfico dentro de uma área em metros igual à Vontade do Conjurador ao seu redor. Além disso, o alvo recebe +2 em todos os seus testes de ataque contra criaturas vivas que não possuam Corpo Amórfico dentro dessa área, e não nunca é considerado Distraído ou Cego em relação a elas.",
+    "es": "",
+    "re": "Sobre. Percebe sangue em <a class='von'></a>m. +2 não-Cego&Distraído vs Não-Corpo Amórfico",
+    "e": []
+  },
+  {
+    "n": "Permutação Instantânea",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 850,
+    "m": 30,
+    "df": -1,
+    "r": [
+      "h",
+      [
+        "Teleporte 1"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana entre você e um alvo, você é teleportado para a posição em que o alvo ocupa ao mesmo tempo em que o alvo é teleportado para o local que você está. Se por algum motivo o alvo ou não couber na área onde você está (e vice-versa), esta magia falha automaticamente.<br/>&emsp;Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.<br/>&emsp;Se o alvo for uma criatura, a Dificuldade dessa magia será igual à Determinação do alvo. Se o alvo for um objeto, a Dificuldade será igual ao peso do objeto em quilos, dividido por 5 (arredondado para baixo).",
+    "es": "",
+    "re": "Troca de posição com alvo por teleporte, falha se não for possível",
+    "e": []
+  },
+  {
+    "n": "Porta Oculta",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": 20,
+    "df": 14,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Sala Oculta"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre uma porta, você cria um acesso permanente para a sua Sala Oculta. A porta em que você desenhar esta Runa aparece numa das paredes da sua Sala Oculta, e sempre que você abrir a porta por dentro da Sala Oculta, você sairá pela porta marcada. Assim que a porta for fechada, no entanto, ela não levará mais para a Sala Oculta – ou seja, ela serve para sair da Sala Oculta em um lugar fixo, mas não serve de entrada de emergência. <br/>&emsp;Você pode ter um número de Portas Ocultas igual à sua Inteligência. <br/>&emsp;Essa Runa Arcana é perene.",
+    "es": "",
+    "re": "Runa sobre porta conecta-a a sua Sala Oculta, tornando-se uma saída dela",
+    "e": []
+  },
+  {
+    "n": "Prisão de Gelo",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 50,
+    "df": 13,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Parede de Gelo"
+      ]
+    ],
+    "d": "Desenhando uma runa arcana sobre uma criatura ou objeto você cria um imenso bloco de gelo ao redor dele. O alvo pode ter um peso máximo igual a 100 vezes sua Inteligência em quilos. Uma criatura presa dentro do bloco é considerada Paralisada, sofre dano igual a <a class='frio'>10</a>/Frio no começo de cada um de seus turnos e só pode ser alvo de efeitos mentais. O bloco tem 60 Pontos de Vida, Defesa 10, é Vulnerável a Fogo e sempre que receber dano por Frio recupera Pontos de Vida ao invés de sofrer dano. Ataques de Eletricidade causam dano normal ao bloco, mas também causa a mesma quantidade de dano na criatura presa dentro dele. <br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas o gelo criado é permanente e descongela em velocidade normal.",
+    "es": "",
+    "re": "Alvo de até 100*<a class='int'></a>kg preso em bloco (60PV, Def10), <a class='frio'>10</a>/Frio por turno",
+    "e": []
+  },
+  {
+    "n": "Proteção Cadavérica",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 10,
+    "df": 10,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana sobre o cadáver de uma criatura você o protege de efeitos de apodrecimento e impede que ele seja transformado em um morto-vivo por qualquer efeito. Essa magia pode ser conjurada sobre um corpo completo ou sobre partes removidas dele – útil para transportar cadáveres, manter partes decepadas inteiras para serem colocadas de volta no lugar ou mesmo para preservar comida!<br/>&emsp;Mortos-vivos afetados por esta Magia recebem Redução de Dano 2.<br/>&emsp;Essa Runa Arcana é perene, mas pode ser dissipada a qualquer momento pelo conjurador.",
+    "es": "",
+    "re": "Preserva cadáver, Mortos-Vivos recebem RD2, Perene",
+    "e": []
+  },
+  {
+    "n": "Rajada de Gelo",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 20,
+    "df": 12,
+    "r": [
+      "h",
+      [
+        "Congelar"
+      ]
+    ],
+    "d": "Desenhando uma Runa arcana no ar você projeta a partir dela uma rajada de energia mágica que causa dano igual a <a class='frio'>20</a>/Frio em um alvo dentro da sua linha de visão. Se o alvo for uma criatura viva, ele fica Enregelado por 1 turno. Se a magia tiver como alvo um objeto inanimado, ela congela até 100 litros ou 100 quilos de material. <br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas o gelo criado é permanente e descongela em velocidade normal.",
+    "es": "",
+    "re": "Rajada <a class='frio'>20</a>/Frio, enregela 1 turno, Congela 1000l ou 100kg",
+    "e": []
+  },
+  {
+    "n": "Rajada Elemental",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": -1,
+    "df": 8,
+    "r": [],
+    "d": "Desenhando uma runa Arcana no ar você pode disparar uma rajada de energia elemental em qualquer alvo que possa ver. Essa magia causa <a class='elem'>8</a> pontos de dano elemental (Fogo, Frio ou Eletricidade) escolhido no momento que o conjurador lança a magia. <br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Rajada elemental <a class='elem'>8</a>/Fogo, Gelo ou Elet",
+    "e": []
+  },
+  {
+    "n": "Relâmpago 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 20,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Eletricidade Estática"
+      ]
+    ],
+    "d": "A partir de uma Runa Arcana que desenha no ar você dispara uma faísca elétrica contra um alvo dentro de seu campo de visão. O alvo sofre um dano igual a <a class='elet'>20</a>/Eletricidade e fica Atordoado por 2 rodadas. Alvos usando armaduras de metal sofrem o dobro do redutor (-2 na Defesa, no Deslocamento e em todos os seus testes). <br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Alvo no campo de visão <a class='elet'>20</a>/Elet e 2 turnos Atordoado, dano x2 em metal",
+    "e": []
+  },
+  {
+    "n": "Relâmpago 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 30,
+    "df": 12,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Relâmpago 1"
+      ]
+    ],
+    "d": "Você projeta uma poderosa rajada de energia elétrica em um alvo dentro de seu campo de visão a partir de uma runa Arcana que você desenha no ar. O alvo sofre um dano igual a <a class='elet'>40</a>/Eletricidade, e precisa fazer um teste de Força com dificuldade igual a sua Determinação ou ficará Paralisado por 1 turno. Alvos usando armaduras de metal realizam esse teste como se fossem Inaptos. <br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Alvo em visão <a class='elet'>40</a>/Elet. FOR[<a class='det'></a>], inapto com metal:Atordoado 1 turno",
+    "e": []
+  },
+  {
+    "n": "Remover Maldições",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": -2,
+    "df": -2,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana sobre uma criatura, você faz com que todas as Runas Arcanas do tipo Maldição e Doenças Mágicas que estejam afetando a criatura sejam removidas imediatamente.<br/>&emsp;Esta Runa funciona sobre efeitos perenes que sejam considerados Maldições (como licantropia, Doença Carniçal ou criaturas afetadas por Eternizar Maldição), mas não alteram o Tipo da criatura afetada – Vampiros, Lobisomens e outros mortos-vivos ou amaldiçoados não são revertidos ao seu estado natural, mas essas criaturas ficam Amedrontadas com relação a você por um número de turnos igual à sua Vontade.<br/>&emsp;O custo em Mana desta Magia será igual ao custo mais alto entre todas as Maldições afetando o alvo, ou, no caso de um efeito sem custo em Mana, 30. A dificuldade desta magia será igual à Determinação do conjurador da Maldição, ou, no caso de Doenças Mágicas, a dificuldade de contaminação da doença.<br/>&emsp;Esta Runa Arcana se dissipa assim que seus efeitos forem desencadeados.",
+    "es": "",
+    "re": "Remove magias de Maldição e Doença, Amedronta Amaldiçoados por <a class='von'></a> turnos",
+    "e": []
+  },
+  {
+    "n": "Resistência Elemental",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 10,
+    "df": 9,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana sobre uma criatura ou objeto, você confere Resistência ao Fogo, Frio ou Eletricidade a ele. <br/>&emsp;Essa Runa Arcana dura por 1 minuto.",
+    "es": "",
+    "re": "Alvo recebe Resistência à Fogo, Frio ou Eletricidade por 1 minuto",
+    "e": []
+  },
+  {
+    "n": "Resistência Necromântica",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 30,
+    "df": 13,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Armadura Necromântica"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre uma Sombra, você drena a energia dela e a redireciona para uma criatura que possa tocar. A Sombra perde todos os seus Pontos de Mana e é imediatamente enviada para o Plano Espiritual. A criatura para qual a energia for redirecionada recebe as Habilidades Corpo Amórfico e Mente Bloqueada.<br/>&emsp;Essa Runa Arcana dura 1 minuto.",
+    "es": "",
+    "re": "Consome Sombra, Alvo recebe Corpo Amórfico e Mente Bloqueada por 1min",
+    "e": []
+  },
+  {
+    "n": "Runa de Localização",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": 20,
+    "df": 10,
+    "r": [],
+    "d": "Você pode desenhar uma Runa Arcana em um item com a Característica Registro. Esta Runa fica ligada ao local geográfico em que você se encontra quando a conjura, e se torna um “atalho mágico” para o local. Você pode conjurar uma magia locomoção (Teleporte, Portal, etc.) sobre esta Runa, indo para o local onde ela foi desenhada. A magia de locomoção conjurada sobre essa Runa custa metade dos Pontos de Mana normais para ser conjurada. <br/>&emsp;Essa Runa Arcana é permanente, mas, se a superfície onde ela foi escrita for danificada o efeito se perde.",
+    "es": "",
+    "re": "Cria 'atalho mágico' entre local e objeto Registro, para teleportes",
+    "e": []
+  },
+  {
+    "n": "Sala Oculta",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 700,
+    "m": 30,
+    "df": 16,
+    "r": [
+      "n",
+      5
+    ],
+    "d": "Desenhando uma Runa Arcana no ar, você cria um portal que o levará para uma pequena sala de 10 metros de profundidade, 10 metros de largura e 10 metros de altura. As paredes são indestrutíveis, brancas e lisas como vidro. Este é um plano paralelo exclusivamente seu, e você pode utilizá-lo como quiser, usando-o como depósito, biblioteca ou laboratório, por exemplo – mas terá que adquirir o que quiser que esteja dentro dele. O portal permanecerá aberto enquanto você quiser, e você pode fechá-lo à vontade quando estiver dentro da sala – ele sempre se abrirá no último local onde você abriu ele pela última vez. A sala possui ar ilimitado, e a luz dentro dela é sempre semelhante à de um dia nublado, mas você pode usar outras fontes de luz – como lampiões ou tochas – para torná-la total ou parcialmente melhor iluminada. <br/>&emsp;Essa Runa Arcana é perene enquanto o portal estiver aberto. Se você estiver dentro da sala e o portal estiver fechado, a Runa continuará ativa, mas estará dentro da sala – e, portanto não pode ser detectada pelo lado de fora.",
+    "es": "",
+    "re": "Abre um portal para sua Sala Oculta (10x10x10m³, luz 'nublada', ar infinito)",
+    "e": []
+  },
+  {
+    "n": "Sifão de Sangue",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": 30,
+    "df": 15,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Ferimentos Abertos"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre si mesmo, você se torna um nexo de energia necromântica, absorvendo a força vital das criaturas vivas ao seu redor. Você absorve parte da energia vital contida nesse sangue, recuperando metade de todo dano ou perda de vida causada por efeitos de sangramento dentro da área de efeito da magia.<br/>&emsp;Essa Runa Arcana dura por 1 minuto.",
+    "es": "",
+    "re": "Recupera PV igual a 1/2 da perda provocada por sangramentos, 1min",
+    "e": []
+  },
+  {
+    "n": "Soldar Magia",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 700,
+    "m": 20,
+    "df": 14,
+    "r": [
+      "n",
+      5
+    ],
+    "d": "Desenhando uma Runa Arcana sobre um item, você faz com que os efeitos de uma outra Magia realizada sobre ele, cujos efeitos afetem o próprio personagem, fique armazenada naquele item. O efeito da Magia armazenada no item pode ser desencadeado por seu portador como uma ação livre. <br/>&emsp;Habilidades e itens que alterem propriedades de uma Magia não tem efeitos sobre uma Magia conjurada a partir do item. <br/>&emsp;Esta Runa Arcana dura indefinidamente (mas pode ser dissipada a qualquer momento pelo conjurador) se dissipando quando os efeitos da magia armazenada no item forem desencadeados. Enquanto uma Magia estiver armazenada no item, os Pontos de Mana usados para conjurar Soldar Magia não podem ser recuperados.",
+    "es": "",
+    "re": "Armazena a próxima magia lançada sobre um item; Mana Presa",
+    "e": []
+  },
+  {
+    "n": "Som Ilusório",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": -1,
+    "df": 8,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você cria um som vindo de um lugar que possa ver. Você pode criar múltiplos sons ao mesmo tempo e os controla totalmente, mas eles não podem ter intensidade maior que a capacidade da voz humana. <br/>&emsp;A Runa Arcana ou Selo Místico que mantém o som dura até 30 minutos, mas se dissipa se o conjurador perder contato visual com o local de onde o som se origina.",
+    "es": "",
+    "re": "Cria sons ilusórios no campo de visão por 30 minutos",
+    "e": []
+  },
+  {
+    "n": "Sopro Gélido",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 20,
+    "df": 14,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Congelar"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana à sua frente você faz com que ela exale uma nuvem de frio intenso que cobre uma área com um diâmetro em metros igual à sua Vontade. Todas as criaturas vivas dentro dessa área sofrem dano igual a <a class='frio'>10</a>/Frio e ficam Enregelados. Criaturas dos tipos construto, morto-vivo e réptil sofrem o dobro de dano e ficam paralisadas por 1 turno antes de ficarem enregeladas. Objetos inanimados dentro da área se congelam. <br/>&emsp;Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados, mas o gelo criado é permanente e descongela em velocidade normal depois que a Runa se dissipar.",
+    "es": "",
+    "re": "Nuvem de frio intenso, <a class='von'></a> metros. <a class='frio'>10</a>/Frio por turno e Enregela.",
+    "e": []
+  },
+  {
+    "n": "Sustentar Mortos-Vivos",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 30,
+    "df": 11,
+    "r": [
+      "h",
+      [
+        "Despertar dos Mortos"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre um morto-vivo, você o imbui com energias necromânticas que o tornam mais resistente. – e reforça seu controle. O morto-vivo recebe +10 Pontos de Vida e Força +2. Além disso, se o alvo estiver sob controle de uma criatura (incluindo você), o tempo de controle se estende pela duração dessa Runa ao invés do tempo normal. <br/>&emsp; Essa Runa Arcana dura uma quantidade de dias igual à sua Vontade.",
+    "es": "",
+    "re": "Morto-Vivo +10PVmax e FOR+2, Estende duração para <a class='von'></a> dias",
+    "e": []
+  },
+  {
+    "n": "Telecinésia",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 10,
+    "df": -1,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana entre você e um objeto ou criatura dentro de sua linha de visão, você pode mover o alvo através de uma energia mágica invisível. O alvo pode ser movido à vontade em qualquer direção, e até mesmo ser erguido no ar, mas apenas de forma lenta (1 metro por turno no máximo). A dificuldade será igual ao peso do alvo dividido por 5 (arredondado para baixo). Se estiver usando essa magia sobre si próprio, diminua a sua Vontade da Dificuldade final. A dificuldade mínima dessa magia será sempre 8, independente do peso do alvo ou da Vontade do Conjurador. <br/>&emsp;Essa Runa Arcana dura por tanto tempo quanto você estiver concentrado nela, mas se o alvo for uma criatura, ela pode cancelar os efeitos dessa Runa no início do seu turno se vencer um teste de Força com dificuldade igual à Determinação do conjurador.",
+    "es": "",
+    "re": "Move alvo. Dif:max(8,peso/5), Si próprio Dif-<a class='von'></a. Resistir FOR[<a class='det'>10</a>]",
+    "e": []
+  },
+  {
+    "n": "Teleporte 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 30,
+    "df": 12,
+    "r": [
+      "h",
+      [
+        "Levitar"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre si mesmo enquanto fita um local você se teleporta de onde está para o ponto que está olhando. Você pode levar alguém com você se puder tocar o alvo e ele concordar (ou estiver inconsciente). Some +2 na dificuldade da magia para cada pessoa além de você. <br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Teleporte para local em campo de visão, Dif+2 por acompanhante",
+    "e": []
+  },
+  {
+    "n": "Teleporte 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 50,
+    "df": 14,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Teleporte 1"
+      ]
+    ],
+    "d": "Desenhando uma runa arcana sobre si mesmo enquanto se concentra em um local qualquer que já tenha visitado pelo menos uma vez, você se teleportar imediatamente para o local pretendido. Você pode levar alguém com você se puder tocar o alvo e ele concordar (ou estiver inconsciente). Some +2 na dificuldade da magia para cada pessoa além de você. <br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Teleporte para lugar marcado ou imaginado, Dif+2 por acompanhante",
+    "e": []
+  },
+  {
+    "n": "Tempestade de Gelo",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 40,
+    "df": 13,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Rajada de Gelo"
+      ]
+    ],
+    "d": "Desenhando uma runa Arcana sobre o solo você pode evocar uma tempestade de gelo em uma área circular de 10 metros de diâmetro que você possa ver. Uma chuva de pedaços finos e afiados de gelo cai sobre a área. Todos que estiverem na área escolhida sofrerão dano igual a <a class='cort'>10</a>/Corte + <a class='frio'>10</a>/Frio quando essa magia for lançada. A cada turno em começar dentro da área de efeito um personagem sofre dano igual a <a class='cort'>10</a>/Corte + <a class='frio'>10</a>/Frio e fica Enregelado por 1 rodada. <br/>&emsp;A Runa Arcana dura 1 rodada por ponto de Inteligência que você tiver, mas você pode dissipá-la a qualquer momento.",
+    "es": "",
+    "re": "Campo de visão, área de 10m: <a class='cort'>10</a>/Corte + <a class='frio'>10</a>/Frio enregela, <a class='int'></a> turnos",
+    "e": []
+  },
+  {
+    "n": "Transferência Espiritual",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 10,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Contato com Espíritos"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre uma Sombra, você transfere a energia dela para outra criatura. A Sombra perde todos os seus Pontos de Mana e é imediatamente enviada para o Plano Espiritual. Você então transfere a energia retirada da Sombra para uma criatura que possa tocar, que imediatamente recupera aquela quantidade de Pontos de Mana.",
+    "es": "",
+    "re": "Consome Sombra, drenando seus PM para criatura que você tocar",
+    "e": []
+  }
+]

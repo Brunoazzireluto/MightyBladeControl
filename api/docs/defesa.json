@@ -1,0 +1,164 @@
+{
+  "defesa": [
+    {
+      "n": "Túnica Pesada",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "",
+      "c": 50,
+      "d": 1,
+      "fn": 1,
+      "p": 2.5,
+      "pe": false,
+      "r": false,
+      "o": false
+    },
+    {
+      "n": "Armadura de Couro",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "",
+      "c": 100,
+      "d": 2,
+      "fn": 2,
+      "p": 12,
+      "pe": false,
+      "r": false,
+      "o": false
+    },
+    {
+      "n": "Armadura Simples",
+      "m": "Aço",
+      "ms": [
+        "metal"
+      ],
+      "q": true,
+      "de": "",
+      "c": 200,
+      "d": 3,
+      "fn": 4,
+      "p": 18,
+      "pe": true,
+      "r": false,
+      "o": false
+    },
+    {
+      "n": "Armadura de Batalha",
+      "m": "Aço",
+      "ms": [
+        "metal"
+      ],
+      "q": true,
+      "de": "",
+      "c": 600,
+      "d": 4,
+      "fn": 6,
+      "p": 27,
+      "pe": true,
+      "r": false,
+      "o": false
+    },
+    {
+      "n": "Armadura Completa",
+      "m": "Aço",
+      "ms": [
+        "metal"
+      ],
+      "q": true,
+      "de": "",
+      "c": 2000,
+      "d": 5,
+      "fn": 8,
+      "p": 36,
+      "pe": true,
+      "r": true,
+      "o": false
+    },
+    {
+      "n": "Escudo Pequeno",
+      "m": "Aço",
+      "ms": [
+        "metal"
+      ],
+      "q": true,
+      "de": "",
+      "c": 50,
+      "d": 1,
+      "fn": 2,
+      "p": 4,
+      "pe": false,
+      "r": false,
+      "o": true
+    },
+    {
+      "n": "Escudo Médio",
+      "m": "Aço",
+      "ms": [
+        "metal"
+      ],
+      "q": true,
+      "de": "",
+      "c": 100,
+      "d": 2,
+      "fn": 3,
+      "p": 6,
+      "pe": false,
+      "r": false,
+      "o": true
+    },
+    {
+      "n": "Escudo de Corpo",
+      "m": "Aço",
+      "ms": [
+        "metal"
+      ],
+      "q": true,
+      "de": "",
+      "c": 200,
+      "d": 3,
+      "fn": 5,
+      "p": 9,
+      "pe": false,
+      "r": false,
+      "o": true
+    },
+    {
+      "n": "Armadura de Tubarão",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Uma criatura utilizando uma armadura de tubarão tem seu Deslocamento sob a água aumentado em 1, e qualquer criatura que agarre ou seja agarrado pelo usuário sofre dano igual à 2/Corte por turno. Esse dano pode ser aplicado à cordas e outros materiais mais macios, permitindo que o usuário rompa amarras em algumas situações.",
+      "c": 150,
+      "d": 2,
+      "fn": 2,
+      "p": 12,
+      "pe": false,
+      "r": false,
+      "o": false
+    },
+    {
+      "n": "★Túnica do Norte",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": false,
+      "de": "Uma túnica pesada que mantém seu usuário aquecido mesmo nos climas mais gelados. O usuário recebe um bônus de Armadura de +2 (além do bônus de +2 da túnica pesada obra-prima) e sofre apenas metade de dano por frio.",
+      "c": 3700,
+      "d": 4,
+      "fn": 1,
+      "p": 2.5,
+      "pe": false,
+      "r": false,
+      "o": false
+    }
+  ]
+}

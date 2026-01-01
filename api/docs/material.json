@@ -1,0 +1,291 @@
+{
+  "material": [
+    {
+      "n": "Padrão",
+      "a": "Pd",
+      "t": "padrão",
+      "c": 1,
+      "m": 1,
+      "b": 0,
+      "fn": 0,
+      "p": 1,
+      "tm": 1,
+      "md": [],
+      "e": "-"
+    },
+    {
+      "n": "Aço",
+      "a": "Aç",
+      "t": "metal",
+      "c": 1,
+      "m": 1,
+      "b": 0,
+      "fn": 0,
+      "p": 1,
+      "tm": 1,
+      "md": [],
+      "e": "-"
+    },
+    {
+      "n": "Aço Anão",
+      "a": "AA",
+      "t": "metal",
+      "c": 1.5,
+      "m": 1,
+      "b": 1,
+      "fn": 0,
+      "p": 1.25,
+      "tm": 1.5,
+      "md": [
+        [
+          [],
+          [
+            4
+          ],
+          [],
+          [],
+          "peso",
+          1
+        ]
+      ],
+      "e": "-"
+    },
+    {
+      "n": "Bronze",
+      "a": "Bz",
+      "t": "metal",
+      "c": 3,
+      "m": 1,
+      "b": -1,
+      "fn": 1,
+      "p": 1.33,
+      "tm": 0.5,
+      "md": [
+        [
+          [],
+          [
+            4
+          ],
+          [],
+          [],
+          "bonus",
+          0
+        ],
+        [
+          [],
+          [],
+          [
+            "Cont"
+          ],
+          [],
+          0
+        ]
+      ],
+      "e": "Entorta em falha crítica."
+    },
+    {
+      "n": "Crisol",
+      "a": "Cr",
+      "t": "metal",
+      "c": 2,
+      "m": 1,
+      "b": 0,
+      "fn": -1,
+      "p": 0.66,
+      "tm": 2,
+      "md": [
+        [
+          [],
+          [
+            4
+          ],
+          [],
+          [],
+          "peso",
+          0.75,
+          "tempo",
+          1.5
+        ]
+      ],
+      "e": "-"
+    },
+    {
+      "n": "Drakonite",
+      "a": "Dn",
+      "t": "metal",
+      "c": 50,
+      "m": 2,
+      "b": 0,
+      "fn": 0,
+      "p": 1,
+      "tm": 10,
+      "md": [],
+      "e": "-"
+    },
+    {
+      "n": "Ferro",
+      "a": "Fe",
+      "t": "metal",
+      "c": 0.5,
+      "m": 1,
+      "b": 0,
+      "fn": 1,
+      "p": 1.5,
+      "tm": 0.5,
+      "md": [
+        [
+          [],
+          [
+            4
+          ],
+          [],
+          [],
+          "peso",
+          1.33
+        ]
+      ],
+      "e": "Quebra em falha crítica."
+    },
+    {
+      "n": "Madeira",
+      "a": "Md",
+      "t": "madeira",
+      "c": 0.5,
+      "m": 1,
+      "b": -2,
+      "fn": -1,
+      "p": 1,
+      "tm": 1,
+      "md": [
+        [
+          [],
+          [],
+          [
+            1
+          ],
+          [
+            "Corpo-a-corpo"
+          ],
+          "tipD",
+          4
+        ]
+      ],
+      "e": "CaC: Corte-> Contusão."
+    },
+    {
+      "n": "Kraneia",
+      "a": "Kr",
+      "t": "madeira",
+      "c": 1.5,
+      "m": 1,
+      "b": -1,
+      "fn": -1,
+      "p": 1,
+      "tm": 1,
+      "md": [
+        [
+          [],
+          [
+            1
+          ],
+          [],
+          [],
+          "custo",
+          0.75
+        ]
+      ],
+      "e": "Não há Kraneia Q-"
+    },
+    {
+      "n": "Pedra",
+      "a": "Pe",
+      "t": "metal",
+      "c": 0.33,
+      "m": 1,
+      "b": 0,
+      "fn": 1,
+      "p": 1.5,
+      "tm": 1,
+      "md": [],
+      "e": "Dano -1 ao fim de combate se bloquear ou atingir metal."
+    },
+    {
+      "n": "Prata Fria",
+      "a": "PF",
+      "t": "metal",
+      "c": 2,
+      "m": 1,
+      "b": 1,
+      "fn": 0,
+      "p": 1,
+      "tm": 1.5,
+      "md": [
+        [
+          [],
+          [
+            4
+          ],
+          [],
+          [],
+          "bonus",
+          0,
+          "fn",
+          -1
+        ]
+      ],
+      "e": "-"
+    },
+    {
+      "n": "Prata",
+      "a": "Pr",
+      "t": "metal",
+      "c": 5,
+      "m": 1,
+      "b": -1,
+      "fn": 0,
+      "p": 1.33,
+      "tm": 0.5,
+      "md": [],
+      "e": "-"
+    },
+    {
+      "n": "Osso",
+      "a": "Os",
+      "t": "metal",
+      "c": 0.33,
+      "m": 1,
+      "b": -1,
+      "fn": -1,
+      "p": 0.5,
+      "tm": 0.5,
+      "md": [],
+      "e": "Sempre pode quebrar como Q-."
+    },
+    {
+      "n": "Ouro",
+      "a": "Ou",
+      "t": "metal",
+      "c": 10,
+      "m": 1,
+      "b": -1,
+      "fn": 0,
+      "p": 1.33,
+      "tm": 0.5,
+      "md": [],
+      "e": "-"
+    },
+    {
+      "n": "Vidro Etéreo",
+      "a": "VE",
+      "t": "metal",
+      "c": 2,
+      "m": 1,
+      "b": -2,
+      "fn": 0,
+      "p": 1,
+      "tm": 1,
+      "md": [],
+      "e": "Quebra em falha crítica. Atinge Incorpóreo. Metade do dano em perda de PM."
+    }
+  ]
+}

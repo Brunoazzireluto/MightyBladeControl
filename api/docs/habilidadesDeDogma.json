@@ -1,0 +1,147 @@
+[
+  {
+    "n": "Dogma: Discípulo da Forja",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Você segue os ensinamentos de Hou, o Fogo. Você nunca pode quebrar um juramento, faltar com a palavra ou desistir de uma tarefa que se prontificou a levar a cabo – mesmo que isso ameace sua vida. Suas magias de Conjuração, Cariátide e Golens têm seu custo de Mana reduzido em 5 enquanto seguir este Dogma. Se em qualquer momento você quebrar um juramento ou uma promessa ou desistir de uma tarefa que se prontificou a terminar, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente. <br/><br/>&emsp; <b>Arma dos Deuses:</b> Martelo de Guerra flamejante. Além do dano normal, esse martelo causa um dano extra igual a <a class='fogo'>10</a>/Fogo.",
+    "es": "",
+    "re": "Mana-5: Conjurar, Cariátide e Golem. !Martelo de Guerra +10/Fogo",
+    "e": [
+      "mod",
+      2,
+      [],
+      [
+        "Conjurar Abrigo",
+        "Conjurar Escudo",
+        "Conjurar Arma dos Deuses",
+        "Conjurar Lança do Destino",
+        "Conjurar Broquel Místico",
+        "Conjurar Falange do Destino",
+        "Cariátide",
+        "Criar Golem",
+        "Manter Golem",
+        "Invocar Golem 1",
+        "Invocar Golem 2"
+      ],
+      [
+        "Magia"
+      ],
+      [
+        "Ação"
+      ],
+      [],
+      5,
+      "Conjurar, Cariátide e Golem Mana-5"
+    ]
+  },
+  {
+    "n": "Dogma: Discípulo da Guerra",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Você segue os ensinamentos de Hadorn Braço de Ferro. Você nunca pode fugir de uma luta (a menos que seja uma morte certa) e deve sempre honrar a morte de quem morreu lutando. Você tem Força +1 enquanto seguir este dogma. Se em qualquer momento você fugir de uma luta ou desonrar os mortos, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente. <br/><br/>&emsp; <b>Arma dos Deuses:</b> Machado Pesado de bronze. Esta arma é extremamente afiada e causa o dobro do dano normal.",
+    "es": "",
+    "re": "Força +1 !Machado Pesado Bronze dano*2.",
+    "e": [
+      "for+",
+      1
+    ]
+  },
+  {
+    "n": "Dogma: Discípulo da Justiça",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Você é um devoto de Mirah, a Justiça ou de Ahogr Ruge-Mundos. Você deve seguir as leis e jamais pode permitir que alguém seja prejudicado injustamente se você puder evitar. Você tem Vontade +1 enquanto seguir este dogma. Se você quebrar uma lei ou permitir que alguém o faça de modo proposital sem exigir punição imediata, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente. <br/><br/>&emsp; <b>Arma dos Deuses:</b> Espada Longa cintilante. Além do dano normal, essa espada causa um dano extra igual a <a class='elet'>10</a>/Eletricidade.",
+    "es": "",
+    "re": "Vontade +1 !Espada +10/Eletricidade.",
+    "e": [
+      "von+",
+      1
+    ]
+  },
+  {
+    "n": "Dogma: Discípulo da Liberdade",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Você segue os ensinamentos de Taranis Asas-de-Nuvens. Você nunca pode aprisionar, submeter ou forçar alguém a uma situação, condição ou ideia. Você tem Agilidade +1 enquanto seguir este dogma. Se em qualquer momento você aprisionar alguém de qualquer forma ou permitir que alguém seja preso contra sua vontade, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente. <br/><br/>&emsp; <b>Arma dos Deuses:</b> Azagaia de gelo. Além do dano normal, se for arremessada essa arma causa um dano extra igual a <a class='frio'>10</a>/Frio, e se desfaz em um pó fino de gelo e retorna com um vento gelado até as mãos do portador onde reverte à sua forma de azagaia no final do turno.",
+    "es": "",
+    "re": "Agilidade +1 !Azagai +10/Frio retornável.",
+    "e": [
+      "agi+",
+      1
+    ]
+  },
+  {
+    "n": "Dogma: Discípulo da Natureza",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Você segue os ensinamentos de Ellenis, a Dama da Natureza ou de Lathellanis, a Grande Matriarca. Você deve sempre proteger a natureza e os animais, e nunca deve extrair dela mais do que o estritamente necessário – e quando precisar fazer isso, deve repor o dano que causou de alguma forma. Você pode se comunicar com qualquer Besta do tipo Mamífero, Peixe, Ave ou Réptil por meio de gestos e olhares e recebe +1 em todas as rolagens relativas à esses tipos de criaturas. Se em qualquer momento você desrespeitar a natureza, deixar que outros o façam ou deixar de ajudar quando ela precisar, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente. <br/><br/>&emsp; <b>Arma dos Deuses:</b> Arco Recurvo Urticante. O portador desse arco recebe um bônus de +2 em seus ataques à distância, e toda vez que a corda desse arco é puxada, um ramo verde com uma única folha farpada na ponta cresce no lugar da flecha. Qualquer alvo atingido por uma dessas flechas, além de sofrer o dano normal fica automaticamente envenenado, perdendo 2 Pontos de Vida por turno. Esse veneno é considerado mágico e seus efeitos perduram até serem curados ou até o arco ser dissipado.",
+    "es": "",
+    "re": "Lidar com Bestas +1 !Arco Recurvo +2 Veneno Mágico -2PV/t 1min",
+    "e": []
+  },
+  {
+    "n": "Dogma: Discípulo da Paz",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Você é um discípulo de Denalla, a Vida. Você deve sempre trazer a paz, nunca poderá matar qualquer criatura e deve tentar encontrar um caminho que não exija combate em todas as situações. Você tem Vontade +2 enquanto seguir este dogma. Se em qualquer momento você matar ou permitir que alguém lute sem necessidade, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente. <br/><br/>&emsp; <b>Arma dos Deuses:</b> Missal da paz. Um tomo mágico que contém todas as magias que restaurem Pontos de Vida que o Sacerdote conheça. Ele pode conjurar qualquer dessas magias a partir o tomo e essas magias curam 10 PVs a mais do que o normal.",
+    "es": "",
+    "re": "Vontade +2 !Missal da Paz: contém magias de cura (+10)",
+    "e": [
+      "von+",
+      2
+    ]
+  },
+  {
+    "n": "Dogma: Discípulo da Sabedoria",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Você segue os ensinamentos de Sarfion, o Guardião do Conhecimento, e tenta transmiti-lo aos outros sempre que possível. Você nunca pode mentir ou omitir uma informação, deve sempre que puder transmitir conhecimento e deve ler por pelo menos 1 hora por dia. Você tem Inteligência +1 enquanto seguir este dogma. Se em qualquer momento você mentir ou desprezar a educação, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente. <br/><br/>&emsp; <b>Arma dos Deuses:</b> Cajado da conjuração. Esse Cajado oferece os benefícios combinados de um Cajado, um Orbe e uma Varinha quando seu portador conjura magias.",
+    "es": "",
+    "re": "Inteligência +1 !Cajado de Conjuração: Cajado & Orbe & Varinha",
+    "e": [
+      "int+",
+      1
+    ]
+  },
+  {
+    "n": "Dogma: Discípulo do Destino",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Você segue os ensinamentos da caprichosa Ran, a Senhora dos Mares. Você não pode procurar ou aceitar previsões sobre o futuro – e se você se mostrar muito cauteloso e planejar muito suas ações, você pode perder o favor de Ran. Sempre que uma rolagem tiver ao menos um dado com o resultado 6, você pode rolar novamente 1 dado cujo resultado não seja um 6 nem um 1. No entanto, sempre que você rolar 3 ou mais dados e apenas um deles não tiver um resultado 1, o resultado daquele dado passa a ser considerado 1. <br/><br/>&emsp; <b>Arma dos Deuses:</b> Arpão das Marés. Este arpão, semelhante a uma presa de narval serrilhada, permite que seu portador role novamente qualquer dado uma vez por turno em qualquer teste que faça, mas deve manter o novo resultado. Essa rolagem não pode ser utilizada para modificar resultados que sejam sucessos decisivos ou falhas críticas.",
+    "es": "",
+    "re": "P/ cada 6 rerola dado (¬1/6). !Arpão das Marés: rerola um dado de não-crítico",
+    "e": []
+  }
+]

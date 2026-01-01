@@ -1,0 +1,200 @@
+{
+  "musical": [
+    {
+      "n": "Alaúde",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento de corda que pode ter 15 à 24 cordas.",
+      "c": 50,
+      "fn": 1,
+      "p": 0.5,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Berrante",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento de sopro produzido a partir de um grande chifre, cuja variação de som é feita pelo modo de soprar do músico.",
+      "c": 30,
+      "fn": 3,
+      "p": 2,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Bohdran",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento de percussão percutido com uma baqueta de ponta dupla.",
+      "c": 30,
+      "fn": 1,
+      "p": 0.5,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Bongô",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento de percussão constituído de dois pequenos tambores unidos lado a lado que são percutidos com as mãos.",
+      "c": 20,
+      "fn": 1,
+      "p": 0.5,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Chifre",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento de sopro produzido a partir de um pequeno chifre ou feito em metal, cuja variação de som é feita pelo modo de soprar do músico.",
+      "c": 20,
+      "fn": 1,
+      "p": 0.5,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Flauta de Pã",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento de sopro de madeira constituído de vários tubos que, quando soprados, produzem notas específicas.",
+      "c": 15,
+      "fn": 1,
+      "p": 0.2,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Flauta Doce",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento de sopro geralmente de madeira ou osso constituído de um tubo com orifícios que devem ser tampados para gerar notas.",
+      "c": 20,
+      "fn": 1,
+      "p": 0.2,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Gaita de Fole",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Composto de um reservatório de ar ao qual estão ligados um tubo melódico, um bocal e uma ou mais válvulas melódicas que emitem uma nota constante.",
+      "c": 100,
+      "fn": 2,
+      "p": 0.5,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Hurd Guli",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento de corda com uma manivela que gira as cordas, enquanto o músico aperta teclas que comprimem as cordas gerando notas.",
+      "c": 100,
+      "fn": 1,
+      "p": 1.5,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Jorvik",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento de sopro constituído de um pequeno bloco de madeira com orifícios escavados que, quando soprados, produzem notas específicas.",
+      "c": 10,
+      "fn": 1,
+      "p": 0.1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Lira",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento de corda em formato de meia-lua, com 40 à 60 cordas.",
+      "c": 50,
+      "fn": 1,
+      "p": 1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Pandeiro",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento de percussão constituído de um couro esticado em uma moldura, percutido com a mão.",
+      "c": 20,
+      "fn": 1,
+      "p": 0.2,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Rabeca",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento de corda que é tocado esfregando-se fibras montadas em um arco sobre as cordas.",
+      "c": 100,
+      "fn": 1,
+      "p": 0.5,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Tamboril",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento de percussão constituído de um tubo de madeira encimado por um couro esticado, percutido com uma baqueta.",
+      "c": 30,
+      "fn": 1,
+      "p": 1,
+      "eq": false,
+      "e": []
+    }
+  ]
+}

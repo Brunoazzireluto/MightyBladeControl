@@ -1,0 +1,471 @@
+{
+  "raca": [
+    {
+      "n": "Aesir",
+      "a": [
+        4,
+        2,
+        3,
+        3
+      ],
+      "c": "Bardo, Druida, Guerreiro, Patrulheiro e Rúnico.",
+      "ha": "Vigor Nórdico",
+      "h": [
+        "Berserkir",
+        "Bravura Selvagem 1",
+        "Bravura Selvagem 2",
+        "Fúria Bestial",
+        "Potência",
+        "Robustez",
+        "Ulfhednar"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>A</div>esires são humanoides altos e robustos com uma fisiologia adaptada para climas extremamente frios. Sua altura mediana está entre 1,9 e 2,2 metros e pesam em média entre 100 e 130 quilos. Possuem pele e olhos extremamente claro, adaptados à luz muito clara das regiões de gelo eterno onde vivem. A pele possui pouca pigmentação, sendo extremamente clara com uma matiz levemente azulada ou esverdeada. Seu corpo é coberto por uma pelagem rala e fina mais concentrada no alto da cabeça e, nos machos, ao redor e abaixo do rosto. A cor dos pelos é quase branca, apresentando matizes de azul, verde ou cinza, dependendo do indivíduo. Os olhos são extremamente bem adaptados, sendo protegidos por uma finíssima membrana que reflete completamente a luz. Graças à isso, os olhos parecem ser de uma única cor, sempre refletindo o aspecto de luz do ambiente – geralmente branco – ou dourado em áreas iluminadas apenas por fogo artificial.",
+      "i": "aesir.png"
+    },
+    {
+      "n": "Anão",
+      "a": [
+        4,
+        2,
+        3,
+        3
+      ],
+      "c": "Guerreiro, Paladino, Sacerdote e Rúnico.",
+      "ha": "Coração da Montanha",
+      "h": [
+        "Cabeça Dura",
+        "Coração da Montanha 2",
+        "Duro como Pedra",
+        "Estabilidade",
+        "Forjado à Fogo",
+        "Nascido nas Montanhas",
+        "Raça Subterrânea"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>s Anões são humanoides de composição compacta e vigorosa. São conhecidos pela pelagem pesada que recobre sua cabeça deixando apenas sua face de fora. A pelagem no corpo é mais esparsa e macia do que na cabeça, e geralmente mais escura. Se tornando acinzentada ou branca nos idosos. Os machos também tendem à calvície depois da maturidade. A pele dos anões é de uma tonalidade parda ou bronzeada, geralmente esmaecendo com a idade. <br/>&emsp;<div class='lb'>M</div>edem em média 1,4 a 1,5 metros de altura, sem uma diferença considerável entre os gêneros. A espécie possui tônus muscular proeminente, com uma certa tendência à obesidade – principalmente nos machos – e pesam entre 70 e 90 quilos.",
+      "i": "anao.png"
+    },
+    {
+      "n": "Astério",
+      "a": [
+        5,
+        2,
+        2,
+        3
+      ],
+      "c": "Guerreiro, Paladino, Rúnico e Xamã.",
+      "ha": "Chifres Poderosos",
+      "h": [
+        "Cabeça Dura",
+        "Competidor",
+        "Faro",
+        "Fortaleza",
+        "Imparável",
+        "Potência",
+        "Robustez"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>A</div>stérios são mamíferos humanoides com dimorfismo sexual marcante. Os machos apresentam cabeçorras pesadas ornadas de cornos sólidos e são notavelmente maiores do que as fêmeas, em geral medindo entre 2 e 2,3 metros e podendo chegar facilmente aos 160 quilos, enquanto as fêmeas possuem um crânio muito mais frágil e sem a presença de cornos e não passam de 1,6 metros de altura e 80 quilos. Ambos os gêneros possuem quatro dedos nos pés e mãos, e nos pés os dedos são unidos em dois pares protegidos sob uma grossa composição queratinosa formando uma espécie de casco fendido.<br/>&emsp;<div class='lb'>A</div>stérios possuem um couro macio de tom acobreado com pequenas variações de tonalidade, coberto por uma pelagem grossa e esparsa, mais cerrada na cabeça, pescoço, ombros e costas, em tons marrons que variam do castanho claro até quase o negro.",
+      "i": "asterio.png"
+    },
+    {
+      "n": "Astéria",
+      "a": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "c": "Ladino e Xamã.",
+      "ha": "Faro",
+      "h": [
+        "Cabeça Dura",
+        "Competidor",
+        "Fortaleza",
+        "Imparável",
+        "Potência",
+        "Robustez"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>A</div>stérios são mamíferos humanoides com dimorfismo sexual marcante. Os machos apresentam cabeçorras pesadas ornadas de cornos sólidos e são notavelmente maiores do que as fêmeas, em geral medindo entre 2 e 2,3 metros e podendo chegar facilmente aos 160 quilos, enquanto as fêmeas possuem um crânio muito mais frágil e sem a presença de cornos e não passam de 1,6 metros de altura e 80 quilos. Ambos os gêneros possuem quatro dedos nos pés e mãos, e nos pés os dedos são unidos em dois pares protegidos sob uma grossa composição queratinosa formando uma espécie de casco fendido.<br/>&emsp;<div class='lb'>A</div>stérios possuem um couro macio de tom acobreado com pequenas variações de tonalidade, coberto por uma pelagem grossa e esparsa, mais cerrada na cabeça, pescoço, ombros e costas, em tons marrons que variam do castanho claro até quase o negro.",
+      "i": "asterio.png"
+    },
+    {
+      "n": "Centauro",
+      "a": [
+        4,
+        2,
+        3,
+        3
+      ],
+      "c": "Druida, Guerreiro, Patrulheiro e Xamã.",
+      "ha": "Corpo Equino",
+      "h": [
+        "Bravura Selvagem 1",
+        "Bravura Selvagem 2",
+        "Cabeça Dura",
+        "Patas Fortes",
+        "Potência",
+        "Raça Florestal",
+        "Robustez"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>s centauros são esfinges com torso humanóide e corpo equino. Apresentam cinco dedos nas mãos e quatro pernas digitígradas terminadas em cascos semelhantes ao dos cavalos que protegem os dedos dos pés, além de uma cauda curta. Centauros em geral são tão altos quanto longos, medindo entre 2 e 2,4 metros nas duas direções. Pesam em média de 450 à 500 quilos, e geralmente possuem pouco tecido adiposo.<br/>&emsp;<div class='lb'>A</div> pele dos Centauros varia do pardo ao marrom claro, com a parte inferior do corpo e as costas cobertas por um couro mais duro e de cor mais escura. Não raro, porém, alguns indivíduos apresentam áreas maiores do corpo cobertas por couro. Seu corpo é coberto por uma pelagem curta e dura, mais esparsa sobre a pele e mais densa sobre as áreas coriáceas. Na cabeça, ao longo da coluna e na cauda essa pelagem costuma ser bem mais densa e com pelos mais longos. Esses pelos variam do pardo ao negro, passando por várias tonalidades de castanho. Manchas mais claras ou mais escuras são bastante comuns, geralmente sem padrões definidos. O pelo tende a perder pigmentação com a idade, e muitos indivíduos mais velhos podem ter pelagens acinzentadas.",
+      "i": "centauro.png"
+    },
+    {
+      "n": "Dragano",
+      "a": [
+        4,
+        3,
+        2,
+        3
+      ],
+      "c": "Dracomante, Guerreiro e Patrulheiro.",
+      "ha": "Linhagem Dracônica",
+      "h": [
+        "Anfíbio",
+        "Armas Naturais",
+        "Asas Pesadas",
+        "Escamas Pesadas",
+        "Linhagem Dracônica 2",
+        "Membrana Nictitante",
+        "Reflexos Dracônicos",
+        "Sopro Dracônico"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>ss Draganos são dragões humanoides que apresentam uma variedade de características herdadas de seus ancestrais elementais. Apesar das características individuais poderem variar drasticamente dentro da Raça, alguns traços são comuns a todos eles, como o couro grosso e áspero totalmente desprovido de pelos (às vezes coberto por escamas queratinosas) cujo tom pode variar do branco ao preto, passando por tons de azul, verde e vermelho em diversas tonalidades. A cabeça de todos os Draganos se assemelha à de criaturas dracônicas, com um focinho curto munido de presas afiadas em fileiras compactas, podendo apresentar protrusões ósseas ao longo do crânio. Suas mãos e pés são munidos de quatro dedos fortes cada, todos terminando em garras robustas, mas ainda capazes de manipulação fina. Fora essas características comuns, no entanto, cada indivíduo possui uma grande quantidade de traços diferentes, e é muito difícil encontrar dois Draganos com características semelhantes. Asas são uma característica relativamente comum, apesar de nem todos os indivíduos que as apresentem sejam capazes de usá-las – e em alguns indivíduos elas podem ser atrofiadas e inúteis. Muitos possuem uma cauda, geralmente longa e musculosa, mas alguns deles podem apresentar apenas caudas vestigiais ou pequenas caudas curtas e sem utilidade. Chifres também são comuns, mas seu comprimento e formato são bastante variáveis, podendo ser lisos e retos ou longos e torcidos. Cristas na cabeça e nas costas assim como membranas entre os dedos são características bastante raras, mas podem aparecer em alguns indivíduos. Alguns possuem olhos fendidos enquanto outros possuem olhos com pupilas redondas, e uns poucos indivíduos – geralmente de origem Ofidiana – possuem olhos dourados, vermelhos ou esbranquiçados, permanentemente protegidos por uma membrana nictante que esconde suas pupilas.",
+      "i": "dragano.png"
+    },
+    {
+      "n": "Elfo",
+      "a": [
+        2,
+        4,
+        3,
+        3
+      ],
+      "c": "Druida, Feiticeiro, Patrulheiro, Sacerdote e Xamã.",
+      "ha": "Benção de Lathellanis",
+      "h": [
+        "Arborícola",
+        "Dom da Magia",
+        "Herança Feérica",
+        "Intelecto Élfico",
+        "Invisibilidade Natural",
+        "Luzes das Fadas",
+        "Raça Florestal"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>s Elfos são humanoides de estatura mediana, constituição esbelta e traços delicados. Têm em média entre 1,6 e 1,7 metros de altura e pesam entre 50 e 60 quilos. Uma de suas características mais marcante são as longas orelhas pontudas, que lhes confere uma audição superior. A pele dos Elfos possui tonalidades douradas ou bronzeadas e os olhos são claros, sendo o verde, o lilás e o azul as cores mais comuns, mas alguns indivíduos possuem olhos de coloração âmbar. Apresentam uma pelagem muito fina e clara cobrindo o corpo, mais abundante no topo da cabeça. É tradicional que todos os Elfos mantenham suas cabeleiras longas, geralmente em trançados exuberantes ou amarrações confortáveis, dependendo das atividades desenvolvidas pelo indivíduo. A pelagem dos elfos é sempre de uma cor muito clara, geralmente loura, mas o branco também é bastante comum. Tons acinzentados são incomuns, mas existem. Diferente da maioria das outras espécies de humanoides, os pelos dos Elfos não mudam de cor ao longo da vida, nem mesmo com a chegada da velhice.",
+      "i": "elfo.png"
+    },
+    {
+      "n": "Faen",
+      "a": [
+        2,
+        4,
+        3,
+        2
+      ],
+      "c": "Patrulheiro, Ladino e Feiticeiro.",
+      "ha": "Constituição Feérica",
+      "h": [
+        "Dom da Magia",
+        "Herança Feérica",
+        "Invisibilidade Natural",
+        "Isnuu",
+        "Luzes das Fadas",
+        "Presença Real",
+        "Voador Exímio"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>s Faen são humanoides com características herdadas de ancestrais feéricos. Eles podem chegar a cerca de 1,5 metros, apesar da maioria medir em torno de 1,3 e 1,4 metro e não pesam mais do que 35 quilos. Possuem, nas costas, asas leves e semitransparentes semelhantes às dos insetos. Estas asas tem uma envergadura total igual à altura do Faen. Eles também apresentam um par de antenas que nasce na testa, que permitem que alguns deles mantenham uma comunicação rudimentar com insetos.<br/>&emsp;<div class='lb'>F</div>aens apresentam uma coloração róseo-amarelada na pele, podendo chegar ao dourado ou ao bronzeado. A pele é lisa e desprovida de pelos, exceto no topo da cabeça, onde apresentam uma cabeleira fina e macia, que pode ter variadas cores, indo do louro claro ao ruivo, passando por matizes de azul e lilás. Alguns raros Faen nascem com a pele e cabelos com tons verdes, chamados de “Isnuu” (ou “nascidos nas folhas” no idioma Silvestre) e possuem uma grande afinidade com a magia.",
+      "i": "faen.png"
+    },
+    {
+      "n": "Fauno",
+      "a": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "c": "Bardo, Druida, Patrulheiro e Xamã.",
+      "ha": "Patas com Cascos",
+      "h": [
+        "Cascos Ágeis",
+        "Flauta de Pã",
+        "Marrada",
+        "Patas Fortes",
+        "Pintura Corporal",
+        "Raça Florestal",
+        "Sentidos de Caçador"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>s Faunos são humanoides com pés digitígrados que terminam em dois dedos, cada um protegido por um casco. Sua pele é parda ou bronzeada, coberta por uma pelagem fina, densa e curta que cobre quase todo o corpo (com exceção das palmas das mãos), sendo mais esparsa no rosto, tronco e braços. Essa pelagem varia de um louro-palha passando por vários tons de castanho que pode chegar a um tom quase preto. Apesar de alguns poderem apresentar uma pequena diferença de cor de uma área para outra, a pelagem é sempre uniforme e sólida, sem padrões ou manchas. A pelagem vai perdendo cor com o tempo, e os faunos mais velhos costumam ter pelagens cinzentas ou mesmo completamente brancas. No alto da cabeça a pelagem se transforma em chifres queratinosos, sem ligação com o crânio, que crescem novamente se forem cortados. Os chifres dos Faunos crescem paralelos à testa, inclinando-se para trás, podendo apresentar uma borda fina ou formato espiralado.<br/>&emsp;<div class='lb'>C</div>ostumam ter uma estatura que varia de 1,5 à 1,7 metros e pesar entre 50 e 60 quilos, apresentando pernas longas e musculosas e geralmente pouca gordura corporal.",
+      "i": "fauno.png"
+    },
+    {
+      "n": "Fira",
+      "a": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "c": "Espadachim, Feiticeiro, Paladino, Rúnico e Sacerdote.",
+      "ha": "Habitante do Deserto",
+      "h": [
+        "Chamas Internas 1",
+        "Chamas Internas 2",
+        "Cavaleiro Experiente",
+        "Fulgurante",
+        "Mente Iluminada",
+        "Sopro de Fogo",
+        "Vigor do Deserto"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>s Firas são seres humanoides de estatura e constituição medianas (entre 1,6 e 1,9 metros de altura e pesando entre 70 e 80 quilos) adaptados à vida em regiões quentes e áridas. Sua pele é escura, geralmente em um tom de cobre fosco ou marrom-oliva. O corpo dos Firas é coberto por uma pelagem grossa e esparsa, mais espessa na cabeça e, nos machos da espécie, sob o queixo. Essa pelagem geralmente é negra com tons avermelhados, passando por alguns tons de castanho e muito raramente ruivo.<br/>&emsp;<div class='lb'>U</div>ma das características mais notáveis dos Firas são seus olhos desprovidos de íris ou pupila, geralmente de cor branca, mas que pode apresentar variações de amarelo e dourado, com indivíduos apresentando uma luminescência semelhante ao brilho de uma chama, capaz de fornecer iluminação em ambientes escuros.<br/>&emsp;<div class='lb'>P</div>odem suportar temperaturas mortais para a maioria das outras raças, graças à um reflexo biológico único entre essas raças: quando estão sob muito calor, os batimentos cardíacos e a respiração diminuem drasticamente de frequência, reduzindo a temperatura do corpo. Somado à pele que reflete de forma eficiente o calor, os Firas são extremamente resistentes ao calor e até mesmo ao fogo.",
+      "i": "fira.png"
+    },
+    {
+      "n": "Gnoll",
+      "a": [
+        4,
+        4,
+        2,
+        2
+      ],
+      "c": "Ladino, Patrulheiro e Xamã.",
+      "ha": "Salteador",
+      "h": [
+        "Astuto",
+        "Combate em Grupo",
+        "Consumir Cadáver",
+        "Faro",
+        "Mordida Poderosa",
+        "Postura Quadrúpede",
+        "Sede de Sangue",
+        "Sentidos do Caçador"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>ss Gnolls são mamíferos humanoides exclusivamente carnívoros de constituição atlética, chegando a uma altura que varia entre 1,8 e 2 metros de altura (embora sua postura curvada diminua sua altura aparente em cerca de 20 centímetros) pesando entre 90 a 100 quilos. Suas pernas são curtas, a coluna é acentuadamente curvada para frente e seu tronco e braços são longos, o que os torna extremamente estáveis e difíceis de derrubar. Também apresentam uma cauda curta com cerca de meio metro de comprimento sem função prática.<br/>&emsp;<div class='lb'>A</div> cabeça dos Gnolls é munida de um focinho curto com mandíbulas fortes e dentes resistentes, orelhas grandes e olhos pequenos e fundos no crânio. Possuem quatro dedos nos pés e nas mãos, terminados em unhas fortes e resistentes, que os ajudam a escalar e correr, mas não são longas o suficiente para serem usadas como armas. Seus pés são digitígrados, munidos de resistentes almofadas nas solas que protegem os pés contra frio ou calor e contra solos pedregosos.<br/>&emsp;<div class='lb'>A</div> pele dos Gnolls é acinzentada com manchas sem uniformidade, e coberta por uma pelagem curta e grossa, que cobre praticamente todo o corpo – exceto as palmas das mãos e sola dos pés. Muitos Gnolls apresentam tufos mais espessos no topo da cabeça e ao longo da coluna, geralmente de tom mais escuro do que o resto da pelagem – que geralmente apresenta um tom castanho acinzentado com manchas mais escuras ou claras ao longo do corpo, acompanhando as manchas da sua pele.",
+      "i": "gnoll.png"
+    },
+    {
+      "n": "Hamelin",
+      "a": [
+        2,
+        5,
+        3,
+        2
+      ],
+      "c": "Ladino, Necromante e Xamã.",
+      "ha": "Habitante do Esgoto",
+      "h": [
+        "Astuto",
+        "Cauda Hábil",
+        "Esconderijo Invisível",
+        "Faro",
+        "Flexível",
+        "Infecção Grave",
+        "Rei dos Ratos",
+        "Vetor de Pragas"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>s Hamelins são pequenos humanoides com características semelhantes à dos roedores. Possuem rabos longos, de cerca de um metro, finos e musculosos e que alguns indivíduos aprendem a usar para manusear toscamente objetos ou como apoio extra em escaladas. Possuem um focinho longo dotado de dentes incisivos afiados e muito resistentes, que podem ser usados como um misto de alicate, tesoura e enxada.<br/>&emsp;<div class='lb'>S</div>eu sistema imunológico é extremamente eficiente, e a maioria deles pode se tornar um vetor de doenças sem nunca ser afetado pelos sintomas. Até mesmo venenos artificiais ou ácidos fracos têm pouco ou nenhum efeito nos Hamelins. Graças a isso, a maioria deles não possui preocupações com hábitos de higiene considerados normativos para outras raças – como tomar banho ou não comer lixo. Isso somado ao fato de que a raça possui um paladar muito pouco desenvolvido faz com que Hamelins sejam conhecidos por comerem praticamente qualquer material orgânico que seus focinhos possam alcançar, o que faz com que suas mordidas, apesar de não serem realmente venenosas, sejam extremamente infecciosas e virulentas.",
+      "i": "hamelin.png"
+    },
+    {
+      "n": "Humano",
+      "a": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "c": "Bardo, Espadachim, Feiticeiro, Guerreiro, Ladino, Mago, Sacerdote e Rúnico.",
+      "ha": "Adaptabilidade",
+      "h": [
+        "Assuntos Diversos",
+        "Audácia",
+        "Barganha",
+        "Diversidade",
+        "O Dobro ou Nada",
+        "Gregário",
+        "Sorte"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>H</div>umanos são os humanoides mais numerosos de Drakon. Graças a isso, são a base de comparação para todas as outras raças humanoides – que recebem essa classificação, não por acaso, devido ao nome dessa raça.<br/>&emsp;<div class='lb'>H</div>umanos possuem uma altura mediana, entre 1,5 e 1,9 metros, e indivíduos mais baixos ou altos são bastante raros, geralmente sendo portadores de deficiências de nascença. Variam consideravelmente de peso dependendo do seu estilo de vida, variando de 40 a até 140 quilos – apesar da média estar entre os 60 e 80 quilos. Possuem uma pele que varia do rosado ao negro, passando por algumas variações de pardo. Seu corpo é coberto por uma pelagem rala e fina, mais abundante nos machos. Apresentam uma concentração maior de pelos no alto da cabeça e, nos machos, ao redor e abaixo do rosto. A cor dos pelos varia entre o amarelo palha até o negro, passando por variações de louro, castanho e raramente ruivo. Os olhos costumam ser de coloração castanha, verde ou mais raramente, azul.",
+      "i": "humano.png"
+    },
+    {
+      "n": "Juban",
+      "a": [
+        4,
+        2,
+        3,
+        4
+      ],
+      "c": "Paladino, Sacerdote e Guerreiro.",
+      "ha": "Corpo Pesado",
+      "h": [
+        "Fortaleza",
+        "Garras",
+        "Imparável",
+        "Mordida Poderosa",
+        "Robustez",
+        "Rugido de Ahogr",
+        "Sentidos de Caçador"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>s jubans são humanoides com pernas digitígradas de porte avantajado com algumas características semelhantes às dos grandes felinos. Costumam ter entre 1,8 e 2 metros de altura, e graças à uma musculatura poderosa podem chegar aos 140 quilos, apesar da média girar em torno de 120 quilos. A cabeça dos Jubans é munida de um focinho curto com presas fortes, e os dedos dos pés e mãos possuem garras curvas curtas e resistentes. Também apresentam uma cauda com, em média, 1 metro de comprimento, apesar da função original da cauda (provavelmente melhorar o equilíbrio, como no caso dos felinos) tenha se perdido durante a evolução da raça.<br/>&emsp;<div class='lb'>J</div>ubans apresentam uma pele rosada, coberta quase inteiramente com uma pelagem fina e cerrada que pode variar do dourado ao marrom escuro, apesar das cores castanho-avermelhadas serem as mais comuns. Alguns apresentam padrões, como listras e manchas, e os machos desenvolvem uma pelagem mais densa e abundante no alto da cabeça e no pescoço, cuja tonalidade geralmente é mais escura do que o resto do pelo. Alguns raros indivíduos apresentam pelagem branca, mas essa é uma ocorrência anômala semelhante ao albinismo de outras raças – apesar dos Jubans brancos não apresentarem sensibilidade ao sol nem falta de pigmentação na pele e nos olhos como acontece com os albinos de outras raças.",
+      "i": "juban.png"
+    },
+    {
+      "n": "Levent",
+      "a": [
+        2,
+        3,
+        3,
+        3
+      ],
+      "c": "Druida, Espadachim, Sacerdote e Xamã.",
+      "ha": "Asas Ancestrais",
+      "h": [
+        "Asas Fortes",
+        "Contato com Espíritos",
+        "Comunhão com Espíritos",
+        "Dançarino do Ar",
+        "Mente Iluminada",
+        "Movimento Brusco",
+        "Olhos de Águia"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>s Levent são humanoides dotados de grandes asas que brotam de suas costas – logo abaixo das omoplatas. São geralmente mais baixos e menos corpulentos do que os humanos, com uma média de altura de 1,5 a 1,6 metros e um peso que oscila entre 60 e 70 quilos. As asas possuem uma envergadura total igual ao dobro da altura do indivíduo. Seus traços são finos, com lábios pouco carnudos e orelhas levemente pontudas. Seus olhos são grandes e de coloração clara, variando entre azul, verde e âmbar. A pele é de uma tonalidade bronzeada clara.<br/>&emsp;<div class='lb'>A</div>presentam uma penugem fina que recobrem a parte de cima e de trás da cabeça se estendendo até a base das asas, os ombros e os antebraços. Na cabeça, as penas costumam ser longas e, nos machos são mais grossas e formam penachos. As penas no resto do corpo são pequenas e macias, geralmente confundidas com pelos, mas em alguns indivíduos elas podem ser maiores e mais duras, como as penas das asas, que são extremamente fortes e resistentes. A plumagem dos Levent costuma ser de uma única tonalidade no corpo todo, e pode variar do branco ao castanho escuro, mas tonalidades de amarelo e castanho-claro são as mais comuns.",
+      "i": "levent.png"
+    },
+    {
+      "n": "Mahok",
+      "a": [
+        5,
+        2,
+        2,
+        3
+      ],
+      "c": "Druida, Guerreiro e Rúnico.",
+      "ha": "Pele de Pedra",
+      "h": [
+        "Abraço de Pedra",
+        "Braços Extras",
+        "Estabilidade",
+        "Gregário",
+        "Nascido nas Montanhas",
+        "Pele de Pedra 2",
+        "Raça Subterrânea"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>s Mahok são humanoides de constituição sólida, medindo cerca de 2,5m de altura e pesando cerca de 300 quilos na idade adulta. Esse peso aumenta com a idade, e pode chegar a até o dobro disso antes do Mahok não ser capaz de se mover devido ao próprio peso. Esse peso se deve principalmente devido à característica mais notável da raça, sua pele formada por placas de rocha.<br/>&emsp;<div class='lb'>A</div> pele dos Mahoks geralmente apresenta cor e configuração granítica, embora em algumas regiões eles possam apresentar formações semelhantes ao mármore ou ao alabastro.<br/>&emsp;<div class='lb'>O</div>s sentidos dos mahoks são notoriamente precários. Sua pele grossa não transmite a sensação do tato e seus ouvidos não possuem pavilhões auditivos externos. Além disso as formações rochosas ao redor dos olhos e das narinas limitam sua visão e olfato.<br/>&emsp;<div class='lb'>M</div>ahoks têm quatro dedos em cada mão e pé, apesar de, nos pés, os dedos serem geralmente unidos sob uma grossa camada de pedra formando um bloco único. Além disso, em raros casos, um Mahok nasce com um par extra de braços. Esses braços geralmente não são muito hábeis, já que a maioria das atividades dos Mahoks (assim como das outras raças) é realizada e desenvolvida para indivíduos com dois braços – mas com treinamento é possível aprender a usá-los com eficiência.",
+      "i": "mahok.png"
+    },
+    {
+      "n": "Metadílio",
+      "a": [
+        2,
+        4,
+        3,
+        3
+      ],
+      "c": "Bardo, Druida, Ladino e Feiticeiro.",
+      "ha": "Tamanho Pequeno",
+      "h": [
+        "Astuto",
+        "Balofo",
+        "Barriga Cheia",
+        "Esconderijo Invisível",
+        "Barganha",
+        "Sorte",
+        "Táticas de Guerrilha"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>M</div>etadílios são humanoides de pequena estatura (entre 1 e 1,2 metro de altura em média) e constituição física mediana, apesar de muitos apresentarem sobrepeso, o que faz com que variem de 30 até 70 quilos. Possuem crânios levemente alongados, com maxilares pequenos e orelhas levemente pontudas.<br/>&emsp;<div class='lb'>M</div>etadílios apresentam pele rosada, que pode ficar bronzeada com exposição ao sol, coberta por uma pelagem fina e esparsa, mais densa no topo e laterais da cabeça e na parte de cima dos pés, e a cor varia entre tons de castanho, geralmente tornando-se grisalha e até mesmo branca com a idade. Não há diferença entre a disposição de pelos entre machos e fêmeas, mas as fêmeas preferem manter o cabelo longo enquanto os machos costumam mantê-lo curto, e é comum que as fêmeas aparem os pelos nas laterais do rosto, enquanto os machos geralmente ostentem costeletas abundantes.",
+      "i": "metadilio.png"
+    },
+    {
+      "n": "Naga ♂",
+      "a": [
+        3,
+        4,
+        3,
+        2
+      ],
+      "c": "Espadachim, Rúnico e Paladino.",
+      "ha": "Corpo Ofídio",
+      "h": [
+        "Ameaçador",
+        "Anfíbio",
+        "Constritor",
+        "Escamas Grossas",
+        "Intimidador",
+        "Mordida Venenosa",
+        "Regeneração Instantânea",
+        "Visão Olfativa"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>N</div>saga são esfinges com características semelhantes aos répteis. A cabeça é ofídica, com um focinho longo e uma boca larga. Diferente dos ofídios, no entanto, a mandíbula das Naga não é móvel – mas possui uma abertura total de cerca de 90º como as serpentes. Apresentam membros superiores, mas o esqueleto abaixo da caixa torácica é constituído apenas pela coluna vertebral e costelas flutuantes que se estendem por cerca de 4 ou 5 metros no total, formando uma cauda grossa a partir de onde a maioria dos humanoides apresentaria pernas. Essa cauda é formada praticamente apenas por uma estrutura muscular desenvolvida para locomoção e sustentação do tórax, sendo bastante forte e pesada. Em média, uma Naga pesa entre 200 e 250 quilos.",
+      "i": "naga.png"
+    },
+    {
+      "n": "Naga ♀",
+      "a": [
+        2,
+        3,
+        4,
+        3
+      ],
+      "c": "Feiticeiro, Necromante e Rúnico.",
+      "ha": "Corpo Ofídio",
+      "h": [
+        "Ameaçador",
+        "Anfíbio",
+        "Constritor",
+        "Escamas Grossas",
+        "Intimidador",
+        "Mordida Venenosa",
+        "Regeneração Instantânea",
+        "Visão Olfativa"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>N</div>saga são esfinges com características semelhantes aos répteis. A cabeça é ofídica, com um focinho longo e uma boca larga. Diferente dos ofídios, no entanto, a mandíbula das Naga não é móvel – mas possui uma abertura total de cerca de 90º como as serpentes. Apresentam membros superiores, mas o esqueleto abaixo da caixa torácica é constituído apenas pela coluna vertebral e costelas flutuantes que se estendem por cerca de 4 ou 5 metros no total, formando uma cauda grossa a partir de onde a maioria dos humanoides apresentaria pernas. Essa cauda é formada praticamente apenas por uma estrutura muscular desenvolvida para locomoção e sustentação do tórax, sendo bastante forte e pesada. Em média, uma Naga pesa entre 200 e 250 quilos.",
+      "i": "naga.png"
+    },
+    {
+      "n": "Orc",
+      "a": [
+        4,
+        3,
+        2,
+        3
+      ],
+      "c": "Druida, Guerreiro, Patrulheiro e Xamã.",
+      "ha": "Sangue Orc",
+      "h": [
+        "Ameaçador",
+        "Fúria Orc",
+        "Intimidador",
+        "Mordida Poderosa",
+        "Nômade do Deserto",
+        "Potência",
+        "Robustez",
+        "Sangue Orc 2"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>rcs são humanoides de compleição física muscular e hábitos predatórios. Medem em média entre 1,7 e 1,9 metros e pesam entre 90 e 110 quilos. Sua característica mais notável são os grandes caninos maxilares, afiados e proeminentes, montados em uma estrutura óssea extremamente forte. <br/>&emsp;<div class='lb'>O</div>rcs possuem uma pele que varia do verde oliva ao castanho, coberta por uma pelagem negra grossa esparsa na maior parte do corpo, mais densa do topo da cabeça e ao longo da coluna – e no pescoço e sob o rosto entre os machos. Os olhos dos Orcs têm pupilas amarelas que podem ser mais brilhantes ou opacas dependendo do indivíduo, podendo chegar a tons quase brancos, o que faz com que em muitos deles apenas a íris do olho seja perceptível.",
+      "i": "orc.png"
+    },
+    {
+      "n": "Tailox",
+      "a": [
+        2,
+        4,
+        3,
+        3
+      ],
+      "c": "Bardo, Druida, Espadachim, Patrulheiro e Xamã.",
+      "ha": "Pernas Vulpinas",
+      "h": [
+        "Astuto",
+        "Audácia",
+        "Contos da Estrada",
+        "Faro",
+        "Forma da Raposa",
+        "Raça Florestal",
+        "Visão Auditiva"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>s Tailox são humanoides de pequena estatura (entre 1,4 e 1,6 metros) e de constituição esbelta (pesando entre 40 e 50 quilos).<br/>&emsp;<div class='lb'>A</div> cabeça apresenta um focinho curto e fino e orelhas grandes e seus são digitígrados. Possuem uma cauda pequena, coberta por uma pelagem mais farta do que no resto do corpo.<br/>&emsp;<div class='lb'>T</div>ailox têm pele rosada coberta por uma pelagem macia, curta e espessa que cobre praticamente todo o corpo – exceto as palmas das mãos e sola dos pés. A pelagem dos Tailox geralmente apresenta um tom castanho ou ruivo com padrões negros e brancos no corpo, particularmente no rosto, cauda, mãos e pés.",
+      "i": "tailox.png"
+    }
+  ]
+}

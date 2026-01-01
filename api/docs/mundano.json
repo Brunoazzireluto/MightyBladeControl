@@ -1,0 +1,1816 @@
+{
+  "mundano": [
+    {
+      "n": "Agulhas",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Conjunto de agulhas para costurar tecido e couro.",
+      "c": 1,
+      "p": 0.001,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Alforge",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Mochila acoplada na parte de traz na sela da montaria. Comporta até 40 quilos de equipamento.",
+      "c": 50,
+      "p": 1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Almofariz",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Usado para macerar ou moer pequenas quantidades de produtos.",
+      "c": 15,
+      "p": 0.002,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Ampulheta",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Usado para marcar uma passagem de tempo específica. Os mais comuns são os de 1 minuto, 10 minutos e 1 hora.",
+      "c": 15,
+      "p": 0.05,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Anel",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Tira de metal para ser usada ao redor de um dedo.",
+      "c": 20,
+      "p": 0.001,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "Anzol e Linha",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Para pescar.",
+      "c": 1,
+      "p": 0.001,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Armadura Animal (Batalha)",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Concede +3 de defesa ao animal.",
+      "c": 1200,
+      "p": 75,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Armadura Animal (Completa)",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Concede +4 de defesa ao animal.",
+      "c": 1800,
+      "p": 100,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Armadura Animal (Couro)",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Concede +1 de defesa ao animal.",
+      "c": 300,
+      "p": 35,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Armadura Animal (Simples)",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Concede +2 de defesa ao animal.",
+      "c": 600,
+      "p": 50,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Astrolábio",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento de navegação para fazer medições e localizações de rumos e rotas para se seguir usando os astros como referência.",
+      "c": 100,
+      "p": 0.003,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Balança",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento com pesos de chumbo para pesar com precisão.",
+      "c": 50,
+      "p": 3,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Balão de Vidro",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Frasco de vidro temperado próprio para ferver líquidos. Comporta 500 ml.",
+      "c": 10,
+      "p": 0.004,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Baralho",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Baralho comum para jogos de carta.",
+      "c": 2,
+      "p": 0.005,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Barra de Giz",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Um bastão de calcário prensado utilizado para desenhar e escrever.",
+      "c": 1,
+      "p": 0.006,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Barril",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Barril de madeira para até 50 litros de líquidos.",
+      "c": 10,
+      "p": 20,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Barrilete",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Barril de madeira para até 10 litros de líquidos.",
+      "c": 5,
+      "p": 6,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Baú Grande",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Baú de madeira reforçado. Com alça para cadeado. Dimensões: 1m*50cm*50cm.",
+      "c": 50,
+      "p": 60,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Baú Pequeno",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Baú de madeira reforçado. Com alça para cadeado. Dimensões: 50cm*25cm*25cm.",
+      "c": 30,
+      "p": 20,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Brinco",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Par de adornos decorados usados pendurados nas orelhas.",
+      "c": 20,
+      "p": 0.001,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "Broche",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Adorno com alfinete para prender em tecido.",
+      "c": 20,
+      "p": 0.001,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "Bule de Peltre",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Bule para ferver líquidos dentro. Comporta 500ml.",
+      "c": 12,
+      "p": 0.007,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Buril",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento usado para gravar em metal ou madeira e tatuagem.",
+      "c": 5,
+      "p": 0.05,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Bússola",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Uma agulha magnetizada presa em um eixo que aponta para norte-sul.",
+      "c": 10,
+      "p": 0.1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Cadinho",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Frasco de aço ou cerâmica refratária usada para derreter metais.",
+      "c": 20,
+      "p": 2,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Caixa Grande",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Caixa retangular de madeira de dimensões: 1m*1m*2m;",
+      "c": 10,
+      "p": 45,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Caixa Pequena",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Caixa quadrada de madeira com 50cm de lado.",
+      "c": 2,
+      "p": 8,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Cantil",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Recipiente para carregar líquidos feito com couro e armação de madeira e/ou metal. Mais fácil de carregar do que o odre. Cheio de líquido pesa 1kg a mais.",
+      "c": 5,
+      "p": 0.5,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Capa de Lã",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Para proteger do frio.",
+      "c": 3,
+      "p": 1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Capa de Pele",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Para climas muito frios.",
+      "c": 10,
+      "p": 4,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Carretel",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Pequeno cilindro de madeira para armazenar linha de costura. Cada carretel é suficiente para 5 peças de roupa.",
+      "c": 1,
+      "p": 0.001,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Chapéu",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "De palha, couro ou lona.",
+      "c": 3,
+      "p": 0.5,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Cinto de Ferramentas",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Cinto com pequenos bolsos para guardar ferramentas e utensílios.",
+      "c": 3,
+      "p": 0.4,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Cinto Oculto",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Cinto para adaga que pode ser colocado na coxa ou braço.",
+      "c": 1,
+      "p": 0.15,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Cinturão de Adagas",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Cinto para o peito com espaço para 10 adagas.",
+      "c": 3,
+      "p": 0.25,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Compasso",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento em formato de “V” com uma pena em um dos extremos usado para desenhar círculos e realizar medições.",
+      "c": 6,
+      "p": 0.001,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Condensador",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Tubo de vidro com suporte, usado para destilação.",
+      "c": 10,
+      "p": 0.008,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Corda Grossa (15m)",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Corda reforçada aguenta 500kg.",
+      "c": 6,
+      "p": 3,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Corda simples (15m)",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Suporta 200kg.",
+      "c": 3,
+      "p": 2,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Coroa",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Adorno decorado para ser usada na cabeça.",
+      "c": 50,
+      "p": 0.5,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "Corrente",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Cadeia de elos de metal para ser usada no pescoço.",
+      "c": 20,
+      "p": 0.001,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "Dados",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Conjunto de 5 dados comuns, usados para jogos de azar.",
+      "c": 2,
+      "p": 0.009,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Dados Viciados",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Par de dados com um peso interno em um dos lados, para fazer com que o resultado oposto saia com mais frequência (adiciona +1 em testes de jogos de azar).",
+      "c": 10,
+      "p": 0.01,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Diadema",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Tira de metal para ser usada na cabeça.",
+      "c": 30,
+      "p": 0.25,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Diamante",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Gema transparente que reflete luz em uma miríade de cores.",
+      "c": 240,
+      "p": 0.001,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Distintivo",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Uma peça de metal (geralmente de aço) com um símbolo da Ordem ou Cargo que você representa.",
+      "c": 20,
+      "p": 0,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Esmeralda",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Gema verde extremamente brilhante.",
+      "c": 120,
+      "p": 0.001,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Espelho",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Pequena superfície de aço polido para refletir imagens.",
+      "c": 5,
+      "p": 0.5,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Espiriteira",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Pequeno fogareiro de metal portátil. Uma dose de óleo combustível permite que funcione por 1 hora.",
+      "c": 30,
+      "p": 0.011,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Esquadro",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento triangular usado para traçar linhas retas e ângulos.",
+      "c": 4,
+      "p": 0.05,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Estatueta",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Pequena figura esculpida para representar uma pessoa, animal ou divindade.",
+      "c": 50,
+      "p": 1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Faca",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Faca sólida para propósitos variados.",
+      "c": 10,
+      "p": 0.2,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Formão/cinzel",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Um pino de ferro usada para desbastar madeira e pedra.",
+      "c": 3,
+      "p": 0.25,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Frasco de Cerâmica",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Frasco de cerâmica para poções. Comporta 100ml.",
+      "c": 2,
+      "p": 0.005,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Frasco de Tinta",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Suficiente para dez páginas de texto.",
+      "c": 15,
+      "p": 0.001,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Frasco de Vidro",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Frasco de vidro para poções. Comporta 50ml.",
+      "c": 4,
+      "p": 0.005,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Freio, Rédeas e Bocal",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Consiste no equipamento que vai na cabeça do animal. Sem ele testes de cavalgar recebem -2.",
+      "c": 20,
+      "p": 0.45,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Garatéia",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Gancho para escalar muros e paredes com 3 anzóis grandes juntos.",
+      "c": 12,
+      "p": 1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Garatéia Furtiva",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Garatéia forrada com tecido grosso para diminuir o barulho.",
+      "c": 20,
+      "p": 1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Garrafa de Cerâmica",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Garrafa para vinho e cerveja. Comporta 1 litro.",
+      "c": 5,
+      "p": 0.5,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Guaiaca",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Cinturão de couro com vários bolsos pequenos – pode conter até 20 itens de peso insignificante.",
+      "c": 3,
+      "p": 0.012,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Instrumentos de Alvenaria",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Martelo, formão e pinos de aço.",
+      "c": 37,
+      "p": 2.25,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Instrumentos de Cartografia",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Pena, frasco de tinta, régua e compasso.",
+      "c": 25,
+      "p": 0.053,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Instrumentos de Cerâmica",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Soprador de vidro, tenazes, faca e cadinho.",
+      "c": 45,
+      "p": 4.2,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Instrumentos de Costura",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Faca, agulhas, carretel de linha, sovela.",
+      "c": 13,
+      "p": 0.25,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Instrumentos de Escrita",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Frasco de tinta, pena, mata-borrão, pincel, buril.",
+      "c": 29,
+      "p": 0.2,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Instrumentos de Forja",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Malho, tenazes, cadinho, buril.",
+      "c": 60,
+      "p": 5,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Instrumentos de Precisão",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Régua, esquadro, compasso e balança.",
+      "c": 63,
+      "p": 3,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Instrumentos de Talha",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Faca, cinzel, martelo e lima.",
+      "c": 35,
+      "p": 1.7,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Kit de Arrombamento",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Bainha com várias gazuas. Necessário para arrombar fechaduras.",
+      "c": 100,
+      "p": 0.4,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Kit de Cartografia",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Pena, frasco de tinta, régua e compasso.",
+      "c": 25,
+      "p": 0.013,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Kit de Cura",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Bandagens, agulha, linha, faca e pastas de ervas medicinais.",
+      "c": 50,
+      "p": 2,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Kit de Escalada",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Corda simples, martelete, 10 pinos,",
+      "c": 37,
+      "p": 3.4,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Laboratório de Alquimia Portátil",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Almofariz, espiriteira, condensador, balão de vidro, bule de peltre, Balança (guia do herói), Frasco de cerâmica, perderneira e isqueiro",
+      "c": 140,
+      "p": 0.014,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Lampião",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Este lampião funciona a óleo. Dura 6 horas.",
+      "c": 20,
+      "p": 0.5,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "Lima",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Haste de aço dentado usado para desbate de madeira e metal.",
+      "c": 2,
+      "p": 0.25,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Lupa",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Uma lente de aumento para realizar trabalhos detalhados ou fazer avaliações.",
+      "c": 10,
+      "p": 0.015,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Luvas",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "De lã ou pelica, para proteger do frio.",
+      "c": 1,
+      "p": 0.1,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "Luvas de Couro",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Para trabalho pesado ou climas muito frios.",
+      "c": 3,
+      "p": 0.5,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "Malho",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Martelo largo e sólido usado por ferreiros para dobrar metal.",
+      "c": 30,
+      "p": 2,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Manto",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Capa de lã ou lona com capuz, para proteger do frio.",
+      "c": 5,
+      "p": 1,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "Manto da Fênix",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Fornece Resistência ao Fogo, mas torna o usuário Inapto para se esconder devido ao seu leve brilho.",
+      "c": 800,
+      "p": 2,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "Martelete",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Pequeno martelo usado para fixar pinos de escalada. Uma ponta de martelo, outra de picareta.",
+      "c": 24,
+      "p": 1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Martelo",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Martelo comum usado por carpinteiros e alvanéus.",
+      "c": 20,
+      "p": 1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Mata-borrão",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Usado para limpar o excesso de tinta ajudando na secagem.",
+      "c": 5,
+      "p": 0.001,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Medalhão",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Adorno decorado para ser usada em uma corrente.",
+      "c": 25,
+      "p": 0.05,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "Mochila Grande",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Mochila reforçada de viagem. Comporta até 20kg.",
+      "c": 50,
+      "p": 2,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Mochila Pequena/Embornal",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Mochila básica para guardar o essencial. Comporta até 5kg.",
+      "c": 20,
+      "p": 1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Odre",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Cantil que consiste basicamente de um saco de couro com um bocal de madeira e rolha. Cheio de líquido pesa 4kg a mais.",
+      "c": 2,
+      "p": 0.5,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Óleo Combustível",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Serve para recarregar lampiões. Se exposto ao fogo, explode (dano 10/Fogo num raio de 2 metros).",
+      "c": 10,
+      "p": 0.5,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Pá de Acampamento",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Pá pequena para ajudar na montagem do acampamento.",
+      "c": 5,
+      "p": 1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Papiro",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Uma folha. Papel de baixa qualidade feito a partir de uma pasta de junco seco.",
+      "c": 1,
+      "p": 0.01,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Pederneira e Isqueiro",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Uma pedra especial que quando riscada por um metal (isqueiro) gera uma grande quantidade de faíscas. Usada para ascender uma fogueira.",
+      "c": 5,
+      "p": 0.25,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Pelego",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Couro com lã de ovelha para dormir em cima. Bom para noites frias.",
+      "c": 10,
+      "p": 4,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Pena",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Pena usada para escrever.",
+      "c": 2,
+      "p": 0,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Pente",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Pequeno instrumento dentado que serve para limpar, compor ou segurar os cabelos.",
+      "c": 5,
+      "p": 0.001,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Pergaminho",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Uma folha. Pele de cordeiro preparada para receber tinta. E desse material que os grimórios são feitos.",
+      "c": 5,
+      "p": 0.05,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Picareta",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Ferramenta para desbastar solo e rochas.",
+      "c": 30,
+      "p": 3,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Pincel",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Usado para pintura e escrita.",
+      "c": 2,
+      "p": 0.001,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Pingente",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Pequeno adorno decorado para ser usado em uma corrente.",
+      "c": 15,
+      "p": 0.001,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "Pinos de Aço",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Usados para abrir fendas retas em pedras grandes.",
+      "c": 10,
+      "p": 1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Pinos para Escalada",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "10 pinos para escaladas.",
+      "c": 10,
+      "p": 0.4,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Pregos",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Saco de pregos suficiente para uma construção pequena ou 10 itens pequenos (escudos, caixas, baús, etc.).",
+      "c": 1,
+      "p": 0.5,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Provisões",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Suficiente para 2 refeições.",
+      "c": 1,
+      "p": 1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Pulseira",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Adorno decorado para ser usado no pulso.",
+      "c": 10,
+      "p": 0.05,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Quartzo",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Gema cujo tom varia de branco à roxo.",
+      "c": 90,
+      "p": 0.001,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Regua",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento para realizar medições precisas.",
+      "c": 3,
+      "p": 0.05,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Roupas Comuns",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Camisa ou túnica, calções ou saia e sandálias.",
+      "c": 5,
+      "p": 1,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "Roupas de Festa",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Vestido ou roupas decoradas ou de cores vibrantes.",
+      "c": 10,
+      "p": 2,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "Roupas de Viagem",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Camisa e calças de lona e botas.",
+      "c": 20,
+      "p": 3,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "Rubi",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Gema vermelha extremamente brilhante.",
+      "c": 180,
+      "p": 0.001,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Safira",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Gema azul extremamente brilhante.",
+      "c": 150,
+      "p": 0.001,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Sela e Estribos",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Confere um bônus de +2 em todos os testes de Cavalgar.",
+      "c": 80,
+      "p": 1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Sextante",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento de navegação para fazer medições de distância até um determinado ponto, usando os astros e a linha do horizonte como referência.",
+      "c": 200,
+      "p": 1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Soprador de vidro",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Tubo de aço usado para soprar vidro em formas variadas.",
+      "c": 10,
+      "p": 1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Sovela",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Instrumento utilizado para perfurar couro para costura-lo.",
+      "c": 1,
+      "p": 0.05,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Tabarda",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Túnica curta usada sobre armaduras e vestimentas formais, indicando a Ordem, Igreja ou posto do usuário.",
+      "c": 25,
+      "p": 1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Tenazes",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Ferramenta usado para pegar materiais quentes.",
+      "c": 5,
+      "p": 1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Tenda Grande",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Tenda simples para quatro pessoas, 1,8m de altura por 4m de comprimentos e 4m de largura. Essa tenda é muito grande para ser carregada por apenas uma pessoa.",
+      "c": 85,
+      "p": 13,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Tenda Grupo",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Lembra um pequeno circo em forma de octógono. Só pode ser transportado em uma carroça. Tem 2,5m de altura por 4m de raio.",
+      "c": 150,
+      "p": 27,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Tenda Média",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Tenda simples para duas pessoas, 1m de altura por 2m de comprimentos e 2m de largura.",
+      "c": 50,
+      "p": 6,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Tenda Pequena",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Tenda simples para uma pessoa, 1m de altura por 2m de comprimentos e 1m de largura.",
+      "c": 35,
+      "p": 3,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Tocha",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Dura uma hora.",
+      "c": 1,
+      "p": 0.5,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Túnica",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Camisa longa que fica sobre as calças.",
+      "c": 3,
+      "p": 1,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "Velino",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Uma folha de pele de feto de boi ou cordeiro, preparada para receber tinta.",
+      "c": 10,
+      "p": 0.02,
+      "eq": false,
+      "e": []
+    },
+    {
+      "n": "★Amuleto Holdan",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": false,
+      "de": "Um amuleto com o símbolo de uma divindade (geralmente Sarfion) engastado em ambos os lados. O usuário pode conjurar uma Magia sobre o item deixando seus efeitos armazenados. A magia pode ser conjurada a qualquer momento como uma ação padrão, sem necessidade de testes ou gasto em Mana. Apenas uma Magia pode ficar armazenada no amuleto, e se o usuário remover o amuleto, a magia armazenada se dissipa.",
+      "c": 600,
+      "p": 0.1,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "★Amuleto dos Mortos ",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": false,
+      "de": "Um amuleto com um crânio em baixo relevo em um dos lados e o símbolo de uma divindade (geralmente Denalla) do outro. Qualquer morto-vivo, demônio ou espírito que estiverem a uma distância em metros igual à Determinação do usuário perdem 10 Pontos de Vida e 10 Pontos de Mana no final de cada um dos seus turnos. Criaturas afetadas que tenham Mente Vazia perdem todos os seus Pontos de Vida e Mana. Mortos-vivos destruídos devido à esse efeito voltam a ser cadáveres inanimados e não poderão ser reanimados. Demônios destruídos por este efeito são enviados de volta ao inferno e não podem sair de lá por 1 ano. Espíritos destruídos por este efeito são permanentemente dissipados.",
+      "c": 2250,
+      "p": 0.1,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "★Anel da Invisibilidade",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": false,
+      "de": "Um anel simples de prata que, quando colocado no dedo de uma criatura, a torna – assim como todas as suas posses - invisível.",
+      "c": 2500,
+      "p": 0.2,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "★Bolsa do Espaço Infinito",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": false,
+      "de": "Apesar do nome, este embornal de couro tem um espaço interno de 2 metros cúbicos (1 metro de largura, 1 de altura e 2 de profundidade). Independente do que estiver guardado dentro do embornal, ele sempre parece estar vazio – e o peso dos itens em seu interior é ignorado.",
+      "c": 3400,
+      "p": 0.001,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "★Botas da Furtividade",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": false,
+      "de": "Um par de botas altas de couro que abafam o som dos passos do usuário e tornam sua imagem levemente turva em áreas sombrias. O usuário recebe +4 em suas rolagens de mover-se em silêncio e ocultar-se/camuflar-se.",
+      "c": 4000,
+      "p": 2,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "★Cesta das Infinitas Tortas",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": false,
+      "de": "Esta cesta de madeira simples com bonitos entalhes emana um delicioso cheio de torta. 1 vez a cada hora, seu portador pode abrir a cesta e encontrará lá dentro uma torta de um sabor aleatório: Nozes, Baunilha, Morango, Maçã, Limão, ou Cereja.",
+      "c": 500,
+      "p": 1,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "★Cinto da Força",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": false,
+      "de": "Um cinto de couro com uma fivela decorada com uma Runa Arcana que concede +2 de Força para seu usuário.",
+      "c": 4000,
+      "p": 0.15,
+      "eq": true,
+      "e": [
+        "for+",
+        2
+      ]
+    },
+    {
+      "n": "★Coroa da Inteligência",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": false,
+      "de": "Um diadema de aço com uma gema incrustada (geralmente um quartzo) que concede +2 de Inteligência para seu usuário.",
+      "c": 4200,
+      "p": 0.5,
+      "eq": true,
+      "e": [
+        "int+",
+        2
+      ]
+    },
+    {
+      "n": "★Corrente da Vontade",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": false,
+      "de": "Uma fina corrente de ouro que concede +2 de Vontade para seu usuário.",
+      "c": 4500,
+      "p": 0.001,
+      "eq": true,
+      "e": [
+        "von+",
+        2
+      ]
+    },
+    {
+      "n": "★Grevas de Chutar Goblins",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": false,
+      "de": "Um par de grevas de bronze de tamanho anão exibindo goblins em alto relevo. Os ataques desarmados do portador causam +20 de dano contra goblins.",
+      "c": 3000,
+      "p": 2,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "★Espelhos Mensageiros",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": false,
+      "de": "Um par de espelhos de prata que, à uma ordem de comando, transmitem imagens e sons do que estiver diante do outro espelho. Este efeito dura 10 minuto, e depois de usado só pode ser reativado depois que 10 minutos tenham se passado. Quando o efeito de um dos espelhos é acionado, ele funciona em ambos os itens ao mesmo tempo.",
+      "c": 950,
+      "p": 1,
+      "eq": true,
+      "e": []
+    },
+    {
+      "n": "★Luvas da Agilidade",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": false,
+      "de": "Um par de luvas de pelica muito fina que concede +2 de Agilidade para seu usuário.",
+      "c": 4000,
+      "p": 0.1,
+      "eq": true,
+      "e": [
+        "agi+",
+        2
+      ]
+    },
+    {
+      "n": "★Manto da Proteção",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": false,
+      "de": "Um manto de tecido leve que volita e esvoaça de forma sobrenatural quando o usuário é atacado, atrapalhando os golpes direcionados contra ele, o que concede um bônus de +3 na esquiva de quem estiver trajando o manto.",
+      "c": 3000,
+      "p": 1,
+      "eq": true,
+      "e": [
+        "def+",
+        2,
+        3,
+        [],
+        "Esquiva +3"
+      ]
+    }
+  ]
+}

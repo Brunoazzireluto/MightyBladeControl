@@ -1,0 +1,2133 @@
+{
+  "habilidade": [
+    {
+      "n": "Sabedoria Selvagem",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você passou muito tempo em ambientes selvagens e dedicou muito tempo ao estudo da natureza em todas as suas formas. Você rola +1d6 em testes que envolvam a natureza como forragear, rastrear, encontrar abrigo, identificar ervas, etc.",
+      "es": "",
+      "re": "Forragear, Rastrear, Encontrar abrigo, Identificar ervas, etc. +1d6",
+      "e": []
+    },
+    {
+      "n": "Sabedoria Sobrenatural",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você recebe +1d6 em seus testes de conhecimento sobre maldições, criaturas dos tipos Amaldiçoado, Demônio, Espírito e Morto-vivo. Esse bônus também se aplica a testes para perceber e rastrear essas criaturas.",
+      "es": "",
+      "re": "Conhecimento sobre maldições e criaturas sobrenaturais +1d6",
+      "e": []
+    },
+    {
+      "n": "Sacrifício das Trevas",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Pacto da Ambição"
+        ]
+      ],
+      "d": "Você pode usar Círculo de Invocação de maneira muito mais eficiente que outros Cultistas. Sempre que realizar um Sacrifício de Sangue como parte da conjuração de um Círculo de Invocação você recebe +1d6 no teste para conjurar aquela magia.",
+      "es": "",
+      "re": "Conjura Círculo de Invocação com +1d6 se fizer Sacrifício de Sangue",
+      "e": []
+    },
+    {
+      "n": "Sala Oculta",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 700,
+      "m": 30,
+      "df": 16,
+      "r": [
+        "n",
+        5
+      ],
+      "d": "Desenhando uma Runa Arcana no ar, você cria um portal que o levará para uma pequena sala de 10 metros de profundidade, 10 metros de largura e 10 metros de altura. As paredes são indestrutíveis, brancas e lisas como vidro. Este é um plano paralelo exclusivamente seu, e você pode utilizá-lo como quiser, usando-o como depósito, biblioteca ou laboratório, por exemplo – mas terá que adquirir o que quiser que esteja dentro dele. O portal permanecerá aberto enquanto você quiser, e você pode fechá-lo à vontade quando estiver dentro da sala – ele sempre se abrirá no último local onde você abriu ele pela última vez. A sala possui ar ilimitado, e a luz dentro dela é sempre semelhante à de um dia nublado, mas você pode usar outras fontes de luz – como lampiões ou tochas – para torná-la total ou parcialmente melhor iluminada. <br/>&emsp;Essa Runa Arcana é perene enquanto o portal estiver aberto. Se você estiver dentro da sala e o portal estiver fechado, a Runa continuará ativa, mas estará dentro da sala – e, portanto não pode ser detectada pelo lado de fora.",
+      "es": "",
+      "re": "Abre um portal para sua Sala Oculta (10x10x10m³, luz 'nublada', ar infinito)",
+      "e": []
+    },
+    {
+      "n": "Salteador",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você está acostumado a emboscar, lutar e fugir com o mesmo desprendimento. Você recebe +2 em seus testes de percepção, se esconder, correr, escalar, se equilibrar (incluindo evitar ser derrubado) e em sua Iniciativa. Além disso, seu Deslocamento é aumentado em 1.",
+      "es": "",
+      "re": "Dslc+1, +2 Percepção, se esconder, correr, escalar, equilíbrio, iniciativa",
+      "e": [
+        "ini+",
+        2,
+        "dsl+",
+        1
+      ]
+    },
+    {
+      "n": "Sangue Orc",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você possui características aguçadas pelos hábitos noturnos e predatórios da sua raça. Você tem +10 Pontos de Vida e consegue enxergar na completa escuridão, mas nesses ambientes não consegue distinguir cores.",
+      "es": "",
+      "re": "PV+10, Visão no escuro sem distinguir cores",
+      "e": [
+        "vida",
+        10
+      ]
+    },
+    {
+      "n": "Sangue Orc 2",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você possui uma fisiologia particularmente resistente, mesmo para os padrões Orcs. Você é imune a todas as doenças naturais e tem +10 Pontos de Vida.",
+      "es": "Você só pode selecionar essa Habilidade durante a criação do personagem.",
+      "re": "PV+10, Imunidade a doenças naturais",
+      "e": [
+        "vida",
+        10
+      ]
+    },
+    {
+      "n": "Sede de Sangue",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Como uma ação de rodada completa, você bebe o sangue de um cadáver que ainda esteja quente (morto no último minuto) ou uma criatura que esteja Indefesa ou Por um Fio e recebe um bônus de +1 em Força, Agilidade e Vontade durante uma quantidade de minutos iguais à sua Vontade. Este bônus é cumulativo, mas seus benefícios só podem ser conseguidos uma vez de cada alvo. Se o bônus em um Atributo exceder a sua Inteligência, você entra em um frenesi sanguinário, ficando imune a efeitos de Medo e atacando a criatura mais próxima até matá-la (e utilizando Sede de Sangue nela) enquanto os efeitos dessa Habilidade persistirem.<br/>&emsp;Se o alvo estiver Indefeso ele perde todos os seus Pontos de Vida e fica Por um Fio. Se o alvo estiver Por um Fio ele morre automaticamente.",
+      "es": "",
+      "re": "Rodada bebe sangue: FOR+1 AGI+1 VON+1 por <a class='von'></a> minutos, Frenesi se Bônus > INT",
+      "e": []
+    },
+    {
+      "n": "Seguir em Frente",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5
+      ],
+      "d": "Sua vontade o mantém lutando mesmo quando outros já teriam caído. Sempre que você estiver Por um Fio, você se mantém consciente, e pode fazer uma ação padrão por turno. Você é considerado Atordoado até conseguir recuperar pelo menos 1 Ponto de Vida, e ainda precisará receber primeiros socorros – ou passar em um teste de Vontade – para não morrer depois de uma quantidade de minutos igual à sua Vontade – e você ainda morrerá se sofrer qualquer dano enquanto estiver nessa condição.",
+      "es": "",
+      "re": "Mantém-se consciente e Inapto para tudo enquanto Por um Fio",
+      "e": []
+    },
+    {
+      "n": "Sem Escapatória",
+      "c": "Técnica",
+      "t": "Reação",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Combate Tático"
+        ]
+      ],
+      "d": "Se um oponente que está adjacente a você tentar se afastar ou se levantar, você pode imediatamente fazer um ataque corporal normal contra ele. Se acertar, além de sofrer o dano normal pelo ataque, o oponente não poderá se deslocar neste turno.",
+      "es": "",
+      "re": "Adjacente afastar/levantar: Ataque CaC que impede movimento",
+      "e": []
+    },
+    {
+      "n": "Semelhança Cadavérica",
+      "c": "Padrão",
+      "t": "Ação",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Seu corpo é capaz de baixar o batimento cardíaco, respirar muito lentamente e ficar de olhos abertos por até 1 hora. Você pode se manter nesse estado por uma quantidade de horas igual à sua Vontade – mas pode cancelar esse efeito a qualquer momento. Quando esse efeito terminar, você fica Atordoado por 1 minuto. Enquanto estiver nesse estado, será impossível para alguém perceber que você está vivo – mas você continua percebendo tudo à sua volta normalmente, apesar de não poder se mover. Você também recebe +1d6 em seus testes de camuflagem nesse estado, devido à sua imobilidade.",
+      "es": "",
+      "re": "Mantém-se em estado cadavérico, mas consciente, por até <a class='von'></a> horas",
+      "e": []
+    },
+    {
+      "n": "Semi Aquático",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você pode respirar indefinidamente embaixo d’água, mas só consegue respirar na superfície durante uma quantidade de horas igual ao dobro de sua Força. Depois disso você começa a sufocar, perdendo 1 Ponto de Vida por minuto até poder ficar submerso por pelo menos um minuto.<br/>&emsp;Além disso, você é sempre bem sucedido em testes de movimentação sob a água (ou recebe +1d6 caso precise fazer testes). No entanto, em terra seu deslocamento é reduzido à metade e você não pode correr nem realizar ataques de Investida.",
+      "es": "",
+      "re": "FOR*2 horas fora d'água, então sufoca (-1PV/min), Mov. em terra 1/2",
+      "e": []
+    },
+    {
+      "n": "Senhor das Lâminas",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        10,
+        "h",
+        [
+          "Touché"
+        ]
+      ],
+      "d": "Sempre que for realizar um teste de ataque corpo-a-corpo usando uma arma que cause dano por corte ou perfuração, você pode rolar +1d6.",
+      "es": "",
+      "re": "Ataque CaC Corte ou Perfuração +1d6",
+      "e": [
+        "fin"
+      ]
+    },
+    {
+      "n": "Sentido de Alerta",
+      "c": "Padrão",
+      "t": "Reação",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Sentidos de Caçador"
+        ]
+      ],
+      "d": "Seus sentidos são sobrenaturalmente afiados e seu sono é extremamente leve. Você nunca é considerado Surpreso ou Desprevenido e recebe +2 em suas rolagens de Iniciativa. Além disso, se você estiver dormindo ou desacordado, você desperta imediatamente se for atacado, rolando sua Iniciativa – e se tiver um resultado maior do que o do atacante, pode agir antes dele.",
+      "es": "",
+      "re": "Nunca Surpreso ou Desprevenido, Iniciativa +2, Sono muito leve",
+      "e": [
+        "ini+",
+        2
+      ]
+    },
+    {
+      "n": "Sentidos Apurados",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "!r",
+        [
+          "Mahok"
+        ]
+      ],
+      "d": "Você possui sentidos treinados e extremamente apurados e aprendeu a confiar instintivamente no que eles captam. Você recebe +2 em todos os testes de para perceber, procurar, observar, ouvir ou usar seus cinco sentidos e também em testes de Iniciativa.",
+      "es": "",
+      "re": "Percepção +2, Iniciativa +2",
+      "e": [
+        "ini+",
+        2
+      ]
+    },
+    {
+      "n": "Sentidos de Caçador",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você possui uma audição aguçada e uma visão treinada. Você rola +1d6 em todos os seus testes de Inteligência para perceber e rastrear alvos.",
+      "es": "",
+      "re": "Ouvir, Perceber e Rastrear +1d6",
+      "e": []
+    },
+    {
+      "n": "Séquito",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você possui um séquito composto por um número de PDMs de nível 0 igual à sua Vontade. Esses seguidores devem exercer funções distintas e que não sejam combativas – eles podem acompanhar o grupo em aventuras oferecendo suporte e realizando serviços para o grupo, mas não entrarão em masmorras ou ruínas para auxiliar o grupo em combates, a menos que sejam forçados a isso. Perceba que seguidores descontentes podem simplesmente abandonar você se o considerarem tirânico ou despótico – e podem até mesmo traí-lo ou roubá-lo! <br/>&emsp;Caso algum seguidor seu morra, seja dispensado, lhe abandone ou de alguma outra forma deixe de servir você, você pode contratar novos ou atrair novos seguidores até um máximo de igual à sua Vontade. <br/>&emsp;Seguidores têm roupas e equipamentos comuns para sua função, mas você pode fornecer equipamentos melhores se tiver condições. Seguidores comuns incluem aias, pajens, cartógrafos, cozinheiros, apotecários, mensageiros, menestréis, clérigos, curandeiros, médicos e secretários.",
+      "es": "",
+      "re": "Séquito de PDM Nível 0 igual sua Vontade",
+      "e": []
+    },
+    {
+      "n": "Serpentiforme",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você possui um corpo alongado, flexível e musculoso terminado em uma cauda muscular. Você recebe +2 em seus testes de correr, nadar, escalar e agarrar. Sua cauda pode ser usada para segurar objetos (mas não utilizá-los em combate) ou realizar ataques desarmados (Força/Contusão).<br/>&emsp;Você não pode ser derrubado, mas não é capaz de cavalgar ou impulsionar seu corpo todo acima do chão.",
+      "es": "",
+      "re": "Correr, nadar, escalar e agarrar +2, Não pode ser derrubado",
+      "e": []
+    },
+    {
+      "n": "Servo de Nehemoth",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Pacto da Escuridão"
+        ]
+      ],
+      "d": "Um Mahr o segue lealmente. Esse Infernal é completamente leal a você e fará tudo o que lhe for pedido. Ele se comunica através de telepatia com você, e você é capaz de enxergar pelos olhos dele sempre que desejar – mas sua visão dividida faz com que você realize todos os seus testes como se fosse Inapto enquanto faz isso.<br/>&emsp;Se for destruído de alguma forma, ele aparecerá junto a você na próxima vez que você acordar de um período de sono de pelo menos 4 horas – que será acompanhado de pesadelos à medida que a entidade infernal se liga a você.",
+      "es": "",
+      "re": "Mahr o segue, obedece e permite ver por seus olhos; Consulte a descrição",
+      "e": []
+    },
+    {
+      "n": "Sete Vidas",
+      "c": "Padrão",
+      "t": "Reação",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você consegue sobreviver a situações que seriam fatais para outras criaturas. Quando algum efeito fosse matá-lo de alguma forma - incluindo efeitos de petrificação, morte automática, falha em um teste de Vontade quando está Por um Fio - você imediatamente recupera todos os Pontos de Vida e perde permanentemente 1 ponto em seu Atributo mais alto - um Atributo pode ser reduzido até um mínimo de 2 dessa forma. Se tiver 2 ou mais Atributos no mesmo valor, você escolhe qual Atributo irá reduzir.",
+      "es": "",
+      "re": "Ignora evento mortal, cura todo PV e perde 1 de atributo mais alto",
+      "e": []
+    },
+    {
+      "n": "Sexto Sentido",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você é capaz de sentir a presença de qualquer criatura dos tipos Amaldiçoado, Demônio, Espírito ou Morto-vivo que se aproxime de você a uma distância em metros igual à sua Determinação.",
+      "es": "",
+      "re": "<a class='det'></a>m percebe Amaldiçoado, Demônio, Espírito ou Morto-vivo",
+      "e": []
+    },
+    {
+      "n": "Sifão de Sangue",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 750,
+      "m": 30,
+      "df": 15,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Ferimentos Abertos"
+        ]
+      ],
+      "d": "Desenhando uma Runa Arcana sobre si mesmo, você se torna um nexo de energia necromântica, absorvendo a força vital das criaturas vivas ao seu redor. Você absorve parte da energia vital contida nesse sangue, recuperando metade de todo dano ou perda de vida causada por efeitos de sangramento dentro da área de efeito da magia.<br/>&emsp;Essa Runa Arcana dura por 1 minuto.",
+      "es": "",
+      "re": "Recupera PV igual a 1/2 da perda provocada por sangramentos, 1min",
+      "e": []
+    },
+    {
+      "n": "Silencioso ",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você é completamente silencioso e nunca emite sons a menos que deseje. Sempre que precisar realizar um teste para se mover em silêncio, considere que teve um sucesso decisivo no teste. Além disso, sempre que fizer um teste contra um alvo desprevenido, você pode mudar o resultado de um dado para 6 – esse efeito não pode ser utilizado em resultados 1 nos dados.",
+      "es": "",
+      "re": "Sucesso crítico em furtividade. Resultado para 6 contra desprevenido",
+      "e": []
+    },
+    {
+      "n": "Sintonia Dracônica",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você está sintonizado com a energia elemental de um tipo de dragão. Escolha entre ser sintonizado com dragões de fogo e ter Resistência a Fogo, ser sintonizado aos dragões do frio e ter Resistência a Frio ou ser sintonizado com os dragões do relâmpago ser Resistente à Eletricidade. Em seguida, escolha um tipo de energia (Fogo, Frio ou Eletricidade) diferente daquele ligado ao tipo de dragão que você é sintonizado. Você perde Resistência ou Imunidade contra aquele elemento (se possuir) e não pode se tornar Resistente ou Imune a ele de forma alguma (nem mesmo através de magias ou itens mágicos). Essas escolhas são permanentes e não podem ser mudadas mais tarde.",
+      "es": "Sempre que utilizar uma Habilidade que cause o mesmo dano da Resistência que tiver escolhido, aquela Habilidade causa dano +6.",
+      "re": "Resiste Fogo, Frio OU Elet. Nunca pode resistir outro elemento",
+      "e": []
+    },
+    {
+      "n": "Soldar Magia",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 700,
+      "m": 20,
+      "df": 14,
+      "r": [
+        "n",
+        5
+      ],
+      "d": "Desenhando uma Runa Arcana sobre um item, você faz com que os efeitos de uma outra Magia realizada sobre ele, cujos efeitos afetem o próprio personagem, fique armazenada naquele item. O efeito da Magia armazenada no item pode ser desencadeado por seu portador como uma ação livre. <br/>&emsp;Habilidades e itens que alterem propriedades de uma Magia não tem efeitos sobre uma Magia conjurada a partir do item. <br/>&emsp;Esta Runa Arcana dura indefinidamente (mas pode ser dissipada a qualquer momento pelo conjurador) se dissipando quando os efeitos da magia armazenada no item forem desencadeados. Enquanto uma Magia estiver armazenada no item, os Pontos de Mana usados para conjurar Soldar Magia não podem ser recuperados.",
+      "es": "",
+      "re": "Armazena a próxima magia lançada sobre um item; Mana Presa",
+      "e": []
+    },
+    {
+      "n": "Som Ilusório",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 300,
+      "m": -1,
+      "df": 8,
+      "r": [],
+      "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você cria um som vindo de um lugar que possa ver. Você pode criar múltiplos sons ao mesmo tempo e os controla totalmente, mas eles não podem ter intensidade maior que a capacidade da voz humana. <br/>&emsp;A Runa Arcana ou Selo Místico que mantém o som dura até 30 minutos, mas se dissipa se o conjurador perder contato visual com o local de onde o som se origina.",
+      "es": "",
+      "re": "Cria sons ilusórios no campo de visão por 30 minutos",
+      "e": []
+    },
+    {
+      "n": "Sopro de Fogo",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 30,
+      "df": -1,
+      "r": [
+        "v",
+        5,
+        "h",
+        [
+          "Chamas Internas 1"
+        ]
+      ],
+      "d": "Você é capaz de externar o calor do seu corpo na forma de potentes labaredas. Todos que estiverem numa área até 3 metros a sua frente sofrem dano igual à <a class='fogo'>20</a>/Fogo.",
+      "es": "",
+      "re": "Até 3m à frente: <a class='fogo'>20</a>/Fogo",
+      "e": []
+    },
+    {
+      "n": "Sopro Dracônico",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 30,
+      "df": -1,
+      "r": [],
+      "d": "Você consegue concentrar sua vontade em uma potente rajada de energia, como seus ancestrais dracônicos. Este sopro atinge tudo e todos a uma distância em metros igual à sua Vontade à sua frente. O tipo de dano e os efeitos dependem de sua Linhagem Dracônica (20/Fogo para dragões de fogo, 10/Frio e qualquer criatura que sofra dano pelo sopro fica Enregelado para dragões do frio ou 15/Eletricidade e qualquer criatura que sofra dano pelo sopro fica Atordoado por 1 turno para dragões do relâmpago).",
+      "es": "",
+      "re": "Frente <a class='von'></a>m. Linhagem (<a class='fogo'>20</a>/Fogo; <a class='frio'>10</a>/Frio &Enregela; <a class='elet'>15</a>/Elet & Atordoa 1t)",
+      "e": []
+    },
+    {
+      "n": "Sopro Gélido",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 550,
+      "m": 20,
+      "df": 14,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Congelar"
+        ]
+      ],
+      "d": "Desenhando uma Runa Arcana à sua frente você faz com que ela exale uma nuvem de frio intenso que cobre uma área com um diâmetro em metros igual à sua Vontade. Todas as criaturas vivas dentro dessa área sofrem dano igual a <a class='frio'>10</a>/Frio e ficam Enregelados. Criaturas dos tipos construto, morto-vivo e réptil sofrem o dobro de dano e ficam paralisadas por 1 turno antes de ficarem enregeladas. Objetos inanimados dentro da área se congelam. <br/>&emsp;Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados, mas o gelo criado é permanente e descongela em velocidade normal depois que a Runa se dissipar.",
+      "es": "",
+      "re": "Nuvem de frio intenso, <a class='von'></a> metros. <a class='frio'>10</a>/Frio por turno e Enregela.",
+      "e": []
+    },
+    {
+      "n": "Sorte",
+      "c": "Característica",
+      "t": "Reação",
+      "ct": 0,
+      "m": 10,
+      "df": -1,
+      "r": [],
+      "d": "Você está acostumado a contar com a sorte – e ela costuma lhe sorrir. Você pode rolar novamente um dado cujo resultado seja 1. Você só pode usar essa Habilidade uma vez por turno.",
+      "es": "",
+      "re": "Uma vez por turno, rejogue um dado com resultado 1",
+      "e": []
+    },
+    {
+      "n": "Sustentar Mortos-Vivos",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 250,
+      "m": 30,
+      "df": 11,
+      "r": [
+        "h",
+        [
+          "Despertar dos Mortos"
+        ]
+      ],
+      "d": "Desenhando uma Runa Arcana sobre um morto-vivo, você o imbui com energias necromânticas que o tornam mais resistente. – e reforça seu controle. O morto-vivo recebe +10 Pontos de Vida e Força +2. Além disso, se o alvo estiver sob controle de uma criatura (incluindo você), o tempo de controle se estende pela duração dessa Runa ao invés do tempo normal. <br/>&emsp; Essa Runa Arcana dura uma quantidade de dias igual à sua Vontade.",
+      "es": "",
+      "re": "Morto-Vivo +10PVmax e FOR+2, Estende duração para <a class='von'></a> dias",
+      "e": []
+    },
+    {
+      "n": "Tamanho Pequeno",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você tem uma estatura baixa, o que torna difícil lhe atingir ou detectar. Você pode rolar +1d6 quando fizer testes de Furtividade. Além disso, seu bônus automático de Defesa é 6 ao invés de 5. No entanto, para você armas corporais que requerem duas mãos são grandes demais para serem usadas com eficiência, e você precisa de ambas as mãos para usar qualquer arma com FN 5 ou mais.",
+      "es": "",
+      "re": "Furtividade+1d6, Defesa Básica 6, Sem armas 2mãos, FN>=5 requer 2mãos",
+      "e": [
+        "blq",
+        1,
+        "esq",
+        1,
+        "nnsm"
+      ]
+    },
+    {
+      "n": "Tamanho: Colossal",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você é extremamente grande, possuindo um tamanho mínimo de 8 m e é quase impossível não perceber ou errar ataques contra você - mas devido ao seu tamanho massivo, você é muito difícil de ferir, graças a uma combinação de couro grosso e camadas de gordura consideráveis sobre seus músculos. Sua Defesa Básica é 2 ao invés de 5 e você sempre falha automaticamente em testes para se esconder, mover em silêncio e se disfarçar. Sua Força é considerada o dobro para calcular o dano de seus ataques corporais primários, ou metade disso para calcular seus ataques secundários (veja Ataques, na página XX). Além disso, você é imune à Falhas da Armadura (mesmo os espaços entre suas placas ou escamas são protegidos por um couro mais grosso do que qualquer armadura normal) e é Resistente a todos os tipos de dano físicos (Contusão, Corte e Perfuração) - é possível causar dano normal, se um adversário for capaz de escalá-lo com uma Ação de Rodada Completa com Dificuldade igual à sua Esquiva. Você pode tentar retirar um oponente que o esteja escalando com uma ação de rodada completa e um Confronto de Agilidade ou Força – o que for mais alto – entre você e a criatura que o estiver escalando. Se o alvo for derrubado, ele sofre dano por queda de acordo com a sua Altura.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Tamanho: Grande",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você possui um tamanho mínimo de 3 m e é difícil para você se esconder com eficiência, além de ser mais fácil de atingi-lo. Sua Defesa Básica é 4 ao invés de 5 e você realiza testes para se esconder, mover em silêncio e se disfarçar como se fosse Inapto. Sua Força é considerada o dobro para calcular o dano de seus ataques corporais primários, ou metade disso para calcular seus ataques secundários.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Tamanho: Médio",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você tem entre 1 e 3 m. Este é o tamanho da maioria das criaturas e não possui modificadores especiais. Você tem uma defesa base 5.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Tamanho: Miúdo",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você possui um tamanho máximo de 50 cm, o que torna você extremamente difícil de perceber e atingir. Você pode rolar +2d6 quando fizer testes de para se esconder, mover em silêncio ou se camuflar e sua base de defesa é 8 ao invés de 5. Seus ataques corporais são sempre realizados com Agilidade ao invés de Força.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Tamanho: Pequeno",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você possui um tamanho máximo de 1 m, o que torna difícil lhe atingir ou detectar. Você pode rolar +1d6 quando fizer testes para se esconder, mover em silêncio ou se camuflar. Além disso, seu bônus automático de Defesa é 6 ao invés de 5.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Tamoko",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você ostenta uma tatuagem que o imbuí de um poderoso senso pessoal. Escolha um Atributo. Enquanto esta tatuagem estiver visível, você tem +1 naquele Atributo (essa escolha é feita quando você seleciona essa Habilidade e não pode ser mudada mais tarde). <br/>&emsp;Você só pode receber o beneficio dessa tatuagem uma vez.",
+      "es": "",
+      "re": "Tatuagem visível: Atributo +1",
+      "e": [
+        "atbx"
+      ]
+    },
+    {
+      "n": "Táticas de Batalha",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Discutindo táticas militares básicas com seus aliados ao longo de suas jornadas, você permite que eles fiquem mais bem preparados para entrarem em combate. Todos os seus aliados, incluindo você, recebem um bônus de +2 em seus testes de Iniciativa enquanto você estiver dentro do seu alcance de visão. Eles também recebem +2 na sua Defesa quando estiverem Surpresos ou Desprevenidos (esse bônus de Defesa pode ser tanto de Bloqueio quanto de Esquiva, à escolha do jogador que recebe o bônus), e podem utilizar suas Habilidades de Reação normalmente quando estiverem Cegos ou Distraídos.",
+      "es": "",
+      "re": "Grupo: Inic.+2 e Def+2 se Surpresos/Desprevenidos, no seu alcance de visão",
+      "e": [
+        "ini+",
+        2
+      ]
+    },
+    {
+      "n": "Táticas de Guerrilha",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você recebeu treinamento militar padrão dos Metadílios, e recebe +1 em todos os seus testes que envolvam armas de distância, rastreamento e armadilhas.",
+      "es": "",
+      "re": "Armas de distância, rastreamento e armadilhas +1",
+      "e": [
+        "mod",
+        0,
+        [],
+        [],
+        [],
+        [],
+        [
+          "C",
+          "M",
+          "L"
+        ],
+        1,
+        "Ataques à Distância são feitos com +1"
+      ]
+    },
+    {
+      "n": "Tatuador da Guilda",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você aprendeu a realizar tatuagens de forma eficiente e sabe fazer isso da forma mais indolor – ou dolorosa – que desejar. Você recebe +2 em seus testes para realizar tatuagens e quando fizer testes para detectar mentiras de um alvo Indefeso que você possa interrogar. O bônus de detectar mentiras aumenta para +1d6 caso você tenha acesso à ferramentas adequadas (instrumentos de escrita, de talha, de forja ou de costura).",
+      "es": "Esta Habilidade pode substituir o Antecedente Artesão/Artesã [Arte] como Requisito para o Caminho Tohunga.",
+      "re": "Tatuar e interrogar indefeso +2 (ou +1d6 com ferramentas adequadas)",
+      "e": []
+    },
+    {
+      "n": "Tatuar Efeito",
+      "c": "Característica",
+      "t": "Reação",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Tatuar Magia"
+        ]
+      ],
+      "d": "Quando conjurar sobre si mesmo uma Magia que tenha tatuado em sua pele, a conjuração é realizada como uma ação livre. Você não pode usar conjurar outras Magias em turnos em que utilizar esta Habilidade nem pode utilizar esta Habilidade em turnos que já tiver conjurado uma Magia.",
+      "es": "",
+      "re": "Conjura uma Magia tatuada sobre si mesmo como Ação Livre.",
+      "e": []
+    },
+    {
+      "n": "Tatuar Magia",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Detectar Magia"
+        ]
+      ],
+      "d": "Você é capaz de tatuar magias em sua pele, como se ela tivesse a característica Registro. Quando conjurar uma Magia registrada em sua pele, reduza a dificuldade daquela Magia em 1 e reduz seu Custo de Mana em 5. Em todos os outros aspectos, as regras referentes à magias lançadas a partir de um item com a característica registro se aplicam normalmente.",
+      "es": "",
+      "re": "Sua pele funciona como Registro, estas magias tem Dif-1 e Custo-5PM",
+      "e": []
+    },
+    {
+      "n": "Tatuar Objeto",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 5,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Tribal de Poder"
+        ]
+      ],
+      "d": "Você transformou um item em uma marca permanente em seu corpo, e é capaz de conjura-lo a partir dessa marca. Você funde o item escolhido à sua pele na forma de uma tatuagem. A tatuagem ocupa uma área equivalente ao tamanho natural do objeto – portanto é impossível fundir objetos maiores do que o personagem – e precisa estar toda à mostra para que o item possa ser conjurado. O objeto permanece conjurado por tanto tempo quanto o personagem quiser, mas se passar 1 dia sem contato direto com o personagem ou for destruído, ele volta a ser uma tatuagem. O custo dessa Habilidade deve ser pago quando o item é conjurado e quando for transformado em uma tatuagem (incluindo se ele for destruído ou ficar mais de um dia longe do personagem).",
+      "es": "",
+      "re": "Tatuagem armazena um item. Mana para retirar e guardar",
+      "e": []
+    },
+    {
+      "n": "Teia",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 15,
+      "df": -1,
+      "r": [],
+      "d": "Você dispara uma poderosa teia que se emaranha ao redor de um alvo que esteja à uma distância máxima igual à sua Força em metros. Um alvo atingido pela teia fica com Deslocamento reduzido à 0, todos os seus testes têm um redutor de -2 e o alvo não pode utilizar Habilidades de Ação ou Reação enquanto estiver preso dessa forma.<br/>&emsp;Para se soltar é preciso passar em um teste de Força (Dificuldade igual à sua Determinação) como uma ação de rodada completa. A teia se desfaz se sofrer dano igual à 5/Fogo ou 20/Corte (no total).<br/>&emsp;Finalmente, se um alvo estiver preso na sua teia, você pode realizar um teste de amarrar que, se for bem-sucedido, ao invés de causar dano, deixa o alvo preso em um casulo. Um alvo dentro de um casulo é considerado Indefeso. Um casulo se desfaz se sofrer dano igual à 5/Fogo ou 20/Corte (no total).",
+      "es": "",
+      "re": "Teia emaranha alvo até FORm: Dslc 0, -2 em testes, sem Ação e Reação",
+      "e": []
+    },
+    {
+      "n": "Teia",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você dispara uma substância pegajosa contra um alvo, grudando-o ao chão, paredes e objetos próximos. O alvo fica com Deslocamento 0 e sua Agilidade é reduzida em -2 enquanto estiver preso dessa forma. Para se soltar, ele (ou outro personagem) deve passar uma de turnos igual à sua Força cortando a teia (com uma arma que faça dano por corte), ou passar em um teste de Força (Dificuldade igual à sua Determinação).",
+      "es": "",
+      "re": "Teia prende alvo (Desl.0,Agi-2), corta por <a class='for'></a> turnos ou escapa com FOR[<a class='det'></a>]",
+      "e": []
+    },
+    {
+      "n": "Telecinésia",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 200,
+      "m": 10,
+      "df": -1,
+      "r": [],
+      "d": "Desenhando uma Runa Arcana entre você e um objeto ou criatura dentro de sua linha de visão, você pode mover o alvo através de uma energia mágica invisível. O alvo pode ser movido à vontade em qualquer direção, e até mesmo ser erguido no ar, mas apenas de forma lenta (1 metro por turno no máximo). A dificuldade será igual ao peso do alvo dividido por 5 (arredondado para baixo). Se estiver usando essa magia sobre si próprio, diminua a sua Vontade da Dificuldade final. A dificuldade mínima dessa magia será sempre 8, independente do peso do alvo ou da Vontade do Conjurador. <br/>&emsp;Essa Runa Arcana dura por tanto tempo quanto você estiver concentrado nela, mas se o alvo for uma criatura, ela pode cancelar os efeitos dessa Runa no início do seu turno se vencer um teste de Força com dificuldade igual à Determinação do conjurador.",
+      "es": "",
+      "re": "Move alvo. Dif:max(8,peso/5), Si próprio Dif-<a class='von'></a. Resistir FOR[<a class='det'>10</a>]",
+      "e": []
+    },
+    {
+      "n": "Teleportar Objeto",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 0,
+      "m": 20,
+      "df": 10,
+      "r": [],
+      "d": "Desenhando uma Runa Arcana sobre um objeto, você pode teleportá-lo para um local que conheça. O local de destino pode ser uma localização geográfica (“Sobre a escrivaninha do meu quarto”, por exemplo), um recipiente capaz de conter o objeto e que tenha sua Runa Pessoal gravada nele (“para dentro da minha mochila”) ou até um aliado (“para a mão do Guerreiro”). Se teleportar o objeto para dentro de um objeto marcado com sua Runa Pessoal ou para um aliado, você não precisa saber onde o local de destino está. O objeto afetado pode ter uma FN máxima igual à Inteligência do conjurador. <br/>&emsp;Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.",
+      "es": "",
+      "re": "Sobre item, teleporta com FN até <a class='int'></a> para lugar marcado ou imaginado",
+      "e": []
+    },
+    {
+      "n": "Teleporte 1",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 250,
+      "m": 30,
+      "df": 12,
+      "r": [
+        "h",
+        [
+          "Levitar"
+        ]
+      ],
+      "d": "Desenhando uma Runa Arcana sobre si mesmo enquanto fita um local você se teleporta de onde está para o ponto que está olhando. Você pode levar alguém com você se puder tocar o alvo e ele concordar (ou estiver inconsciente). Some +2 na dificuldade da magia para cada pessoa além de você. <br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.",
+      "es": "",
+      "re": "Teleporte para local em campo de visão, Dif+2 por acompanhante",
+      "e": []
+    },
+    {
+      "n": "Teleporte 2",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 550,
+      "m": 50,
+      "df": 14,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Teleporte 1"
+        ]
+      ],
+      "d": "Desenhando uma runa arcana sobre si mesmo enquanto se concentra em um local qualquer que já tenha visitado pelo menos uma vez, você se teleportar imediatamente para o local pretendido. Você pode levar alguém com você se puder tocar o alvo e ele concordar (ou estiver inconsciente). Some +2 na dificuldade da magia para cada pessoa além de você. <br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.",
+      "es": "",
+      "re": "Teleporte para lugar marcado ou imaginado, Dif+2 por acompanhante",
+      "e": []
+    },
+    {
+      "n": "Tempestade de Gelo",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 550,
+      "m": 40,
+      "df": 13,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Rajada de Gelo"
+        ]
+      ],
+      "d": "Desenhando uma runa Arcana sobre o solo você pode evocar uma tempestade de gelo em uma área circular de 10 metros de diâmetro que você possa ver. Uma chuva de pedaços finos e afiados de gelo cai sobre a área. Todos que estiverem na área escolhida sofrerão dano igual a <a class='cort'>10</a>/Corte + <a class='frio'>10</a>/Frio quando essa magia for lançada. A cada turno em começar dentro da área de efeito um personagem sofre dano igual a <a class='cort'>10</a>/Corte + <a class='frio'>10</a>/Frio e fica Enregelado por 1 rodada. <br/>&emsp;A Runa Arcana dura 1 rodada por ponto de Inteligência que você tiver, mas você pode dissipá-la a qualquer momento.",
+      "es": "",
+      "re": "Campo de visão, área de 10m: <a class='cort'>10</a>/Corte + <a class='frio'>10</a>/Frio enregela, <a class='int'></a> turnos",
+      "e": []
+    },
+    {
+      "n": "Tempestade de Lâminas",
+      "c": "Técnica",
+      "t": "Reação",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Golpes Rápidos"
+        ]
+      ],
+      "d": "Sempre que acertar um ataque corporal você pode fazer 1 ataque normal extra com a mesma arma. <br/>&emsp;Esse efeito só pode ser usado 1 vez por turno com cada arma que você estiver usando.",
+      "es": "",
+      "re": "Faça um ataque extra normal com a mesma arma",
+      "e": []
+    },
+    {
+      "n": "Tentáculos de Carcolh",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Carcolhs utilizam seus tentáculos para puxar suas vítimas para sua bocarra. Apesar de terem vários tentáculos, carcolhs são capazes de atacar de forma eficiente com apenas 5 deles a cada turno. Cada tentáculo faz seus ataques de forma independente, e pode ser atacado diretamente. Tentáculos têm a mesma esquiva do carcolh +2, e uma quantidade de Pontos de Vida iguais à 1/20 dos Pontos de Vida do carcolh (15 Pontos de Vida) e embora recebam o redutor de dano devido ao Tamanho Colossal da criatura, não recebem o multiplicador de dano. Sempre que uma criatura for atacada pelos tentáculos, ela deve fazer um teste para resistir à Veneno Paralisante. Se ficar paralisado, a vítima será trazida para a boca da criatura que irá, então, morder o alvo como uma ação livre.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Teólogo",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você é capaz de interpretar perfeitamente os significados por trás de magias místicas contidas em qualquer missal. Sempre que conseguir estudar uma Magia Mística contida em um item com a característica Registro, você será capaz de conjurar aquela Magia sem qualquer penalidade. Além disso, se você puder atender aos requisitos daquela Magia, você pode aprendê-la como se ela estivesse na lista de Habilidades da sua Classe.",
+      "es": "",
+      "re": "Aprende e conjura Magias Místicas sem penalidades, se cumprir requisitos",
+      "e": []
+    },
+    {
+      "n": "Teurgia",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "t",
+        "Saber falar Arkadis, Ctónico, Draen, Quoratus ou Track’kar’a"
+      ],
+      "d": "Você utiliza sua voz como um foco auxiliar quando conjura efeitos mágicos. Sempre que pronunciar palavras num idioma apropriado para sua prática de Magia, você recebe +2 no seu teste para conjurar aquela Magia. No entanto, sempre que não quiser (ou não puder) falar enquanto conjura, você fica sujeito a um redutor de -2 em seus testes para conjurar Magias.",
+      "es": "Não existe uma exigência para qual é o idioma mais adequado para cada prática de Magia mas, comumente Feiticeiros, Rúnicos e Dracomantes utilizam o Arkadis, Sacerdotes utilizam o Quoratus e Druidas utilizam o Draen. Necromantes não possuem ligação especial com nenhum idioma, mas aqueles que recorrem à Teurgia costumam utilizar o Ctónico. Leia a descrição dos Idiomas Exóticos para decidir qual deles seria mais adequado para o seu personagem.",
+      "re": "Recebe +2 para conjurar se puder falar enquanto conjura",
+      "e": []
+    },
+    {
+      "n": "Tipo: Artrópode",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Ao invés de um esqueleto interno, seu corpo é protegido por um exoesqueleto resistente que oferece excelente proteção. Você recebe um bônus de Defesa de Armadura dependendo do seu Tamanho. +1 se você for Miúdo, +2 se você for Pequeno, +4 se você for médio, +6 se você for Grande e +8 se você for Colossal. Essas placas também oferecem Redução de Dano igual à metade de seu bônus de Defesa (arredondado para cima). Além disso, por seu sangue ser extremamente espesso, você é imune a efeitos de Sangramento.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Tipo: Ave",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Seu corpo é coberto de penas leves que evitam que você afunde na água, recebendo +2 em seus testes de natação. Além disso, se você ficar sem Pontos de Mana durante um teste de natação, você fica sem forças para continuar nadando, mas não corre o risco de se afogar. No entanto, você só consegue mergulhar por, no máximo, um número de turnos igual à sua Força, sendo forçado à superfície depois disso. Finalmente, suas penas são altamente inflamáveis e você é Vulnerável ao Fogo.<br/>&emsp;Além disso, a maioria das aves possui a boca protegida por um bico, que usa como principal forma de ataque e defesa. Assim, se uma criatura do tipo Ave tiver um ataque de Bicada, considere que ela causa dano igual à Força +2/Corte e, se este for seu ataque primário, recebe +2 em seus testes para este ataque (exatamente como a Habilidade Bico).",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Tipo: Mamífero",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Mamíferos são considerados a base de comparação para os outros tipos de criaturas, e não recebem características especiais.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Tipo: Peixe",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você pode respirar e se locomover normalmente sob a água, mas não é capaz de se locomover em terra firme e quando ficar exposto ao ar, você começa a sufocar, e depois de um número de turnos igual à sua Força, perde 10 Pontos de Vida por turno. Além disso, você é incapaz de se locomover fora d’água, ficando com Agilidade 0.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Tipo: Réptil",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você é particularmente adaptado para climas quentes, e não recebe redutores por calor extremo desses ambientes. No entanto, você não é bem adaptado para climas frios, e recebe o dobro dos redutores por frio extremo, climas frios e efeitos de Enregelar – e estes duram o dobro de tempo. Além disso, sempre que sofrer dano por Frio, você fica Enregelado.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Tipo: Verme",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você não possui uma coluna vertebral, e seu sistema nervoso funciona de uma maneira completamente diferente dos outros tipos de criaturas vivas – o que se estende aos seus sentidos. Graças a isso você é imune a efeitos mentais e não é afetado por ilusões, não sofre dano extra por acertos decisivos ou ataques à áreas específicas e é imune a efeitos de sangramento.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Toque da Morte",
+      "c": "Característica",
+      "t": "Reação",
+      "ct": 0,
+      "m": 20,
+      "df": -1,
+      "r": [],
+      "d": "Com seu toque você pode absorver parte da energia espiritual de uma criatura viva. Quando tocar ou acertar um ataque desarmado contra uma criatura, você pode fazer alvo perder uma quantidade de Pontos de Vida iguais à sua Determinação. Você recupera uma quantidade de Pontos de Vida igual à quantidade de Pontos de Vida que o alvo perder.<br/>&emsp;Esse é um efeito de dreno de energia.",
+      "es": "",
+      "re": "Toque ou desarmado: Drena <a class='-vida'><a class='von'></a></a>PV, Dreno",
+      "e": []
+    },
+    {
+      "n": "Toque de Glycon",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 30,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Pacto da Ambição"
+        ]
+      ],
+      "d": "Com o seu toque, você transforma qualquer material com um peso em gramas igual a 100 vezes sua Vontade em outro material qualquer. O objeto permanecerá transformado por um número de dias igual à sua Vontade, quando, então, se tornará uma massa de lama fétida. Você só pode afetar um objeto com essa Habilidade uma vez, e Artefatos, itens mágicos ou marcados com uma Runa Arcana ou Selo Místico não podem ser afetados.",
+      "es": "",
+      "re": "Transmuta até 0.1kg*<a class='von'></a> de material em outro por <a class='von'></a> dias",
+      "e": []
+    },
+    {
+      "n": "Toque Místico",
+      "c": "Mística",
+      "t": "Ação",
+      "ct": 200,
+      "m": 20,
+      "df": 10,
+      "r": [],
+      "d": "Desenhando um Selo Místico sobre uma criatura viva você a infunde com inspiração momentânea. Se o alvo usar uma Habilidade com Custo de Mana igual ou menor a 30, ele não gasta nenhum Ponto de Mana. Essa magia não tem efeito em Habilidades com Custo de Mana maiores do que 30 e não pode ser usada sobre você mesmo. <br/>&emsp;Este Selo Místico dura até o final do próximo turno do alvo, mas se ele gastar Pontos de Mana antes disso, o Selo se dissipa imediatamente.",
+      "es": "",
+      "re": "Alvo pode usar uma Habilidade com custo de Mana<=30 gratuitamente",
+      "e": []
+    },
+    {
+      "n": "Touché",
+      "c": "Técnica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 10,
+      "df": -1,
+      "r": [],
+      "d": "Faça um ataque corporal com uma arma que estiver empunhando com apenas 1 mão, rolando +1d6 no teste.",
+      "es": "",
+      "re": "Ataque CaC com arma de uma mão +1d6",
+      "e": []
+    },
+    {
+      "n": "Toxicólogo",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Nigredo"
+        ]
+      ],
+      "d": "Você é um especialista na fabricação, aplicação e cura de venenos. Você recebe +1d6 em rolagens para produzir venenos e antídotos, e venenos produzidos por você tem sua dificuldade para serem resistidos aumentada em +4.",
+      "es": "",
+      "re": "Produz Venenos e Antídotos com +1d6, Dificuldade p/ resistir +4",
+      "e": []
+    },
+    {
+      "n": "Transferência Espiritual",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 250,
+      "m": 10,
+      "df": 10,
+      "r": [
+        "h",
+        [
+          "Contato com Espíritos"
+        ]
+      ],
+      "d": "Desenhando uma Runa Arcana sobre uma Sombra, você transfere a energia dela para outra criatura. A Sombra perde todos os seus Pontos de Mana e é imediatamente enviada para o Plano Espiritual. Você então transfere a energia retirada da Sombra para uma criatura que possa tocar, que imediatamente recupera aquela quantidade de Pontos de Mana.",
+      "es": "",
+      "re": "Consome Sombra, drenando seus PM para criatura que você tocar",
+      "e": []
+    },
+    {
+      "n": "Transpor",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Defesa Agressiva"
+        ]
+      ],
+      "d": "Você sabe encontrar os espaços deixados pelo escudo do adversário. Ignore sempre o bônus de Bloqueio da Defesa do oponente.",
+      "es": "",
+      "re": "Ignore sempre o bônus de Bloqueio da Defesa do oponente",
+      "e": []
+    },
+    {
+      "n": "Trapaceiro Impecável",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Eloquente"
+        ]
+      ],
+      "d": "Você está acostumado a enganar e mentir, e seu raciocínio se tornou tão condicionado a extrapolar situações rapidamente que até ler (ou mesmo dominar) sua mente é mais difícil! Sua Inteligência é considerada o dobro em Confrontos para tentar esconder ou dissimular a verdade e para calcular sua Determinação contra efeitos mentais – exceto os de medo.",
+      "es": "",
+      "re": "Considere sua INT como o dobro para mentir e resistir efeitos mentais",
+      "e": []
+    },
+    {
+      "n": "Travessia das Sombras",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 10,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Pacto da Escuridão"
+        ]
+      ],
+      "d": "Entrando em uma área de sombras grande os suficiente para cobrir você por completo e desenhando um Símbolo Profano no ar, você cria uma ligação entre aquela sombra e quaisquer outras sombras grandes o suficientes para conterem você a uma distância em quilômetros igual à sua Vontade. Você sabe o que há no interior dessas sombras e pode se transportar imediatamente para dentro de qualquer uma delas.<br/>&emsp;Esse Símbolo Profano se dissipa imediatamente depois que seus efeitos são desencadeados.",
+      "es": "",
+      "re": "Teleporta entre sombras até <a class='von'></a> km.",
+      "e": []
+    },
+    {
+      "n": "Travessia do Dragão do Fogo",
+      "c": "Mística",
+      "t": "Ação",
+      "ct": 250,
+      "m": 40,
+      "df": 13,
+      "r": [
+        "h",
+        [
+          "Aura do Dragão"
+        ]
+      ],
+      "d": "Desenhando um Selo Místico sobre uma chama com tamanho equivalente a uma fogueira de acampamento ou maior enquanto se concentra em um local que já tenha visitado pelo menos uma vez. A chama sobre a qual você conjurou a magia explode engolfando você e causando uma quantidade de dano igual à sua Determinação/Fogo em tudo e todos numa área de 3 metros de raio.<br/>&emsp;Você surge no local em que se concentrou com uma explosão flamejante que causa o mesmo dano.<br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+      "es": "",
+      "re": "Sobre fogueira, teleporte para lugar já visitado; Explode 3m DET/Fogo ambos",
+      "e": []
+    },
+    {
+      "n": "Tribal de Poder",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você tatuou um tribal que lhe confere resistência e tenacidade em combate. Enquanto esta tatuagem estiver visível, você tem +2 em suas rolagens de ataques corporais e não precisa estar usando armaduras ou armas para bloquear. Além disso, seus ataques desarmados causam +2 de dano. <br/>&emsp;Você só pode receber o beneficio dessa tatuagem uma vez.",
+      "es": "",
+      "re": "Ataque CaC +2, Dano desarmado +2, Bloqueio desarmado",
+      "e": [
+        "mod",
+        0,
+        [],
+        [],
+        [],
+        [],
+        [
+          "CaC"
+        ],
+        2,
+        "Ataques CaC são feitos com +2",
+        "mod",
+        1,
+        [],
+        [],
+        [
+          -1
+        ],
+        [],
+        [],
+        2,
+        "Ataques Desarmados causam dano +2"
+      ]
+    },
+    {
+      "n": "Tribal de Proteção",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você tatuou um tribal que lhe confere proteção física ou espiritual. Escolha entre Bloqueio, Esquiva ou Determinação. Enquanto esta tatuagem estiver visível, você tem +2 naquela defesa (essa escolha é feita quando você seleciona essa Habilidade e não pode ser mudada mais tarde). Você só pode receber o beneficio dessa tatuagem uma vez.",
+      "es": "",
+      "re": "Tatuagem Visível: Bloqueio, Esquiva ou Determinação +2, Fixo",
+      "e": [
+        "def!",
+        7,
+        2,
+        [],
+        "Bloqueio, Esquiva ou Determinação +2"
+      ]
+    },
+    {
+      "n": "Tromba de Elefante",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Elefantes utilizam sua tromba para manipular objetos e puxar comida para sua boca. A tromba de um elefante é extremamente flexível e hábil, e pode segurar objetos e criaturas de forma bastante eficiente.<br/>&emsp;A Tromba tem a mesma esquiva do elefante +4 (Esquiva 10), e uma quantidade de Pontos de Vida iguais à 1/5 dos Pontos de Vida do animal (32 PVs no caso do elefante cassíope, 28 PVs no caso do elefante ofidiano ) e recebe a Redução a Dano de Paquiderme, e embora possam realizar um teste de agarrar imediatamente quando acertam uma criatura em combate, não recebem o multiplicador de dano pelo tamanho Grande quando realizam a ação de Apertar.<br/>&emsp;Um elefante cuja tromba perca todos os Pontos de Vida morrerá de inanição em alguns dias.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Tromba de Yaazhi",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Yaazhis não possuem trombas tão flexíveis quanto as dos elefantes, e só usam elas para agarrar e apertar suas vítimas e puxar comida para sua boca.<br/>&emsp;A Tromba tem a esquiva do yaazhi +4 (11 para um jovem e 12 para um adulto), e uma quantidade de Pontos de Vida iguais à 1/5 dos Pontos de Vida do animal (60 PVs no caso de adultos e 16 PVs no caso de filhotes) e receberem a Redução de Dano de Paquiderme. Embora possam realizar um teste de agarrar imediatamente quando acertam uma criatura em combate, não recebem o multiplicador de dano pelo tamanho Grande usam a ação de Apertar.<br/>&emsp;Além disso, diferente dos elefantes, a tromba dos yaazhi regenera em alguns meses se perder todos os Pontos de Vida, e embora o animal tenha algum trabalho caçando, não morrerá de inanição.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Truque Sujo",
+      "c": "Técnica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 10,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Evasão"
+        ]
+      ],
+      "d": "Quando estiver em distância corporal do oponente e ele estiver te vendo, faça um Confronto de Inteligência contra o alvo. Se você tiver um resultado igual ou maior do que o do oponente nesse teste, você realiza um truque sujo (joga areia nos olhos do oponente, joga um pano em seu rosto, enrola uma corda em suas pernas, etc.) fazendo com que o alvo fique confuso ou desequilibrado, não podendo realizar nenhuma ação no próximo turno, e sendo considerado Desprevenido por 1 turno.",
+      "es": "",
+      "re": "INTxINT:alvo fica confuso ou desequilibrado, Desprevenido por 1 turno",
+      "e": []
+    },
+    {
+      "n": "Turbilhão",
+      "c": "Mística",
+      "t": "Ação",
+      "ct": 250,
+      "m": 25,
+      "df": 12,
+      "r": [
+        "h",
+        [
+          "Rajada de Água"
+        ]
+      ],
+      "d": "Desenhando um Selo Místico sobre você mesmo e em seguida realizando um rápido movimento circular com as mãos você dispara poderosas rajadas de água. Todas as criaturas a até 10 metros de você sofrem um dano igual à <a class='cont'>6</a>/Contusão e precisam vencer um teste de Força (Dificuldade igual à sua Determinação) para não serem arremessados um número de metros igual à sua Vontade e ficando caídos. <br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados e qualquer quantidade de água criada é permanente.",
+      "es": "",
+      "re": "Todos até 10m <a class='cont'>6</a>/Cont & FOR[<a class='det'></a>]:Caído",
+      "e": []
+    },
+    {
+      "n": "Ulfhednar",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "v",
+        4,
+        "h",
+        [
+          "Fúria Bestial"
+        ]
+      ],
+      "d": "O Lobo considerou você um guerreiro digno, e ele lhe imbuirá de sua selvageria quando você evocar a Fúria Bestial, desferindo ataques muito mais violentos. O bônus de Força de Fúria Bestial passa a ser +4 e seus ataques desarmados causam +2 de dano. Você não pode estar usando armadura ou escudos para que essa Habilidade tenha efeito – já que o Lobo despreza a defesa em detrimento do ataque.",
+      "es": "Se você tiver um Espírito Animal que não seja o Lobo, você não pode possuir esta Habilidade. Se você possuir esta Habilidade, você só pode escolher o Lobo como seu Espírito Animal.",
+      "re": "Fúria Bestial sem armadura ou escudo: FOR+4, dano desarmado +2",
+      "e": []
+    },
+    {
+      "n": "Um Bom Conselho 1",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 20,
+      "df": -1,
+      "r": [],
+      "d": "Você incentiva um aliado com palavras de encorajamento sobre as aptidões dele. Aquele aliado recebe +1 em todas as suas rolagens e Determinação +1 por 1 hora.",
+      "es": "",
+      "re": "Aliado recebe testes+1 e DET+1 por 1 hora",
+      "e": []
+    },
+    {
+      "n": "Um Bom Conselho 2",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 40,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Um Bom Conselho 1"
+        ]
+      ],
+      "d": "Você incentiva um aliado exultando suas capacidades de modo excepcional. Aquele aliado recebe +2 em todas as suas rolagens e Determinação +2 por 1 hora.",
+      "es": "",
+      "re": "Aliado recebe testes+2 e DET+2 por 1 hora",
+      "e": []
+    },
+    {
+      "n": "Valor da Vitória",
+      "c": "Característica",
+      "t": "Reação",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5
+      ],
+      "d": "Cada vez que você derrota um oponente (isso inclui se ele se render ou fugir após a batalha) você recupera 5 pontos de vida e 5 pontos de mana.",
+      "es": "",
+      "re": "Recupera 5PV e 5PM para cada oponente que derrotar",
+      "e": []
+    },
+    {
+      "n": "Vantagem Animal 1",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 10,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Forma Animal 1"
+        ]
+      ],
+      "d": "Você pode transformar uma pequena parte do seu corpo para que ela assuma uma característica animal, lhe conferindo uma Habilidade temporária. Você pode transformar seus olhos para captar mais luz como uma coruja, recebendo Visão no Escuro, tornar suas unhas em garras de um tigre e receber Garras ou modificar seu nariz para que se pareça com o de um lobo, recebendo Faro, por exemplo. Apenas pequenas modificações são possíveis, e as possibilidades devem ser discutidas com o Mestre. <br/>&emsp;Esse efeito dura 1 hora, mas você pode cancelá-lo quando quiser.",
+      "es": "",
+      "re": "Transforma pequena parte do corpo em animal por 1 hora",
+      "e": []
+    },
+    {
+      "n": "Vantagem Animal 2",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 20,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Vantagem Animal 1"
+        ]
+      ],
+      "d": "Você pode transformar uma parte do seu corpo para que ela assuma uma característica animal, lhe conferindo uma Habilidade temporária. Você pode transformar seus braços em asas de grifo, recebendo Asas Pesadas, transformar sua cabeça para a de um lobo atroz e receber Mordida Poderosa ou desenvolver guelras como as de um tubarão, recebendo Anfíbio, por exemplo. Quaisquer modificações são possíveis, mas as possibilidades devem ser discutidas com o Mestre. <br/>&emsp;Esse efeito dura 10 minutos, mas você pode cancelá-lo a qualquer momento.",
+      "es": "",
+      "re": "Transforma parte do corpo em animal por 10 minutos",
+      "e": []
+    },
+    {
+      "n": "Velocidade",
+      "c": "Mística",
+      "t": "Ação",
+      "ct": 250,
+      "m": 20,
+      "df": 11,
+      "r": [
+        "h",
+        [
+          "Caminhada Mágica"
+        ]
+      ],
+      "d": "Desenhando um Selo Místico sobre uma criatura viva você aumenta a velocidade dela, deixando-a com o dobro do Deslocamento e de ações. <br/>&emsp;Este Selo Místico se dissipa no final do próximo turno do alvo.",
+      "es": "",
+      "re": "Sobre Vivo, Dobra deslocamento e quant. de ações até o final de seu próximo turno",
+      "e": []
+    },
+    {
+      "n": "Velocista",
+      "c": "Característica",
+      "t": "Reação",
+      "ct": 0,
+      "m": 10,
+      "df": -1,
+      "r": [],
+      "d": "Você é capaz de correr muito mais do que seria possível para outras criaturas. Quando fizer uma ação de rodada completa para correr ou fazer um encontrão, adicione sua Agilidade ao seu Deslocamento (além dos multiplicadores normais por correr ou realizar um encontrão). Além disso, quando ativar este efeito como parte de uma ação de Encontrão, adicione +3 de dano (além de quaisquer outros modificadores pelo encontrão).",
+      "es": "Você não pode utilizar esta Habilidade se estiver utilizando uma armadura com a característica Pesada.",
+      "re": "Ao correr/encontrão (dano+3) +AGI ao dslc ao Correr/Encontrão",
+      "e": []
+    },
+    {
+      "n": "Venefício",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Herbalismo"
+        ]
+      ],
+      "d": "Você é um especialista na fabricação, aplicação e cura de venenos. Você pode produzir qualquer veneno ou antídoto avançado.",
+      "es": "Se você tiver alguma Habilidade do tipo Magia que cause dano por Perfuração ou Corte em um alvo, ela também aplicam um efeito de veneno potente (O alvo perde 5 Pontos de Vida por turno) além do dano normal. Esse veneno é considerado mágico e permanece ativo por uma quantidade de turnos igual à sua Vontade ou até ser curado.",
+      "re": "Faz Antídoto e Veneno Avançado; Magia Perf + Veneno Mágico 5PV por <a class='von'></a>t",
+      "e": []
+    },
+    {
+      "n": "Veneno de Aranha Gigante",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Aranhas gigantes aplicam um veneno que causa enrijecimento muscular agudo. Um alvo de sua mordida precisa fazer um teste de Força (dificuldade igual à Determinação da aranha). Se passar, o personagem fica Atordoado por 2 turnos. Se falhar, o alvo fica Distraído por 2 turnos. Aranhas anciãs tem um veneno mais potente, capaz de causar paralisia em um alvo. Um alvo da mordida de uma aranha gigante anciã precisa fazer um teste de Força (dificuldade igual à Determinação da aranha). Se passar, o personagem realiza todos os seus testes como se fosse Inapto por 2 turnos. Se falhar, o alvo fica Paralisado por 2 turnos.<br/>&emsp;Este é considerado um veneno natural.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Veneno de Decápode",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "O ferrão dos decápodes aplica um veneno que causa dor aguda. Um alvo atingido pelo ferrão precisa fazer um teste de Força (dificuldade 16). Se passar, o personagem fica Atordoado 2 turnos. Se falhar, o alvo fica Distraído por 2 turnos. Este é considerado um veneno natural.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Veneno de Escorpião Gigante",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Escorpiões gigantes aplicam um veneno que causa uma dor paralisante. Um alvo de sua mordida precisa fazer um teste de Força (dificuldade igual à Determinação do escorpião). Se passar, o personagem fica Distraído por 2 turnos. Se falhar, o alvo fica Paralisado por 1 turno e Distraído por 2 turnos depois disso.<br/>&emsp;Este é considerado um veneno natural.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Veneno de Escorpião Negro",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Escorpiões negros aplicam um veneno que causa paralisia muscular – podendo até mesmo fazer com que a vítima sofra um ataque cardíaco. O alvo deve fazer um teste de Força (dificuldade igual à Determinação do escorpião). Se passar no teste, o alvo perde imediatamente 10 Pontos de Vida e fica Atordoado por 1 turno. Se falhar, o alvo perde 40 Pontos de Vida e fica Atordoado por 2 turnos.<br/>&emsp;Esse veneno é considerado natural.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Veneno de Serpente",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Serpentes aplicam um veneno que causa necrose, sendo extremamente doloroso e, geralmente, fatal. O alvo precisa realizar um teste de Força (dificuldade 13). Se falhar, o alvo perde 5 Pontos de Vida imediatamente e mais 5 Pontos de Vida no começo de seu turno por 1 minuto. Se passar no teste, o alvo perde 5 Pontos de Vida imediatamente e mais 1 Ponto de Vida no começo do seu turno por 1 minuto. Além disso, as fortes dores fazem com que um personagem sob o efeito do veneno também fique Atordoado.<br/>&emsp;Esse veneno é considerado natural.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Veneno de Siba",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Sibas aplicam um veneno que causa narcose, podendo deixar criaturas pequenas (com um peso menor do que o da Siba) Indefesas por 1 hora. Contra criaturas maiores, o efeito é anestésico, mas nem de longe tão potente. Uma criatura com peso maior do que a siba precisa fazer um teste de Força (Dificuldade 10) ou ficará anestesiada, sendo considerada Distraída por 10 minutos.<br/>&emsp;Esse veneno pode ser extraído diretamente das glândulas do animal e concentrado – utilizando um processo de destilação com dificuldade 10. Essa versão concentrada do veneno, apesar de extremamente amargo, pode ser ingerida oralmente, e faz com que uma criatura de tamanho médio ou menor durma por 1 hora – uma criatura sob esse efeito só será acordada se perder Pontos de Vida. Se não for acordada nesse tempo, a criatura afetada por essa poção entrará em um sono natural por cerca de 8 horas. É comum que criaturas racionais afetadas por essa poção experimentem sonhos psicodélicos durante esse período de sono.<br/>&emsp;Esse veneno é considerado natural.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Veneno de Varano",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Varanos possuem uma mordida tóxica que transmite infecções. Qualquer criatura mordida pelo varano deve realizar um teste de Força (dificuldade 10) ou o ferimento desenvolve uma infecção – o personagem não consegue recuperar Pontos de Vida enquanto estiver infectado e deve fazer um teste de Força (dificuldade 10) a cada hora. Falha significa a perda de 1 Ponto de Vida, enquanto Falha Crítica indica a perda de 5 Pontos de Vida.<br/>&emsp;Este efeito é considerado um veneno natural, mas seus efeitos são semelhantes a uma infecção comum (Guia do Vilão, página 101) e pode ser tratado de forma semelhante. Criaturas imunes à doenças podem ser afetadas por esse efeito e resistência a veneno pode impedir a infecção mas não oferece bônus contra os seus efeitos.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Veneno de Vespa Imperial",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Vespas Imperiais aplicam um veneno que causa enrijecimento muscular. Um alvo de sua ferroada precisa fazer um teste de Força (dificuldade 10). Se passar, o personagem perde 1 Ponto de Vida imediatamente e perde mais 1 Ponto de Vida no começo do seu próximo turno, quando o veneno perde efeito. Se falhar, o alvo perde 1 Ponto de Vida imediatamente e perde mais 1 Ponto de Vida no começo do seus próximos 5 turnos.<br/>&emsp;Este é considerado um veneno natural.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Veneno de Víbora",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Víboras aplicam um veneno que causa paralisia muscular, sendo extremamente doloroso sendo fatal apenas contra criaturas pequenas, em geral. O alvo precisa realizar um teste de Força (dificuldade 13). Se falhar, o alvo perde 5 Pontos de Vida imediatamente e mais 2 Pontos de Vida no começo de seu turno por 1 minuto. Se passar no teste, o alvo perde 5 Pontos de Vida e o veneno perde o efeito.<br/>&emsp;Se o veneno for disparado, o alvo precisa realizar um teste de Agilidade (dificuldade 13). Se passar, o alvo não é atingido pelo veneno e não sofre efeitos negativos. Se falhar, o alvo perde 5 Pontos de Vida imediatamente e é considerado Cego por um minuto – se não for curado durante este tempo, a cegueira será permanente.<br/>&emsp;Esse veneno é considerado natural.",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Venenosa",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Sempre que causar dano com seus ataques naturais, o alvo precisa realizar um teste de Força (dificuldade 10). Se falhar, o alvo perde 2 pontos de vida por turno, por um minuto. Se passar no teste, o personagem perde apenas 2 Pontos de Vida imediatamente, e o veneno não surte mais efeitos. Esse veneno é considerado natural.",
+      "es": "",
+      "re": "Ataques + Veneno Natural: FOR(10) -2PV; -2PV por 1 minuto",
+      "e": []
+    },
+    {
+      "n": "Ver o Invisível",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você possui um sentido além da simples visão (geralmente um tato tão refinado que consegue perceber as variações de pressão do ar ou a vibração da terra) que lhe permite perceber todos os seus arredores com perfeição. Além de não precisar de iluminação para se localizar em um ambiente, você não é enganado por ilusões de nenhuma espécie, e consegue até mesmo perceber criaturas invisíveis. No entanto, criaturas intangíveis ou cores não são perceptíveis por esse sentido – mas seus outros sentidos podem perceber essas criaturas normalmente.",
+      "es": "",
+      "re": "Percebe ilusões e vê o invisível",
+      "e": []
+    },
+    {
+      "n": "Vetor de Pragas",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Rei dos Ratos"
+        ]
+      ],
+      "d": "Os roedores que o acompanham se tornaram vetores para a doença que você é capaz de transmitir, e em combate atacarão qualquer criatura que o ameace – embora façam isso com certa cautela, atacando e fugindo. No começo de cada um de seus turnos, cada criatura que tiver realizado ataques corporais contra você (tenham acertado ou não) será atacada por 1 rato, que além de dano pode infectar criatura com a mesma doença que sua mordida transmite (a dificuldade da contaminação será baseada na própria doença, não na sua Determinação).",
+      "es": "Se você tiver a Habilidade Infecção Grave, considere que todos os ratos que seguem você também possuem esta Habilidade.",
+      "re": "Roedores contra-atacam por você, transmitindo sua doença com a mordida",
+      "e": []
+    },
+    {
+      "n": "Vibração Sonífera",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 20,
+      "df": -1,
+      "r": [],
+      "d": "Todas as criaturas capazes de ouvir sons que estiverem a até 30 metros de você ficam sonolentas e devem vencer um teste de Vontade (Dificuldade igual à sua Determinação) para não caírem num sono profundo. Elas acordam depois de uma hora ou se sofrerem qualquer dano.<br/>&emsp;Este é um efeito mental.",
+      "es": "",
+      "re": "Mental, 30m VON(<a class='det'></a>) para não cair em sono por 1h",
+      "e": []
+    },
+    {
+      "n": "Vibrar os Ossos",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 0,
+      "m": 30,
+      "df": -3,
+      "r": [
+        "n",
+        10,
+        "h",
+        [
+          "Deflagrar Ossos"
+        ]
+      ],
+      "d": "Desenhando uma Runa Arcana entre você e uma criatura dentro de sua linha de visão, você faz com que os ossos do alvo vibrem violentamente sob seus músculos, fazendo o alvo perder 30 Pontos de Vida e fique Atordoado por uma quantidade de turnos igual à sua Inteligência. Se o alvo for um morto-vivo, ele sofre uma quantidade de dano adicional igual à sua Determinação.<br/>&emsp;Se o alvo ficar sem Pontos de Vida graças a esse efeito, seus ossos explodem através da carne, matando o alvo imediatamente e causando dano como descrito em Deflagrar Ossos.<br/>&emsp;Essa Runa Arcana se dissipa assim que seus efeitos forem desencadeados.",
+      "es": "",
+      "re": "Visão, -30PV (Morto-Vivo -<a class='det'></a>) e Atordoado INT t. 0PV? Deflagrar Ossos",
+      "e": []
+    },
+    {
+      "n": "Vigília",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você está sempre atento e preparado para qualquer coisa. Você rola +1d6 em seus testes de percepção e de iniciativa.",
+      "es": "",
+      "re": "Percepção e Iniciativa +1d6",
+      "e": [
+        "in+d",
+        1
+      ]
+    },
+    {
+      "n": "Vigor do Deserto",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você não só se adaptou como se fortaleceu no calor escaldante do deserto. Você é Imune ao Fogo e não precisa beber líquidos para se hidratar – você retira umidade suficiente dos alimentos e nunca precisa ingerir água.",
+      "es": "",
+      "re": "Você é Imune ao Fogo e não precisa beber líquidos para se hidratar",
+      "e": []
+    },
+    {
+      "n": "Vigor Necromântico",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Bloqueio Necromântico"
+        ]
+      ],
+      "d": "Você não possui órgãos internos funcionais, e é imune a efeitos de envelhecimento, efeitos de sangramento, morte instantânea, dano extra por acertos críticos ou golpes contra áreas vitais ou quaisquer efeito que envolvam afetar órgãos ou áreas vitais do corpo.<br/>&emsp;Além disso, você se torna imune a efeitos de desidratação e desnutrição, mas não se beneficia de efeitos de Elixires.",
+      "es": "Você passa a ser considerado um morto-vivo para todos os efeitos.",
+      "re": "Imune a envelhec, sangr, acerto crítico, alvo específico, fome e sede",
+      "e": []
+    },
+    {
+      "n": "Vigor Nórdico",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você nasceu em uma região gelada, e os rigores climáticos de Eishelm tornaram você vigoroso e resiliente. Você é Resistente à Frio e não é afetado nem por efeitos de climas gelados nem por efeitos provenientes de danos por Frio (como Enregelamento).",
+      "es": "",
+      "re": "Resistente a Frio e Enregelamento",
+      "e": []
+    },
+    {
+      "n": "Vínculo Dracônico",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você passou muito tempo lidando com nexos dracônicos e/ou com Dragões em pessoa e foi alterado pelas energias que eles emanam. Seus olhos se tornaram semelhantes aos de um dragão, e você consegue enxergar no escuro com perfeição. Além disso, você ignora efeitos de climas extremos e não é afetado por efeitos de envelhecimento.",
+      "es": "",
+      "re": "Enxerga no escuro, ignora climas extremos e é imune a envelhecimento",
+      "e": []
+    },
+    {
+      "n": "Virar o Jogo",
+      "c": "Técnica",
+      "t": "Reação",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Contra-Carga"
+        ]
+      ],
+      "d": "Se um oponente não for paralisado por sua Contra-Carga, você recebe um bônus de Defesa igual à sua Inteligência contra o ataque de encontrão (este é um bônus de esquiva ou bloqueio, à escolha do jogador). Além disso, se esse ataque de encontrão errar, você pode imediatamente utilizar Manter à Distância como uma Reação contra o oponente.",
+      "es": "",
+      "re": "Se Contra-Carga falhar, Def+<a class='int'></a> contra Encontrão; Defendeu? Manter a Distância",
+      "e": []
+    },
+    {
+      "n": "Virtuoso",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Mestre das Notas"
+        ]
+      ],
+      "d": "Você treinou exaustivamente até se tornar um mestre no uso de instrumentos musicais. Você rola +1d6 em todos os testes envolvendo tocar instrumentos musicais (incluindo Habilidades do tipo Música).",
+      "es": "",
+      "re": "Instrumentos Musicais +1d6",
+      "e": []
+    },
+    {
+      "n": "Virulência",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Pacto da Pestilência"
+        ]
+      ],
+      "d": "Sua presença diminui a imunidade das criaturas vivas ao redor. Todas as criaturas vivas a uma quantidade de metros igual à sua Determinação ao seu redor fazem seus testes para resistir a infecções e aos efeitos de doenças e venenos como se fossem Inaptas.",
+      "es": "",
+      "re": "Todos até <a class='det'></a>m fazem teste para resistir doenças como inaptas",
+      "e": []
+    },
+    {
+      "n": "Visão Auditiva",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Seus ouvidos são tão treinados e sensíveis que você não precisa usar seus olhos para se localizar. Você consegue perceber o tamanho e a localização aproximada dos objetos ao seu redor usando apenas a audição, e só é considerado cego se, além da sua visão, sua audição também for anulada de alguma forma. Quando estiver se guiando apenas pela audição você não é capaz de distinguir detalhes específicos (como cores, inscrições ou fisionomias). Você também pode rolar +1d6 quando fizer testes que envolvam a audição.",
+      "es": "",
+      "re": "Audição +1d6, Cego apenas se também Surdo",
+      "e": []
+    },
+    {
+      "n": "Visão de Nehemoth",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 40,
+      "df": -1,
+      "r": [
+        "n",
+        10,
+        "h",
+        [
+          "Pacto da Escuridão"
+        ]
+      ],
+      "d": "Desenhando um Símbolo Profano sobre uma criatura, você envia a percepção dela para o Grande Abismo em sua completa escuridão. O alvo deve fazer um teste de Vontade (dificuldade igual à sua Determinação). Se tiver sucesso, ele será considerado Cego até que possa olhar diretamente para o sol. Se falhar, será considerado Cego permanentemente.<br/>&emsp;Esse Símbolo Profano se dissipa imediatamente depois que seus efeitos são desencadeados.<br/>&emsp;Este efeito é considerado uma Maldição.",
+      "es": "",
+      "re": "Toque, VON(<a class='det'></a>) Cego até ver sol; ou Cego permanente; Maldição",
+      "e": []
+    },
+    {
+      "n": "Visão do Vazio",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 60,
+      "df": -1,
+      "r": [
+        "n",
+        10,
+        "h",
+        [
+          "Pacto da Loucura"
+        ]
+      ],
+      "d": "Tocando um alvo, você faz com que ele seja capaz de perceber o Vazio regido pelo Inominável por um breve momento. O alvo deve fazer um teste de Vontade (Dificuldade igual à sua Determinação). Se o alvo tiver sucesso, ele será considerado Amedrontado com relação a você por um número de turnos igual à sua Vontade. Se falhar no teste, o alvo ficará catatônico durante um número de turnos igual a sua Vontade, enquanto seus sentidos são enviados para o Vazio Inominável. O alvo é considerado Indefeso durante esse período, e quando o efeito terminar, ele estará horrorizado, incapaz de compreender as coisas que viu, com um redutor de -1 em sua Inteligência e Vontade por um número de dias igual à sua Vontade – e durante esse período, sempre que tentar dormir, terá pesadelos terríveis, devendo fazer um teste de Vontade (dificuldade igual à sua Determinação) para não acordar em pânico a cada hora de descanso – e sem recuperar PVs e PMs referentes ao descanso daquela hora.",
+      "es": "",
+      "re": "Toque, VON(<a class='det'></a>) Medo <a class='von'></a>t; Indefeso <a class='von'></a>t então INT-1 por <a class='von'></a> dias.",
+      "e": []
+    },
+    {
+      "n": "Visão Noturna",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você está acostumado a locais escuros e pode enxergar na completa escuridão.",
+      "es": "",
+      "re": "Enxerga normalmente no escuro",
+      "e": []
+    },
+    {
+      "n": "Visão Noturna",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você pode enxergar na completa escuridão, mas não é capaz de distinguir cores.",
+      "es": "",
+      "re": "Você pode enxergar na completa escuridão, mas não é capaz de distinguir cores",
+      "e": []
+    },
+    {
+      "n": "Visão Olfativa",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você possui um olfato extremamente apurado. Mesmo que não seja capaz de ver, você consegue perceber o tamanho e a localização aproximada dos objetos ao seu redor. Você só é considerado cego se, além da sua visão, seu olfato também for anulado de alguma forma. Quando estiver se localizando apenas pelo olfato, não consegue definir detalhes específicos (como cores, inscrições ou fisionomias). Além disso, você também rola +1d6 quando fizer testes que envolvam o sentido do olfato, e pode rastrear trilhas recentes – menos de 6 horas – usando este sentido.",
+      "es": "",
+      "re": "Olfato +1d6, Cego apenas se não puder sentir cheiros",
+      "e": []
+    },
+    {
+      "n": "Voador Exímio",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "f",
+        3
+      ],
+      "d": "Você praticou voos de longa duração, tendo passado muito tempo no ar, adquirindo uma resistência e habilidade incomum de voo. Você pode voar continuamente por até seis horas antes de precisar parar para descansar suas asas, e recebe Defesa +1 enquanto estiver voando (este é um Bônus de Esquiva).",
+      "es": "",
+      "re": "Pode voar por até 6 horas, Esquiva +1 enquanto voar",
+      "e": [
+        "def!",
+        2,
+        1,
+        [],
+        "Esquiva+1 em vôo"
+      ]
+    },
+    {
+      "n": "Vocalista",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Grito"
+        ]
+      ],
+      "d": "Você treinou sua voz para se tornar mais potente e límpida e sua dicção mais clara e segura. Você recebe +2 em todos os testes que envolvam a fala – como mentir, seduzir, barganhar ou cantar (incluindo Canções, mas não Melodias) – e na sua Determinação para determinar se os alvos de seus Gritos e Rugidos são afetados por seus efeitos. Além disso, seus Gritos e Rugidos têm a área de efeito dobrada.",
+      "es": "",
+      "re": "Fala/Social +2, Dobra área de Gritos e Rugidos",
+      "e": []
+    },
+    {
+      "n": "Vontade da Lei",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você possui uma mentalidade tão rigidamente ordeira que é muito difícil manipulá-lo ou fazê-lo mudar de idéia. Você recebe +2 em todos os testes e confrontos para resistir a tentativas de manipulação, intimidação, efeitos mentais e efeitos de medo. Além disso, você tem Determinação +2.",
+      "es": "",
+      "re": "Resistir efeitos Mentais e Medos +2, DET+2",
+      "e": [
+        "def+",
+        4,
+        2,
+        [],
+        "Determinação +2"
+      ]
+    },
+    {
+      "n": "Vontade de Ferro",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5
+      ],
+      "d": "Você não se entrega com facilidade e é muito difícil derrubar você em combate. Você tem +20 Pontos de vida.",
+      "es": "",
+      "re": "PV+20",
+      "e": [
+        "vida",
+        20
+      ]
+    },
+    {
+      "n": "Vontade Heróica",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5
+      ],
+      "d": "Sua determinação e auto-confiança são quase inabaláveis. Você tem Vontade +1.",
+      "es": "",
+      "re": "Vontade +1",
+      "e": [
+        "von+",
+        1
+      ]
+    },
+    {
+      "n": "Vontade Inabalável",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5
+      ],
+      "d": "Sempre que você for alvo de qualquer Habilidade que o fizer perder Pontos de Mana, você nega todos os efeitos daquela Habilidade, automaticamente. Além disso, você gasta 5 Pontos de Mana a menos para usar qualquer Habilidade – até um custo mínimo de 5 Pontos de Mana",
+      "es": "",
+      "re": "Imune a Habilidades que causem perda de Mana, Custo -5PM para Habilidades",
+      "e": [
+        "mod",
+        2,
+        [],
+        [],
+        [],
+        [],
+        [],
+        5,
+        "Habilidades consomem -5 Pontos de Mana"
+      ]
+    },
+    {
+      "n": "Vontade Sobrenatural",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você possui uma incrível resistência a efeitos sobrenaturais e influência mental. Você recebe +1d6 em todos os seus Confrontos contra criaturas dos tipos Amaldiçoado, Demônio, Espírito e Morto-vivo e em qualquer teste para resistir a qualquer efeito desse tipo de criatura. Além disso, você tem Determinação +2.",
+      "es": "",
+      "re": "Resistência contra criaturas sobrenaturais +1d6, DET+2",
+      "e": [
+        "def+",
+        4,
+        2,
+        [],
+        "Determinação +2"
+      ]
+    },
+    {
+      "n": "Voz de Comando 1",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 10,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Presença Inspiradora"
+        ]
+      ],
+      "d": "Você está acostumado a dar ordens – e ser obedecido! Você ordena um aliado a fazer uma ação, e ele imediatamente realiza aquela ação. O alvo pode resistir, se desejar, com um teste de Vontade (dificuldade igual à sua Determinação). Essa deve ser uma ação simples – o alvo não pode usar nenhuma Habilidade do tipo Ação quando realizá-la.",
+      "es": "",
+      "re": "VON[<a class='det'></a>]: Alvo obedece instrução simples",
+      "e": []
+    },
+    {
+      "n": "Voz de Comando 2",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 20,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Voz de Comando 1"
+        ]
+      ],
+      "d": "Suas ordens sempre são obedecidas com eficiência! Você ordena um aliado a fazer uma ação, e ele imediatamente realiza aquela ação com um bônus de +1d6. Se a ação for de movimento, o aliado não poderá ser alvo de Reações durante essa ação. O alvo pode resistir, se desejar, com um teste de Vontade (dificuldade igual à sua Determinação). Essa deve ser uma ação simples – o alvo não pode usar nenhuma Habilidade do tipo Ação quando realiza-la.",
+      "es": "",
+      "re": "VON[<a class='det'></a>]: Alvo obedece instrução simples com +1d6",
+      "e": []
+    },
+    {
+      "n": "Voz de Virzú",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 40,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Pacto da Tirania"
+        ]
+      ],
+      "d": "Você exerce a vontade de Virzú através de um comando contra uma criatura. Se a criatura for capaz de compreender o que você disse, ela precisa passar em um teste de Vontade (Dificuldade igual à sua Determinação) ou realiza o comando imediatamente. O comando deve poder ser realizado em apenas um turno e não pode ter mais do que uma palavra por ponto de Vontade que você tiver (“ataque o anão”, “deite no chão”, “corra para longe de mim”). Se o comando disser respeito a ações involuntárias do alvo ou se for contra seus Dogmas ou Códigos, o alvo é automaticamente bem sucedido no teste, mas apenas Sacerdotes de Denalla consideram a ordem “cometa suicídio” como uma quebra de votos, e qualquer outra criatura ordenada a isso fará um ataque corporal contra si mesmo como se estivesse Desprevenido.<br/>&emsp;Se um alvo falhar no teste, mas não for capaz – ou não compreender – a ordem, ele simplesmente fica confuso, não realizando nenhuma ação.<br/>&emsp;Este é um efeito mental.",
+      "es": "",
+      "re": "VON(<a class='det'></a>) ou obedece comando; Ignora se violar Código ou Dogma",
+      "e": []
+    },
+    {
+      "n": "Vulnerabilidade a Eletricidade",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você recebe o dobro de todo dano de Eletricidade.",
+      "es": "",
+      "re": "Você recebe o dobro de todo dano de Eletricidade",
+      "e": []
+    },
+    {
+      "n": "Vulnerabilidade ao Fogo",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você recebe a Condição Vulnerável ao Fogo .",
+      "es": "",
+      "re": ".",
+      "e": []
+    },
+    {
+      "n": "Whatwolf",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Sua capacidade de autocontrole se tornou tão eficiente que permite que aqueles ao seu redor a sintam de forma inconsciente. A dificuldade para seus testes para controlar seus instintos quando se transforma é reduzida em 5, e as criaturas ao seu redor não são capazes de perceber sua maldição quando você está em sua forma hibrida – elas o consideram um tanto estranho, talvez um Tailox grande demais ou um Gnoll esquisito. Nem mesmo Habilidades que afetem criaturas amaldiçoadas afetam você, e você é considerado um Humanoide do mesmo tipo que possuía antes de ser amaldiçoado.",
+      "es": "Esta Habilidade só funciona quando você está na sua forma hibrida. Quando está na sua forma natural, você ainda é considerado um Amaldiçoado e um Licantropo para todos os efeitos.",
+      "re": "Von(11) para controlar impulsos, e não é considerado Amaldiçoado na forma",
+      "e": []
+    },
+    {
+      "n": "Whenwolf",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Seu constante exercício de autoconhecimento e reflexão, somados à sua natureza observadora – e ampliados pelas longas horas de alongamento nas aulas de yoga – lhe deram uma capacidade excepcional de analisar seus oponentes e reagir a eles de modo extremamente eficiente. Você sempre consegue encontrar os melhores momentos para atacar, encontrando brechas na defesa de seus oponentes e também possui reflexos rápidos, impulsionados por músculos poderosos. Você tem Iniciativa +2, recebe +2 em todos os seus ataques corporais e pode somar sua Força na sua Esquiva, no lugar de sua Agilidade.<br/>&emsp;Você também pode converter quaisquer bônus de Bloqueio em Bônus de Esquiva (incluindo aqueles advindos de itens, como escudos).",
+      "es": "",
+      "re": "Ini+2, AtqC +2, Esquiva com FOR, Converte bônus de Bloqueio em Esquiva",
+      "e": []
+    },
+    {
+      "n": "Wherewolf",
+      "c": "Característica",
+      "t": "Reação",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        10,
+        "h",
+        [
+          "Whotwolf"
+        ]
+      ],
+      "d": "Um Filosofur nunca está atrasado, nem está adiantado, ele chega precisamente na hora em que deve chegar. Ou esses são os Magos…? Enfim! Sempre que se transformar na sua forma híbrida você pode desaparecer de onde está e reaparecer em um lugar onde já tenha se transformado (através de sua licantropia ou por qualquer outro meio, mesmo que a transformação tenha sido desencadeada por outra criatura).<br/>&emsp;Além disso, se alguma criatura que você já tenha identificado com Whowolf pronunciar seu nome em voz alta, você imediatamente recebe uma breve visão da criatura que pronunciou seu nome e de seus arredores, e recebe uma ideia geral do estado mental dela (se está com medo, com dor, se está tentando te atrair para uma armadilha…). Você pode imediatamente desaparecer de onde está e reaparecer diante desta criatura quando este efeito ocorrer.",
+      "es": "",
+      "re": "Teleporta para lugar que já se transformou, ou em frente a alvo de Whowolf*",
+      "e": []
+    },
+    {
+      "n": "Whowolf",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Whatwolf"
+        ]
+      ],
+      "d": "Sua jornada de autoconhecimento fez com que você se tornasse capaz de perceber a verdadeira natureza de qualquer criatura que encontre, não importando o quanto ela esteja bem disfarçada ou tenha sido capaz de esconder sua história. Sempre que fitar uma criatura, você sabe imediatamente o nome dela e se ela possui outras alcunhas, personalidades alternativas ou qualquer forma de alter-ego. Além disso, você sempre é capaz de saber se uma criatura está disfarçada, mesmo que através de magia ou se está transformada – e qual exatamente é a verdadeira natureza da criatura e como ela foi transformada e se pode ser revertida de volta – e você não é afetados por Ilusões de qualquer tipo (incluindo invisibilidade) nem pode ser afetado por elas, mesmo de forma benéfica.",
+      "es": "",
+      "re": "Reconhece disfarce, transformação, ilusão e invisível",
+      "e": []
+    },
+    {
+      "n": "Whywolf",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 10,
+      "df": -1,
+      "r": [
+        "n",
+        5
+      ],
+      "d": "Sua natureza inquisidora lhe garante uma capacidade de fazer com que outras criaturas que confrontam você precisem avaliar e explicar suas próprias decisões. Sempre que uma criatura lhe der uma resposta assertiva (ou seja, que não seja ela própria uma pergunta) para uma pergunta que você tenha feito, você pode perguntar porque, e a criatura precisa responder de forma absolutamente honesta – ela não pode responder com meias verdades ou criar alegorias, mas sim explicar o motivo da resposta da melhor forma que puder dentro de sua própria capacidade de expressão de forma honesta e, se possível, filosófica.",
+      "es": "",
+      "re": "Obriga alguém a responder o porquê de forma honesta",
+      "e": []
+    }
+  ]
+}

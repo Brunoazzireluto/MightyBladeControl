@@ -1,0 +1,209 @@
+{
+  "organizacao": [
+    {
+      "n": "Irmandade do Anel de Bronze",
+      "a": "Anel",
+      "h": [
+        "Barganha",
+        "Conhecimento Regional [Tebryn]",
+        "Contatos na Corte",
+        "Contatos no Crime",
+        "Contatos Políticos"
+      ],
+      "r": "Poderosa organização mercante",
+      "d": "&nbsp;&nbsp;<div class='la'>P</div>oderosa organização mercante sediada na cidade de Altéria. O Anel de Bronze tem uma história que remonta mais de 500 anos, tendo sido fundada como um guilda de caravaneiros especializada em atravessar as Terras Secas e fazer o transporte de bens entre Parband e Tebryn. Com o tempo, expandiu suas rotas comerciais para fazer com que o fluxo de produtos vindos de Parband chegasse a toda Tebryn, e logo se estabeleceu como uma guilda de mercadores respeitada. Cerca de 140 anos atrás, a guilda mudou seu nome para Irmandade do Anel de Bronze, e estabeleceu sua sede oficial em Altéria, passando a concentrar a maioria de suas rotas comerciais na parte oeste de Tebryn. A estratégia da Irmandade era se aproveitar do fim das escaramuças entre Tebryn e Arkânia e desenvolver rotas comerciais em uma área que era abastecida, até então, apenas por caravanas militares. A estratégia rendeu frutos, e a Irmandade é hoje, sem dúvida, a maior e mais respeitada guilda de mercadores de Tebryn, estendendo sua atuação até Parband, Dagothar e Londérien.",
+      "l": "Lars Finnigan (Humano Ladino 8)",
+      "s": "Altéria",
+      "ig": "Indicação por um membro e aprovação de outros dois.",
+      "i": "org_anel.png"
+    },
+    {
+      "n": "Espada de Mirah",
+      "a": "Espada",
+      "h": [
+        "Arma da Ordem",
+        "Código da Honestidade",
+        "Código da Justiça",
+        "Conhecimento Regional [Tebryn]",
+        "Dogma: Discípulo da Justiça",
+        "Justiça Final 1",
+        "Justiça Final 2"
+      ],
+      "r": "Ordem formada pelos mais íntegros e devotos guerreiros",
+      "d": "&nbsp;&nbsp;<div class='la'>F</div>undada há mais de mil anos pelo então Regente de Tebryn, Jorand Strauss, a ordem ajudou a estabelecer as fundações do reino pelo exemplo. De acordo com as crônicas da ordem, a própria Mirah apareceu diante de Jorand quando, um dia antes de ser coroado Rei, ele teria rezado à divindade por força e sabedoria para guiar o reino. Mirah teria tocado a espada carregada por Jorand, concedendo-lhe poderes divinos, e como sua primeira ação como Rei, Jorand concedendo o grau de Cavaleiro para seus mais leais guardas, que se tornaram os primeiros Paladinos da Ordem. Se a aparição de Mirah diante de Jorand é verdadeira ou não, o fato inegável é que sua espada apresenta qualidades divinas, tornando seu portador imune a todos os efeitos mentais e efeitos de medo e permitindo que ele veja através de ilusões, incluindo invisibilidade de todos os tipos. A espada também impede que qualquer um que a esteja tocando diga qualquer coisa além da verdade absoluta – o que a torna particularmente útil durante os julgamentos presididos pela Ordem.",
+      "l": "Nove Juízes, entre eles Nina van Strauss (Humana Paladina Cruzada 17)",
+      "s": "?",
+      "ig": "Período como escudeiro, seguido de uma sabatina perante os juízes.",
+      "i": "org_espada.png"
+    },
+    {
+      "n": "Forjas de Hou",
+      "a": "Forjas",
+      "h": [
+        "Arte da Forja 1",
+        "Arte da Forja 2",
+        "Arte da Forja 3",
+        "Forjado à Fogo"
+      ],
+      "r": "A mais importante guilda de ferreiros de Tebryn",
+      "d": "&nbsp;&nbsp;<div class='la'>F</div>undada em Tebrynia pelo Rei Kirk van Strauss como parte da revitalização da cidade, o Rei de Ferro concedeu benefícios para os artesãos que quisessem estabelecer suas oficinas em uma das áreas mais pobres de Tebrynia na época. Em pouco tempo vários artesãos haviam criado suas oficinas na região, e uma grande maioria dessas oficinas eram forjas de Anões vindos de Stord e Forjaguardas. Esses ferreiros rapidamente se integraram formando uma guilda de ferreiros, e adotaram, eventualmente, o nome do deus patrono dos ferreiros para nomear sua guilda. O próprio nome do bairro onde hoje a guilda se instala se deve ao fato do primeiro grande contrato da guilda ter sido a fabricação de espadas para a guarda de Tebryn.",
+      "l": "Noa Abir (Fira Senescal 7)",
+      "s": "Tebrynia",
+      "ig": "Demonstração de habilidade",
+      "i": "org_forja.png"
+    },
+    {
+      "n": "Íris de Maltas",
+      "a": "Íris",
+      "h": [
+        "Alquimista de Campo",
+        "Alquimista de Combate",
+        "Herbalismo",
+        "Sabedoria Selvagem"
+      ],
+      "r": "Formada pela elite alquimista de Lonjágua",
+      "d": "&nbsp;&nbsp;<div class='la'>E</div>sta guilda, que reverencia o brilhantismo de seu patrono, Maltas, foi formada pela elite alquimista de Lonjágua. A guilda é relativamente recente, tendo menos de 50 anos, e está em franco crescimento, com sedes estabelecidas em Tebrynia, Ambrook e Braktar. A guilda é especializada em desenvolver novas poções, pesquisar materiais e identificar plantas e minerais com qualidades alquímicas, além de catalogar animais com qualidades incomuns. De fato, a maioria dos membros possui algum conhecimento de sobrevivência e experiência em exploração, e embora o uniforme da guilda seja uma túnica negra com um olho prateado estampado no peito – simbolizando o olho de Maltas que está sempre atento aos detalhes – a maioria dos membros prefere roupas mais confortáveis e práticas, exibindo apenas um broche de prata no formato de um olho como identificação do grupo, reservando o uso da túnica tradicional apenas para encontros formais da guilda ou para eventos sociais.",
+      "l": "Não identificado",
+      "s": "Tebrynia, Ambrook e Braktar",
+      "ig": "Habitante de Tebryn sem ofensas registradas contra o governo",
+      "i": "org_iris.png"
+    },
+    {
+      "n": "O Arpão",
+      "a": "Arpão",
+      "h": [
+        "Contatos no Crime",
+        "Durão",
+        "Intimidar",
+        "Pernas do Mar"
+      ],
+      "r": "O maior grupo de navegadores ribeirinhos de Tebryn",
+      "d": "&nbsp;&nbsp;<div class='la'>A</div>pesar de não estar centralizados em Lonjágua, sua primeira sede fica na cidade, e ainda é a maior e mais importante de todas, onde os líderes do grupo se reúnem de tempos em tempos para discutir negócios. Existem muitos rumores sobre a organização ser formada por ladrões e traficantes que usam os rios para traficar todo tipo de item ilegal usando barcos de pesca, mas na verdade o grupo é basicamente uma guilda de mercadores.",
+      "l": "Não identificado",
+      "s": "Lonjágua",
+      "ig": "Não mencionado",
+      "i": "org_arpao.png"
+    },
+    {
+      "n": "Capuzes Negros",
+      "a": "Capuzes",
+      "h": [
+        "Cartografia",
+        "Contatos no Crime",
+        "Contatos Políticos",
+        "Mestre Domador"
+      ],
+      "r": "Guilda navegadora do Submundo",
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>s Capuzes Negros são uma guilda do Submundo especializada na exploração e mapeamento das vastas áreas de túneis sob Tebrynia. Muitos deles também catalogam as criaturas encontradas nessas áreas, e muitos deles especializaram-se em treinar essas criaturas (quando possível) para auxiliar a exploração ou para servirem de guarda nas entradas conhecidas. De fato, como conhecem a maioria das rotas através do Submundo, os Capuzes Negros também são os responsáveis por manterem as rotas mais bem conhecidas, incluindo a manutenção da grande maioria dos estabelecimentos de fachada que servem para esconder estes acessos. Graças a isso, é muito comum que aqueles indivíduos interessados em entrar no Submundo precisem lidar com os Capuzes Negros – e eles são reconhecidos como o seu “comitê de boas-vindas”. Eles também são responsáveis por lidarem com a guarda local, pagando propinas – ou recolhendo as mesmas, em muitos casos – para que a tensão entre a cidade acima e abaixo da superfície se mantenha mais ou menos sob controle.",
+      "l": "Não identificado",
+      "s": "Tebrynia",
+      "ig": "Demonstração de habilidade",
+      "i": "org_capuz.png"
+    },
+    {
+      "n": "Cesto de Adagas",
+      "a": "Cesto",
+      "h": [
+        "Contatos no Crime",
+        "Eloquente",
+        "Falsificador",
+        "Furtivo",
+        "Trapaceiro Impecável"
+      ],
+      "r": "Guilda de ladrões e contrabandistas",
+      "d": "&nbsp;&nbsp;<div class='la'>O</div> Cesto de Adagas é uma guilda de ladrões e contrabandistas que mantém o Submundo muito bem abastecidos de toda sorte de bens. A guilda mantém uma ampla rede de batedores de carteiras e assaltantes, mas também tem contato com diversos artesãos ao longo de Tebrynia – tanto na superfície quanto no Sumbmundo – capazes de produzir, modificar ou destruir itens com rapidez e eficiência.<br/>&emsp;<div class='lb'>M</div>uitos membros menos escrupulosos de outras organizações reconhecidas – como a Iris de Maltas e as Forjas de Hou – mantem contato com o Cesto de Adagas, abastecendo a Guilda com poções (principalmente venenos) ou prestando serviços diversos – como reformar itens danificados ou removendo brasões de organizações conhecidas por engastar suas armas e armaduras com eles. De fato, o Cesto de Adagas pode até mesmo providenciar versões falsas destes mesmos itens caso alguém queira pagar por eles – e algumas vezes podem até mesmo ter itens legítimos desse tipo em estoque!",
+      "l": "Não identificado",
+      "s": "Tebrynia",
+      "ig": "Não mencionado",
+      "i": "org_cesto.png"
+    },
+    {
+      "n": "Corvos Negros",
+      "a": "Corvos",
+      "h": [
+        "Aura Congelante",
+        "Barreira de Gelo",
+        "Frio Intenso",
+        "Armadura de Gelo",
+        "Sopro Gélido"
+      ],
+      "r": "Conjuradores de escolta que vestem negro",
+      "d": "&nbsp;&nbsp;<div class='la'>A</div> Companhia de Vinhos e Hidroméis Corvo Negro era, originalmente, uma pequena fabricante e distribuidora de bebidas fermentadas de Miralda, cerca de 80 anos atrás. Seus fundadores, um grupo de Feiticeiros e alquimistas da região empregavam magias de frio para melhorar o processo de fabricação de suas bebidas e também para transportar com mais eficiência seus produtos. Eventualmente seu sistema de transporte começou a interessar outros comerciantes de bebidas e alimentos ao redor de Miralda, e como os Corvos Negros utilizavam algumas magias que os próprios fundadores do grupo haviam desenvolvido e não estavam nas bibliotecas da Academia Argêntea, está passou a contratar os serviços da companhia para fazer o transporte de seus produtos também. Com o tempo – e graças à sua eficiência – a companhia cresceu consideravelmente e se tornou a maior guilda de transporte de alimentos de Tebryn. Sua tradição de empregar magias de frio para o transporte de cargas fez com que muitos conjuradores se juntassem ao grupo, o que providenciava também uma excelente segurança para as rotas dos Corvos Negros. A idéia de utilizar conjuradores como escoltas não passou despercebida aos caravaneiros de Miralda, e eventualmente os Corvos Negros passaram a emprestar seus conjuradores para outros grupos comerciais e caravanas como escolta, o que acabou se tornado a parte mais conhecida.",
+      "l": "Brunn Fracta (Humano Feiticeiro 7)",
+      "s": "Miralda",
+      "ig": "Ser um conjurador arcano e seis meses de serviço probatório",
+      "i": "org_corvo.png"
+    },
+    {
+      "n": "Crânios Vermelhos",
+      "a": "Crânios",
+      "h": [
+        "Contatos no Crime",
+        "Crânio Vermelho",
+        "Mandíbula Vermelha",
+        "Presas Vermelhas",
+        "Tatuador da Guilda"
+      ],
+      "r": "Assassinos e &quot;seguranças&quot; do submundo",
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>s Crânios Vermelhos são responsáveis pela “segurança” do Submundo – geralmente eliminando aqueles indivíduos indesejados, como seria de se esperar de uma guilda de assassinos.<br/>&emsp;<div class='lb'>A</div>lém de fornecer proteção para os Suburbanos – recebendo até mesmo uma contribuição das outras guildas do Submundo – os Crânios Vermelhos também agem no Anel Externo de Tebrynia, cobrando por “proteção” de alguns estabelecimentos dali – embora isso seja mais para lembrar os habitantes da superfície que a guilda está em atividade e observando, e menos para realmente captar dinheiro. De fato, muitas vezes a guilda cobra na forma de informações sobre pessoas influentes na região, mesmo que não sejam realmente alvos de nenhum contrato da Guilda, mas sim para manter uma certa tensão com relação ao trabalho de eliminação que realizam.",
+      "l": "Desconhecido",
+      "s": "Tebrynia",
+      "ig": "Combate, tortura e tatuagem",
+      "i": "org_cranio.png"
+    },
+    {
+      "n": "Lobos dos Mares",
+      "a": "Lobo",
+      "h": [
+        "Investida Acrobática",
+        "Lobo do Mar",
+        "Lutar no Convés",
+        "Navegador",
+        "Pernas do Mar"
+      ],
+      "r": "Grupo de marinheiros caçadores de piratas",
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>s Lobos dos Mares são um grupo de marinheiros fundado há pouco mais de 130 anos quando os corsários do Mar do Comércio decidiram juntar seus esforços e livrar a costa de Tebryn dos piratas que infestavam as águas da região. Liderados por Armod Ulfloth, um navegador Aesir cujo navio foi saqueado e teve sua tripulação assassinada por um grupo de piratas. Armod se juntou a um navio corsário, e rapidamente assumiu o posto de Capitão, criando uma campanha para unir os navios corsários do Mar do Comércio com o intuito de acabar com a pirataria. Adieren e Kerrck, duas das cidades que mais sofriam com ataques piratas passaram a patrocinar Armod, e em pouco tempo o Capitão Aesir tinha reunido um considerável número de navios corsários sob sua bandeira. Esses navios passaram a perseguir ferozmente qualquer navio pirata que encontrassem, geralmente passando a tripulação no fio da espada e queimando os navios. Sua fama se espalhou, e o grupo passou a ser conhecido como Lobos dos Mares.",
+      "l": "Não possui",
+      "s": "Navio Lobo de Guerra, atracado no extremo do porto de Adieren",
+      "ig": "Não mencionado",
+      "i": "org_lobo.png"
+    },
+    {
+      "n": "Hoste de Hadorn",
+      "a": "Hoste",
+      "h": [
+        "Ataque Simultâneo",
+        "Código da Coragem",
+        "Combate em Grupo",
+        "Conhecimento Regional [Tebryn]",
+        "Dogma:Discípulo da Guerra",
+        "Égide",
+        "Médico de Campo",
+        "Militar"
+      ],
+      "r": "O exército oficial de Tebryn",
+      "d": "&nbsp;&nbsp;<div class='la'>S</div>ua história é bem mais antiga do que a do reino que ela serve, mas extremamente conturbada, tendo passado por uma quantidade tão grande de reformulações que muitos, dentro e fora da organização, dizem que de sua origem até hoje, a única parte intacta é seu nome. Como qualquer membro da Hoste lhe dirá, no entanto, que há uma parte muito mais essencial que permanece totalmente inalterada: A devoção pela divindade que dá nome à Ordem. Cabe à Hoste a manutenção das fronteiras de Tebryn – principalmente na região dos vales, onde a presença arkanita ainda é sentida – e a manutenção da lei dentro do reino. Os membros da Hoste são empregados como guardas, soldados e vigias em praticamente todo o reino, embora a maioria da guarda de nobres e da capital seja de responsabilidade da Ordem da Espada de Mirah. Apesar dos membros da Ordem serem, principalmente, soldados com foco em combate e táticas militares, os escalões mais altos são sempre preenchidos por indivíduos que demonstram um amplo conhecimento de história, uma crença inabalável nos dogmas de Hadorn e um apurado senso de patriotismo.",
+      "l": "General Fengran Rosevox (Humano Sacerdote Cruzado 10)",
+      "s": "?",
+      "ig": "Treinamento, seguido de alistamento",
+      "i": "org_hoste.png"
+    },
+    {
+      "n": "Guarda das Fronteiras Rochosas",
+      "a": "Guarda",
+      "h": [
+        "Caçador das Cordilheiras",
+        "Estabilidade",
+        "Furtivo",
+        "Matador das Cordilheiras",
+        "Nascido nas Montanhas"
+      ],
+      "r": "Organização de Stord que protege as cordilheiras",
+      "d": "&nbsp;&nbsp;<div class='la'>A</div> Guarda é quase tão antiga quanto Stord, já que a criação de uma ordem militar capaz de manter as galerias de Stord ivres de ameaças era uma das prioridades dos novos colonos. Logo que as ruínas de Stord foram redescobertas cerca de mil e seiscentos anos atrás, pequenos grupos de Anões, Humanos e Mahoks relativamente organizados – mas completamente decentralizados – mantinham porções das galerias defendidas de forma mais ou menos independentes. Com o tempo, esses pequenos grupos foram trocando informações sobre as partes das galerias que cada um guardava e sobre possíveis perigos encontrados ali. Essas informações eram extremamente úteis para os novos colonos, que podiam decidir onde e quais reformas eram mais ou menos urgentes, e tornou-se óbvio que era necessário centralizar as informações obtidas por esses grupos. Além do patrulhamento das Terras Secas e das Cordilheiras dos Cristais, a Guarda hoje é responsável, junto com os Firas de Parband, de realizar a guarnição de caravanas que atravessam a Cordilheira dos Cristais. Além disso, algumas tropas da Guarda são responsáveis pela vigilância das estradas entre Stord e o Forte da Avalanche, Tebrynia e Forjaguardas. Uma guarda de honra da Ordem também é mantida em Tebrynia a serviço direto do Rei, e embora sua função seja apenas honorífica, eles geralmente são consultados e auxiliam na organização de qualquer atividade que envolva o subterrâneo da capital.",
+      "l": "Ingvi Steinfinga (Anã Guerreira 10)",
+      "s": "Stord",
+      "ig": "Treinamento, seguido de alistamento",
+      "i": "org_guarda.png"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+---
+config:
+  theme: neo-dark
+---
+erDiagram
+    %% --- CORE USER ---
+    User ||--o{ Character : "controla"
+
+    %% O Usuário do Django (Autenticação)
+    User {
+        string username
+        string email
+        string password_hash
+        bool is_active
+        date date_joined
+    }
+
+    %% --- DADOS ESTATICOS: RAÇA & CLASSE ---
+    Race {
+        int id PK
+        string name "De 'n'"
+        text description "De 'd'"
+        string slug
+        int initial_str
+        int initial_agi
+        int initial_int
+        int initial_wil
+    }
+    
+    RaceLore {
+        int id PK
+        int race_id FK
+        text naming_rules_html "HTML complexo de nomes.json"
+        text male_names "Lista extraída"
+        text female_names "Lista extraída"
+    }
+
+    CharacterClass {
+        int id PK
+        string name
+        text description
+        string slug
+        int bonus_str
+        int bonus_agi
+        int bonus_int
+        int bonus_wil
+    }
+
+    Background {
+        int id PK
+        string name
+        text description
+        string benefit_text
+    }
+
+    %% --- CORE: HABILIDADES & MAGIAS ---
+    Ability {
+        int id PK
+        string name
+        text description
+        string category "Geral, Magia, Classe, Racial"
+        int mana_cost
+        int difficulty
+        string casting_time
+        string range
+        string requirements_text 
+    }
+
+    %% Tabelas de Ligação (Regras)
+    ClassAvailableAbility {
+        int class_id FK
+        int ability_id FK
+    }
+    RaceInnateAbility {
+        int race_id FK
+        int ability_id FK
+    }
+
+    %% --- LINGUISTICA ---
+    Language {
+        int id PK
+        string name "De idiomasComuns/Exoticos"
+        text description
+        string speakers "Povos que falam"
+        bool is_exotic "Flag para diferenciar arquivos"
+        string script "Alfabeto usado"
+    }
+
+    %% --- BESTIÁRIO & COMPANHEIROS ---
+    Creature {
+        int id PK
+        string name "De animais.json -> n"
+        string creature_type "Besta, Ave, Réptil"
+        string size "Pequeno, Médio..."
+        int strength "a[0]"
+        int agility "a[1]"
+        int intelligence "a[2]"
+        int will "a[3]"
+        int hp "v (vida)"
+        int mana "m (mana)"
+        int defense "d (defesa)"
+        jsonb attacks_data "Matriz 'at' complexa"
+        jsonb abilities_data "Matriz 'h' e 'ha'"
+    }
+
+    SpiritAnimal {
+        int id PK
+        string name "De espiritosAnimais.json"
+    }
+
+    CharacterCompanion {
+        int id PK
+        int character_id FK
+        int creature_id FK
+        string custom_name "Nome dado pelo jogador"
+        int current_hp
+        text notes
+    }
+
+    %% --- PERSONAGEM (FICHA) ---
+    %% A "Mochila" começa aqui: Dinheiro e Capacidade de Carga
+    Character {
+        int id PK
+        int user_id FK
+        string name
+        TextField biography
+        TextField appearance
+        TextField personality
+        int level
+        int xp
+        int race_id FK
+        int class_id FK
+        int background_id FK
+        int strength
+        int agility
+        int intelligence
+        int will
+        int hp_max
+        int hp_current
+        int mana_max
+        int mana_current
+        %% ECONOMIA (A Carteira)
+        int coin_copper "Moedas de Cobre (C$)"
+        int coin_silver "Moedas de Prata (P$)"
+        int coin_gold "Moedas de Ouro (O$)"
+        
+        %% SISTEMA DE CARGA
+        float extra_carry_capacity "Bônus (ex: Mochila de Carga)"
+        float max_load_calculated "Campo virtual (Força x 7 + Extra)"
+        float current_load_calculated "Soma do peso de CharacterItem"
+    }
+
+    %% --- A TABELA PIVÔ (O SLOT DA MOCHILA) ---
+    %% É aqui que a mágica acontece. Liga o char ao item e aplica modificadores.
+    CharacterItem {
+        int id PK
+        int character_id FK
+        int item_id FK
+        
+        %% Customização do Item Específico
+        int material_id FK "Opcional (Ex: Aço, Madeira)"
+        int quality_id FK "Opcional (Ex: Obra-Prima)"
+        
+        int quantity "Quantidade (ex: 10 tochas)"
+        bool is_equipped "Está empunhando/vestindo?"
+        
+        %% Campos Virtuais (Properties no Django)
+        float final_weight "((Item.weight * Mat.weight_mult) * quantity)"
+        int final_price "((Item.price * Mat.price_mult) * Qual.price_mult)"
+    }
+
+    %% Relacionamentos do Personagem
+    Character }o--|| Race : "é"
+    Race ||--|| RaceLore : "possui_regras_de"
+    Character }o--|| CharacterClass : "treina"
+    Character }o--|| Background : "origem"
+    
+    %% Skills
+    CharacterAbility {
+        int id PK
+        int character_id FK
+        int ability_id FK
+        string notes
+    }
+    Character ||--o{ CharacterAbility : "aprendeu"
+    Ability ||--o{ CharacterAbility : "define"
+
+    %% Idiomas
+    CharacterLanguage {
+        int character_id FK
+        int language_id FK
+    }
+    Character ||--o{ CharacterLanguage : "fala"
+    Language ||--o{ CharacterLanguage : "é_falado"
+
+    %% Companheiros
+    Character ||--o{ CharacterCompanion : "adestrou"
+    Creature ||--o{ CharacterCompanion : "espécie_base"
+
+    %% Regras de Skills
+    CharacterClass ||--o{ ClassAvailableAbility : "disponibiliza"
+    Ability ||--o{ ClassAvailableAbility : "esta_na_lista"
+    Race ||--o{ RaceInnateAbility : "concede"
+    Ability ||--o{ RaceInnateAbility : "e_innata"
+
+    %% --- DEFINIÇÕES ESTÁTICAS (OS JSONS) ---
+    %% Tabelas de Regra (Read-Only na maior parte do tempo)
+    
+    Item {
+        int id PK
+        string name "Espada Longa"
+        text description
+        decimal base_weight "Peso em Kg"
+        int base_price "Preço em Cobre"
+        bool is_stackable
+        string type "Weapon, Armor, Consumable, Gear"
+    }
+
+    %% Herança (Multi-Table Inheritance)
+    Weapon {
+        int item_ptr_id FK
+        int damage
+        string damage_type
+        string grip "Haste, Leve..."
+    }
+    Armor {
+        int item_ptr_id FK
+        int defense_bonus
+        int penalty "Penalidade"
+    }
+    Consumable {
+        int item_ptr_id FK
+        string rarity
+        int charges
+    }
+
+    %% --- MODIFICADORES DE ITEM ---
+    Material {
+        int id PK
+        string name "Aço Anão"
+        float weight_multiplier "x1.5"
+        float price_multiplier "x1.5"
+        int damage_bonus "+1"
+    }
+
+    ItemQuality {
+        int id PK
+        string name "Obra-Prima"
+        string symbol "Q*"
+        float price_multiplier "x10"
+        int attack_bonus "+1"
+    }
+
+    %% --- RELACIONAMENTOS ---
+    Character ||--o{ CharacterItem : "carrega"
+    Item ||--o{ CharacterItem : "é_instância_de"
+    
+    %% Modificadores moldam o item na mochila
+    CharacterItem }o--|| Material : "feito_de"
+    CharacterItem }o--|| ItemQuality : "tem_qualidade"
+
+    %% Herança do Django
+    Item ||--|{ Weapon : "é"
+    Item ||--|{ Armor : "é"
+    Item ||--|{ Consumable : "é"
+
+```

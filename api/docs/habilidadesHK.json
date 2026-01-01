@@ -1,0 +1,1404 @@
+{
+  "habilidade": [
+    {
+      "n": "Habitante do Deserto",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você descende de um povo que enfrentou os rigores do deserto sem esmorecer. Você é Resistente a Fogo e pode passar até 5 dias sem precisar ingerir água. Além disso, você não é afetado por climas particularmente quentes ou áridos.",
+      "es": "",
+      "re": "Resiste Fogo e climas quantes/áridos, Sobrevive 5 dias sem água",
+      "e": []
+    },
+    {
+      "n": "Habitante do Esgoto",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você está acostumado aos ambientes escuros e insalubres dos subterrâneos onde sua Raça costuma habitar. Você é capaz de enxergar no escuro com perfeição e é imune a todas as doenças e venenos naturais, além de receber +1d6 para resistir aos efeitos de doenças e venenos mágicos. Finalmente, qualquer alvo que sofra dano por seu ataque de mordida deve passar em um teste de Força (dificuldade igual à sua Determinação) ou ficará sob o efeito de uma doença natural – a doença específica que um Hamelin transmite deve ser decidida rolando 2d6: (2) Lepra (3) Larvas de Verme (4) Febre do Pântano (5) Tétano (6-8) Infecção Comum (9) Malogro (10) Tuberculose (11) Olho de Goblin (12) Peste Negra.<br/>&emsp;Este resultado é permanente, e só poderá ser mudado se você adquirir a Habilidade Infecção Grave. A dificuldade de infecção da doença (igual à sua Determinação) não afeta a dificuldade para resistir aos sintomas da doença, que permanecem inalterados.<br/>&emsp;O dano de sua mordida é igual à Força/Corte.",
+      "es": "",
+      "re": "Imune a veneno e doença natural, +1d6 vs Mágico, Visão normal no escuro",
+      "e": [
+        "+atq",
+        "Mordida",
+        1,
+        "D",
+        true,
+        0
+      ]
+    },
+    {
+      "n": "Hálito do Dragão",
+      "c": "Mística",
+      "t": "Ação",
+      "ct": 200,
+      "m": 25,
+      "df": 11,
+      "r": [],
+      "d": "Desenhando um Selo Místico no ar à sua frente, você conjura uma rajada elemental que simula o sopro dos dragões – essa escolha é feita quando você conjura a magia. Esta magia atinge tudo e todos a uma distância em metros igual à sua Vontade à sua frente, e seu dano (e possíveis efeitos) varia de acordo com o elemento selecionado: Hálito de Fogo causa dano igual a 20/Fogo. Hálito de Frio causa dano igual a 10/Frio e qualquer criatura que sofra dano pelo sopro fica Enregelado.<br/>&emsp;Hálito de Eletricidade causa dano igual a 15/Eletricidade e qualquer criatura que sofra dano pelo sopro fica Atordoado por 1 turno.<br/>&emsp;Este Selo Místico se dissipa imediatamente depois que seus efeitos forem desencadeados.",
+      "es": "",
+      "re": "<a class='von'></a>m frente: <a class='fogo'>20</a>/Fogo, <a class='frio'>10</a>/Frio & Enregela, <a class='elet'>15</a>/Elet & Atordoa 1",
+      "e": []
+    },
+    {
+      "n": "Hálito do Dragão Ancião",
+      "c": "Mística",
+      "t": "Ação",
+      "ct": 550,
+      "m": 45,
+      "df": 13,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Hálito do Dragão"
+        ]
+      ],
+      "d": "Desenhando um Selo Místico no ar à sua frente, você conjura uma rajada elemental com o poder da baforada de um grande dragão! – essa escolha é feita quando você conjura a magia. Esta magia atinge tudo e todos a uma distância em metros igual à sua Determinação à sua frente, e seu dano (e possíveis efeitos) varia de acordo com o elemento selecionado: Hálito de Fogo causa dano igual a 40/Fogo. Hálito de Frio causa dano igual a 20/Frio e qualquer criatura que sofra dano pelo sopro fica Enregelado. Hálito de Eletricidade causa dano igual a 30/Eletricidade e qualquer criatura que sofra dano pelo sopro fica Atordoado por um número de turnos igual à sua Vontade.<br/>&emsp;Este Selo Místico se dissipa imediatamente depois que seus efeitos forem desencadeados.",
+      "es": "",
+      "re": "<a class='det'></a>m frente: <a class='fogo'>40</a>/Fogo, <a class='frio'>20</a>/Frio & Enregela, <a class='elet'>30</a>/Elet & Atordoa VONt",
+      "e": []
+    },
+    {
+      "n": "Hematófago",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você se alimenta de sangue e possui várias características que o ajudam a identificar e atacar suas presas. Você consegue detectar criaturas de sangue quente dentro de um alcance em metros igual à sua Determinação, e contra essas criaturas você tem um bônus de +2 em todos os seus ataques. Além disso, sua saliva possui substâncias anticoagulantes e anestésicas, e criaturas adormecidas não são despertadas quando você as morde.<br/>&emsp;Finalmente, quando morde uma criatura, você recupera uma quantidade de Pontos de Mana igual ao dano que causar - se seus Pontos de Mana estiverem no máximo, você passa a recuperar Pontos de Vida ao invés disso, numa quantidade igual à metade do dano de sua mordida (arredondado para cima).",
+      "es": "",
+      "re": "Sangue quente em DETm +2 em testes. Não acorda no ataque. Dano->PM->PV",
+      "e": []
+    },
+    {
+      "n": "Herança Feérica",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você possui algumas características comuns aos seus ancestrais feéricos. Você é imune a qualquer efeito mental e efeito de medo além de perceber automaticamente ilusões. Você também ganha +5 Pontos de Mana.",
+      "es": "",
+      "re": "PM+5, Imune a efeitos Mentais e de Medo, e Ilusões",
+      "e": [
+        "mana",
+        5
+      ]
+    },
+    {
+      "n": "Herbalismo",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Sabedoria Selvagem"
+        ]
+      ],
+      "d": "Você pode rolar testes de Inteligência para criar poções básicas e, enquanto estiver em um ambiente selvagem, você e seus aliados não são afetados por doenças e venenos naturais – seus aliados passam a ser imunes depois de um dia inteiro que estiverem com você, desde que eles aceitem suas dicas do que comer e do que não comer. Além disso, enquanto estiver em terreno natural que possa fornecer ervas, folhas e frutos (qualquer lugar exceto cidades, desertos ou regiões glaciais) você sempre faz testes de primeiros socorros como se tivesse um Kit de Cura à mão.",
+      "es": "",
+      "re": "Em natura: Aliados imunes a doenças e venenos natureza & Kit de Cura",
+      "e": []
+    },
+    {
+      "n": "Hierofante",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        10,
+        "h",
+        [
+          "Princípio Natural",
+          "Companheiro Animal 1",
+          "Sabedoria Selvagem"
+        ]
+      ],
+      "d": "Você adquiriu um vínculo poderoso com a natureza e um vasto entendimento de seu funcionamento. Você recebe +2 em seus testes com relação a natureza, animais e magias e o custo de todas as magias que você lançar é diminuído em 5. Além disso, você pode atrair um segundo Companheiro Animal seguindo as mesmas regras descritas em Companheiro Animal 1. Seu segundo Companheiro Animal recebe os benefícios de todas as Habilidades Companheiro Animal que você tiver.",
+      "es": "",
+      "re": "Conhecimentos Naturais +2, Magias: Dif.-2 Mana-5, +Comp.Animal 1",
+      "e": [
+        "mod",
+        4,
+        [],
+        [],
+        [
+          "Magia"
+        ],
+        [
+          "Ação"
+        ],
+        [],
+        2,
+        "Magias tem Dificuldade-2",
+        "mod",
+        2,
+        [],
+        [],
+        [
+          "Magia"
+        ],
+        [
+          "Ação"
+        ],
+        [],
+        5,
+        "Magias consomem -5 Pontos de Mana",
+        "an2",
+        "fin"
+      ]
+    },
+    {
+      "n": "Horda Selvagem",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você possui um magnetismo especial para um tipo de animal. Escolha uma espécie qualquer de Besta do tipo Mamífero, Ave, Réptil ou Peixe com menos de 1 metro (gatos, corvos, sapos ou carpas, por exemplo). Uma quantidade de animais do tipo escolhido igual a duas vezes a sua Vontade estão constantemente te acompanhando e, caso morram, outros aparecerão assim que você estiver em um local onde existam animais daquele tipo. Você pode convencê-los a realizar pequenos favores, mas eles não irão se colocar em perigo por você. Além disso, nenhum animal do tipo escolhido vai atacar você a menos que você o ataque primeiro.",
+      "es": "",
+      "re": "Seguido por <a class='von'></a>*2 animais pequenos de um tipo",
+      "e": []
+    },
+    {
+      "n": "Iátrica",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você tem uma afinidade ou preferência pelas poções de cura. Você recebe +2 em seus testes para produzir Elixires e Antídotos e em testes de cuidados médicos.",
+      "es": "",
+      "re": "Elixir, Antídoto, Cuidados Médicos +2",
+      "e": []
+    },
+    {
+      "n": "Icnêumone",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você é imune a efeitos de petrificação de qualquer espécie e todos os efeitos de gases (incluindo fumaça, vapores, neblina e venenos inalados).",
+      "es": "",
+      "re": "Imune a petrificação e efeitos de gases (fumaça,vapor,neblina,etc)",
+      "e": []
+    },
+    {
+      "n": "Iluminar",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": -2,
+      "df": -1,
+      "r": [],
+      "d": "Como uma ação livre, você é capaz de produzir uma luminosidade que pode variar de intensidade desde um brilho fraco como o de uma vela (nenhum custo em Pontos de Mana)  até o de uma tocha (5 Pontos de Mana). Esse brilho pode ser constante ou pode ser reduzido em intensidade à vontade, podendo criar padrões luminosos. Essa luminosidade pode durar um número de turnos iguais à sua Determinação em minutos. ",
+      "es": "",
+      "re": "0PM Vela, 5PM Tocha, por até DET min",
+      "e": []
+    },
+    {
+      "n": "Ilusão 1",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 0,
+      "m": 10,
+      "df": 9,
+      "r": [],
+      "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você cria uma ilusão visual de tamanho máximo de uma pessoa ou de um baú grande. <br/>&emsp;A Runa Arcana ou Selo Místico que mantém a ilusão dura até 30 minutos, mas se dissipa se o conjurador perder contato visual com ela.",
+      "es": "",
+      "re": "Cria ilusão de tamanho Médio (ex: Pessoa) à visão por 30 minutos",
+      "e": []
+    },
+    {
+      "n": "Ilusão 2",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 350,
+      "m": 20,
+      "df": 11,
+      "r": [
+        "h",
+        [
+          "Ilusão 1"
+        ]
+      ],
+      "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você cria uma ilusão visual de tamanho máximo de um elefante ou uma carruagem. <br/>&emsp;A Runa Arcana ou Selo Místico que mantém a ilusão dura até 30 minutos, mas se dissipa se o conjurador perder contato visual com ela.",
+      "es": "",
+      "re": "Cria ilusão de tamanho Grande (ex: Elefante) à visão por 30 minutos",
+      "e": []
+    },
+    {
+      "n": "Ilusão 3",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 750,
+      "m": 30,
+      "df": 13,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Ilusão 2"
+        ]
+      ],
+      "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você cria uma ilusão visual de tamanho máximo de um dragão ancião ou um casarão. <br/>&emsp;A Runa Arcana ou Selo Místico que mantém a ilusão dura até 30 minutos, mas se dissipa se o conjurador perder contato visual com ela.",
+      "es": "",
+      "re": "Cria ilusão de tamanho Colossal (ex: Dragão) à visão por 30 minutos",
+      "e": []
+    },
+    {
+      "n": "Ilusão Eterna",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 0,
+      "m": 100,
+      "df": 16,
+      "r": [
+        "n",
+        10,
+        "h",
+        [
+          "Ilusão Persistente"
+        ]
+      ],
+      "d": "Desenhando uma Runa Arcana ou Selo Místico sobre uma ilusão, ela passa a ter duração permanente e você não precisa manter contato visual para que ela continue ativa. Além disso, ela não se dissipa sob condições em que isso normalmente aconteceria (como alguém sob efeito de Aparência Ilusória sofrer dano, por exemplo). <br/>&emsp;O conjurador pode dissipar a ilusão a qualquer momento ou adicionar uma condição para que ela se dissipe (uma frase, uma conjunção astral, um prazo, etc.).",
+      "es": "",
+      "re": "Ilusão permanente até cancelada manualmente ou por condição definida",
+      "e": [
+        "fin"
+      ]
+    },
+    {
+      "n": "Ilusão Persistente",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 700,
+      "m": -2,
+      "df": 12,
+      "r": [
+        "n",
+        5
+      ],
+      "d": "Desenhando uma Runa Arcana ou Selo Místico sobre uma ilusão, você aumenta sua duração em 1 hora para cada 10 Pontos de Mana que gastar e não precisa manter contato visual para que ela continue ativa. <br/>&emsp;A Runa Arcana ou Selo Místico se dissipa assim que seus efeitos são desencadeados, mas o conjurador pode dissipar a ilusão afetada a qualquer momento.",
+      "es": "",
+      "re": "Ilusão persiste +1h para cada +10PM",
+      "e": []
+    },
+    {
+      "n": "Ilusão Sonora",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Som Ilusório"
+        ]
+      ],
+      "d": "Você pode acrescentar som a qualquer ilusão que crie. Você controla totalmente os sons que a ilusão irá produzir e pode adicionar múltiplos sons ao mesmo tempo (barulho de passos e vozes enquanto a ilusão de um casal caminha e conversa, ranger de metal, bater de cascos, e relinchos enquanto a ilusão de um guerreiro montado em um cavalo, etc.). <br/>&emsp;A ilusão terá som durante toda a sua duração.",
+      "es": "",
+      "re": "Adiciona som à ilusões",
+      "e": []
+    },
+    {
+      "n": "Imobilizar",
+      "c": "Técnica",
+      "t": "Reação",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Se você for bem-sucedido em um ataque desarmado contra um alvo, além do dano normal do ataque você pode imediatamente realizar um teste para tentar Agarrar o alvo.",
+      "es": "",
+      "re": "Após acertar ataque corporal pode tentar Agarrar",
+      "e": []
+    },
+    {
+      "n": "Imparável",
+      "c": "Característica",
+      "t": "Reação",
+      "ct": 0,
+      "m": 20,
+      "df": -1,
+      "r": [
+        "v",
+        5,
+        "h",
+        [
+          "Fortaleza"
+        ]
+      ],
+      "d": "Derrubar você permanentemente é uma tarefa bem difícil! Uma vez por combate, quando seus Pontos de Vida chegarem à zero, você ignora totalmente o dano que o derrubaria.",
+      "es": "",
+      "re": "Uma vez por combate ignore um dano que o derrubaria",
+      "e": []
+    },
+    {
+      "n": "Implacável",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Sem Escapatória"
+        ]
+      ],
+      "d": "Sempre que errar um ataque corporal, o alvo sofre metade do dano normal do ataque (arredondando para baixo).",
+      "es": "",
+      "re": "Mesmo errando ataque CaC, alvo sofre metade do dano",
+      "e": []
+    },
+    {
+      "n": "Improvisação Ladina",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5
+      ],
+      "d": "Você pode pegar garrafas quebradas, lascas de madeira ou osso, pedaços de vidro ou mesmo de gelo e usar como se fosse uma adaga. Em geral uma adaga improvisada dessa forma se torna inútil depois de um ataque. <br/>&emsp;Você também pode montar ou desarmar armadilhas e abrir fechaduras sem ter os materiais apropriados, desde que possa improvisar gazuas ou ferramentas – com agulhas, galhos, lascas de pedra, pedaços de armas, etc.",
+      "es": "",
+      "re": "Improvisa adagas e Kits de Arrombamento com 'qualquer coisa'",
+      "e": []
+    },
+    {
+      "n": "Imunidade à Doenças ",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você é extremamente resistente a todos os tipos de doenças. Você é imune a doenças naturais e mágicas, e recebe +1d6 em suas tentativas de resistir aos efeitos de venenos naturais.",
+      "es": "",
+      "re": "Imune a doenças, +1d6 contra venenos naturais",
+      "e": []
+    },
+    {
+      "n": "Imunidade a Venenos",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você é extremamente resistente a todos os tipos de venenos. Você é imune a venenos naturais e mágicos.",
+      "es": "",
+      "re": "Imune a venenos naturais e mágicos",
+      "e": []
+    },
+    {
+      "n": "Imunidade Espiritual",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Comunhão com Espíritos"
+        ]
+      ],
+      "d": "Você não recebe nenhum dano de criaturas do tipo Espírito e rola +1d6 em todos os testes de Vontade ligados a estas criaturas.",
+      "es": "",
+      "re": "Imune a danos causados por Espíritos, VON +1d6 contra os mesmos",
+      "e": []
+    },
+    {
+      "n": "Imunidade Sobrenatural",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Seu corpo possui uma incrível resistência com maldições. Você é imune a doenças mágicas e maldições, e recebe +1d6 para resistir a doenças naturais e venenos de todas as espécies.",
+      "es": "",
+      "re": "Imune a doenças mágicas e maldições e +1d6 contra as naturais",
+      "e": []
+    },
+    {
+      "n": "Incandescer",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 550,
+      "m": 50,
+      "df": 14,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Inferno"
+        ]
+      ],
+      "d": "Desenhando uma Runa Arcana sobre um objeto ou superfície, você faz com que ele aquece ao ponto de incandescer ou inflamar. Objetos de pedra e metal se tornarão quentes ao ponto de tornarem-se candentes, causando dano igual a <a class='fogo'>20</a>/Fogo em qualquer coisa que tocarem – e produzindo uma quantidade considerável de calor. Metais aquecidos a esse ponto amolecem e podem ser facilmente dobrados ou quebrados. Objetos combustíveis irão se inflamar instantaneamente, e pegarão fogo mesmo que estejam ensopados – a água vai evaporar em segundos antes que eles entrem em combustão. Essa magia pode ser usada em armas, armaduras e vestimentas de criaturas vivas. <br/>&emsp;Note que o objeto alvo se aquece por inteiro. Assim, uma árvore inteira secaria e então irromperia em chamas, e uma imensa sessão de uma caverna poderia subitamente se tornar mortalmente quente. <br/>&emsp;Essa Runa dura um número de turnos igual à sua Inteligência, mas materiais inflamáveis que irrompam em chamas vão queimar enquanto houver combustível disponível, mesmo depois da runa se dissipar.",
+      "es": "",
+      "re": "Metal/Pedra:<a class='fogo'>20</a>/Fogo ao toque por <a class='int'></a> turnos",
+      "e": []
+    },
+    {
+      "n": "Infecção Grave",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Quando você morde uma criatura viva, ela é afetada com muito mais violência pela doença que você transmite. Um alvo mordido por você que não tenha sucesso em resistir à sua infecção é afetado imediatamente pela doença que você transmite como se tivesse falhado no primeiro teste para verificar os efeitos dos sintomas.",
+      "es": "Ao selecionar esta Habilidade, você pode rolar novamente na tabela de Doenças Naturais e escolher se vai permanecer com sua infecção inicial ou se vai ficar com a nova doença – resultados que indiquem a mesma doença devem ser desconsiderados. Esta escolha é permanente.",
+      "re": "Alvos mordidos automaticamente são afetados por sua doença",
+      "e": []
+    },
+    {
+      "n": "Inferno",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 550,
+      "m": 40,
+      "df": 13,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Bola de Fogo"
+        ]
+      ],
+      "d": "Desenhando uma Runa arcana sobre o solo, você faz com que uma área de 4 metros de diâmetro dentro da sua linha de visão entre em combustão enquanto é atingido por uma chuva de brasas e fogo. Todos que tiverem nessa área sofrem dano igual a <a class='fogo'>30</a>/Fogo quando essa magia for lançada e mais <a class='fogo'>30</a>/Fogo no início de cada turno que iniciarem dentro da área. <br/>&emsp;Esta Runa Arcana dura 1 rodada por ponto de Inteligência que você tiver, mas você posse dissipá-la a qualquer momento. <br/>&emsp;Material inflamável na área irrompe em chamas instantaneamente.",
+      "es": "",
+      "re": "Linha de visão. 4m diâmetro. <a class='fogo'>30</a>/Fogo por <a class='int'></a> turnos.",
+      "e": []
+    },
+    {
+      "n": "Inflamar",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 200,
+      "m": -2,
+      "df": 8,
+      "r": [],
+      "d": "Desenhando uma Runa Arcana entre você e um objeto ou superfície dentro de sua linha de visão você faz com que ele irrompa em chamas. O custo depende do tamanho da chama criada: criar a chama em uma vela tem custo 0, enquanto uma chama suficiente para acender uma tocha tem custo 5 e fazer uma fogueira de acampamento irromper em chamas imediatamente tem custo 10. Você pode produzir uma explosão de chamas diretamente sobre um item segurado por uma criatura ou na superfície onde ela está, causando dano igual a <a class='fogo'>4</a>/Fogo, por 0 Pontos de Mana, <a class='fogo'>8</a>/Fogo por 5 Pontos de Mana ou <a class='fogo'>12</a>/Fogo por 10 Pontos de Mana. <br/>&emsp;A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados, mas material combustível afetado se incendeia automaticamente.",
+      "es": "",
+      "re": "Inflama objeto à vista. Dano[Mana]: <a class='fogo'>4</a>/Fogo[0] <a class='fogo'>8</a>/Fogo[5] <a class='fogo'>12</a>/Fogo[10].",
+      "e": []
+    },
+    {
+      "n": "Infravisão",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 300,
+      "m": 5,
+      "df": 9,
+      "r": [
+        "h",
+        [
+          "Detectar Magia",
+          "Inflamar"
+        ]
+      ],
+      "d": "Você desenha uma Runa Arcana sobre um alvo, que passa a perceber o calor que emana dos objetos e criaturas sobrepondo a sua visão normal. Ele pode enxergar normalmente em locais sem iluminação nenhuma, pode perceber criaturas invisíveis pelo calor (ou frio) que elas emanam e consegue identificar ilusões, já que elas não emanam calor nem frio. <br/>&emsp;Essa Runa Arcana dura 1 hora.",
+      "es": "",
+      "re": "Alvo enxerga calor por uma hora",
+      "e": []
+    },
+    {
+      "n": "Inspirar Coragem",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 20,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Presença Inspiradora"
+        ]
+      ],
+      "d": "Você reforça a determinação de um aliado através de palavras inspiradoras. Aquele aliado recupera imediatamente 20 Pontos de Vida e quaisquer efeitos de Medo que o estiver afetando são removidos. Este efeito não pode ser utilizado em você mesmo.",
+      "es": "",
+      "re": "Voz, Cura 20PV e remove Medo",
+      "e": []
+    },
+    {
+      "n": "Integridade",
+      "c": "Característica",
+      "t": "Reação",
+      "ct": 0,
+      "m": 10,
+      "df": -1,
+      "r": [
+        "n",
+        10,
+        "t",
+        "Dois Códigos quaisquer"
+      ],
+      "d": "Sua inflexibilidade moral é tanta, que você não se dá por vencido nem diante da morte certa. Quando um ataque, magia, música ou técnica reduziriam seus Pontos de Vida a ponto de deixá-lo “Por Um Fio”, você ignora totalmente seu dano e quaisquer outros efeitos. <br/>&emsp;Essa Habilidade não tem efeito em venenos, doenças ou fatores ambientais que causem dano.",
+      "es": "",
+      "re": "Ignora dano e efeitos que o derrubariam, exceto doenças/venenos/ambiente",
+      "e": [
+        "fin"
+      ]
+    },
+    {
+      "n": "Intelecto Élfico",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Seu raciocínio é veloz e objetivo. Você tem Inteligência +1 e +5 Pontos de Mana.",
+      "es": "",
+      "re": "PM+5, Inteligência +1",
+      "e": [
+        "mana",
+        5,
+        "int+",
+        1
+      ]
+    },
+    {
+      "n": "Inteligência Heróica",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5
+      ],
+      "d": "Você possui uma percepção e uma capacidade de raciocínio extremamente afiadas. Você tem Inteligência +1.",
+      "es": "",
+      "re": "Inteligência +1",
+      "e": [
+        "int+",
+        1
+      ]
+    },
+    {
+      "n": "Interferir no Fluxo",
+      "c": "Característica",
+      "t": "Reação",
+      "ct": 0,
+      "m": 30,
+      "df": -1,
+      "r": [
+        "n",
+        10,
+        "h",
+        [
+          "Precognição"
+        ]
+      ],
+      "d": "Você vislumbrou vários futuros possíveis e consegue forçar determinados eventos a se tornarem realidade. Sempre que uma ação dentro da sua linha de visão exigir uma rolagem de dados, você pode modificar o resultado daquela rolagem em um grau para melhor ou pior – uma falha crítica se torna uma falha normal, uma falha se torna um sucesso ou um sucesso se torna um sucesso crítico, ou vice-versa. Você não interfere no resultado dos dados, apenas no resultado do teste. <br/>&emsp;Essa Habilidade só pode ser usada uma vez por turno.",
+      "es": "",
+      "re": "Modifica um nível de sucesso de uma rolagem, 1/turno",
+      "e": [
+        "fin"
+      ]
+    },
+    {
+      "n": "Intimidador",
+      "c": "Técnica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 15,
+      "df": -1,
+      "r": [],
+      "d": "Você é particularmente assustador quando quer. Você pode intimidar um oponente que esteja a até 3 metros de você. Faça um Confronto de Força ou Vontade (o que for mais alto) contra a Vontade do alvo. Este é um teste Social e você recebe +1d6 nele. Se você tiver sucesso, o alvo é considerado Amedrontado com relação a você até que você saia da linha de visão dele. Além disso, imediatamente depois de usar esta Habilidade com sucesso, você pode fazer uma pergunta direta contra o alvo e ele terá que responder da melhor forma possível (embora ainda possa tentar suprimir informações, ele não pode mentir).<br/>&emsp;Este é um efeito de Medo.",
+      "es": "",
+      "re": "Medo, Social +1d6 Amedronta contato visual e faça uma pergunta",
+      "e": []
+    },
+    {
+      "n": "Intimidar",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Você pode intimidar um oponente que esteja a até 3 metros de você. Role um confronto de Vontade com o alvo. Se tiver sucesso, o alvo é considerado Amedrontado com relação a você por um número de turnos igual à sua Vontade. O alvo responderá qualquer pergunta direta que você fizer a ele enquanto estiver intimidado. Este é um efeito de medo.",
+      "es": "",
+      "re": "Medo, Intimida alvo até 3m: VONxVON: Amedrontado por <a class='von'></a> turnos",
+      "e": []
+    },
+    {
+      "n": "Intuição",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "!r",
+        [
+          "Astério",
+          "Astéria"
+        ]
+      ],
+      "d": "Você possui um instinto afiado e consegue prever perigo de modo quase sobrenatural. Você usa Vontade ao invés de Agilidade para calcular sua Iniciativa e seu bônus básico de Esquiva – Habilidades que oferecem bônus de Esquiva baseados em Agilidade são calculados normalmente. Além disso, você recebe +2 em seus testes de Iniciativa.",
+      "es": "",
+      "re": "Iniciativa+2, Vontade para Iniciativa e Esquiva base",
+      "e": [
+        "intc",
+        "ini+",
+        2
+      ]
+    },
+    {
+      "n": "Investida Acrobática",
+      "c": "Técnica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 15,
+      "df": -1,
+      "r": [],
+      "d": "Você pode usar o ambiente para ganhar impulso e desferir um ataque de uma direção inusitada. Enquanto tiver uma mão livre e estiver em um ambiente com mobília e outros obstáculos (como um convés de navio, pátios, feiras ou no interior da maioria das construções) você pode fazer uma manobra de encontrão contra o alvo independente da distância que tiver do oponente. Esse ataque causa +10 de dano e ignora quaisquer bônus de escudo e Esquiva do alvo.",
+      "es": "Você não pode utilizar esta Habilidade se estiver usando uma armadura com a característica Pesada ou se estiver carregando uma carga acima da básica.",
+      "re": "Mão livre & cenário propício: Encontrão dano+10, ignora bônus de defesa",
+      "e": []
+    },
+    {
+      "n": "Investida Brutal",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Dizem que a melhor defesa é o ataque – e você sabe como tornar essa máxima em realidade! Sempre que fizer um ataque de encontrão ou utilizar uma Habilidade que exija uma manobra de encontrão como parte de sua ativação, adicione o seu bônus de Bloqueio ao dano do seu ataque.",
+      "es": "",
+      "re": "Sempre que fizer encontrão, adicione Bônus de Bloqueio ao dano",
+      "e": []
+    },
+    {
+      "n": "Investida Forte",
+      "c": "Padrão",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Golpe com Escudo"
+        ]
+      ],
+      "d": "Sempre que acertar uma manobra de encontrão usando um escudo, além de causar o dano normal pelo encontrão, o alvo precisa vencer um teste de Força (Dificuldade igual à sua Determinação + a FN do escudo que você estiver usando) ou será derrubado. Alvos com o dobro do seu peso não são afetados. Um ataque com um escudo causa dano igual à Força + FN do escudo/Contusão.",
+      "es": "",
+      "re": "Encontrão com Escudo: dano FOR+FN/Cont. & FOR[FOR+Arma.FN] derruba",
+      "e": []
+    },
+    {
+      "n": "Investida Mortal",
+      "c": "Técnica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 10,
+      "df": -1,
+      "r": [],
+      "d": "Faça uma manobra de encontrão contra um alvo. Esse ataque causa +10 de dano, e se acertar deixa o alvo Atordoado (O personagem tem -1 na Defesa, no Deslocamento e em todos os seus testes) por 1 turno.",
+      "es": "",
+      "re": "Encontrão dano+10, alvo Atordoado por 1 turno",
+      "e": []
+    },
+    {
+      "n": "Invisibilidade 1",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 300,
+      "m": 20,
+      "df": 11,
+      "r": [],
+      "d": "Desenhando uma Runa Arcana ou Selo Místico sobre uma criatura, você a torna – assim como todas as suas posses – invisível. <br/>&emsp;Essa Runa Arcana ou Selo Místico dura por uma quantidade de minutos igual à Inteligência do conjurador.",
+      "es": "",
+      "re": "Alvo, e posses, invisíveis por <a class='int'></a> minutos",
+      "e": []
+    },
+    {
+      "n": "Invisibilidade 2",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 750,
+      "m": 30,
+      "df": 13,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Invisibilidade 1"
+        ]
+      ],
+      "d": "Desenhando uma Runa Arcana sobre uma criatura, você a torna – assim como todas as suas posses – invisível. <br/>&emsp;Essa Runa Arcana ou Selo Místico dura por uma quantidade de horas igual à Inteligência do conjurador.",
+      "es": "",
+      "re": "Alvo, e posses, invisíveis por <a class='int'></a> horas",
+      "e": []
+    },
+    {
+      "n": "Invisibilidade Natural",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 10,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Herança Feérica"
+        ]
+      ],
+      "d": "Você possui uma das habilidades mais características das fadas. Você é capaz de se mesclar à vegetação à sua volta, ficando invisível por até uma hora. É preciso estar em uma área com vegetação densa – um bosque, um jardim de topiarias ou uma estufa, por exemplo – e o efeito é cancelado se você deixar a área de vegetação, sofrer algum dano, atacar ou lançar uma magia.",
+      "es": "",
+      "re": "Invisível por até uma hora se escondido em vegetação",
+      "e": []
+    },
+    {
+      "n": "Invocação Persistente",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "Suas Invocações duram mais e são mais resistentes. Criaturas invocadas por você têm +10 PVs e permanecem invocadas por até 1 hora ao invés da sua duração normal.",
+      "es": "",
+      "re": "Invocações tem +10PV e permanecem por até uma hora",
+      "e": []
+    },
+    {
+      "n": "Invocação Prodigiosa",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        10,
+        "h",
+        [
+          "Manter Invocação"
+        ]
+      ],
+      "d": "Você é extremamente talentoso em realizar magias de Invocação. Todas as suas magias de Invocação têm sua Dificuldade reduzida em 2 e custam 5 Pontos de Mana a menos. Além disso, você pode realizar suas magias de Invocação como ações de turno completo ao invés ações padrão, conjurando aquela magia duas vezes simultaneamente. Você precisa fazer o teste e pagar o custo em mana de cada magia separadamente.",
+      "es": "",
+      "re": "Invocações: Dif.-2, Mana-5, Conjura duas de mesmo tipo numa rodada completa",
+      "e": [
+        "mod",
+        4,
+        [],
+        [
+          "Invocar Elemental 1",
+          "Invocar Elemental 2",
+          "Invocar Elemental 3",
+          "Invocar Espírito Animal",
+          "Invocar Familiar",
+          "Invocar Elemental do Fogo 1",
+          "Invocar Elemental do Fogo 2",
+          "Invocar Elemental do Gelo 1",
+          "Invocar Elemental do Gelo 2",
+          "Invocar Golem 1",
+          "Invocar Golem 2",
+          "Ampliar Invocação",
+          "Manter Invocação"
+        ],
+        [
+          "Magia"
+        ],
+        [
+          "Ação"
+        ],
+        2,
+        "Magias de Invocação tem Dificuldade-1",
+        "mod",
+        2,
+        [],
+        [
+          "Invocar Elemental 1",
+          "Invocar Elemental 2",
+          "Invocar Elemental 3",
+          "Invocar Espírito Animal",
+          "Invocar Familiar",
+          "Invocar Elemental do Fogo 1",
+          "Invocar Elemental do Fogo 2",
+          "Invocar Elemental do Gelo 1",
+          "Invocar Elemental do Gelo 2",
+          "Invocar Golem 1",
+          "Invocar Golem 2",
+          "Ampliar Invocação",
+          "Manter Invocação"
+        ],
+        [
+          "Magia"
+        ],
+        [
+          "Ação"
+        ],
+        5,
+        "Magias de Invocação custam -5 Pontos de Mana",
+        "fin"
+      ]
+    },
+    {
+      "n": "Invocação Versátil",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Invocação Persistente"
+        ]
+      ],
+      "d": "Você pode invocar criaturas nas mais diversas formas. Criaturas invocadas por você podem ter uma Habilidade extra dependendo de sua forma, e seu bônus automático de Defesa é aumentado em 2. <br/>&emsp;Golens e Elementais de Gelo podem ter Chifres Poderosos, Corpo Equino, Montaria, garras ou Braços Extras 2. Elementais de Fogo e Golens de Madeira podem ter Asas Pesadas ou Asas Leves.",
+      "es": "Uma criatura com a Habilidade Montaria precisa ser pelo menos da mesma categoria de tamanho do seu cavaleiro. Assim, a maioria das raças (exceto Metadílios e Goblins) só poderá montar em Golens ou Elementais de categoria de tamanho Média ou maior.",
+      "re": "Invocações tem habilidade extra e Defesa+2",
+      "e": []
+    },
+    {
+      "n": "Invocar Asura",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 0,
+      "m": 200,
+      "df": 18,
+      "r": [],
+      "d": "Traçando um Círculo de Invocação (cujo sacrifício precisa ser, necessariamente, um Humanoide ou Esfinge) você invoca um Asura (Eligos sendo os mais comuns). Asuras não realizam qualquer ordem que não seja a de compartilhar conhecimento já que, se o Círculo de Invocação for rompido antes de ele ter atendido sua ordem, você perderá o controle sobre o Asura imediatamente – o que geralmente tem consequências bastante sérias! Você poderá fazer uma pergunta ou pedir um conhecimento específico ao Asura, que responderá o mais diretamente que puder, dentro de seu conhecimento. Assim que responder sua pergunta, ele retorna ao Inferno imediatamente se o Círculo de Invocação for rompido.",
+      "es": "",
+      "re": "Invoca um Asura para interrogação. Não obedece.",
+      "e": []
+    },
+    {
+      "n": "Invocar Elemental 1",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 300,
+      "m": 15,
+      "df": 9,
+      "r": [
+        "h",
+        [
+          "Congelar",
+          "Inflamar"
+        ]
+      ],
+      "d": "Você conjura um pequeno Elemental de Fogo ou do Gelo desenhando uma Runa Arcana no ar. O Elemental obedecerá todos os seus comandos e agirá a partir do turno seguinte, logo depois de você. <br/>&emsp;A runa que mantém o Elemental coeso se dissipa depois de 10 minutos.",
+      "es": "",
+      "re": "Invoca Elemental do Fogo, Gelo ou Relâmpago Pequeno por 10 min",
+      "e": []
+    },
+    {
+      "n": "Invocar Elemental 2",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 250,
+      "m": 30,
+      "df": 11,
+      "r": [
+        "h",
+        [
+          "Invocar Elemental 1"
+        ]
+      ],
+      "d": "Você conjura um Elemental Médio de Fogo ou do Gelo desenhando uma Runa arcana no ar. O Elemental obedecerá todos os seus comandos e agirá a partir do turno seguinte, logo depois de você. <br/>&emsp;A runa que mantém o Elemental coeso se dissipa depois de 10 minutos.",
+      "es": "",
+      "re": "Invoca Elemental do Fogo, Gelo ou Relâmpago Médio por 10 min",
+      "e": []
+    },
+    {
+      "n": "Invocar Elemental 3",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 550,
+      "m": 60,
+      "df": 13,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Invocar Elemental 2"
+        ]
+      ],
+      "d": "Você conjura um grande Elemental de Fogo ou do Gelo desenhando uma runa Arcana no ar. O Elemental obedecerá todos os seus comandos e agirá a partir do turno seguinte, logo depois de você. <br/>&emsp;A Runa Arcana que mantém o Elemental coeso se dissipa depois de 10 minutos.",
+      "es": "",
+      "re": "Invoca Elemental do Fogo, Gelo ou Relâmpago Grande por 10 min",
+      "e": []
+    },
+    {
+      "n": "Invocar Elemental do Fogo 1",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 300,
+      "m": -2,
+      "df": 10,
+      "r": [],
+      "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do fogo. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do fogo pequeno custa 15 Pontos de Mana e um elemental do fogo médio custa 30 Pontos de Mana. <br/>&emsp;A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.",
+      "es": "",
+      "re": "Invoca Elemental do Fogo por 10min, 15PM Pequeno, 30PM Médio",
+      "e": []
+    },
+    {
+      "n": "Invocar Elemental do Fogo 2",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 750,
+      "m": -2,
+      "df": 14,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Invocar Elemental do Fogo 1"
+        ]
+      ],
+      "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do fogo. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do fogo grande custa 50 Pontos de Mana e um elemental do fogo gigante custa 100 Pontos de Mana. <br/>&emsp;A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.",
+      "es": "",
+      "re": "Invoca Elemental do Fogo por 10min, 50PM Grande, 100PM Gigante",
+      "e": []
+    },
+    {
+      "n": "Invocar Elemental do Gelo 1",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 300,
+      "m": -2,
+      "df": 10,
+      "r": [],
+      "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do gelo. O elemental age logo depois de você a partir do turno em que for invocado.Um elemental do gelo pequeno custa 15 Pontos de Mana e um elemental do gelo médio custa 30 Pontos de Mana. <br/>&emsp;A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.",
+      "es": "",
+      "re": "Invoca Elemental do Gelo por 10min, 15PM Pequeno, 30PM Médio",
+      "e": []
+    },
+    {
+      "n": "Invocar Elemental do Gelo 2",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 750,
+      "m": -2,
+      "df": 14,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Invocar Elemental do Gelo 1"
+        ]
+      ],
+      "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do gelo. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do gelo grande custa 50 Pontos de Mana e um elemental do gelo gigante custa 100 Pontos de Mana. <br/>&emsp;A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.",
+      "es": "",
+      "re": "Invoca Elemental do Gelo por 10min, 50PM Grande, 100PM Gigante",
+      "e": []
+    },
+    {
+      "n": "Invocar Elemental do Relampago 1",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 300,
+      "m": -2,
+      "df": 10,
+      "r": [],
+      "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do relâmpago. O elemental age logo depois de você a partir do turno em que for invocado.Um elemental do relâmpago pequeno custa 15 Pontos de Mana e um elemental do gelo médio custa 30 Pontos de Mana. <br/>&emsp;A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.",
+      "es": "",
+      "re": "Invoca Elemental do Relâmpago por 10min, 15PM Pequeno, 30PM Médio",
+      "e": []
+    },
+    {
+      "n": "Invocar Elemental do Relâmpago 2",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 750,
+      "m": -2,
+      "df": 14,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Invocar Elemental do Relâmpago 1"
+        ]
+      ],
+      "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do relâmpago. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do relâmpago grande custa 50 Pontos de Mana e um elemental do relâmpago gigante custa 100 Pontos de Mana. <br/>&emsp;A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.",
+      "es": "",
+      "re": "Invoca Elemental do Relâmpago por 10min, 50PM Grande, 100PM Gigante",
+      "e": []
+    },
+    {
+      "n": "Invocar Espectro",
+      "c": "Arcana",
+      "t": "Ação",
+      "ct": 250,
+      "m": 20,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Contato com Espíritos"
+        ]
+      ],
+      "d": "Desenhando uma Runa Arcana sobre uma Sombra, você a transforma em um Espectro Soldado sob seu comando. O espectro criado é permanente, será completamente leal a você e acatará quaisquer comandos verbais simples (Me proteja, ataque meus inimigos, defenda esse local, carregue esses itens, etc.) pela duração da magia.<br/>&emsp; Runa Arcana dura uma quantidade de minutos igual à Vontade do conjurador, mas a transformação em Espectro é permanente – quando a Runa se dissipa, o espectro passa a agir de forma independente.",
+      "es": "",
+      "re": "Sombra->Espectro Soldado. Sob comando por <a class='von'></a> minutos",
+      "e": []
+    },
+    {
+      "n": "Invocar Espírito Animal",
+      "c": "Técnica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 20,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Espírito Animal",
+          "Contato com Espíritos"
+        ]
+      ],
+      "d": "Você invoca um espírito animal espectral para protegê-lo. Esse espectro tem a forma do seu Espírito Animal, mas os Atributos dele serão todos iguais à sua Vontade. Além das Habilidades normais do animal, todos os Espíritos Animais terão Mente Bloqueada e Corpo Intangível. Seus ataques causam dano igual à Força +2 por Corte, Perfuração ou Esmagamento – o que for mais apropriado, de acordo com os ataques do animal – e recebem os bônus referentes ao seu Espírito Animal. Espíritos Animais têm 30 Pontos de Vida e 30 Pontos de Mana. Espíritos Animais são sempre Bestas do tipo Espírito com o temperamento Servo. <br/>&emsp;Espíritos Animais invocados por esta Habilidade se dissipam após um minuto ou assim que forem destruídos.",
+      "es": "Águias Espectrais invocadas por essa magia recebem +1 em seus ataques corporais ao invés do bônus normal.",
+      "re": "30PV&PM, Atributos:<a class='von'></a>; Dano FOR+2/Tipo; Mente Bloqueada; Corpo Intangível.",
+      "e": []
+    },
+    {
+      "n": "Invocar Espírito de Tinta",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 20,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Tribal de Proteção"
+        ]
+      ],
+      "d": "Você tem uma tatuagem que representa seu espírito animal. Enquanto esta tatuagem estiver visível, você pode invocar 1 espírito animal a partir dela. Esse espírito tem a forma do animal tatuado, mas os Atributos dele serão todos iguais à sua Vontade. Além das Habilidades apropriadas ao animal, todos os Espíritos Animais têm Mente Bloqueada e Corpo Intangível. Seus ataques causam dano igual à Força +2 por Corte, Perfuração ou Esmagamento – o que for mais apropriado, de acordo com os ataques do animal – e recebem os bônus referentes ao seu Espírito Animal. Espíritos Animais têm 30 Pontos de Vida e 30 Pontos de Mana e são sempre Bestas do tipo Espírito com o temperamento Servo. <br/>&emsp;Essa magia dura 1 minuto ou até o animal espectral ser destruído.",
+      "es": "Se você tiver a Habilidade Espírito Animal os seus bônus serão aplicados aos espíritos invocados com esta Habilidade. Espírito Animal: Águia garante um bônus de +1 nos ataques corporais de espíritos invocados, ao invés do bônus normal.",
+      "re": "30PV&PM, Atributos:<a class='von'></a>; Dano FOR+2/Tipo; Mente Bloqueada; Corpo Intangível.",
+      "e": []
+    },
+    {
+      "n": "Invocar Exército de Tinta",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        10,
+        "h",
+        [
+          "Invocar Espírito de Tinta"
+        ]
+      ],
+      "d": "Enquanto a tatuagem do seu Espírito Animal estiver à mostra, você pode invocar múltiplos espíritos animais espectrais a partir dela. Você pode invocar múltiplos espíritos de uma só vez usando Espírito de Tinta, mas só pode manter simultaneamente um número de espíritos igual à sua Vontade.",
+      "es": "",
+      "re": "Pode invocar e manter até <a class='von'></a> Espíritos de Tinta",
+      "e": [
+        "fin"
+      ]
+    },
+    {
+      "n": "Invocar Familiar",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 0,
+      "m": 20,
+      "df": 10,
+      "r": [],
+      "d": "Você conjura um golem ou elemental pequeno (de qualquer tipo) desenhando uma Runa Arcana ou Selo Místico sobre uma gema com valor de pelo menos 400 moedas. Enquanto a gema encantada estiver intacta, o Familiar tem duração permanente. Se o Familiar for destruído, a Runa ou Selo na gema se dissipa, mas a gema pode ser utilizada novamente. Se a gema for destruída ou se a Runa ou Selo for dissipada, o Familiar se dissipa imediatamente. Veja os dados dos Elementais e Golens no Monstrum Codex para mais detalhes.",
+      "es": "",
+      "re": "Golem ou Elemental Pequeno permanente. Requer gema de 400 moedas.",
+      "e": []
+    },
+    {
+      "n": "Invocar Golem 1",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 300,
+      "m": -2,
+      "df": 12,
+      "r": [],
+      "d": "Você desenha uma Runa Arcana ou Selo Místico sobre uma superfície invocando um golem do tipo adequado. O golem age logo depois de você a partir do turno em que for invocado. É possível invocar qualquer tipo de golem com esta Magia desde que haja uma quantidade suficiente de matéria prima adequada. Um golem pequeno custa 20 Pontos de Mana e um golem médio custa 40 Pontos de Mana. <br/>&emsp;A runa que mantém o golem coeso se dissipa depois de 10 minutos ou assim que o golem for destruído.",
+      "es": "",
+      "re": "Invoca Golem de matéria prima por 10min, 20PM Pequeno, 40PM Médio",
+      "e": []
+    },
+    {
+      "n": "Invocar Golem 2",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 750,
+      "m": -2,
+      "df": 16,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Invocar Golem 1"
+        ]
+      ],
+      "d": "Você desenha uma Runa Arcana ou Selo Místico sobre uma superfície invocando um golem do tipo adequado. O golem age logo depois de você a partir do turno em que for invocado. É possível invocar qualquer tipo de golem com esta Magia desde que haja uma quantidade suficiente de matéria prima adequada. um golem grande custa 60 Pontos de Mana e um golem gigante custa 120 Pontos de Mana. <br/>&emsp;A runa que mantém o golem coeso se dissipa depois de 10 minutos ou assim que o golem for destruído.",
+      "es": "",
+      "re": "Invoca Golem de matéria prima por 10min, 60PM Grande, 120PM Gigante",
+      "e": []
+    },
+    {
+      "n": "Invocar Lemure",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 0,
+      "m": 30,
+      "df": 14,
+      "r": [],
+      "d": "Traçando um Círculo de Invocação você invoca um Lemure (um Sabujo Infernal ou Diabrete se seu nível for menor do que 5 ou Mastim Infernal ou uma Malora se seu nível for 5 ou maior). O Lemure permanece no plano material por um número de horas igual à sua Determinação mais um número de horas igual à Vontade da criatura sacrificada para invoca-lo, mas você pode acender um braseiro quando invocá-lo, derramando o sangue da criatura sacrificada nele. Sacrificando outra criatura (não é preciso um novo ritual, mas a criatura ainda precisa estar Indefesa) e derramando seu sangue no braseiro, você renova a duração da invocação por uma quantidade de Horas igual à Determinação da criatura sacrificada. Essa operação pode ser realizada indefinidamente, e muitos Cultistas mantêm o mesmo Lemure por anos a frio sob seus serviços dessa forma. Se o braseiro for apagado ou você falhar em derramar mais sangue nas brasas dele quando o tempo de invocação acabar, o Lemure será imediatamente banido para o Inferno.",
+      "es": "",
+      "re": "Invoca Lemure por DET +VON de sacrifício horas, Consulte a descrição",
+      "e": []
+    },
+    {
+      "n": "Invocar Shedin",
+      "c": "Magia",
+      "t": "Ação",
+      "ct": 0,
+      "m": 60,
+      "df": 16,
+      "r": [],
+      "d": "Traçando um Círculo de Invocação você invoca um Shedin (um Cenodoxus, Incubus ou Labatut são os mais comuns). O Shedin permanece no plano material por um número de minutos igual à sua Determinação – se tiver sido invocado através de um ritual que tenha envolvido o sacrifício de um ou múltiplos Humanoides ou Esfinges, Você pode, como parte do ritual de invocação, acender um braseiro e colocando o coração das criaturas nas brasas depois do sacrifício. O Shedin permanecerá por mais 1 hora para cada coração que for consumido pelas brasas dessa forma. Sacrificando outra criatura (não é preciso um novo ritual, mas a criatura ainda precisa estar Indefesa) e jogando seu coração no braseiro, você renova a duração da invocação por uma quantidade de Horas igual à Vontade da criatura sacrificada. Essa operação pode ser realizada indefinidamente. Se o braseiro for apagado ou você falhar em jogar o coração de um Humanoide ou Esfinge nas brasas dele quando o tempo de invocação acabar, o Shedin será imediatamente banido para o Inferno.<br/>&emsp;Você só pode manter 1 Shedin sob seus serviços de cada vez, ou 2 Shedins se você for de nível 10 ou mais.",
+      "es": "",
+      "re": "Invoca Shedin por DET minutos, Consulte a descrição",
+      "e": []
+    },
+    {
+      "n": "Irrefreável",
+      "c": "Técnica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [],
+      "d": "É extremamente difícil restringir seus movimentos – ou sua vontade. Sempre que você for alvo de uma Habilidade, efeito ou condição que restringiriam ou controlem suas ações – Grilhões, tentativas de derrubá-lo ou empurrá-lo, efeitos que causem redução do seu Deslocamento ou efeitos mentais de todos os tipos – você recebe +2 para resistir ao efeito, ou +1d6 caso seja possível rolar um teste ou um confronto.<br/>&emsp;Além disso, seu Deslocamento passa a ser calculado baseado em sua Força ao invés de sua Agilidade.",
+      "es": "",
+      "re": "Não ser imobilizado +1d6 ou +2, Deslocamento com Força",
+      "e": [
+        "irref"
+      ]
+    },
+    {
+      "n": "Isnuu",
+      "c": "Característica",
+      "t": "Suporte",
+      "ct": 0,
+      "m": -1,
+      "df": -1,
+      "r": [
+        "n",
+        1
+      ],
+      "d": "Você nasceu com uma grande afinidade com a magia. Sua pele e seus cabelos são de tons esverdeados, e você pode selecionar Habilidades da lista do Feiticeiro como se fossem da sua Classe – desde que preencha os requisitos. Além disso, as dificuldades de todas as Magia são diminuídas em 1 para você.",
+      "es": "Você só pode selecionar essa Habilidade durante a criação do personagem.",
+      "re": "Dificuldade de Magia -1, Acesso à habilidades do Feiticeiro",
+      "e": [
+        "mod",
+        4,
+        [],
+        [],
+        [
+          "Magia"
+        ],
+        [
+          "Ação"
+        ],
+        [],
+        1,
+        "Magias tem Dificuldade-1",
+        "habx",
+        [
+          "Aparar Magia",
+          "Arco Voltaico",
+          "Aríete Mágico",
+          "Bola de Fogo",
+          "Congelar",
+          "Detectar Magia",
+          "Eletricidade Estática",
+          "Inflamar",
+          "Infravisão",
+          "Invocar Elemental 1",
+          "Invocar Elemental 2",
+          "Levitar",
+          "Manto Crepitante",
+          "Mente Disciplinada",
+          "Parede de Gelo",
+          "Rajada de Gelo",
+          "Rajada Elemental",
+          "Relâmpago 1",
+          "Resistência Elemental",
+          "Telecinésia",
+          "Teleporte 1",
+          "Aptidão Elemental",
+          "Dissipar Magia",
+          "Eletrosfera",
+          "Incandescer",
+          "Inferno",
+          "Invocar Elemental 3",
+          "Prisão de Gelo",
+          "Relâmpago 2",
+          "Teleporte 2",
+          "Tempestade de Gelo",
+          "Maestria Elemental"
+        ],
+        "Isnuu"
+      ]
+    },
+    {
+      "n": "Janela Mágica",
+      "c": "Mística",
+      "t": "Ação",
+      "ct": 300,
+      "m": -2,
+      "df": 12,
+      "r": [],
+      "d": "Desenhando um Selo Místico sobre uma superfície, você é capaz de canalizar os efeitos de Clarividência, Psicometria ou Retrocognição, criando uma espécie de janela onde os eventos que o Oráculo perceberia podem ser visualizados por qualquer um ao seu redor. <br/>&emsp;O custo dessa Magia será igual ao custo da Habilidade canalizada. <br/>&emsp;Esse Selo Místico dura 10 minutos, mas se o Selo Místico que estiver sendo observado com Clarividência for dissipado ou o conjurador perder contato com o objeto, superfície ou criatura na qual está usando Psicometria ou Retrocognição, o efeito é cancelado imediatamente.",
+      "es": "",
+      "re": "'Janela' para visualizar os efeitos de Clarividência & etc, 10min",
+      "e": []
+    },
+    {
+      "n": "Jato de Tinta",
+      "c": "Característica",
+      "t": "Reação",
+      "ct": 0,
+      "m": 10,
+      "df": -1,
+      "r": [],
+      "d": "Você é capaz de expelir um jorro de tinta escura e pegajosa, capaz de cegar e desorientar temporariamente seus alvos. Quando utilizar uma ação de movimento para se deslocar (ou tentar se deslocar), você pode disparar um jorro de tinta contra um alvo, com um confronto de Agilidade. Se você vencer, o alvo estará cego por 1 rodada e distraído por 1 rodada depois disso.",
+      "es": "Se estiver sob a água, a tinta se dispersa numa nuvem que cobre uma área com diâmetro igual à sua Força em metros. Todos os alvos dentro área ficam cegos, e ficam distraídos por 1 turno depois de saírem da área. A nuvem se dissipa em 3 turnos – ou 1 turno em água com correnteza forte.",
+      "re": "Ao se mover: AGIxAGI: Cego 1t, depois Distraído 1t",
+      "e": []
+    },
+    {
+      "n": "Juiz",
+      "c": "Característica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 25,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Mastim"
+        ]
+      ],
+      "d": "Você é muito bom em extrair a verdade de seus interlocutores. Quando tiver detectado uma mentira, você pode ordenar ao alvo que diga a verdade. O alvo realiza um teste de Vontade (dificuldade igual à sua Determinação) e se falhar ele deve, imediatamente, contar a verdade dentro dos seus conhecimentos (o alvo não pode modificar nenhum fato nem suprimir nenhuma informação que souber). Além disso, o alvo também fica Amedrontado em relação a você por um número de minutos igual à sua Vontade. <br/>&emsp;Este é um efeito mental.",
+      "es": "",
+      "re": "Mental, Alvo testa VON[<a class='det'></a>]: Obrigado a dizer a verdade",
+      "e": []
+    },
+    {
+      "n": "Justiça Final 1",
+      "c": "Técnica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 25,
+      "df": -1,
+      "r": [
+        "h",
+        [
+          "Código da Justiça"
+        ]
+      ],
+      "d": "Você pode fazer um ataque corporal que, se acertar, causa o dobro do dano normal, ou o triplo do dano normal se a criatura for um demônio, morto-vivo ou espírito.",
+      "es": "",
+      "re": "Ataque Cac que causa o dano x2, ou x3 vs Demônio,Morto-Vivo,Espírito",
+      "e": []
+    },
+    {
+      "n": "Justiça Final 2",
+      "c": "Técnica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 50,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Justiça Final 1"
+        ]
+      ],
+      "d": "Você pode fazer um ataque corporal que, se acertar, causa o triplo do dano normal ou o quádruplo se a criatura for um demônio, morto-vivo ou espírito.",
+      "es": "",
+      "re": "Ataque Cac que causa o dano x3, ou x4 vs Demônio,Morto-Vivo,Espírito",
+      "e": []
+    },
+    {
+      "n": "Kirituhi",
+      "c": "Técnica",
+      "t": "Ação",
+      "ct": 0,
+      "m": 60,
+      "df": -1,
+      "r": [
+        "n",
+        5,
+        "h",
+        [
+          "Tamoko"
+        ]
+      ],
+      "d": "Você é capaz de realizar uma tatuagem em um Humanoide ou Esfinge com os efeitos de qualquer uma de suas Habilidades de Tohunga que não tenham Requisitos. O processo leva um dia inteiro, e você precisa ser capaz de falar em uma língua que o alvo entenda, explicando sobre os significados e propriedades da tatuagem que está produzindo.",
+      "es": "",
+      "re": "Tatuagem (sem requisitos) em Humanóide ou Esfinge, Requer um dia",
+      "e": []
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+[
+  {
+    "n": "Espírito Animal: Abelha",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Seu espírito possui a forma de uma abelha. Você é imune a venenos naturais e recebe +1d6 para resistir à efeitos de venenos mágicos. Você também é capaz de uma comunicação rudimentar – dentro das capacidades do animal – com qualquer criatura do tipo Artrópode e rola +1d6 em todas as rolagens (atacar, perceber, treinar, etc.) com relação à essas criaturas.<br/>&emsp;Finalmente, todas as suas Habilidades que envolvam criaturas do tipo Besta (Companheiro Animal, Convocar Animais, Forma Animal, Guardião da Natureza, etc.) passam a incluir criaturas do tipo Artrópode.",
+    "es": "",
+    "re": "Artrópode: Imune a Características, não atacado, comunicação, +1d6",
+    "e": [
+      "anct",
+      [
+        "Artrópode"
+      ]
+    ]
+  },
+  {
+    "n": "Espírito Animal: Águia",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Seu espírito possui a forma de uma águia. Você ganha +1 nas rolagens de ataque a distância. Você também é capaz de uma comunicação rudimentar – dentro das capacidades do animal – com qualquer criatura do tipo Ave, e rola +1d6 em todas as rolagens (atacar, perceber, treinar, etc.) com relação à qualquer Besta do tipo Ave.",
+    "es": "",
+    "re": "Ataque à Distância +1, Aves +1d6",
+    "e": [
+      "mod",
+      0,
+      [],
+      [],
+      [],
+      [],
+      [
+        "C",
+        "M",
+        "L"
+      ],
+      1,
+      "Ataques à Distância são feitos com +2"
+    ]
+  },
+  {
+    "n": "Espírito Animal: Camaleão",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Seu espírito possui a forma de um camaleão. Você rola +1d6 nos testes de se esconder, escalar e se mover em silêncio. Você também é capaz de uma comunicação rudimentar – dentro das capacidades do animal – com qualquer criatura do tipo Réptil, e rola +1d6 em todas as rolagens (atacar, perceber, treinar, etc.) com relação à qualquer Besta do tipo Réptil.",
+    "es": "",
+    "re": "Esconder, Escalar, Furtividade, Répteis +1d6",
+    "e": []
+  },
+  {
+    "n": "Espírito Animal: Cavalo",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Seu espírito possui a forma de um cavalo. Você rola +1d6 nos seus testes para correr, saltar, escalar, nadar ou qualquer tipo de movimentação e deslocamento. Você também é capaz de uma comunicação rudimentar – dentro das capacidades do animal – com qualquer Besta do tipo Mamífero que tenha uma dieta Herbívora, e rola +1d6 em todas as rolagens (atacar, perceber, treinar, etc.) com relação à qualquer Besta do tipo Mamífero que tenha uma dieta Herbívora.",
+    "es": "",
+    "re": "Correr, Escalar, Nadar, etc. Mamífero Herbívoro +1d6",
+    "e": []
+  },
+  {
+    "n": "Espírito Animal: Cobra",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Seu espírito possui a forma de uma cobra. Você ganha +1 na Defesa (este é um bônus de Esquiva ou Bloqueio, à sua escolha; essa escolha deve ser feita no momento em que essa Habilidade é selecionada e não pode ser mudada mais tarde). Você também é capaz de uma comunicação rudimentar – dentro das capacidades do animal – com qualquer criatura do tipo Réptil, e rola +1d6 em todas as rolagens (atacar, perceber, treinar, etc.) com relação à qualquer Besta do tipo Réptil.",
+    "es": "",
+    "re": "Esquiva ou Bloqueio +1, Répteis +1d6",
+    "e": [
+      "def!",
+      3,
+      1,
+      [],
+      "Bloqueio ou Esquiva +1"
+    ]
+  },
+  {
+    "n": "Espírito Animal: Coruja",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Seu espírito possui a forma de uma coruja. Você rola +1d6 em todos os testes para lembrar, pesquisar ou compreender qualquer tipo de conhecimento teórico. Você também é capaz de uma comunicação rudimentar – dentro das capacidades do animal – com qualquer criatura do tipo Ave, e rola +1d6 em todas as rolagens (atacar, perceber, treinar, etc.) com relação à qualquer Besta do tipo Ave.",
+    "es": "",
+    "re": "Lembrar, Pesquisar, Conhecimento teórico, Aves +1d6",
+    "e": []
+  },
+  {
+    "n": "Espírito Animal: Golfinho",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Seu espírito possui a forma de um golfinho. Você consegue respirar e se movimentar tanto sob quanto sobre a água normalmente. Você também é capaz de uma comunicação rudimentar – dentro das capacidades do animal – com qualquer Besta do tipo Peixe ou do tipo Mamífero cujo Habitat seja Rio ou Mar e rola +1d6 em todas as rolagens (atacar, perceber, treinar, etc.) com relação à essas criaturas.",
+    "es": "",
+    "re": "Respirar e mover sob água. Peixe ou Mamífero aquático +1d6",
+    "e": []
+  },
+  {
+    "n": "Espírito Animal: Lobo",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Seu espírito possui a forma de um lobo. Você ganha +1 nas rolagens de ataque corporal. Você também é capaz de uma comunicação rudimentar – dentro das capacidades do animal – com qualquer Besta do tipo Mamífero que tenha uma dieta Carnívora, e rola +1d6 em todas as rolagens (atacar, perceber, treinar, etc.) com relação à qualquer Besta do tipo Mamífero que tenha uma dieta Carnívora.",
+    "es": "",
+    "re": "Ataque Corporal +1, Mamífero Carnívoro +1d6",
+    "e": [
+      "mod",
+      0,
+      [],
+      [],
+      [],
+      [],
+      [
+        "CaC"
+      ],
+      1,
+      "Ataques CaC são feitos com +1"
+    ]
+  },
+  {
+    "n": "Espírito Animal: Touro",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Seu espírito possui a forma de um touro. Você rola +1d6 nos seus testes para resistir à venenos naturais ou mágicos, doenças e infecções naturais e mágicas, tentativas de derrubá-lo, empurrá-lo ou movê-lo fisicamente de qualquer maneira. Você também é capaz de uma comunicação rudimentar – dentro das capacidades do animal – com qualquer Besta do tipo Mamífero que tenha uma dieta Herbívora, e rola +1d6 em todas as rolagens (atacar, perceber, treinar, etc.) com relação à qualquer Besta do tipo Mamífero que tenha uma dieta Herbívora.",
+    "es": "",
+    "re": "Resistir à veneno, doença, empurrão +1d6, Mamífero Herbívoro +1d6.",
+    "e": []
+  },
+  {
+    "n": "Espírito Animal: Tubarão",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Seu espírito possui a forma de um tubarão. Você causa +2 de dano com seus ataques corporais (desarmados ou com armas). Você também é capaz de uma comunicação rudimentar – dentro das capacidades do animal – com qualquer Besta do tipo Peixe ou do tipo Mamífero cujo Habitat seja Rio ou Mar e rola +1d6 em todas as rolagens (atacar, perceber, treinar, etc.) com relação à essas criaturas.",
+    "es": "",
+    "re": "Dano Corporal +2, Peixe ou Mamífero aquático +1d6",
+    "e": [
+      "mod",
+      1,
+      [],
+      [],
+      [],
+      [],
+      [
+        "CaC"
+      ],
+      2,
+      "Ataques CaC são causam dano +2"
+    ]
+  },
+  {
+    "n": "Espírito Animal: Urso",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Seu espírito possui a forma de um urso. Você tem +10 Pontos de Vida. Você também é capaz de uma comunicação rudimentar – dentro das capacidades do animal – com qualquer Besta do tipo Mamífero que tenha uma dieta Carnívora, e rola +1d6 em todas as rolagens (atacar, perceber, treinar, etc.) com relação à qualquer Besta do tipo Mamífero que tenha uma dieta Carnívora.",
+    "es": "",
+    "re": "Vida +10, Mamífero Carnívoro +1d6",
+    "e": [
+      "vida",
+      10
+    ]
+  }
+]

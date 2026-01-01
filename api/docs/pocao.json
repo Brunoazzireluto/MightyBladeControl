@@ -1,0 +1,596 @@
+{
+  "pocao": [
+    {
+      "n": "Antídoto Avançado",
+      "p": 0.12,
+      "r": "Incomum",
+      "c": 150,
+      "de": "Remove todos os efeitos de venenos naturais e mágicos.",
+      "i": "Folha de eucalipto, Flor de Isura, Trevo de quatro folhas (Infusão 12)"
+    },
+    {
+      "n": "Antídoto Básico",
+      "p": 0.12,
+      "r": "Comum",
+      "c": 50,
+      "de": "Remove todos os efeitos de venenos naturais da criatura que a beber.",
+      "i": "Folha de eucalipto, Erva dos passos (Infusão 8)"
+    },
+    {
+      "n": "Antídoto Cola-Carne",
+      "p": 0.12,
+      "r": "Comum",
+      "c": 50,
+      "de": "Remove infecções naturais e efeitos de sangramento do alvo.",
+      "i": "Folha de Eucalipto, Raiz de Carvalho, Tarântula (Maceração 8)"
+    },
+    {
+      "n": "Antídoto Universal",
+      "p": 0.12,
+      "r": "Incomum",
+      "c": 300,
+      "de": "Remove todos os efeitos de venenos naturais e mágicos, doenças naturais e mágicas e efeitos de sangramento.",
+      "i": "Folha de eucalipto, pó de pirita (Tintura 12), Flor de isura, Trevo de quatro folhas (Tisana 14)"
+    },
+    {
+      "n": "Elixir da Agilidade",
+      "p": 0.12,
+      "r": "Raro",
+      "c": 1000,
+      "de": "O personagem que beber a poção recebe Agilidade +3 por 1 hora.",
+      "i": "Flor de Isura, Folha de oliveira (Maceração 12), flor de argúsia (Tisana 16)"
+    },
+    {
+      "n": "Elixir da Força",
+      "p": 0.12,
+      "r": "Raro",
+      "c": 2000,
+      "de": "O personagem que beber a poção recebe Força +3 por 1 hora.",
+      "i": "Flor de Isura, Folha de oliveira (Maceração 12), Coração de Grifo (Tisana 16)"
+    },
+    {
+      "n": "Elixir da Inteligência",
+      "p": 0.12,
+      "r": "Raro",
+      "c": 600,
+      "de": "O personagem que beber a poção recebe Inteligência +3 por 1 hora.",
+      "i": "Cogumelo vermelho, Folha de oliveira (Maceração 12), Ossos de Hidra (Destilação 16)"
+    },
+    {
+      "n": "Elixir da Restauração",
+      "p": 0.12,
+      "r": "Incomum",
+      "c": 150,
+      "de": "Recupera 30 Pontos de Vida e 30 Pontos de Mana.",
+      "i": "Flor de isura, erva dos passos, cogumelo vermelho (Tisana 13)"
+    },
+    {
+      "n": "Elixir da Restauração Maior",
+      "p": 0.12,
+      "r": "Incomum",
+      "c": 260,
+      "de": "Recupera 50 Pontos de Vida e 50 Pontos de Mana.",
+      "i": "Flor de isura, Erva dos passos, Cogumelo vermelho, Trevo de quatro folhas (Tisana 16)"
+    },
+    {
+      "n": "Elixir da Praga",
+      "p": 0.12,
+      "r": "Ilegal",
+      "c": 800,
+      "de": "Infecta com doença natural por 12 horas. Alvo não é afetado, mas vetor da praga.",
+      "i": "Enxofre, pele de camaleão, veneno de planta assassina (tisana 11), folha de garraka (Tintura 14)."
+    },
+    {
+      "n": "Extrato da Praga",
+      "p": 0.12,
+      "r": "Ilegal",
+      "c": 800,
+      "de": "Gás em área de 3m infecta com doença natural.",
+      "i": "Enxofre, tarântula (Maceração 10), veneno de planta assassina, folha de garraka (fermentação 15)."
+    },
+    {
+      "n": "Extrato do Espião",
+      "p": 0.12,
+      "r": "Ilegal",
+      "c": 600,
+      "de": "Invisibilidade por 1 hora.",
+      "i": "Pele de Camaleão, folha de oliveira, flor de isura (Maceração 14)."
+    },
+    {
+      "n": "Extrato da Petrificação",
+      "p": 0.12,
+      "r": "Muito raro",
+      "c": 9999,
+      "de": "Arremesso ignora Bloqueio e Armadura, Petrifica alvo Von(12)",
+      "i": "Pó de âmbar, olho de basilisco (Tintura 16), raiz de carvalho, enxofre (Destilação 16)."
+    },
+    {
+      "n": "Extrato Fantasma",
+      "p": 0.12,
+      "r": "Raro",
+      "c": 650,
+      "de": "Corpo Intangível por 5 minutos.",
+      "i": "Olho de basilisco, flor de isura, folha de eucalipto (Destilação 15)."
+    },
+    {
+      "n": "Veneno da Podridão",
+      "p": 0.12,
+      "r": "Muito raro",
+      "c": 9999,
+      "de": "Doença mágica decompõe o corpo do alvo For(12) a cada 12 horas.",
+      "i": "Raiz de Mandrágora, folha de garraka (Tintura 16), veneno de escorpião, veneno de planta assassina (Fermentação 18), veneno de cobra, pele de camaleão (Tisana 16)."
+    },
+    {
+      "n": "Veneno de Glycon",
+      "p": 0.12,
+      "r": "Raro",
+      "c": 6000,
+      "de": "Veneno Mágico. For(12) ou -10PV a cada minuto. Após 10min For(13) ou -10 PV a cada 10min por 1h.",
+      "i": "Raiz de mandrágora, flor de isura (Maceração 14), veneno de planta assassina, veneno de cobra (Fermentação 17)."
+    },
+    {
+      "n": "Veneno de Koth",
+      "p": 0.12,
+      "r": "Muito Raro",
+      "c": 9999,
+      "de": "Veneno Mágico. For(12)/dia por 10 dias. Falha envelhece 10 anos. Sucesso crítico cura. Falha Crítica deixa Por um Fio.",
+      "i": "Raiz de mandrágora (Tintura 14), veneno de escorpião, Asa de Morcego (Destilação 15), erva da lua (Infusão 16)."
+    },
+    {
+      "n": "Elixir da Levitação",
+      "p": 0.12,
+      "r": "Raro",
+      "c": 700,
+      "de": "Levita com velocidade normal de deslocamento (sem correr) por 10 minutos.",
+      "i": "glândula de pirilampo, asa de morcego (infusão 10), Olho de Basilisco (Tintura 15)"
+    },
+    {
+      "n": "Elixir da Velocidade",
+      "p": 0.12,
+      "r": "Incomum",
+      "c": 1600,
+      "de": "Garante uma ação padrão a mais por turno, durante 1 minuto.",
+      "i": "Olho de Basilisco, Flor de isura (Tintura 16), Flor de Argusia (Tisana 16)"
+    },
+    {
+      "n": "Elixir da Vontade",
+      "p": 0.12,
+      "r": "Raro",
+      "c": 500,
+      "de": "O personagem que beber a poção recebe Vontade +3 por 1 hora.",
+      "i": "Cogumelo vermelho, Folha de oliveira (Maceração 12), Dente de dragão (Tintura 16)"
+    },
+    {
+      "n": "Elixir de Axalote",
+      "p": 0.12,
+      "r": "Comum",
+      "c": 9999,
+      "de": "Remove sagramentos e regenera membros decepados lentamente, mas apenas de ferimentos não cicatrizados.",
+      "i": "Erva dos Passos, flor de isura (Infusão 12), pó de âmbar, rabo de axolote (Fermentação 15)"
+    },
+    {
+      "n": "Elixir de Cura",
+      "p": 0.12,
+      "r": "Comum",
+      "c": 50,
+      "de": "Recupera 30 Pontos de Vida.",
+      "i": "Flor de isura, Erva dos passos (Infusão 10)"
+    },
+    {
+      "n": "Elixir de Cura Maior",
+      "p": 0.12,
+      "r": "Incomum",
+      "c": 180,
+      "de": "Recupera 50 Pontos de Vida.",
+      "i": "Flor de isura, Erva dos passos, Trevo de quatro folhas (Infusão 14)"
+    },
+    {
+      "n": "Elixir de Mana",
+      "p": 0.12,
+      "r": "Comum",
+      "c": 100,
+      "de": "Recupera 30 Pontos de Mana.",
+      "i": "Erva dos passos, Cogumelo vermelho (Infusão 10)"
+    },
+    {
+      "n": "Elixir de Mana Maior",
+      "p": 0.12,
+      "r": "Incomum",
+      "c": 220,
+      "de": "Recupera 50 Pontos de Mana.",
+      "i": "Cogumelo vermelho, Erva dos passos, Trevo de quatro folhas (Infusão 14)"
+    },
+    {
+      "n": "Elixir do Dragão Branco",
+      "p": 0.12,
+      "r": "Ilegal",
+      "c": 250,
+      "de": "Permite disparar um sopro de frio que causa dano igual à 20/Frio num alcance de 10 metros.",
+      "i": "Pó de obsidiana, Erva da lua (Maceração 12), veneno de cobra (Tintura 13)"
+    },
+    {
+      "n": "Elixir do Dragão Vermelho",
+      "p": 0.12,
+      "r": "Ilegal",
+      "c": 250,
+      "de": "Permite disparar um sopro de frio que causa dano igual à 20/Fogo num alcance de 10 metros.",
+      "i": "Enxofre, Rabo de salamandra (Tintura 12), veneno de cobra (Destilação 13)"
+    },
+    {
+      "n": "Elixir dos Deuses",
+      "p": 0.12,
+      "r": "Raríssimo",
+      "c": 10000,
+      "de": "O personagem que beber a poção recebe +3 em todos os seus Atributos por 1 hora.",
+      "i": "Cogumelo vermelho, Folha de oliveira, Flor de isura (Maceração 15), Flor de argúsia, Coração de grifo (Tisana 16), Osso de hidra, dente de dragão (Tintura 18)"
+    },
+    {
+      "n": "Extrato Ácido",
+      "p": 0.12,
+      "r": "Raro",
+      "c": 500,
+      "de": "Causa a perda de 20 Pontos de Vida numa área de 1 metro.",
+      "i": "Pó de âmbar, tarântula (Tintura 12), veneno de planta assassina (Destilação 14)"
+    },
+    {
+      "n": "Extrato Congelante",
+      "p": 0.12,
+      "r": "Incomum",
+      "c": 250,
+      "de": "Congela tudo o que cobrir, até um máximo de 200 litros de líquido ou 200 quilos de material sólido.",
+      "i": "Enxofre, erva da lua (Tintura 12)"
+    },
+    {
+      "n": "Extrato da Res. à Eletricidade",
+      "p": 0.12,
+      "r": "Raro",
+      "c": 150,
+      "de": "Confere Resistência à Eletricidade por 1 hora.",
+      "i": "Azeviche, tarântula (Maceração 12), raiz de carvalho (Tisana 12)"
+    },
+    {
+      "n": "Extrato da Resistência ao Fogo",
+      "p": 0.12,
+      "r": "Incomum",
+      "c": 150,
+      "de": "Confere Resistência à Fogo por 1 hora.",
+      "i": "Rabo de Salamandra, tarântula (Maceração 12), raiz de carvalho (Tisana 12)"
+    },
+    {
+      "n": "Extrato da Resistência ao Frio",
+      "p": 0.12,
+      "r": "Raro",
+      "c": 150,
+      "de": "Confere Resistência ao Frio por 1 hora.",
+      "i": "Erva da lua, tarântula (Maceração 12), raiz de carvalho (Tisana 12)"
+    },
+    {
+      "n": "Extrato do Retorno",
+      "p": 0.12,
+      "r": "Incomum",
+      "c": 750,
+      "de": "Teleporta quem a ingerir (e até mais duas pessoas, se abraçadas) para o último local em que dormiu.",
+      "i": "Olho de Basilisco, Pó de pirita (Maceração 14), Asa de morcego, Enxofre (Tisana 14)"
+    },
+    {
+      "n": "Extrato Explosivo Maior",
+      "p": 0.12,
+      "r": "Ilegal",
+      "c": 700,
+      "de": "Explode causando dano igual à 30/fogo num raio de 5 metros.",
+      "i": "Pó de obsidiana, Enxofre (Maceração 14), rabo de salamandra (Tintura 14)"
+    },
+    {
+      "n": "Extrato Explosivo Menor",
+      "p": 0.12,
+      "r": "Incomum",
+      "c": 250,
+      "de": "Explode causando dano igual à 10/Fogo num raio de 3 metros.",
+      "i": "Pó de obsidiana, Enxofre, Rabo de salamandra (Maceração 12)"
+    },
+    {
+      "n": "Extrato Luminoso",
+      "p": 0.12,
+      "r": "Incomum",
+      "c": 200,
+      "de": "Se chacoalhado brilha por 1 hora como uma tocha.",
+      "i": "Pó de pirita, enxofre (Maceração 12), glândula de pirilampo (Tisana 14)"
+    },
+    {
+      "n": "Extrato Regenerativo",
+      "p": 0.12,
+      "r": "Raro",
+      "c": 2000,
+      "de": "Cura ou regenera membros decepados, mas apenas de ferimentos não cicatrizados.",
+      "i": "Erva dos Passos, flor de isura (Infusão 12), folha de oliveira, tarântula (Fermentação 14), coração de grifo (Tintura 16)"
+    },
+    {
+      "n": "Poção do Caos",
+      "p": 0.12,
+      "r": "Raro",
+      "c": 100,
+      "de": "Efeito aleatório. Role 2d6 e verifique o efeito da poção na tabela na pg.76 do Guia do Herói.",
+      "i": "Qualquer"
+    },
+    {
+      "n": "Veneno da Lentidão",
+      "p": 0.12,
+      "r": "Ilegal",
+      "c": 250,
+      "de": "Causa 3 pontos de dano se o alvo estiver ativo, e 1 se descansando. Esse veneno é considerado natural.",
+      "i": "Veneno de escorpião, Asa de morcego, folha de garraka (Infusão 10)"
+    },
+    {
+      "n": "Veneno da Verdade",
+      "p": 0.12,
+      "r": "Incomum",
+      "c": 150,
+      "de": "O alvo torna-se incapaz de mentir durante 30 minutos. Esse veneno é considerado natural.",
+      "i": "Cogumelo vermelho, Folha de eucalipto, Erva dos passos (Tintura 14)"
+    },
+    {
+      "n": "Veneno Paralisante",
+      "p": 0.12,
+      "r": "Ilegal",
+      "c": 500,
+      "de": "Paralisa alvo por 2 turnos. Este veneno é considerado natural.",
+      "i": "Erva da lua, Folha de garraka (Maceração 12)"
+    },
+    {
+      "n": "Veneno Potente",
+      "p": 0.12,
+      "r": "Ilegal",
+      "c": 500,
+      "de": "Causa 5 pontos de dano por turno. Esse veneno é considerado mágico.",
+      "i": "Tarântula, Folha de garraka (Maceração 12), Veneno de escorpião, Veneno de planta assassina (Tintura 14)"
+    },
+    {
+      "n": "Veneno Real",
+      "p": 0.12,
+      "r": "Ilegal",
+      "c": 5000,
+      "de": "Provoca 60 pontos de dano e paralisa por 1 turno. Esse veneno é considerado mágico.",
+      "i": "Raiz de mandrágora, flor de isura (Maceração 14), Veneno de escorpião, Folha de garraka (Tisana 15)"
+    },
+    {
+      "n": "Veneno Sonífero",
+      "p": 0.12,
+      "r": "Comum",
+      "c": 150,
+      "de": "O alvo cairá em um sono profundo. Este veneno é considerado natural.",
+      "i": "Cogumelo vermelho, Flor de isura (Infusão 12)"
+    },
+    {
+      "n": "Veneno Torturante",
+      "p": 0.12,
+      "r": "Ilegal",
+      "c": 900,
+      "de": "Alvo torna-se Inapto em todos os testes por 1 hora. Este veneno é considerado mágico.",
+      "i": "Erva da lua, Folha de garraka (Maceração 12), Veneno de planta assassina, Veneno de escorpião (fermentação 14)"
+    },
+    {
+      "n": "Asa de Morcego",
+      "p": 0,
+      "r": "Comum",
+      "c": 10,
+      "de": "Componente. Caça em Cavernas, Florestas e Selvas.",
+      "i": ""
+    },
+    {
+      "n": "Azeviche",
+      "p": 0,
+      "r": "Incomum",
+      "c": 100,
+      "de": "Componente. Garimpo em qualquer terreno.",
+      "i": ""
+    },
+    {
+      "n": "Cogumelo Vermelho",
+      "p": 0,
+      "r": "Incomum",
+      "c": 50,
+      "de": "Componente. Forrageamento em Planícies.",
+      "i": ""
+    },
+    {
+      "n": "Coração de Grifo",
+      "p": 0,
+      "r": "Raro",
+      "c": 1000,
+      "de": "Componente. Caça em Colinas e Planícies.",
+      "i": ""
+    },
+    {
+      "n": "Dente de Dragão",
+      "p": 0,
+      "r": "Raro",
+      "c": 200,
+      "de": "Componente. Caçado em qualquer criatura Draconica.",
+      "i": ""
+    },
+    {
+      "n": "Enxofre",
+      "p": 0,
+      "r": "Incomum",
+      "c": 50,
+      "de": "Componente. Garimpo em Montanhas.",
+      "i": ""
+    },
+    {
+      "n": "Erva da Lua",
+      "p": 0,
+      "r": "Incomum",
+      "c": 75,
+      "de": "Componente. Forrageamento em Florestas.",
+      "i": ""
+    },
+    {
+      "n": "Erva dos Passos",
+      "p": 0,
+      "r": "Comum",
+      "c": 10,
+      "de": "Componente. Forrageamento em Florestas.",
+      "i": ""
+    },
+    {
+      "n": "Flor de Argusia",
+      "p": 0,
+      "r": "Raro",
+      "c": 500,
+      "de": "Componente. Forrageamento em Litoral.",
+      "i": ""
+    },
+    {
+      "n": "Flor de Isura",
+      "p": 0,
+      "r": "Incomum",
+      "c": 20,
+      "de": "Componente. Forrageamento em Planícies e Florestas.",
+      "i": ""
+    },
+    {
+      "n": "Folha de Eucalipto",
+      "p": 0,
+      "r": "Comum",
+      "c": 5,
+      "de": "Componente. Forrageamento em Florestas.",
+      "i": ""
+    },
+    {
+      "n": "Folha de Garraka",
+      "p": 0,
+      "r": "Comum",
+      "c": 50,
+      "de": "Componente. Forrageamento em Pântanos.",
+      "i": ""
+    },
+    {
+      "n": "Folha de Oliveira",
+      "p": 0,
+      "r": "Comum",
+      "c": 5,
+      "de": "Componente. Forrageamento em qualquer terreno.",
+      "i": ""
+    },
+    {
+      "n": "Glândula de Pirilampo",
+      "p": 0,
+      "r": "Incomum",
+      "c": 50,
+      "de": "Componente. Caça (Dif 11) em Florestas e Subterrâneos",
+      "i": ""
+    },
+    {
+      "n": "Olho de Basilisco",
+      "p": 0,
+      "r": "Incomum",
+      "c": 300,
+      "de": "Componente. Caça em Cavernas.",
+      "i": ""
+    },
+    {
+      "n": "Ossos de Hidra",
+      "p": 0,
+      "r": "Raro",
+      "c": 200,
+      "de": "Componente. Caça em Cavernas.",
+      "i": ""
+    },
+    {
+      "n": "Pele de Camaleão",
+      "p": 0,
+      "r": "Incomum",
+      "c": 100,
+      "de": "Componente. Caça.",
+      "i": ""
+    },
+    {
+      "n": "Pó de Âmbar",
+      "p": 0,
+      "r": "Incomum",
+      "c": 100,
+      "de": "Componente. Garimpo em Montanhas e Colinas.",
+      "i": ""
+    },
+    {
+      "n": "Pó de Obsidiana",
+      "p": 0,
+      "r": "Incomum",
+      "c": 50,
+      "de": "Componente. Garimpo em Montanhas.",
+      "i": ""
+    },
+    {
+      "n": "Pó de Pirita",
+      "p": 0,
+      "r": "Incomum",
+      "c": 50,
+      "de": "Componente. Garimpo em qualquer terreno.",
+      "i": ""
+    },
+    {
+      "n": "Rabo de Salamandra",
+      "p": 0,
+      "r": "Incomum",
+      "c": 75,
+      "de": "Componente. Caça em Florestas.",
+      "i": ""
+    },
+    {
+      "n": "Raiz de Carvalho",
+      "p": 0,
+      "r": "Comum",
+      "c": 5,
+      "de": "Componente. Forrageamento em Florestas.",
+      "i": ""
+    },
+    {
+      "n": "Raiz de Mandrágora",
+      "p": 0,
+      "r": "Raro",
+      "c": 1600,
+      "de": "Componente. Forrageamento, Pântanos e Selvas.",
+      "i": ""
+    },
+    {
+      "n": "Tarântula",
+      "p": 0,
+      "r": "Comum",
+      "c": 5,
+      "de": "Componente. Caça.",
+      "i": ""
+    },
+    {
+      "n": "Trevo de Quatro Folhas",
+      "p": 0,
+      "r": "Incomum",
+      "c": 50,
+      "de": "Componente. Forrageamento em qualquer terreno.",
+      "i": ""
+    },
+    {
+      "n": "Veneno de Cobra",
+      "p": 0,
+      "r": "Comum",
+      "c": 70,
+      "de": "Componente. Caça em qualquer terreno.",
+      "i": ""
+    },
+    {
+      "n": "Veneno de Escorpião",
+      "p": 0,
+      "r": "Comum",
+      "c": 30,
+      "de": "Componente. Caça em qualquer terreno.",
+      "i": ""
+    },
+    {
+      "n": "Veneno de Planta Assassina",
+      "p": 0,
+      "r": "Incomum",
+      "c": 150,
+      "de": "Componente. Forrageamento em Florestas e Selvas.",
+      "i": ""
+    }
+  ]
+}

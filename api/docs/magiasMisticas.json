@@ -1,0 +1,1362 @@
+[
+  {
+    "n": "Abençoar Aliados 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 10,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Graça Divina"
+      ]
+    ],
+    "d": "Você desenha um Selo Místico sobre sí mesmo que concede um bônus de +1 em todas as suas rolagens. Todos os seus aliados que estiverem à uma distância em metros de você igual à sua Determinação quando você desenha este Selo também são afetados por ele. <br/>&emsp;Esse Selo Místico dura 1 minuto.",
+    "es": "",
+    "re": "Testes +1 para você e aliados até <a class='det'></a> metros. 1min",
+    "e": []
+  },
+  {
+    "n": "Abençoar Aliados 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 15,
+    "df": 12,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Abençoar Aliados 1"
+      ]
+    ],
+    "d": "Você desenha um Selo Místico sobre sí mesmo que concede um bônus de +2 em todas as suas rolagens. Todos os seus aliados que estiverem à uma distância em metros de você igual à sua Determinação quando você desenha este Selo também são afetados por ele. <br/>&emsp;Esse Selo Místico dura 1 minuto.",
+    "es": "",
+    "re": "Testes +2 para você e aliados até <a class='det'></a> metros. 1min",
+    "e": []
+  },
+  {
+    "n": "Abençoar Objeto",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 10,
+    "df": 8,
+    "r": [
+      "h",
+      [
+        "Graça Divina"
+      ]
+    ],
+    "d": "Você desenha um Selo Místico sobre uma arma ou armadura para que ela se torne mais eficiente contra criaturas sobrenaturais. Uma arma abençoada causa +6 de dano contra demônios, mortos-vivos e espíritos, além de atingir criaturas incorpóreas como se elas não tivessem a Habilidade Corpo Intangível. Se você abençoar uma armadura, qualquer demônio, morto-vivo ou espírito que tocá-la (incluindo com ataques desarmados) perde imediatamente 6 Pontos de Vida – e perde 6 Pontos de vida a cada turno que comece em contato com a armadura. <br/>&emsp;Esse Selo Místico dura 1 hora.",
+    "es": "",
+    "re": "Objeto dano +6 vs demônios, mortos-vivos ou espíritos. 1 hora",
+    "e": []
+  },
+  {
+    "n": "Abrir Janela Mágica",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": 15,
+    "df": 14,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Janela Mágica"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre uma Janela Mágica, você cria uma segunda Janela Mágica diretamente a frente da criatura, objeto ou superfície que você estiver observando, efetivamente criando um canal de comunicação em tempo real. <br/>&emsp;Esse Selo Místico dura tanto tempo quanto a Janela Mágica sobre a qual for desenhado.",
+    "es": "",
+    "re": "Cria uma segunda Janela Mágica para comunicação em tempo real",
+    "e": []
+  },
+  {
+    "n": "Ampliar Invocação",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": 15,
+    "df": 15,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Invocação Persistente"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico sobre um Elemental ou Golem, você pode fazer com ele aumente de tamanho uma categoria. <br/>&emsp;A Runa ou Selo se mantém ativa por tanto tempo quanto o elemental ou golem estiver coeso, mas você pode dissipá-la a qualquer momento.",
+    "es": "",
+    "re": "Aumenta tamanho de elemental ou golem em uma categoria",
+    "e": []
+  },
+  {
+    "n": "Asas Celestiais",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 20,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Caminhada Mágica"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre uma criatura viva, você faz surgir em suas costas um grande par de asas. O alvo ganha a Habilidade Asas Pesadas. <br/>&emsp;Esse Selo Místico dura por 1 Hora.",
+    "es": "",
+    "re": "Alvo ganha Asas Pesadas por 1 hora",
+    "e": []
+  },
+  {
+    "n": "Asas Elementais",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 15,
+    "df": 10,
+    "r": [],
+    "d": "Desenhando um Selo Místico sobre uma criatura viva, você faz com que um par de asas de energia surjam em suas costas. O alvo ganha a Habilidade Asas Fortes.<br/>&emsp;Esse Selo Místico dura uma quantidade de minutos igual à Determinação do conjurador.",
+    "es": "",
+    "re": "Asas de Energia garantem Asas Fortes por <a class='det'></a> minutos",
+    "e": []
+  },
+  {
+    "n": "Atravessar Janela Mágica",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": 30,
+    "df": 16,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Janela Mágica"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre uma Janela Mágica, você cria um portal diretamente a frente da criatura, objeto ou superfície que você estiver observando, que pode ser atravessado em ambas as direções. <br/>&emsp;Esse Selo Místico dura tanto tempo quanto a Janela Mágica sobre a qual for desenhado.",
+    "es": "",
+    "re": "Abre portal a frente ao que é observado pela janela",
+    "e": []
+  },
+  {
+    "n": "Átrio Elemental",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 40,
+    "df": 12,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Aura do Dragão"
+      ]
+    ],
+    "d": "Você desenha um Selo Místico no ar que se transforma em uma aura elemental centrada em você e com um diâmetro em metros igual à sua Determinação. Quando conjurar esta magia, você deve escolher um tipo de energia elemental (Fogo, Frio ou Eletricidade). Todas as Magias e Habilidades que causem dano do tipo de energia escolhida causam um dano adicional igual à sua Vontade. Além disso, todas as criaturas dentro da área que forem Imunes àquele tipo de energia se tornam Resistentes a ela e criaturas Resistentes à energia selecionada perdem esta característica (você não é afetado por este efeito).<br/>&emsp;Este Selo Místico dura 1 minuto.",
+    "es": "",
+    "re": "DETm: Fogo/Frio/Elet dano +Von & Imune->Res, Res->Normal (exceto você)",
+    "e": []
+  },
+  {
+    "n": "Aura de Cura 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 15,
+    "df": 11,
+    "r": [
+      "h",
+      [
+        "Curar Ferimentos 1"
+      ]
+    ],
+    "d": "Você desenha um Selo Místico sobre sí mesmo que recupera <a class='cura'> 10 </a> Pontos de Vida. Todas as criaturas vivas que estiverem à uma distância em metros de você igual à sua Determinação quando você desenha este selo também são afetados por ele. <br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Cura <a class='cura'>10</a> Pontos de Vida num raio de <a class='det'></a>metros.",
+    "e": []
+  },
+  {
+    "n": "Aura de Cura 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 30,
+    "df": 13,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Aura de Cura 1"
+      ]
+    ],
+    "d": "Você desenha um Selo Místico sobre sí mesmo que recupera <a class='cura'> 30 </a> Pontos de Vida. Todas as criaturas vivas que estiverem à uma distância em metros de você igual à sua Determinação quando você desenha este Selo também são afetados por ele. <br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Cura <a class='cura'>30</a> Pontos de Vida num raio de <a class='det'></a> metros",
+    "e": []
+  },
+  {
+    "n": "Aura do Dragão",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 15,
+    "df": 10,
+    "r": [],
+    "d": "Desenhando um Selo Místico sobre si mesmo, você gera uma aura de energia elemental (Fogo, Frio ou Eletricidade) – essa escolha é feita quando você conjura a magia. Qualquer criatura que esteja adjacente a você quando conjurar esta magia, quando ela terminar seu deslocamento ou quando ela iniciar seu turno sofrem uma quantidade de dano do elemento selecionado igual à sua Vontade.<br/>&emsp;Este Selo Místico dura 1 minuto.",
+    "es": "",
+    "re": "Von/Elemento à escolha em VONm ao conjurar, terminar deslocamento ou iniciar turno",
+    "e": []
+  },
+  {
+    "n": "Bafo do Dragão Negro",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 25,
+    "df": 11,
+    "r": [],
+    "d": "Desenhando um Selo Místico no ar, você projeta uma rajada de fumaça que se espalha rapidamente por uma área igual à sua Determinação à sua frente. Todas as criaturas ficam cegas e distraídas e são consideradas Invisíveis enquanto estiverem dentro da área.<br/>&emsp;Esse Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados, mas a fumaça dura por 1 minuto – metade disso em climas quentes ou o dobro disso em climas frios. Ventos intensos dissipam a neblina mais rapidamente, dependendo da sua intensidade – a critério do Mestre.",
+    "es": "",
+    "re": "Fumaça em DETm à frente: Cego & Distraído, 1min ou até dissipar",
+    "e": []
+  },
+  {
+    "n": "Benção do Dragão",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 20,
+    "df": 12,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Sintonia Dracônica"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre um alvo, ele passa a absorver o elemento da sua Sintonia Dracônica (recuperando uma quantidade de Pontos de Vida iguais a qualquer quantidade de dano que sofreria por aquele elemento).<br/>&emsp;Esse Selo Místico dura 1 minuto.",
+    "es": "Se essa magia for lançada a partir de um item de registro sem que o conjurador tenha Sintonia Dracônica, ela funciona exatamente como Resistência Elemental.",
+    "re": "Alvo passa a absorver dano de sua Sintonia Dracônica, ou Resistência Elemental",
+    "e": []
+  },
+  {
+    "n": "Bestializar",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 20,
+    "df": 11,
+    "r": [
+      "h",
+      [
+        "Benção de Ellenis"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre uma criatura viva do tipo Besta, Humanóide ou Troglodita, ele recebe +2 de Força e Agilidade e desenvolve garras e dentes afiados (dano igual à Força +2/Corte) pela duração do efeito. Esse Selo Místico dura 1 minuto.",
+    "es": "",
+    "re": "Besta/Humanóide/Troglodita: Força e Agilidade +2, Garras & Dentes, 1 min",
+    "e": []
+  },
+  {
+    "n": "Bons Frutos",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 0,
+    "df": 8,
+    "r": [
+      "h",
+      [
+        "Sabedoria Selvagem"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre uma planta você faz com que ela desenvolva flores, frutas ou raízes. Uma planta só vai gerar flores ou frutos se ela normalmente for capaz disso. Utilizando essa magia sobre uma planta comestível, é possível alimentar um número de pessoas igual à sua Vontade. Um personagem que consuma uma dessas plantas recupera o dobro de Pontos de vida e Mana por descanso durante as próximas 6 horas. <br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Planta desenvolve frutos que duplicam recuperação por repouso",
+    "e": []
+  },
+  {
+    "n": "Caminhada Mágica",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 10,
+    "df": 9,
+    "r": [],
+    "d": "Desenhando um Selo Místico sobre uma criatura viva, você permite que ela possa caminhar sobre qualquer tipo de superfície (incluindo líquidos), paredes ou teto e não sofre nenhum tipo de redutor ou penalidade de movimentação por terrenos difíceis ou acidentados. Finalmente, o alvo pode escolher á vontade se vai deixar rastros ou não enquanto esta runa estiver ativa sobre ele. <br/>&emsp;Esse Selo Místico dura 1 hora.",
+    "es": "",
+    "re": "Alvo caminha sobre qualquer superfície sem deixar rastros, 1 hora",
+    "e": []
+  },
+  {
+    "n": "Cariátide",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": -2,
+    "df": 12,
+    "r": [],
+    "d": "Você pode dar movimentos para uma estátua desenhando um Selo Místico sobre ela. A estátua precisa ter uma forma aproximadamente humanoide e toda feita de um mesmo material. O custo da magia depende do tamanho da estátua: 20 Pontos de Mana para uma estátua pequena, 40 Pontos de Mana para uma estátua média e 80 Pontos de Mana para uma estátua grande. A estátua terá as características de um Golem do material e tamanho apropriados. <br/>&emsp;Esse Selo Místico dura 1 Minuto.",
+    "es": "",
+    "re": "Anima Golem por 1 min, Pequeno 20PM, Médio 40PM, Grande 80PM",
+    "e": []
+  },
+  {
+    "n": "Círculo da Proteção",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 600,
+    "m": 40,
+    "df": 13,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Conjurar Broquel Místico",
+        "Exorcismo"
+      ]
+    ],
+    "d": "Você desenha um Selo Místico no ar que se transforma em uma barreira de energia centrada em você e com um diâmetro igual á sua Vontade. A barreira é imaterial, indestrutível, imóvel, translúcida e bloqueia qualquer magia (tanto de fora para dentro quanto de dentro para fora). Além disso, qualquer demônio, morto-vivo ou espírito perde 20 Pontos de Vida a cada turno que começar dentro da barreira. <br/>&emsp;O Selo Místico dura tanto tempo quanto você se mantiver dentro da barreira e concentrado em mantê-la.",
+    "es": "",
+    "re": "Barreira (<a class='von'></a> m) impede magia dentro/fora. Dano 20 em Demônio,Morto-Vivo,Espírito/turno.",
+    "e": []
+  },
+  {
+    "n": "Conjurar Abrigo",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": -2,
+    "df": 12,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Mover Terra"
+      ]
+    ],
+    "d": "Você desenha um Selo Místico sobre o solo, de onde uma estrutura simples e resistente se ergue seguindo a sua vontade. O custo em Mana da Magia depende do tamanho da estrutura: 10 Pontos de Mana criam um domo para até 4 pessoas, 20 Pontos de Mana criam uma cabana para até 10 pessoas, 40 Pontos de Mana criam uma torre para até 20 pessoas e 80 Pontos de Mana criam um pequeno forte para até 40 pessoas. <br/>&emsp;O Selo Místico se dissipa depois de 24h, fazendo com que a estrutura comece a desmoronar lentamente.",
+    "es": "",
+    "re": "10PM 4 pessoas, 20PM 10p., 40 20p., 80 40 p., 1 dia",
+    "e": []
+  },
+  {
+    "n": "Conjurar Arma dos Deuses",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 20,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Dogma"
+      ]
+    ],
+    "d": "Você desenha um Selo Místico no ar que se materializa na forma da arma favorecida pela sua divindade. O Selo Místico que conjura a arma se dissipa após 1 minuto, mas se você soltar a arma ele se dissipa imediatamente.",
+    "es": "",
+    "re": "Conjura a Arma dos Deuses descrita no Dogma por 1 minuto",
+    "e": []
+  },
+  {
+    "n": "Conjurar Broquel Místico",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 10,
+    "df": 10,
+    "r": [],
+    "d": "Você desenha um Selo Místico sobre uma criatura que se materializa na forma de um escudo que flutua ao redor do alvo defletindo ataques, mas pode ser segurado como um escudo normal. Ele garante Esquiva +2, e se for segurado tem FN 2, ocupa 1 mão e seu bônus passa a ser de Bloqueio. <br/>&emsp;Esse Selo Místico dura 1 minuto.",
+    "es": "",
+    "re": "Escudo Esq+2, segurado Blq+2 e FN 2, 1 min",
+    "e": []
+  },
+  {
+    "n": "Conjurar Falange do Destino",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 60,
+    "df": 12,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Conjurar Lança do Destino"
+      ]
+    ],
+    "d": "Você desenha um Selo Místico no ar que se transforma em um conjunto de lanças de luz igual à metade da sua Vontade que arremetem imediatamente na direção de seus inimigos. Cada lança causa dano igual a 10/Perfuração. Se o alvo for um demônio, morto-vivo ou espírito, a lança causa o triplo de dano. Após atingir o alvo a lança se dissipa em uma explosão de luz, e o alvo precisa fazer um teste de Vontade (dificuldade igual à Determinação do conjurador) ou fica Distraído por 1 turno. Demônios, mortos-vivos e espíritos não tem direito ao teste para evitarem ficar Distraídos. <br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "Você pode atingir o mesmo alvo com várias lanças, ou um alvo com cada lança.",
+    "re": "VON/2 lanças de 10/Perf, Demônios,Mortos-Vivos,Espíritos 30/Perf. VON[<a class='det'></a>]:Distraído",
+    "e": []
+  },
+  {
+    "n": "Conjurar Lança do Destino",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 15,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Exorcismo"
+      ]
+    ],
+    "d": "Você desenha um Selo Místico no ar que assume a forma de uma lança de luz. A lança arremete na direção de um alvo que você possa ver e causa dano igual a 10/Perfuração. Se a criatura for um demônio, morto-vivo ou espírito a lança causa o dobro do dano. Após atingir o alvo a lança se dissipa em uma explosão de luz, e o alvo precisa fazer um teste de Vontade (dificuldade igual à sua Determinação) ou fica Distraído por 1 turno. Demônios, mortos-vivos ou espíritos não têm direito ao teste para evitar ficarem Distraídos. <br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "10/Perf, Demônios,Mortos-Vivos,Espíritos 30/Perf. VON[<a class='det'></a>]:Distraído",
+    "e": []
+  },
+  {
+    "n": "Convocar Animais",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 10,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Benção de Ellenis"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre si mesmo, você consegue atrair uma quantidade de Bestas igual à sua Vontade escolhidas entre Mamífero, Ave, Réptil ou Peixe com Ameaça 0 que estejam a até 1km de você. Em combate, 1 animal por vez chegará no início do seu turno até o número máximo de animais. Os animais não estarão sob seu controle, mas se sentirão inclinados a ajudá-lo dentro de suas capacidades – animais com temperamento pacífico ou covarde não irão entrar em combate, mas animais Sobreviventes, Ferozes ou Furiosos não terão problemas com isso.<br/>&emsp;Esta Habilidade não tem efeito em Bestas com o comportamento Servo, e animais Protetores avisarão seus donos antes de virem até você – e agirão como se tivessem o Temperamento normal daquele tipo de animal ao invés de Protetor enquanto estiverem sob efeito do Selo (embora se recusem a atacar seus donos).<br/>&emsp;Esse Selo Místico dura 1 hora. Quando for dissipado, as Bestas afetadas voltarão pacificamente para os locais de onde vieram.",
+    "es": "Você pode refinar o tipo específico de animal (“Cavalos”, “Carnívoros”, “Pacíficos”) ou até mesmo um animal específico (“Aquele rato com quem eu conversei ontem”, “meu Companheiro Animal”, “O cão do guarda-caça”) quando conjurar essa magia.",
+    "re": "Atrai tipo de Besta num raio de 1km, que auxiliam em suas capacidades",
+    "e": []
+  },
+  {
+    "n": "Corpo Fechado",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 20,
+    "df": 12,
+    "r": [
+      "h",
+      [
+        "Proteção Mística"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre um alvo, você confere Resistência à Contusão, Corte ou Perfuração a ele. <br/>&emsp;Esse Selo Místico dura por 1 minuto.",
+    "es": "",
+    "re": "Confere resistência a Cont., Corte ou Perf por 1 minuto",
+    "e": []
+  },
+  {
+    "n": "Criar Golem",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 60,
+    "df": 14,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Cariátide"
+      ]
+    ],
+    "d": "Você pode dar movimentos para um receptáculo especialmente preparado. Você precisa de um receptáculo de forma aproximadamente humanoide todo feito de um mesmo material com uma pedra preciosa incrustada nele. A pedra preciosa precisa ter um valor de 400 moedas para cada metro de altura do Golem. Você então desenha um Selo Místico sobre o receptáculo, que se torna um Golem do material e tamanho apropriados. <br/>&emsp;O Selo Místico que mantém o Golem dura 1 hora. <br/>&emsp;Veja os dados de diversos tipos de Golens no Monstrum Codex para mais detalhes.",
+    "es": "",
+    "re": "Pedra preciosa de 400 moedas por metro de golem (homogêneo), 1 hora",
+    "e": []
+  },
+  {
+    "n": "Curar Ferimentos 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 5,
+    "df": 8,
+    "r": [],
+    "d": "Desenhando um Selo Místico sobre uma criatura viva que recupera imediatamente <a class='cura'> 10 </a> Pontos de Vida. <br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Toque Cura <a class='cura'>10</a> Pontos de Vida",
+    "e": []
+  },
+  {
+    "n": "Curar Ferimentos 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 30,
+    "df": 12,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Curar Ferimentos 1"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre uma criatura viva, ela recupera imediatamente <a class='cura'> 60 </a> pontos de vida. <br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Toque Cura <a class='cura'>60</a> Pontos de Vida",
+    "e": []
+  },
+  {
+    "n": "Defesa do Dragão do Relâmpago",
+    "c": "Magia",
+    "t": "Reação",
+    "ct": 250,
+    "m": 10,
+    "df": 12,
+    "r": [
+      "h",
+      [
+        "Aura do Dragão"
+      ]
+    ],
+    "d": "Você é capaz de produzir um campo de magnetismo ao seu redor, repelindo metal. Desenhando um Selo Místico sobre si mesmo, você sempre pode ativá-lo se for alvo de um ataque de uma arma com componentes de metal, impedindo que a arma o toque, evitando o ataque completamente.<br/>&emsp;Esse Selo Místico se dissipa apenas quando você dormir (ou perder a consciência de alguma forma) e não quando é ativado – mas consome seu custo em Mana sempre que seu efeito for desencadeado.",
+    "es": "",
+    "re": "Impede ataque de arma ou projétil metálicos",
+    "e": []
+  },
+  {
+    "n": "Despertar a Flora",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": -2,
+    "df": 13,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Entrelaçar"
+      ]
+    ],
+    "d": "Você desenha um Selo Místico sobre uma planta, imbuindo ela com percepção e fala de uma criatura inteligente além de capacidade de movimentação. Um rosto se cria no caule ou tronco da planta e pode interagir com qualquer um. Nenhuma planta gosta de ser incomodada e elas tendem a não ser muito amistosas. O custo em Mana da Magia depende do tamanho da planta: 10 Pontos de Mana para afetar uma planta pequena, 20 Pontos de Mana para afetar uma planta média, 40 Pontos de Mana para afetar uma planta grande e 80 Pontos de Mana para afetar uma planta gigante. <br/>&emsp;Trate uma planta sob efeito dessa magia como um Golem de madeira do tamanho apropriado, exceto o Tipo que será Esfinge e o Temperamento que será Pacífico. <br/>&emsp;O Selo Místico dura 1 minuto por ponto de Vontade do conjurador.",
+    "es": "",
+    "re": "Anima planta: 10PM Pequena, 20PM Média, 40PM Grande, 80PM Gigante",
+    "e": []
+  },
+  {
+    "n": "Entrelaçar",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 10,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Sabedoria Selvagem"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre o solo você faz com que plantas comecem a brotar e agarrem um alvo que esteja com os pés no chão, reduzindo seu Deslocamento a 0 e sua Agilidade em -2 enquanto estiver preso dessa forma. Para se soltar, ele (ou outro personagem) deve passar uma quantidade de turnos igual à Vontade do conjurador cortando as plantas (com uma arma que faça dano por corte), ou passar em um teste de Força (Dificuldade igual à Determinação do conjurador). <br/>&emsp;As plantas murcham e se desfazem após 1 minuto. <br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Plantas prendem: Desloc=0 AGI-2 por 1 min, Escapar: FOR[DET]",
+    "e": []
+  },
+  {
+    "n": "Evocar Nevasca",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 40,
+    "df": 12,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Evocar Temporal"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre si mesmo, você pode iniciar uma nevasca ou chuva de granizo que cobre uma área de 1 km de diâmetro. Essa área se move conforme você se desloca, permanecendo centrada em você. Todos na área, exceto você, sofrem dano igual a <a class='frio'>6</a>/Frio (nevasca) ou 6/Contusão (granizo) a cada turno que estiverem desabrigados e todos os testes dentro da área são realizados como se os personagens fossem Inaptos. <br/>&emsp;O temporal leva 3 turnos para se formar e o Selo Místico se dissipa em um número de minutos igual à sua vontade.",
+    "es": "",
+    "re": "Granizo 1km. Começa em 3 turnos. <a class='frio'>6</a>/Frio (nevasca) ou 6/Cont por <a class='von'></a> min, exceto você",
+    "e": []
+  },
+  {
+    "n": "Evocar Temporal",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 20,
+    "df": 11,
+    "r": [
+      "h",
+      [
+        "Princípio Natural"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre si mesmo, você inicia uma poderosa tempestade de chuva ou vento. A tempestade cobre uma área de 1 km de diâmetro e se move conforme você se desloca, permanecendo centrada em você. Todos na área realizam seus testes como se fossem Inaptos. <br/>&emsp;O temporal leva 3 turnos para se formar e o Selo Místico se dissipa em um número de minutos igual à sua Vontade.",
+    "es": "",
+    "re": "Chuva ou vento, 1km. Começa em 3 turnos. Inaptidão geral por <a class='von'></a> minutos",
+    "e": []
+  },
+  {
+    "n": "Exalação do Dragão do Frio",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 30,
+    "df": 11,
+    "r": [
+      "h",
+      [
+        "Aura do Dragão"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico no ar, você projeta uma rajada de refrescante que acalma e renova as criaturas dentro dela. Todas as criaturas dentro de uma área ao seu redor igual à sua Vontade restauram Pontos de Vida – mas não Pontos de Mana – como se tivessem descansado por um número de horas iguais à sua Vontade. Todos os efeitos que ocorreriam ou expirariam dentro desse tempo (fadiga, exaustão, venenos, magias, doenças) são dissipados sem produzir qualquer efeito. Além disso, os efeitos de desidratação (mas não fome) de todas as criaturas dentro da área são removidos.<br/>&emsp;Esse Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "VONm restauram PV e condições como VON horas de repouso",
+    "e": []
+  },
+  {
+    "n": "Exorcismo",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 20,
+    "df": 11,
+    "r": [],
+    "d": "Você desenha um Selo Místico no ar que expurga os mortos-vivos, demônios e espíritos que estiverem a uma distância em metros igual à sua Determinação ao seu redor, fazendo com que eles imediatamente percam 10 Pontos de Vida e 10 Pontos de Mana. Criaturas afetadas que tenham Mente Vazia perdem todos os seus Pontos devida e Mana imediatamente. Mortos-vivos destruídos por essa magia voltarão a ser cadáveres inanimados e não poderão ser reanimados novamente, demônios são imediatamente enviados de volta ao inferno e não podem sair de lá por 1 ano e espíritos são permanentemente dissipados. <br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Expurga Demônio, Morto-Vivo e Espírito em <a class='det'></a> metros, dano 10 Vida & Mana",
+    "e": []
+  },
+  {
+    "n": "Fruto Revigorante",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 10,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Bons Frutos"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre uma planta frutífera – mesmo morta – você faz com que ela desenvolva um único fruto grande e suculento capaz de restaurar <a class='cura'> 30 </a> Pontos de Vida de quem o ingerir. Se não for ingerida, a fruta perde sua capacidade de cura após 1 minuto. <br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Planta frutífera gera um fruto que recupera <a class='cura'>30</a> PV",
+    "e": []
+  },
+  {
+    "n": "Gavinhas e Espinhos",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 600,
+    "m": 25,
+    "df": 12,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Entrelaçar",
+        "Rajada de Espinhos"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre o solo você faz com que plantas espinhosas comecem a brotar e agarrem um alvo que esteja com os pés no chão. O alvo fica com Deslocamento 0, é considerado Desprevenido e sofre uma quantidade de dano igual a 10/Perfuração. Para se soltar ele (ou outro personagem) deve passar uma quantidade de turnos igual à sua Vontade cortando as plantas (com uma arma que faça dano por corte), ou passar em um teste de Força (Dificuldade igual à Determinação do conjurador). Toda vez que ataca as plantas ou fracassa no teste de Força, o alvo sofre dano igual a 10/Perfuração. <br/>&emsp;As plantas murcham e se desfazem após 1 minuto. <br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Espinhos prendem alvo por 1 min, 10/Perf ao conjurar, escapar ou atacar planta",
+    "e": []
+  },
+  {
+    "n": "Graça Divina",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 5,
+    "df": 8,
+    "r": [],
+    "d": "Desenhando um Selo Místico sobre uma criatura viva, você imbui ela com a graça de sua Divindade. O alvo recebe +1 em todas as suas rolagens. <br/>&emsp;Este Selo Místico dura por 1 minuto.",
+    "es": "",
+    "re": "Toque, alvo: +1 em todos os testes por 1 min",
+    "e": []
+  },
+  {
+    "n": "Hálito do Dragão",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 25,
+    "df": 11,
+    "r": [],
+    "d": "Desenhando um Selo Místico no ar à sua frente, você conjura uma rajada elemental que simula o sopro dos dragões – essa escolha é feita quando você conjura a magia. Esta magia atinge tudo e todos a uma distância em metros igual à sua Vontade à sua frente, e seu dano (e possíveis efeitos) varia de acordo com o elemento selecionado: Hálito de Fogo causa dano igual a 20/Fogo. Hálito de Frio causa dano igual a 10/Frio e qualquer criatura que sofra dano pelo sopro fica Enregelado.<br/>&emsp;Hálito de Eletricidade causa dano igual a 15/Eletricidade e qualquer criatura que sofra dano pelo sopro fica Atordoado por 1 turno.<br/>&emsp;Este Selo Místico se dissipa imediatamente depois que seus efeitos forem desencadeados.",
+    "es": "",
+    "re": "<a class='von'></a>m frente: <a class='fogo'>20</a>/Fogo, <a class='frio'>10</a>/Frio & Enregela, <a class='elet'>15</a>/Elet & Atordoa 1",
+    "e": []
+  },
+  {
+    "n": "Hálito do Dragão Ancião",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 45,
+    "df": 13,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Hálito do Dragão"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico no ar à sua frente, você conjura uma rajada elemental com o poder da baforada de um grande dragão! – essa escolha é feita quando você conjura a magia. Esta magia atinge tudo e todos a uma distância em metros igual à sua Determinação à sua frente, e seu dano (e possíveis efeitos) varia de acordo com o elemento selecionado: Hálito de Fogo causa dano igual a 40/Fogo. Hálito de Frio causa dano igual a 20/Frio e qualquer criatura que sofra dano pelo sopro fica Enregelado. Hálito de Eletricidade causa dano igual a 30/Eletricidade e qualquer criatura que sofra dano pelo sopro fica Atordoado por um número de turnos igual à sua Vontade.<br/>&emsp;Este Selo Místico se dissipa imediatamente depois que seus efeitos forem desencadeados.",
+    "es": "",
+    "re": "<a class='det'></a>m frente: <a class='fogo'>40</a>/Fogo, <a class='frio'>20</a>/Frio & Enregela, <a class='elet'>30</a>/Elet & Atordoa VONt",
+    "e": []
+  },
+  {
+    "n": "Ilusão 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 350,
+    "m": 20,
+    "df": 11,
+    "r": [
+      "h",
+      [
+        "Ilusão 1"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você cria uma ilusão visual de tamanho máximo de um elefante ou uma carruagem. <br/>&emsp;A Runa Arcana ou Selo Místico que mantém a ilusão dura até 30 minutos, mas se dissipa se o conjurador perder contato visual com ela.",
+    "es": "",
+    "re": "Cria ilusão de tamanho Grande (ex: Elefante) à visão por 30 minutos",
+    "e": []
+  },
+  {
+    "n": "Ilusão 3",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": 30,
+    "df": 13,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Ilusão 2"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você cria uma ilusão visual de tamanho máximo de um dragão ancião ou um casarão. <br/>&emsp;A Runa Arcana ou Selo Místico que mantém a ilusão dura até 30 minutos, mas se dissipa se o conjurador perder contato visual com ela.",
+    "es": "",
+    "re": "Cria ilusão de tamanho Colossal (ex: Dragão) à visão por 30 minutos",
+    "e": []
+  },
+  {
+    "n": "Ilusão Persistente",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 700,
+    "m": -2,
+    "df": 12,
+    "r": [
+      "n",
+      5
+    ],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico sobre uma ilusão, você aumenta sua duração em 1 hora para cada 10 Pontos de Mana que gastar e não precisa manter contato visual para que ela continue ativa. <br/>&emsp;A Runa Arcana ou Selo Místico se dissipa assim que seus efeitos são desencadeados, mas o conjurador pode dissipar a ilusão afetada a qualquer momento.",
+    "es": "",
+    "re": "Ilusão persiste +1h para cada +10PM",
+    "e": []
+  },
+  {
+    "n": "Invisibilidade 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": 20,
+    "df": 11,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico sobre uma criatura, você a torna – assim como todas as suas posses – invisível. <br/>&emsp;Essa Runa Arcana ou Selo Místico dura por uma quantidade de minutos igual à Inteligência do conjurador.",
+    "es": "",
+    "re": "Alvo, e posses, invisíveis por <a class='int'></a> minutos",
+    "e": []
+  },
+  {
+    "n": "Invisibilidade 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": 30,
+    "df": 13,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Invisibilidade 1"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana sobre uma criatura, você a torna – assim como todas as suas posses – invisível. <br/>&emsp;Essa Runa Arcana ou Selo Místico dura por uma quantidade de horas igual à Inteligência do conjurador.",
+    "es": "",
+    "re": "Alvo, e posses, invisíveis por <a class='int'></a> horas",
+    "e": []
+  },
+  {
+    "n": "Invocar Elemental do Fogo 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": -2,
+    "df": 10,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do fogo. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do fogo pequeno custa 15 Pontos de Mana e um elemental do fogo médio custa 30 Pontos de Mana. <br/>&emsp;A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.",
+    "es": "",
+    "re": "Invoca Elemental do Fogo por 10min, 15PM Pequeno, 30PM Médio",
+    "e": []
+  },
+  {
+    "n": "Invocar Elemental do Fogo 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": -2,
+    "df": 14,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Invocar Elemental do Fogo 1"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do fogo. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do fogo grande custa 50 Pontos de Mana e um elemental do fogo gigante custa 100 Pontos de Mana. <br/>&emsp;A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.",
+    "es": "",
+    "re": "Invoca Elemental do Fogo por 10min, 50PM Grande, 100PM Gigante",
+    "e": []
+  },
+  {
+    "n": "Invocar Elemental do Gelo 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": -2,
+    "df": 10,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do gelo. O elemental age logo depois de você a partir do turno em que for invocado.Um elemental do gelo pequeno custa 15 Pontos de Mana e um elemental do gelo médio custa 30 Pontos de Mana. <br/>&emsp;A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.",
+    "es": "",
+    "re": "Invoca Elemental do Gelo por 10min, 15PM Pequeno, 30PM Médio",
+    "e": []
+  },
+  {
+    "n": "Invocar Elemental do Gelo 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": -2,
+    "df": 14,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Invocar Elemental do Gelo 1"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do gelo. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do gelo grande custa 50 Pontos de Mana e um elemental do gelo gigante custa 100 Pontos de Mana. <br/>&emsp;A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.",
+    "es": "",
+    "re": "Invoca Elemental do Gelo por 10min, 50PM Grande, 100PM Gigante",
+    "e": []
+  },
+  {
+    "n": "Invocar Elemental do Relampago 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": -2,
+    "df": 10,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do relâmpago. O elemental age logo depois de você a partir do turno em que for invocado.Um elemental do relâmpago pequeno custa 15 Pontos de Mana e um elemental do gelo médio custa 30 Pontos de Mana. <br/>&emsp;A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.",
+    "es": "",
+    "re": "Invoca Elemental do Relâmpago por 10min, 15PM Pequeno, 30PM Médio",
+    "e": []
+  },
+  {
+    "n": "Invocar Elemental do Relâmpago 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": -2,
+    "df": 14,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Invocar Elemental do Relâmpago 1"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico no ar, você pode invocar um elemental do relâmpago. O elemental age logo depois de você a partir do turno em que for invocado. Um elemental do relâmpago grande custa 50 Pontos de Mana e um elemental do relâmpago gigante custa 100 Pontos de Mana. <br/>&emsp;A runa que mantém o elemental coeso se dissipa depois de 10 minutos ou assim que o elemental for destruído.",
+    "es": "",
+    "re": "Invoca Elemental do Relâmpago por 10min, 50PM Grande, 100PM Gigante",
+    "e": []
+  },
+  {
+    "n": "Invocar Golem 1",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": -2,
+    "df": 12,
+    "r": [],
+    "d": "Você desenha uma Runa Arcana ou Selo Místico sobre uma superfície invocando um golem do tipo adequado. O golem age logo depois de você a partir do turno em que for invocado. É possível invocar qualquer tipo de golem com esta Magia desde que haja uma quantidade suficiente de matéria prima adequada. Um golem pequeno custa 20 Pontos de Mana e um golem médio custa 40 Pontos de Mana. <br/>&emsp;A runa que mantém o golem coeso se dissipa depois de 10 minutos ou assim que o golem for destruído.",
+    "es": "",
+    "re": "Invoca Golem de matéria prima por 10min, 20PM Pequeno, 40PM Médio",
+    "e": []
+  },
+  {
+    "n": "Invocar Golem 2",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": -2,
+    "df": 16,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Invocar Golem 1"
+      ]
+    ],
+    "d": "Você desenha uma Runa Arcana ou Selo Místico sobre uma superfície invocando um golem do tipo adequado. O golem age logo depois de você a partir do turno em que for invocado. É possível invocar qualquer tipo de golem com esta Magia desde que haja uma quantidade suficiente de matéria prima adequada. um golem grande custa 60 Pontos de Mana e um golem gigante custa 120 Pontos de Mana. <br/>&emsp;A runa que mantém o golem coeso se dissipa depois de 10 minutos ou assim que o golem for destruído.",
+    "es": "",
+    "re": "Invoca Golem de matéria prima por 10min, 60PM Grande, 120PM Gigante",
+    "e": []
+  },
+  {
+    "n": "Janela Mágica",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": -2,
+    "df": 12,
+    "r": [],
+    "d": "Desenhando um Selo Místico sobre uma superfície, você é capaz de canalizar os efeitos de Clarividência, Psicometria ou Retrocognição, criando uma espécie de janela onde os eventos que o Oráculo perceberia podem ser visualizados por qualquer um ao seu redor. <br/>&emsp;O custo dessa Magia será igual ao custo da Habilidade canalizada. <br/>&emsp;Esse Selo Místico dura 10 minutos, mas se o Selo Místico que estiver sendo observado com Clarividência for dissipado ou o conjurador perder contato com o objeto, superfície ou criatura na qual está usando Psicometria ou Retrocognição, o efeito é cancelado imediatamente.",
+    "es": "",
+    "re": "'Janela' para visualizar os efeitos de Clarividência & etc, 10min",
+    "e": []
+  },
+  {
+    "n": "Luz Mágica",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 300,
+    "m": 5,
+    "df": 8,
+    "r": [],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico sobre um objeto, você imbui ele com uma luz própria. A duração dessa magia depende da intensidade da luz: uma luz fraca como de uma vela dura 6 horas, uma luz moderada semelhante à de uma tocha dura 1 hora, e uma luz intensa como a do sol dura 1 minuto.",
+    "es": "",
+    "re": "Imbui luz à objeto: Vela 6 horas, Tocha 1 hora, Sol 1 minuto",
+    "e": []
+  },
+  {
+    "n": "Manter Golem",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 10,
+    "df": 12,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Criar Golem"
+      ]
+    ],
+    "d": "Você desenha um Selo Místico sobre um Golem que você tenha criado, com o objetivo de fortalecer sua coesão. Cada vez que você desenhar este Selo Místico sobre o Golem, a duração do Selo que o mantém ativo será duplicada. Você pode desenhar quantos selos desses quiser sobre um Golem, e seus efeitos são cumulativos.",
+    "es": "",
+    "re": "Duplica a duração de um golem, Cumulativo",
+    "e": []
+  },
+  {
+    "n": "Manter Invocação",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 750,
+    "m": 10,
+    "df": 12,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Invocação Persistente"
+      ]
+    ],
+    "d": "Desenhando uma Runa Arcana ou Selo Místico sobre uma criatura que você tenha invocado, a duração da Runa ou Selo que mantém a invocação é duplicada. Você pode desenhar quantas Runas ou Selos desses quiser sobre uma criatura invocada, e seus efeitos são cumulativos.",
+    "es": "",
+    "re": "Duplica a duração de uma invocação, Cumulativo",
+    "e": []
+  },
+  {
+    "n": "Marca da Justiça",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 20,
+    "df": 12,
+    "r": [
+      "h",
+      [
+        "Dogma: Discípulo da Justiça"
+      ]
+    ],
+    "d": "Esta Marca é utilizada com frequência pelos Sacerdotes de Mirah em conjunto com qualquer outra punição a um criminoso. Ela costuma ser usada de forma cerimonial sobre qualquer Irmão da Ordem da Espada de Mirah que inicie uma Cruzada Justa, mas nem sempre é o caso. Desenhando um Selo Místico sobre um alvo, você faz com que ele se torne ciente de qualquer ato injusto que possa cometer. Sempre que o alvo quebrar um dos Dogmas de Mirah, o símbolo dessa divindade brilha em sua testa e ele sentirá dores terríveis, precisando vencer um teste de Vontade (Dificuldade igual à Determinação do conjurador) para não cair inconsciente. Se passar no teste, o alvo ainda pode ir contra o Dogma de Mirah, mas sua dor será visível para qualquer um ao seu redor e ele será considerado Atordoado enquanto estiver cometendo o crime em questão. <br/>&emsp;Esse Selo dura uma quantidade de dias igual à Determinação do conjurador, mas você pode dissipá-lo a qualquer momento.",
+    "es": "",
+    "re": "Por <a class='det'></a> dias o alvo sofre dores se violar o dogma de Mirah",
+    "e": []
+  },
+  {
+    "n": "Marca da Ordem",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 20,
+    "df": 12,
+    "r": [
+      "h",
+      [
+        "Dogma: Discípulo da Justiça"
+      ]
+    ],
+    "d": "Esta Marca é utilizada pelos Sacerdotes de Ahogr para levar seus prisioneiros consigo sem precisar recorrer a grilhões ou jaulas. Desenhando um Selo Místico sobre o alvo, você faz com que ele sinta uma dor terrível ao se afastar de ti – essa distância é igual à Vontade do alvo em metros. A cada turno em que estiver além dessa distância, o símbolo de Ahogr brilhará em sua testa e ele sentirá um calafrio terrível, como se seu espírito quisesse deixar o corpo, precisando vencer um teste de Vontade (Dificuldade igual à Determinação do conjurador) para não cair inconsciente. Se passar no teste, o alvo poderá se afastar, mas estará Enregelado. <br/>&emsp;Esse Selo dura uma quantidade de horas igual à Determinação do conjurador, mas você pode dissipá-lo a qualquer momento.",
+    "es": "",
+    "re": "Por <a class='det'></a> dias o alvo sofre calafrios se violar o dogma de Ahogr",
+    "e": []
+  },
+  {
+    "n": "Marca da Verdade",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 10,
+    "df": 12,
+    "r": [
+      "h",
+      [
+        "Dogma: Discípulo da Sabedoria"
+      ]
+    ],
+    "d": "Esta Marca é amplamente utilizada pela maioria dos Sacerdotes de Sarfion em julgamentos, principalmente entre membros da própria igreja. Desenhando um Selo Místico sobre uma criatura, você faz com que o alvo sinta dores terríveis sempre que faltar com a verdade. Sempre que o alvo quebrar um dos Dogmas de Sarfion, o símbolo dessa divindade brilha em sua testa e ele sentirá dores terríveis, perdendo uma quantidade de Pontos de Vida igual à Determinação do conjurador. Um alvo que perca todos os seus Pontos de Vida dessa forma é considerado automaticamente estabilizado, e recupera 1 Ponto de Vida dentro de 1 minuto. <br/>&emsp;Esse Selo dura uma quantidade de horas igual à Vontade do conjurador, mas você pode dissipá-lo a qualquer momento.",
+    "es": "",
+    "re": "Por <a class='von'></a> horas o alvo perde <a class='det'></a> PV ao mentir",
+    "e": []
+  },
+  {
+    "n": "Mover Terra",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 15,
+    "df": 11,
+    "r": [
+      "h",
+      [
+        "Princípio Natural"
+      ]
+    ],
+    "d": "Você desenha um Selo Místico sobre o solo, fazendo com que ele se mova subitamente sob os pés de seus adversários (todos em uma área de 2 metros de diâmetro dentro de sua área de visão precisam fazer um teste de Agilidade com Dificuldade igual à sua Determinação ou cairão). Você também pode abrir uma passagem através de pedra ou terra. Essa passagem terá aproximadamente 2 metros de diâmetro e uma profundidade igual à sua Vontade em metros. Você pode deixar a passagem aberta, criando um túnel, ou fechá-la atrás de si depois que passar. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Visão, Raio 2m:AGI[<a class='det'></a>]:Derruba, Abre passagens em terra ou pedra",
+    "e": []
+  },
+  {
+    "n": "O Tomo das Muitas Línguas",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 10,
+    "df": 9,
+    "r": [
+      "h",
+      [
+        "Dogma: Discípulo da Sabedoria"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre um item ou criatura que mostre uma escrita de qualquer origem, o Selo se materializa na forma de um livro mostrando o símbolo de Sarfion na capa. Ao abrir o livro, todas as páginas estarão cobertas em escritas da linguagem sobre a qual o Selo foi desenhado, e você é inundado por uma torrente de murmúrio naquele idioma.  Você é capaz de ler o texto sobre o qual o Selo foi desenhado, enquanto se mantiver concentrado na leitura, independente do tempo que isso pode levar.  O Selo Místico que conjura a Magia se dissipa imediatamente após seus efeitos serem desencadeados.",
+    "es": "Se o texto em questão for uma Magia de qualquer tipo, você será capaz de conjurar aquela Magia como se estivesse na sua Lista de Habilidades por uma quantidade de Horas igual à sua Vontade - ou até que você use esta Habilidade sobre outro item que contenha uma Magia contida nele. Se usado sobre um item com mais de uma Magia, apenas a primeira Magia que você ler será afetada dessa forma.",
+    "re": "Conjura livro com tradução de texto alvo",
+    "e": []
+  },
+  {
+    "n": "Olho do Furacão",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 40,
+    "df": 14,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Evocar Temporal"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre si mesmo, você cria um poderoso turbilhão de vento em uma área com um diâmetro em metros igual à sua Vontade e uma altura igual à 10 vezes sua Vontade. Essa área tem um olho central com cerca de 2 metros de diâmetro onde não há vento. O furacão se move conforme você se desloca, permanecendo centrado em você. Todos dentro da área do furacão devem fazer um teste de Força (Dificuldade igual à sua Determinação) para não serem arremessados um número de metros igual à sua Vontade, ficando caídos. Vencendo 2 testes consecutivos um personagem consegue chegar ao olho do furacão – mas o conjurador pode se deslocar para tentar engolfar personagens na parede de vento outra vez. O furacão impede a linha de visão através dele. <br/>&emsp;Este Selo Místico dura uma quantidade de turnos igual à Vontade do conjurador.",
+    "es": "",
+    "re": "Diâmetro:<a class='von'></a>m, altura:10*<a class='von'></a> por <a class='von'></a> turnos. FOR[<a class='det'></a>]: arremessado <a class='von'></a> metros",
+    "e": []
+  },
+  {
+    "n": "Orbe de Contenção",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 20,
+    "df": 12,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Convocar Animais"
+      ]
+    ],
+    "d": "Conjurando um Selo Místico sobre um item esférico com pelo menos 10 cm de diâmetro (um ovo de canidrako ou uma maçã por exemplo) que não tenha nenhum Selo Místico ou Runa Arcana sobre ele, o item passa a ser capaz de absorver qualquer Besta que tenha o temperamento Protetor com relação á você, simplesmente tocando-o. Enquanto estiver dentro da orbe o tempo não passa para o animal (ele não envelhece, não precisa comer ou dormir e não é afetado por efeitos de sangramentos, venenos ou doenças, nem recupera Pontos de Vida e Mana por descanso). Liberar o animal exige que o conjurador destrua o item (geralmente arremessando-o no chão) o que exige uma ação padrão, mas não exige novos testes para conjurar a magia. <br/>&emsp;Esse Selo Místico dura indefinidamente até o item ser destruído.",
+    "es": "",
+    "re": "Objeto esférico armazena Besta com temperamento Protetor",
+    "e": []
+  },
+  {
+    "n": "Portal",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 60,
+    "df": 14,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Caminhada Mágica"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico no ar, ele se torna uma passagem (com o tamanho aproximado de uma porta) até um local onde haja outro Selo da sua divindade (pode ser uma igreja que você conheça, ou algum lugar onde você tenha escrito um Selo da sua divindade previamente). A distância entre os dois pontos é irrelevante. <br/>&emsp;Este Selo Místico dura 1 minuto, mas você pode dissipá-lo à qualquer momento.",
+    "es": "",
+    "re": "Abre um portal para um local com o símbolo de sua divindade, até 1 min",
+    "e": []
+  },
+  {
+    "n": "Princípio Natural",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": -1,
+    "df": 8,
+    "r": [],
+    "d": "Você desenha um Selo Místico no ar que se transforma em uma pequena quantidade de terra, água ou ar. Um punhado de terra pode ser usado para nutrir uma pequena planta, uma porção de água pode ser usada para matar a sede de uma pessoa e uma porção de ar criado desse modo permite que uma criatura respire normalmente por até 10 minutos debaixo d’água. Essa magia pode ser conjurada na forma de uma rajada mágica. Uma rajada de água pode apagar uma chama do tamanho de uma fogueira de acampamento, uma rajada de ar derruba ou espalha objetos leves e pequenos e uma rajada de pedras causa dano igual a <a class='cont'>8</a>/ Contusão. <br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados e qualquer quantidade de terra, água ou ar criada são permanentes.",
+    "es": "",
+    "re": "Materializa água, terra ou ar para usos diversos",
+    "e": []
+  },
+  {
+    "n": "Proteção Mística",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 10,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Toque Místico"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre uma criatura viva, você à deixa imune a todos os efeitos de Dreno de Energia. Além disso, a criatura afetada recebe +2 em todos os seus testes ou Confrontos para resistir à efeitos mentais ou efeitos de medo - e aumenta em 2 a dificuldade de qualquer Efeito Mental ou Efeito de Medo que vise a criatura afetada por este Selo e que não permita um teste ou Confronto para ser resistido.<br/>&emsp;Este Selo dura 1 hora.",
+    "es": "",
+    "re": "Sobre, Alvo imune a Dreno e recebe +2 contra Mental e Medo",
+    "e": []
+  },
+  {
+    "n": "Punho de Pedra",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 550,
+    "m": 30,
+    "df": 12,
+    "r": [
+      "n",
+      5,
+      "h",
+      [
+        "Mover Terra"
+      ]
+    ],
+    "d": "Você desenha um Selo Místico sobre o solo (ou em uma estrutura de pedra como Paredes de alvenaria, estátuas de pedra e tetos de cavernas), fazendo com que uma coluna se projete violentamente da estrutura. Um alvo dessa magia sofre dano igual à <a class='cont'>30</a>/Contusão e precisa vencer um teste de Força (dificuldade igual à Determinação do conjurador) para não ser derrubado. A coluna tem cerca de 1 metro de diâmetro e uma extensão em metros igual à Vontade do conjurador. <br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados, mas a coluna de pedra é permanente.",
+    "es": "",
+    "re": "Coluna de pedra projetada causa <a class='cont'>30</a>/Contusão. FOR[<a class='det'></a>]: Derruba",
+    "e": []
+  },
+  {
+    "n": "Purgar",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 10,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Curar Ferimentos 1"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre uma criatura, objeto ou superfície, você os purifica de impurezas mundanas. Qualquer veneno ou agente infeccioso de origem natural afetado por essa magia se torna água pura e límpida, incluindo substâncias que estiverem em alimentos ou bebidas. Qualquer criatura afetada é imediatamente curada de qualquer veneno, doença, infecção de origem natural e também de quaisquer efeitos de sangramento. <br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Purifica impurezas mundanas; Cura sangramentos e doenças e venenos naturais",
+    "e": []
+  },
+  {
+    "n": "Quebrar os Grilhões",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 15,
+    "df": 12,
+    "r": [
+      "h",
+      [
+        "Dogma: Discípulo da Liberdade"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico entre você e uma criatura, você imediatamente liberta o alvo de qualquer efeito que o esteja restringindo. Esta Magia imediatamente dissipa qualquer Runa ou Selo cujos efeitos restrinjam a movimentação do alvo – como Entrelaçar ou Eletricidade Estática, por exemplo. Essa Magia também pode ser usada para libertar alvos de amarras mundanas, soltando cordas, abrindo grilhões, afrouxando os braços de um captor ou destrancando e abrindo portas. A Magia afeta todo e qualquer objeto ou criatura que está restringindo o alvo – assim, se o alvo estiver em uma cela, a Magia abrirá a porta da cela, libertando quaisquer outras pessoas em seu interior. <br/>&emsp;Finalmente, esta Magia elimina imediatamente as condições Amedrontado, Atordoado, Cego, Distraído, Enregelado, Indefeso e Paralisado do alvo, independente da origem dessas condições. Esse Selo Místico se dissipa assim que seus efeitos forem desencadeados.",
+    "es": "",
+    "re": "Liberta alvos de amarras, condições, grilhões prisões mágicas e mundanas",
+    "e": []
+  },
+  {
+    "n": "Rajada de Água",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 10,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Princípio Natural"
+      ]
+    ],
+    "d": "Você desenha um Selo Místico no ar de onde uma massa de água jorra em um poderoso jato. Um alvo dentro de sua linha de visão sofre dano igual a <a class='cont'>6</a>/Contusão e precisa vencer uma rolagem de Força (Dificuldade igual à Determinação do conjurador) para não cair. <br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados mas qualquer quantidade de água criada é permanente.",
+    "es": "",
+    "re": "Jato de água <a class='cont'>6</a>/Contusão. FOR[<a class='det'></a>]: Derruba",
+    "e": []
+  },
+  {
+    "n": "Rajada de Espinhos",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 10,
+    "df": 10,
+    "r": [
+      "h",
+      [
+        "Sabedoria Selvagem"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico em um item de madeira você faz com que ele desenvolva espinhos longos e afiados que se projetam atingindo um número de alvos igual à sua Vontade que estiverem à uma distância de até 10 metros à sua frente, causando dano igual à <a class='perf'>12</a>/Perfuração. <br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Projeta espinhos de <a class='perf'>12</a>/Perf contra até <a class='von'></a> alvos até 10m.",
+    "e": []
+  },
+  {
+    "n": "Rugido do Dragão do Deserto",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 10,
+    "df": 13,
+    "r": [],
+    "d": "Desenhando um Selo Místico no ar você cria um poderoso estrondo semelhante ao rugido de um grande dragão do deserto. Todas as criaturas a um número de metros igual à sua Vontade a sua frente ficam Atordoadas e surdas por uma quantidade de turnos igual à sua Vontade.<br/>&emsp;Esse Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Frente <a class='von'></a>m Atordoa por <a class='von'></a> turnos",
+    "e": []
+  },
+  {
+    "n": "Toque Místico",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 200,
+    "m": 20,
+    "df": 10,
+    "r": [],
+    "d": "Desenhando um Selo Místico sobre uma criatura viva você a infunde com inspiração momentânea. Se o alvo usar uma Habilidade com Custo de Mana igual ou menor a 30, ele não gasta nenhum Ponto de Mana. Essa magia não tem efeito em Habilidades com Custo de Mana maiores do que 30 e não pode ser usada sobre você mesmo. <br/>&emsp;Este Selo Místico dura até o final do próximo turno do alvo, mas se ele gastar Pontos de Mana antes disso, o Selo se dissipa imediatamente.",
+    "es": "",
+    "re": "Alvo pode usar uma Habilidade com custo de Mana<=30 gratuitamente",
+    "e": []
+  },
+  {
+    "n": "Travessia do Dragão do Fogo",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 40,
+    "df": 13,
+    "r": [
+      "h",
+      [
+        "Aura do Dragão"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre uma chama com tamanho equivalente a uma fogueira de acampamento ou maior enquanto se concentra em um local que já tenha visitado pelo menos uma vez. A chama sobre a qual você conjurou a magia explode engolfando você e causando uma quantidade de dano igual à sua Determinação/Fogo em tudo e todos numa área de 3 metros de raio.<br/>&emsp;Você surge no local em que se concentrou com uma explosão flamejante que causa o mesmo dano.<br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+    "es": "",
+    "re": "Sobre fogueira, teleporte para lugar já visitado; Explode 3m DET/Fogo ambos",
+    "e": []
+  },
+  {
+    "n": "Turbilhão",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 25,
+    "df": 12,
+    "r": [
+      "h",
+      [
+        "Rajada de Água"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre você mesmo e em seguida realizando um rápido movimento circular com as mãos você dispara poderosas rajadas de água. Todas as criaturas a até 10 metros de você sofrem um dano igual à <a class='cont'>6</a>/Contusão e precisam vencer um teste de Força (Dificuldade igual à sua Determinação) para não serem arremessados um número de metros igual à sua Vontade e ficando caídos. <br/>&emsp;O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados e qualquer quantidade de água criada é permanente.",
+    "es": "",
+    "re": "Todos até 10m <a class='cont'>6</a>/Cont & FOR[<a class='det'></a>]:Caído",
+    "e": []
+  },
+  {
+    "n": "Velocidade",
+    "c": "Magia",
+    "t": "Ação",
+    "ct": 250,
+    "m": 20,
+    "df": 11,
+    "r": [
+      "h",
+      [
+        "Caminhada Mágica"
+      ]
+    ],
+    "d": "Desenhando um Selo Místico sobre uma criatura viva você aumenta a velocidade dela, deixando-a com o dobro do Deslocamento e de ações. <br/>&emsp;Este Selo Místico se dissipa no final do próximo turno do alvo.",
+    "es": "",
+    "re": "Sobre Vivo, Dobra deslocamento e quant. de ações até o final de seu próximo turno",
+    "e": []
+  }
+]

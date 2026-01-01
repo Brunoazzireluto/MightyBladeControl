@@ -1,0 +1,88 @@
+[
+  {
+    "n": "Pacto da Ambição",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Glycon, A Serpente da Visão, responsável por providenciar os meios, independente das consequências, que provê uma vida material plena em detrimento da espiritualidade. Glycon é um dos Primordiais mais cultuados no plano material, já que, além de toda a cultura Naga ter se desenvolvido ao redor dele, a ambição é, certamente, um dos maiores motivadores dos mortais.<br/>&emsp;Sempre que usar uma Habilidade do tipo Magia, você pode gastar Pontos de Vida ao invés de Pontos de Mana para pagar seu custo. Nesse caso, cada Pontos de Vida equivale a 1 Ponto de Mana. Sempre que conjurar uma Magia, você precisa gastar pelo menos metade do seu Custo em Mana (arredondado para baixo) com Pontos de Vida. Se a Magia tiver um custo de Mana igual à Zero, você precisa gastar 1 Ponto de Vida para conjurá-la. Para cada 5 Pontos de Mana gastos dessa forma, a dificuldade da magia é reduzida em 1.",
+    "es": "",
+    "re": "Magia: 1PV->1PM, Ao menos metade em PV, Dif-1 para cada 5PV",
+    "e": []
+  },
+  {
+    "n": "Pacto da Destruição",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Shyama, a Destruidora, Aquela que Provê a Morte, A que Quebra em Pedaços, cuja força não pode ser restrita. Aqueles que buscam este pacto geralmente são inclinados à violência de forma obsessiva ou possuem um desejo maníaco de destruir algo ou alguém. Seu simples toque causa uma quantidade de dano igual à sua Vontade em qualquer criatura ou objeto. Esse dano extra se aplica sempre que você tocar ou fizer um ataque corporal – armado ou desarmado – contra uma criatura ou objeto.<br/>&emsp;Você pode suprimir este efeito com relação a objetos ou Construtos (mas não às criaturas), mas precisa se concentrar na tarefa, e, portanto não pode usar nenhuma Habilidade de Ação ou Reação enquanto fizer isso. Artefatos, itens mágicos ou marcados com uma Runa Arcana ou Selo Místico não são afetados por este efeito.",
+    "es": "",
+    "re": "Causa +<a class='von'></a> de dano ao toque e com ataques corporais ",
+    "e": []
+  },
+  {
+    "n": "Pacto da Escuridão",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Nehemoth, Aquela Que Sussurra na Escuridão, senhora dos segredos, da cegueira e do conhecimento perdido. Muitas vezes procurada por aqueles que perderam a visão, muitos Cultistas de Nehemoth são aqueles que se favorecem da escuridão – como ladrões, assassinos, Vampiros e Necromantes.<br/>&emsp;Você não precisa mais de seus olhos para enxergar, e pode ver, normalmente, mesmo com os olhos fechados ou vendados – ou mesmo se eles forem removidos. Além disso, você consegue ver através de ilusões e distingue criaturas invisíveis sem dificuldades. No entanto, sempre que estiver sob luz direta do sol, todos os seus testes são realizados como se você fosse Inapto.",
+    "es": "",
+    "re": "Enxerga sem olhos, Percebe ilusões e invisíveis, Inapto sob luz solar",
+    "e": []
+  },
+  {
+    "n": "Pacto da Loucura",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "O Inominável, Aquele Cujo Nome Não Deve Ser Pronunciado, senhor da loucura, aquele que traz o horror. A maioria dos que cultuam o Inominável possuem algum desequilíbrio mental ou uma visão particularmente distorcida sobre o mundo ao seu redor.<br/>&emsp;Sua mente possui uma compreensão estranha da realidade. Graças a isso, você tem Determinação +2 e é imune a efeitos mentais e efeitos de Medo, mas você tem Inteligência -1 (você não perde idiomas nesse processo).",
+    "es": "Se sua Inteligência for reduzida a 1 devido a este Pacto, você estará reduzido aos seus instintos mais básicos. Você ainda é capaz de raciocinar, mas sempre procurará a resposta mais simples para qualquer problema. Você não é capaz de se concentrar para ler textos (embora ainda possa ler avisos e compreender sinais gráficos) e nem usar Habilidades dos tipos Magia ou Música.",
+    "re": "Det+2, Imune a Mental e Medo, INT-1 (sem perder idiomas)",
+    "e": [
+      "def+",
+      4,
+      2,
+      [],
+      "Determinação +2",
+      "int+",
+      -1
+    ]
+  },
+  {
+    "n": "Pacto da Pestilência",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Ereshkigal, A Impura, Aquela que Polui, é responsável por trazer doença e sofrimento. Aqueles que procuram pactos com ela tanto podem desejar infligir violentas moléstias sobre outros quanto ficarem intocados pela carícia de Ereshkigal. Muitos doentes terminais também procuram A Impura na tentativa de sobreviver às suas enfermidades.<br/>&emsp;Sempre que for exposto a uma doença (natural ou mágica), você falha automaticamente no teste de infecção e nos testes para resistir aos sintomas da doença (mesmo que seja imune a doenças). No entanto, você não é afetado pelos sintomas da doença (embora possa apresentar manifestações estéticas dela) e pode transmiti-la normalmente. Além disso, você sempre sabe quais doenças o estão infectando, assim como é capaz de detectar doenças em outras criaturas apenas com um toque.<br/>&emsp;Se você for alvo da magia Purgar ou beber um Antídoto Universal, você perde uma das doenças que carrega no momento, aleatoriamente, mas passa a sentir os sintomas daquela doença por 1 dia como se tivesse falhado no teste para resistir aos seus efeitos.",
+    "es": "",
+    "re": "Coleta, identifica, e transmite doenças, Imune aos sintomas",
+    "e": []
+  },
+  {
+    "n": "Pacto da Tirania",
+    "c": "Padrão",
+    "t": "Suporte",
+    "ct": 0,
+    "m": -1,
+    "df": -1,
+    "r": [],
+    "d": "Virzú, Aquele que Rege, A Palavra que Não Pode ser Desafiada, O Trono Acima, é o Primordial da tirania e da regência pela força. Cultistas que procuram Virzú quase sempre são aqueles que se sentem inferiorizados quando acreditam que deveriam ser reconhecidos.<br/>&emsp;Sempre que uma criatura viva for atacar você (ou utilizar algum efeito que cause dano, como Magias, algumas Músicas e Gritos), ela precisa realizar um teste de Vontade (Dificuldade igual à sua Determinação). Se for bem sucedida, ela o ataca com um redutor igual à sua Vontade no seu teste. Se falhar, ela não pode atacar. Depois que passar no teste, uma criatura não é mais afetada até o próximo nascer ou por do sol.<br/>&emsp;Este é um efeito mental.",
+    "es": "",
+    "re": "Mental, se forem lhe causar dano: VON(<a class='det'></a>) -<a class='von'></a> no teste e imune até nascer do sol / ou não consegue",
+    "e": []
+  }
+]

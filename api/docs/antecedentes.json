@@ -1,0 +1,393 @@
+{
+  "antecedente": [
+    {
+      "n": "Apotecário",
+      "r": [
+        "i",
+        4
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>V</div>ocê aprendeu a usar plantas e minerais para produzir poções, antídotos – e venenos! Enquanto alguns Apotecários recebem instrução formal em laboratórios de grandes cidades, com o objetivo de se tornarem Alquimistas, um grande número aprende o ofício com outros Apotecários, curandeiros e Druidas, produzindo suas poções em pequenas comunidades e vilas. Entre estes, alguns acabam indo para grandes centros à procura de aperfeiçoar suas habilidades, as vezes para retornar mais bem preparados para suas comunidades, as vezes para se tornarem Alquimistas. Há, é claro, aqueles cujos conhecimentos são empregados no campo de batalha, seja como curandeiros de campo, seja como aventureiros.",
+      "b": "Você recebe a Habilidade Herbalismo.",
+      "eq": "Duas poções à sua escolha.",
+      "e": [
+        "autx",
+        "Herbalismo",
+        "eqpx",
+        "Duas poções comuns"
+      ],
+      "i": "obj_pocao.png"
+    },
+    {
+      "n": "Artesão",
+      "r": [],
+      "d": "&nbsp;&nbsp;<div class='la'>V</div>ocê aprendeu a realizar um determinado tipo de artesanato ao longo de sua vida. Talvez você venha de uma família de artesãos, ou talvez tenha uma fascinação por um tipo de trabalho e teve sorte de conseguir se tornar aprendiz de um mestre no ofício. Tendo trabalhado profissionalmente ou não nessa área de produção, você recebeu treinamento suficiente para ser capaz de desempenhá-la de forma eficiente.",
+      "b": "Escolha 1 área de produção. Você recebe +1d6 sempre que fizer qualquer teste relacionado com aquela área de produção.",
+      "eq": "Instrumentos de artesão.",
+      "e": [
+        "eqpx",
+        "Instrumentos de artesão"
+      ],
+      "i": "obj_dados.png"
+    },
+    {
+      "n": "Caçador",
+      "r": [
+        "i",
+        3
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>V</div>ocê dedicou uma boa parte da sua vida aprendendo a perceber e compreender os sinais de passagens de criaturas e a localização mais provável de esconderijos e de plantas úteis. Provavelmente você tenha tido contato com Patrulheiros ou outros Caçadores, ou talvez tenham sido longas horas como vigia e guarda que lhe deram um olho para perceber pequenos padrões ignorados pelos outros – o que você aprendeu a usar não só para perceber a presença de coisas escondidas, mas também para se esconder com eficiência!",
+      "b": "Você recebe um bônus de +2 em todos os seus testes para Caçar/Rastrear, Encontrar Abrigo/Forragear, Mover-se em Silêncio e Ocultar-se/Camuflar-se. Este bônus também se aplica à testes para perceber itens e criaturas escondidas ou camufladas ou tentando se mover em silêncio.",
+      "eq": "Nenhum.",
+      "e": [],
+      "i": "patrulheiro2.png"
+    },
+    {
+      "n": "Cartógrafo",
+      "r": [
+        "i",
+        4
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>V</div>ocê é um cartógrafo habilidoso, tendo conhecimento prático e teórico na manufatura de topografias e desenho de mapas. Seu trabalho e valorizado por grupos de exploração e expedicionários, tanto em terra quanto no mar.",
+      "b": "Você recebe a Habilidade Cartografia.",
+      "eq": "Bússola, Kit de Cartografia, 5 folhas de velino.",
+      "e": [
+        "autx",
+        "Cartografia",
+        "eqpx",
+        "Bússola, Kit de Cartografia, 5 folhas de velino"
+      ],
+      "i": "obj_mesa.png"
+    },
+    {
+      "n": "Cozinheiro",
+      "r": [],
+      "d": "&nbsp;&nbsp;<div class='la'>T</div>rabalhando na corte, em estalagens e tavernas ou produzindo alimentos para venda particular e para consumo próprio, cozinheiros são uma das mais comuns das profissões – afinal, todos precisam comer! Apesar de qualquer personagem poder fazer testes de Percepção para produzir alimentos adequados, como carnes assadas e vegetais cozidos, os cozinheiros são especialistas em preparar receitas complexas, incluindo pães, doces e bebidas fermentadas.",
+      "b": "Você pode preparar qualquer alimento se tiver o tempo e os materiais adequados. Você recebe +1d6 para esse teste. Uma comida obra-prima tem aparência, cheiro, textura e gosto extremamente ricos, e recupera 5 Pontos de Vida e 5 Pontos de Mana em qualquer um que a consumir – o que leva pelo menos 5 minutos para que ela possa ser completamente apreciada. Além disso, qualquer um que consuma uma comida obra-prima recupera o dobro dos PVs e PMs normais por descanso pela próxima hora.",
+      "eq": "Cutelo de alta qualidade.",
+      "e": [
+        "eqpx",
+        "Cutelo de alta qualidade"
+      ],
+      "i": "obj_comida.png"
+    },
+    {
+      "n": "Curandeiro",
+      "r": [
+        "i",
+        4
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>V</div>ocê possui habilidades de cura consideráveis, tendo estudado sob a tutela de algum médico ou curandeiro. Talvez você tenha trabalhado como médico de campo de um exército, ordem de cavalaria ou grupo mercenário, ou talvez você tenha sido aprendiz de um curandeiro tribal, ou mesmo estudado medicina em alguma corte ou escola nas grandes metrópoles do reino. O fato é que, onde quer que tenha aprendido sobre como curar ferimentos em uma emergência, você é muito bom nisso!",
+      "b": "Você recebe a Habilidade Médico de Campo.",
+      "eq": "Kit de Cura.",
+      "e": [
+        "autx",
+        "Médico de Campo",
+        "eqpx",
+        "Kit de Cura"
+      ],
+      "i": "obj_cura.png"
+    },
+    {
+      "n": "Criminoso",
+      "r": [
+        "i",
+        3
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>V</div>ocê conhece as ruas e sabe com quem falar para vender ou comprar itens... diferenciados. Talvez você tenha crescido na rua, trabalhando para criminosos locais, talvez você tenha sido um criminoso – ou ainda seja! Quem sabe você simplesmente tenha feito alguns amigos em círculos menos prestigiados. O fato é que você sempre sabe onde encontrar as pessoas certas para conseguir informações e itens ilegais, assim como captadores para essas informações e itens.",
+      "b": "Você recebe a Habilidade Contatos no Crime.",
+      "eq": "Cinto oculto, um conjunto de dados comuns e um conjunto de dados viciados",
+      "e": [
+        "autx",
+        "Contatos no Crime",
+        "eqpx",
+        "Cinto oculto, dados"
+      ],
+      "i": "obj_dados.png"
+    },
+    {
+      "n": "Devoto",
+      "r": [
+        "v",
+        3
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>V</div>ocê é um seguidor fiel de uma Divindade, acreditando em seus dogmas como a forma ideal de agir e pensar. Talvez você tenha sido um Sacerdote que se afastou da igreja – mas não de suas crenças – ou talvez simplesmente um seguidor fervoroso dos ensinamentos, dogmas e preceitos de uma divindade. Seja como for, sua devoção é tal que a divindade lhe concede suas bênçãos de forma palpável.",
+      "b": "Você recebe a Habilidade Dogma.",
+      "eq": "Símbolo sagrado.",
+      "e": [
+        "autx",
+        "Dogma",
+        "eqpx",
+        "Símbolo sagrado"
+      ],
+      "i": "joelho.png"
+    },
+    {
+      "n": "Escudeiro",
+      "r": [
+        "v",
+        3
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>V</div>ocê passou boa parte de sua infância e adolescência dentro dos muros do Forte da Espada de Mirah, em um dos quartéis da Hoste de Hadorn ou sob a tutela de um Cavaleiro. Talvez você seja filho de um nobre que deseja ter um filho defendendo o reino, talvez seus pais sejam mercadores em ascensão e desejem o prestígio de ter um filho em uma Ordem de Cavalaria, ou talvez você seja filho de camponeses de Tebrynia que desejavam um futuro diferente para seu descendente.",
+      "b": "Você recebe +1 em todos os testes relacionados à conhecimento de qualquer tipo e em todos os seus ataques corporais quando estiver empunhando uma arma – esse bônus não se aplica a combate desarmado.",
+      "eq": "Tabarda da ordem ou família que você serviu.",
+      "e": [
+        "mod",
+        0,
+        [],
+        [],
+        [],
+        [],
+        [
+          "CaC",
+          "H"
+        ],
+        1,
+        "Ataques corporais armados +1",
+        "eqpx",
+        "Tabarda de ordem ou família"
+      ],
+      "i": "obj_equipamento.png"
+    },
+    {
+      "n": "Expoente",
+      "r": [],
+      "d": "&nbsp;&nbsp;<div class='la'>V</div>ocê é um exemplar notável da sua raça, seja no aspecto físico, psicológico ou cultural – e talvez até mesmo em todos eles! Você é particularmente ligado à cultura da sua raça em algum aspecto, ao menos, e provavelmente despendeu uma boa quantidade de tempo entre os membros do seu próprio povo e provavelmente tem pouco interesse na cultura de outras raças.",
+      "b": "Você recebe uma Habilidade Racial extra, à sua escolha.",
+      "eq": "Nenhum.",
+      "e": [
+        "xpnt"
+      ],
+      "i": "obj_dados.png"
+    },
+    {
+      "n": "Ex-Escravo",
+      "r": [],
+      "d": "&nbsp;&nbsp;<div class='la'>V</div>ocê passou boa parte de sua vida como um escravo. Talvez seus pais tenham sido escravos e você tenha nascido sem sua liberdade, talvez você tenha sido preso e condenado a trabalhar para pagar sua pena ou talvez você simplesmente tenha tido que trabalhar para outros em um regime de semiescravidão para pagar saldar uma dívida. Talvez você tenha sido capturado por tropas arkanitas e forçado a trabalhar como escravo.",
+      "b": "Você está acostumado a realizar trabalho pesado e fazer isso da forma mais despercebida possível – chamar a atenção de um escravagista nunca é bom. Você recebe um bônus de +2 em todos os seus testes para se esconder, disfarçar e mover-se em silêncio, e também em testes para evitar ficar fatigado. Além disso, sua Carga é calculada como se sua Força fosse 2 pontos mais alta.",
+      "eq": "Ferramenta qualquer de baixa qualidade.",
+      "e": [
+        "crg+",
+        2,
+        "eqpx",
+        "Ferramenta de baixa qualidade"
+      ],
+      "i": "obj_dados.png"
+    },
+    {
+      "n": "Fazendeiro",
+      "r": [],
+      "d": "&nbsp;&nbsp;<div class='la'>F</div>azendeiros são uma das profissões mais comuns de Tebryn. Mais de um quarto da população se dedica a trabalhar no campo e produzir alimentos para o reino. Como vivem do campo, possuem bons conhecimentos sobre plantas e animais, tanto no seu manejo como em evitar plantas e criaturas perigosas – ou lidar com elas caso tudo mais falhe! Em muitas regiões as fazendas ficam afastadas dos centros urbanos, e é necessário desbravar novas áreas, lidando com plantas e animais desconhecidos, e a maioria dos fazendeiros de Tebryn tem alguma história para contar sobre plantas com propriedades estranhas ou ataques de animais perigosos. Além disso, a maioria dos fazendeiros tem algum conhecimento sobre ervas medicinais, e a maioria deles possuem animais de tração, guarda ou transporte que devem ser adestrados e cuidados adequadamente.",
+      "b": "Você recebe +2 em todos os seus testes relacionados a plantas e animais",
+      "eq": "Ferramenta qualquer.",
+      "e": [
+        "eqpx",
+        "Uma ferramenta qualquer"
+      ],
+      "i": "humano.png"
+    },
+    {
+      "n": "Fidalgo",
+      "r": [
+        "i",
+        3
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>F</div>idalgos são aqueles cidadãos de Tebryn que receberam uma educação superior devido a títulos de nobreza ou posição social e financeira. Nobres, comerciantes, Regentes, Burgomestres, Juízes e Conselheiros precisam ser versados em uma variedade de campos teóricos para lidarem com suas atribuições. Fidalgos são treinados desde cedo em administração, estratégia, etiqueta e conhecimentos gerais para serem capazes de lidar com suas funções futuras. A maioria deles não possui títulos de nobreza de fato, sendo geralmente filhos de comerciantes prósperos ou de indivíduos com títulos de nobreza ou justiça que não serão passados para seus filhos, mas mesmo assim são considerados como “nobres menores” – particularmente porque muitos deles de fato acabam adquirindo títulos de nobreza eventualmente, seja por hereditariedade ou mérito pessoal.",
+      "b": "Você recebe +2 em todos os seus testes relacionados à pesquisa, conhecimento e em todos os seus testes sociais.",
+      "eq": "100 moedas.",
+      "e": [
+        "mod$",
+        0.25,
+        0
+      ],
+      "i": "obj_dados.png"
+    },
+    {
+      "n": "Fylgja",
+      "r": [],
+      "d": "&nbsp;&nbsp;<div class='la'>E</div>ntre os Aesires, cuja cultura é amplamente baseada na crença de animais guias, Fylgja significa, literalmente, “acompanhante” e é usado para designar tanto o Espírito Animal de uma pessoa como uma pessoa que possui uma forte ligação com seu Espírito Animal. Apesar de poucas culturas além dos Aesires terem uma ligação tão profunda com Espíritos Animais, a expressão é amplamente usada para designar aquelas pessoas cuja ligação com o seu Espírito Animal é mais do que simplesmente filosófica.",
+      "b": "Você recebe a Habilidade Espírito Animal.",
+      "eq": "Nenhum.",
+      "e": [
+        "autx",
+        "Espírito Animal"
+      ],
+      "i": "obj_dados.png"
+    },
+    {
+      "n": "Grumete",
+      "r": [],
+      "d": "&nbsp;&nbsp;<div class='la'>G</div>rumetes são aprendizes de marinheiros que realizam os trabalhos mais simples a bordo de uma embarcação – como limpar o convés, distribuir comida à tripulação, levar mensagens e verificar o clima. Enquanto realizam essas tarefas, eles são ensinados pela tripulação sobre como cozinhar e estocar alimentos, os funcionamentos dos cordames, o modo correto de hastear velas e lidar com vários tipos de clima, como pilotar uma embarcação e todos os rudimentos do funcionamento de barcos e navios em geral.",
+      "b": "Você recebe +2 em todos os seus testes relacionados à navegação, escalada, natação e equilíbrio.",
+      "eq": "Uma adaga.",
+      "e": [
+        "eqpx",
+        "Adaga"
+      ],
+      "i": "obj_dados.png"
+    },
+    {
+      "n": "Informante",
+      "r": [
+        "v",
+        3
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>V</div>ocê está no negócio de informações. Você mantém as autoridades informadas sobre movimentações criminosas e fornece aos criminosos um mínimo de informações sobre os planos das autoridades para que eles não fiquem desconfiados. Talvez você tenha sido um membro da guarda ou de uma gangue local, talvez você esteja no meio criminoso contra a vontade e está tentando fazer a coisa certa – ou só esteja tentando tirar o maior proveito das cartas que a vida lhe deu. Seja como for, graças à sua atuação negociando informações você goza de certa consideração especial das autoridades. É fácil pra você conversar com guardas em qualquer lugar, e se souber encontrar as pessoas certas, pode conseguir alguns favores aqui e ali.",
+      "b": "Você recebe a Habilidade Contatos Políticos.",
+      "eq": "Embornal com 3 itens quaisquer com custo de 10 moedas ou menos cada.",
+      "e": [
+        "autx",
+        "Contatos Políticos",
+        "eqpx",
+        "Embornal com 3 itens de até 10m"
+      ],
+      "i": "obj_mesa.png"
+    },
+    {
+      "n": "Mascate",
+      "r": [],
+      "d": "&nbsp;&nbsp;<div class='la'>V</div>ocê passou uma boa parte de sua vida carregando itens e vendendo-os em localidades distantes. Talvez você venha de uma família de vendedores ambulantes. Talvez você (ou sua família) tenha sido banido das guildas de mercadores por algum motivo ou você simplesmente não concorda com as práticas das guildas e prefere trabalhar sozinho. Seja como for, você trabalha (ou trabalhou) sozinho carregando grandes quantidades de itens por longas distâncias e está acostumado com o esforço envolvido – além de ter desenvolvido um olho treinado para reconhecer bons negócios.",
+      "b": "Sua capacidade de carga é calculada como se tivesse Força +2, e você recebe +2 em suas rolagens para resistir à efeitos de fadiga, venenos e doenças naturais. Finalmente, você recebe +2 em seus testes para reconhecer a qualidade de um item de qualquer tipo.",
+      "eq": "Mochila grande com 50 moedas em itens diversos com custo igual à 10 moedas ou menos cada um.",
+      "e": [
+        "crg+",
+        2,
+        "eqpx",
+        "Mochila grande com 50 moedas em itens."
+      ],
+      "i": "obj_mesa.png"
+    },
+    {
+      "n": "Médium",
+      "r": [
+        "v",
+        3
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>V</div>ocê é capaz de ver, ouvir e até mesmo interagir com espíritos desencarnados. Essa característica pode ser um dom natural, talvez herdado de seus pais através de uma linhagem de médiuns tradicionais ou talvez você tenha treinado para desenvolver essa capacidade – seja por um desejo pessoal de se contactar com os espíritos ou como parte de um treinamento de um grupo do qual pertenceu. Talvez você tenha tido contato com a cultura dos Levent ou com grupos de Xamãs ou Necromantes. O fato é que você consegue sentir a presença de espíritos e, com alguma concentração, interagir com eles.",
+      "b": "Você recebe a Habilidade Contato com Espíritos.",
+      "eq": "Orbe de Cristal",
+      "e": [
+        "autx",
+        "Contato com Espíritos",
+        "eqpx",
+        "Orbe de Cristal"
+      ],
+      "i": "obj_dados.png"
+    },
+    {
+      "n": "Minerador",
+      "r": [
+        "f",
+        4
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>V</div>ocê tem experiência em encontrar, extrair e processar materiais de origem mineral. Você passou muito tempo explorando veios de minérios, aprendendo sobre os locais comuns onde eles aparecem e como identificá-los com eficiência. Não apenas isso, você também sabe como extrair minérios de um veio de forma eficiente.",
+      "b": "Você recebe um bônus de +1d6 em suas rolagens para encontrar veios de materiais em uma área e nos seus testes para calcular quanto de material você consegue extrair, independente do método escolhido.",
+      "eq": "Mochila, Picareta, Peneira.",
+      "e": [
+        "eqpx",
+        "Mochila, Picareta, Peneira"
+      ],
+      "i": "obj_dados.png"
+    },
+    {
+      "n": "Nobre",
+      "r": [],
+      "d": "&nbsp;&nbsp;<div class='la'>V</div>ocê nasceu em uma família pertencente à nobreza do seu reino. Sua família (ou você, se for o único herdeiro da sua linhagem) possui terras onde vivem aldeões que trabalham para sua família e todos na região sabem quem você é. Você possui status e muitos contatos e é reconhecido na região onde suas terras ficam e provavelmente pelas famílias nobres das regiões vizinhas à sua. Você pode conseguir uma audiência com qualquer figura importante do reino (incluindo o rei/imperador). Além disso, você possui terras que incluem uma casa grande (e provavelmente luxuosa, mas não fortificada) e recebe dos moradores 50 moedas por mês de impostos. Você pode mudar os impostos, mas isso provavelmente irá acarretar problemas para você (outros nobres irão usar seu abuso para convencer o rei a emancipar suas terras e os próprios aldeões podem decidir abandonar suas terras).",
+      "b": "Você começa o jogo com 200 moedas extras.",
+      "eq": "200 moedas.",
+      "e": [
+        "mod$",
+        0.5,
+        0
+      ],
+      "i": "obj_dados.png"
+    },
+    {
+      "n": "Poliglota",
+      "r": [
+        "i",
+        4
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>V</div>ocê dedicou uma grande parte de seu tempo estudando as diversas linguagens faladas e escritas em Cassiopéia e até mesmo algumas faladas em outros continentes. Seus estudos em uma quantidade tão grande de idiomas diferentes, no entanto, fizeram com que você não fosse capaz de aprender as minúcias de cada um desses idiomas, e você possui um sotaque carregado que será percebido como não sendo um falante nativo de nenhum idioma além do seu automático.",
+      "b": "Você é capaz de ler, escrever e falar todos os Idiomas Comuns - mas não os Idiomas Exóticos.",
+      "eq": "Dicionários.",
+      "e": [
+        "eqpx",
+        "Dicionários"
+      ],
+      "i": "obj_mesa.png"
+    },
+    {
+      "n": "Prodígio",
+      "r": [
+        "!aprnd"
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>A</div>pesar de ter recebido treinamento – ou ter aprendido por si mesmo – os rudimentos de uma determinada Classe, você se manteve muito perto dos ensinamentos, táticas, conhecimentos e práticas de uma outra Classe. Dessa forma, você é considerado como um membro de ambas as Classes desde o início de sua carreira como Aventureiro.",
+      "b": "Você começa o jogo com o benefício Aprendiz.",
+      "eq": "Item qualquer até 100 moedas comum à classe.",
+      "e": [
+        "aprd",
+        "eqpx",
+        "Item qualquer até 100 moedas"
+      ],
+      "i": "caminho.png"
+    },
+    {
+      "n": "Suburbano",
+      "r": [],
+      "d": "&nbsp;&nbsp;<div class='la'>V</div>ocê é um habitante do Submundo de Tebrynia – a área subterrânea sob a capital de Tebryn – ou de outras áreas subterrâneas populosas, como as galerias montanhosas de Stord ou os túneis ancestrais dos Mahoks ao longo das Montanhas dos Cristais. Seja de onde for que você tenha vindo, você passou muito tempo nesse local, e provavelmente nasceu lá. Seja um marginal de Tebrynia, um trabalhador de Stord ou um explorador das rotas das Montanhas dos Cristais, você viveu a maior parte da sua vida na escuridão subterrânea, e se adaptou perfeitamente à ela.",
+      "b": "Você recebe a Habilidade Raça Subterrânea.",
+      "eq": "Um embornal contendo: Meia dúzia de barras de giz, Odre cheio de água, 10 provisões.",
+      "e": [
+        "autx",
+        "Raça Subterrânea",
+        "eqpx",
+        "Embornal com 6 giz, odre, 10 provisões"
+      ],
+      "i": "obj_dados.png"
+    },
+    {
+      "n": "Sussurrador",
+      "r": [],
+      "d": "&nbsp;&nbsp;<div class='la'>E</div>nquanto para alguns você nasceu abençoado pela divindade da natureza, outros sugerem que esta é uma característica decorrente de uma natureza benevolente – ou particularmente selvagem, talvez – o fato é que você pode, de alguma forma, influenciar os animais. Talvez você use isso para se comunicar pacificamente com as feras ou talvez você domine os animais com uma presença imponente. Dissuadidas, coagidas ou apaziguadas à tanto, as bestas aceitam sua presença entre elas, talvez como um igual, talvez como um superior.",
+      "b": "Você recebe a Habilidade Benção de Ellenis.",
+      "eq": "Nenhum.",
+      "e": [
+        "autx",
+        "Benção de Ellenis"
+      ],
+      "i": "sussurrador.png"
+    },
+    {
+      "n": "Vigilante",
+      "r": [
+        "v",
+        4
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>L</div>utar contra o crime e a injustiça pode ser uma atividade bastante perigosa não apenas para a saúde e propriedades de um indivíduo mas também para aqueles ao redor dele. Devido a isso, muitos membros respeitáveis da sociedade não agem abertamente contra o mal – particularmente contra forças criminosas poderosas e bem estabelecidas. Alguns desses indivíduos se tornam Vigilantes, dedicados a combater o crime com suas próprias mãos, utilizando-se de uma identidade alternativa enquanto mantém uma fachada social respeitável. Você é um desses indivíduos, navegando pelas rotas tradicionais da sociedade durante o dia e levando a luta diretamente contra seus inimigos nas noites escuras.",
+      "b": "Você possui duas identidades totalmente independentes e impossíveis de serem interligadas a menos que o assunto seja investigado intensamente – ou que você tenha sido particularmente descuidado. Você recebe um bônus de +2 em se esconder, camuflar e se disfarçar, escalar e se equilibrar. Este bônus também se aplica à sua Determinação e à dificuldade de investigar qualquer uma de suas identidades, por qualquer motivo.",
+      "eq": "Corda Simples, Garatéia Furtiva e Manto.",
+      "e": [
+        "eqpx",
+        "Corda Simples, Garatéia Furtiva e Manto"
+      ],
+      "i": "condicoes.png"
+    },
+    {
+      "n": "Zelote",
+      "r": [
+        "v",
+        3
+      ],
+      "d": "&nbsp;&nbsp;<div class='la'>V</div>ocê se dedicou e zelou pela crença da Aurora dos Dragões com fervor, acreditando em seus dogmas como a forma ideal de agir e pensar. Talvez você seja um membro da Armada da Aurora, talvez você sirva – ou tenha servido – um dragão pessoalmente e percebido sua majestade, ou talvez você seja simplesmente um seguidor fervoroso dos ensinamentos e preceitos da Aurora dos Dragões. Seja como for, seu zelo para com os dogmas dos dragões somado à presença dessas criaturas no seu cotidiano o infundiram com as energias elementais típicas de criaturas dracônicas – e seus devotos seguidores.",
+      "b": "Você recebe a Habilidade Sintonia Dracônica.",
+      "eq": "Um pingente feito de uma escama de dragão.",
+      "e": [
+        "autx",
+        "Sintonia Dracônica",
+        "eqpx",
+        "Pingente de Escama"
+      ],
+      "i": "obj_dados.png"
+    }
+  ]
+}

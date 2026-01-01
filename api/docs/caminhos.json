@@ -1,0 +1,557 @@
+{
+  "caminho": [
+    {
+      "n": "Amoque",
+      "d": "&nbsp;&nbsp;<div class='la'>A</div>moques são guerreiros que se deixam levar pela fúria e se deleitam na destruição que ela causa. Embora Amoques sejam mais comuns em tribos selvagens ou bárbaras, alguns soldados de exércitos regulares se deixam tomar pela fúria de batalha e eventualmente desenvolvem um estilo de combate baseado em selvageria brutal em detrimento à disciplina militar no campo de batalha. Embora estes guerreiros geralmente não sejam confiáveis para fazerem parte de formações de batalha, eles são de grande valor em manobras de ataque – ou quando as formações defensivas não conseguem se sustentar.<br/>&emsp;<div class='lb'>A</div>moques tendem a se juntar a tropas menos organizadas, como grupos de assalto, guerrilheiros e até mesmo batedores, já que estas tropas costumam ter uma organização menos regular, permitindo que eles utilizem sua fúria com menos moderação. No entanto, a maioria dos Amoques não faz parte de tropas regulares. A maioria deles será encontrada em grupos de mercenários, piratas, leões de chácara ou algum outro posto onde a força-bruta é o requisito mais importante.",
+      "ra": "Aesir, Centauro, Fauno e Orc.",
+      "ha": "Irrefreável",
+      "h": [
+        "Ataque Brutal",
+        "Bravura Selvagem 1",
+        "Fúria Irrefreável",
+        "Investida Brutal",
+        "Ataque Furioso",
+        "Bravura Selvagem 2",
+        "Fúria Colérica",
+        "Retribuição Furiosa",
+        "Fúria Brutal"
+      ],
+      "r": [
+        "f",
+        6,
+        "t",
+        "Uma habilidade de Fúria qualquer"
+      ],
+      "i": "amoque.png"
+    },
+    {
+      "n": "Arconte",
+      "d": "&nbsp;&nbsp;<div class='la'>A</div>rcontes são figuras de autoridade que presidem os tribunais de Tebryn. Eles estão ligados à Ordem da Espada de Mirah, e precisam ser admitidos como Irmãos dentro da ordem – embora não precisem se tornar Jurados ou Priores, muitos deles também almejam estes títulos dentro da Ordem.<br/>&emsp;<div class='lb'>O</div> Arconte que dá a sentença não precisa ser o mesmo que aplica a punição, mas normalmente é assim. Arcontes têm acesso a Punições, que são Habilidades especificamente conferidas aos Arconte pelos Celestiais. Estas Habilidades são dons sobrenaturais que produzem efeitos similares às magias e servem para impingir a sentença adequada ao réu de forma padronizada, sem erros humanos. Dessa forma a Magia Punição do Açoite não será mais dolorosa ou menos, dependendo da mão do carrasco, ela será sempre igual.<br/>&emsp;<div class='lb'>U</div>tilizar Punições fora de um tribunal é considerado crime, e qualquer Arconte que utilize essas Habilidades sem que tenha havido um julgamento pode ser julgado, ele próprio, como se tivesse cometido tortura. É possível tentar contornar os efeitos de uma Punição, mas quando isso ocorre, o Arconte que aplicou a Punição imediatamente fica sabendo da transgressão e da localização do alvo no momento da quebra. Tentar contornar os efeitos de uma Punição é considerado um ato de Traição.",
+      "ra": "Fira, Juban e Humano.",
+      "ha": "Autoridade Legal",
+      "h": [
+        "Austeridade",
+        "Código da Honestidade",
+        "Mastim",
+        "Punição da Escuridão",
+        "Punição da Execução",
+        "Punição do Silêncio",
+        "Punição do Suplício",
+        "Juiz",
+        "Punição do Açoite",
+        "Punição da Amputação",
+        "Punição do Exílio",
+        "Punição da Confissão"
+      ],
+      "r": [
+        "i",
+        4,
+        "t",
+        "Ter sido aceito como Irmão da Ordem da Espada de Mirah."
+      ],
+      "i": "arconte.png"
+    },
+    {
+      "n": "Assassino",
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>s Assassinos matam por ouro. Diferente de mercenários e caçadores de recompensas, que podem ser enviados para trazer seus alvos vivos ou para produzir um cadáver (ou às vezes o fazem acidentalmente), o assassino não procura capturar, ferir, atrasar ou “mandar um recado” para o seu alvo. Ele só tem uma função: Matar.<br/>&emsp;<div class='lb'>E</div>mbora alguns matadores de aluguel utilizem táticas diversificadas para eliminar seus alvos, usando venenos ingeríveis, disparos de pontos imperceptíveis ou até mesmo magia, um Assassino prefere o método mais direto e pessoal. Ele gosta de ter certeza de que o seu alvo está morto, de fato, e o único meio de ter certeza é ver a vida se esvaindo do corpo do alvo. Os Assassinos gostam de verificar com seus próprios olhos que o alvo está, de fato, bem morto. Por conta disso, Assassinos desdenham armas de distância, magia e alquimia como método de eliminação de alvos, e embora possam empregar esses subterfúgios para auxiliar a cumprir suas missões, sempre dão preferência a armas brancas para terminar com um alvo – afinal, mesmo uma flecha entre os olhos ou uma bola de fogo pode deixar o alvo com um suspiro de vida que pode ser utilizado por um Sacerdote para evitar que o alvo morra. Uma decapitação, por outro lado, não pode ser curada.",
+      "ra": "Elfo, Fira, Gnoll, Humano, Metadílio e Tailox.",
+      "ha": "Atacar pelas Costas",
+      "h": [
+        "Apunhale primeiro, pergunte depois",
+        "Corte Arterial",
+        "Faça-os Sangrar",
+        "Flanquear",
+        "Reflexos Assassinos",
+        "En Passant",
+        "Esquartejar",
+        "Explorar Surpresa",
+        "Olho da Serpente",
+        "Mestre Assassino"
+      ],
+      "r": [
+        "a",
+        4,
+        "h",
+        [
+          "Ataque Aleijador"
+        ]
+      ],
+      "i": "assassino.png"
+    },
+    {
+      "n": "Avantesma",
+      "d": "&nbsp;&nbsp;<div class='la'>A</div>vantesmas são mortais que foram afetados por energias necromânticas e desenvolveram um vínculo com o plano espiritual. Seus corpos ficaram permanentemente infundidos com energias necromânticas, o que lhes confere algumas características semelhantes às de mortos-vivos, além de uma capacidade inata de canalizar energias espirituais de formas inusitadas, geralmente ligadas ao frio.<br/>&emsp;<div class='lb'>A</div> conexão deles com as energias espirituais ainda é um mistério para a maioria dos estudiosos, e embora seja necessário passar por algum tipo de contato com energias necromânticas, nem todos aqueles que são afetados por estas energias desenvolvem esta conexão com o plano espiritual.<br/>&emsp;<div class='lb'>E</div>mbora a maioria dos Avantesmas sejam gerados por acidente, geralmente envolvendo encontros com um Necromante ou morto-vivo, existem casos de Necromantes que usam seus poderes em si próprios na tentativa de criar a distinta ligação que os Avantesmas possuem com o plano espiritual, enquanto alguns registros indicam que Necromantes também utilizam esta mesma tática para criar guarda-costas e campeões mais eficientes, utilizando magias específicas em seus aliados.",
+      "ra": "Humano, por chance.",
+      "ha": "Frio Cadavérico",
+      "h": [
+        "Aura Gélida",
+        "Bloqueio Necromântico",
+        "Canalização Necromântica",
+        "Contato com Espíritos",
+        "Toque da Morte",
+        "Canalização Necromântica Maior",
+        "Devorador dos Mortos",
+        "Fúria Fria",
+        "Vigor Necromântico",
+        "Cavaleiro da Morte"
+      ],
+      "r": [
+        "v",
+        5,
+        "t",
+        "Ter sido afetado por um efeito de Dreno de Energia"
+      ],
+      "i": "avantesma.png"
+    },
+    {
+      "n": "Aziago",
+      "d": "&nbsp;&nbsp;<div class='la'>A</div>ziagos são conjuradores que canalizam energias dos planos inferiores para causar efeitos maléficos em seus alvos. Eles se especializaram em minar as forças dos seus inimigos, drenando seu vigor, reduzindo sua vontade ou restringindo sua percepção.<br/>&emsp;<div class='lb'>E</div>mbora lidem diretamente com magia infernal, Aziagos não são, necessariamente, infernalistas. Eles não precisam possuir nenhum Pacto – embora muitos conjuradores que possuem Pactos utilizem a ligação criada com seu patrono para canalizar energias infernais, tornando-se Aziagos. No entanto, alguns conjuradores arcanos decidem estudar a canalização das energias infernais simplesmente para ampliar seu arsenal mágico, mesmo que não tenham qualquer intenção de realizar pactos com criaturas infernais, enquanto outros se tornam Aziagos para combater outros infernalistas de forma mais eficiente.<br/>&emsp;<div class='lb'>É</div> importante observar, também, que canalizar energias infernais é extremamente prejudicial, e conjuradores que não sejam Aziagos ou possuam Pactos têm dificuldades em conjurar Maldições de forma eficiente. Além disso, conjurar uma maldição pode atrair a atenção de criaturas infernais, o que pode ter resultados desastrosos.",
+      "ra": "Humano e Naga.",
+      "ha": "Conhecimento Nefasto",
+      "h": [
+        "Causar Horror",
+        "Maldição da Assombração",
+        "Maldição da Debilidade",
+        "Maldição da Dor",
+        "Maldição do Medo",
+        "Remover Maldições",
+        "Maldição da Cegueira",
+        "Maldição do Canibalismo",
+        "Maldição da Dominação",
+        "Eternizar Maldição"
+      ],
+      "r": [
+        "v",
+        5,
+        "h",
+        [
+          "Conhecimento Arcano"
+        ]
+      ],
+      "i": "aziago.png"
+    },
+    {
+      "n": "Alquimista",
+      "d": "&nbsp;&nbsp;<div class='la'>O</div>s alquimistas são especialistas em poções e misturas alquímicas. A arte da alquimia é ensinada em laboratórios em grandes cidades e metrópoles e na Academia Argêntea, que possui a maior biblioteca alquímica de Cassiopéia.<br/>&emsp;<div class='lb'>A</div>pesar de ser possível aprender alquimia apenas através de livros, a maioria dos Alquimistas encoraja o aprendizado dentro de um laboratório, com a supervisão de Alquimistas experientes, uma vez que, principalmente durante suas primeiras experiências, as chances de cometer erros perigosos é considerável. Além disso, muitas poções simplesmente não são possíveis de realizar fora de um laboratório, e tentativas de simular os procedimentos sem os materiais necessários quase sempre geram reações desastrosas.<br/>&emsp;<div class='lb'>A</div> maioria dos Alquimistas trabalha em grandes cidades com lojas anexas aos seus laboratórios ou mesmo exclusivamente para a corte. Estes Alquimistas mercantes geralmente produzem poções práticas para o dia-a-dia, como elixires do sono, poções contra dores e antídotos variados, mas a maioria deles mantém um estoque de poções destinadas especificamente para aventureiros.<br/>&emsp;<div class='lb'>O</div>utros trabalham para conjuradores – ou mesmo são conjuradores! – ou para criminosos, produzindo poções muito mais complexas e perigosas. Estes Alquimistas quase nunca negociam suas mercadorias, produzindo poções para fins específicos e com demandas consideráveis.<br/>&emsp;<div class='lb'>E</div> há, é claro, aqueles Alquimistas que se aventuram. Alguns deles aprenderam alquimia para complementar suas habilidades, ou como uma “progressão natural” delas, enquanto outros são curiosos por natureza, e o mesmo impulso que os faz estudar sobre reações químicas e físicas também os impulsionam para ver fenômenos pelo mundo em primeira mão – as vezes para estudá-los e tentar aprender com eles, as vezes apenas pela curiosidade.<br/>&emsp;<div class='lb'>E</div>mbora a maioria dos Alquimistas trabalhe de forma abrangente, ou seja, produzindo todo tipo de poções, há aqueles que se especializam em tipos determinados de misturas. Algun deles se especializam em produzir elixires, poções criadas especificamente para curar, fortalecer ou acalmar o corpo e a mente. Os iátricos ou curandeiros, como geralmente são chamados, são bastante comuns entre Xamãs e Sacerdotes. Toxicólogos ou envenenadores, como costumeiramente são chamados os Alquimistas especializados em venenos, são comuns entre os Patrulheiros, Druidas e Ladinos, apesar destes últimos também serem adeptos ao uso de Extratos. Espagiristas, como são conhecidos os Alquimistas que produzem Extratos, costumam ser tão variados e excêntricos quanto as poções que produzem, mas os Ladinos e os Feiticeiros são, de longe, os mais inclinados à adotarem essa especialidade da alquimia.",
+      "ra": "Anão, Fira, Elfo, Faen, Humano,",
+      "ha": "Alquimia Básica",
+      "h": [
+        "Espagiria",
+        "Iátrica",
+        "Nigredo",
+        "Alquimia Avançada",
+        "Citrinitas",
+        "Elixir da Longa Vida",
+        "Toxicólogo",
+        "Pedra Filosofal"
+      ],
+      "r": [
+        "i",
+        5,
+        "h",
+        [
+          "Herbalismo"
+        ]
+      ],
+      "i": "alquimista.png"
+    },
+    {
+      "n": "Argênteo",
+      "d": "&nbsp;&nbsp;<div class='la'>A</div>rgênteos são Feiticeiros treinados na Academia Argêntea, especificamente em magias de locomoção. Enquanto a maioria dos Feiticeiros foca seus estudos em magias que produzem, conduzem e ampliam energia na forma de frio, calor e eletricidade, poucos têm inclinação para os estudos das magias de movimento e locomoção. No entanto, devido ao número de anomalias espaço-dimensionais encontradas ao longo de todo o território de Tebryn – e em algumas regiões e reinos vizinhos – fez-se necessário para a Academia criar uma área de estudos especializada nesses fenômenos. O Departamento de Astronomia e Movimento Dimensional então iniciou o treinamento de alunos com mais inclinação para investigações e com talento para magias de movimento. Assim, foi formado o Corpo de Investigadores de Paradoxos Espaço-Dimensional da Academia Argêntea – ou, como são mais conhecidos tanto entre si quanto popularmente, os Argênteos.<br/>&emsp;<div class='lb'>C</div>omo passam muito tempo estudando dentro das fronteiras da Ilha da Prata antes de fazerem pesquisas de campo propriamente ditas, a maioria dos Argênteos nutre um profundo sentimento de familiaridade com a Academia Argêntea, e é difícil encontrar algum deles que não esteja vergando o robe do corpo acadêmico – um robe azul escuro com o símbolo da Academia em prata no peito e nas costas – e é bastante simples identificar um deles graças a isso. Mesmo quando estão realizando alguma pesquisa de natureza sigilosa, eles geralmente o fazem de forma tão conspícua quanto estes trajes permitem.<br/>&emsp;<div class='lb'>A</div>rgênteos estão no mesmo nível hierárquico dos professores da Academia Argêntea, e respondem diretamente ao Departamento de Astronomia e Movimento Dimensional, tendo as mesmas regalias, direitos e deveres do corpo docente – têm acesso a praticamente toda a Ilha da Prata, exceto aos gabinetes de outros departamentos e aposentos pessoas de outros funcionários da Academia, podem solicitar equipamento quando estiverem em missões e viagens estritamente relacionadas à Academia e devem apresentar relatórios semestrais sobre suas atividades.",
+      "ra": "Elfo, Faen, Humano, Levent, Tailox",
+      "ha": "Aporte",
+      "h": [
+        "Analisar Magia",
+        "Empurrão Cinético",
+        "Permutação Instantânea",
+        "Runa de Localização",
+        "Teleportar Objeto",
+        "Teólogo",
+        "Área de Anti-Magia",
+        "Arremesso Cinético",
+        "Conjurar Especialista: [Magia]",
+        "Porta Oculta",
+        "Sala Oculta",
+        "Mestre Telecinético"
+      ],
+      "r": [
+        "i",
+        5,
+        "h",
+        [
+          "Teleporte 1"
+        ]
+      ],
+      "i": "argenteo.png"
+    },
+    {
+      "n": "Arqueiro",
+      "d": "&nbsp;&nbsp;<div class='la'>E</div>m Cassiopéia, um Arqueiro é qualquer especialista no uso de um arco, seja o tradicional arco de caça ou guerra, o arco horizontal montado sobre um cabo como no caso das bestas ou mesmo os arcos das forquilhas de bodoques. No entanto, como muitos caçadores, rastreadores e batedores costumam usar essas armas, o termo Arqueiro é utilizado entre Patrulheiros, Guerreiros e outros homens-de-armas para definir um grupo mais restrito de soldados: aqueles usuários de arcos que guardam e vigiam.<br/>&emsp;<div class='lb'>E</div>nquanto os Patrulheiros geralmente concentram suas habilidades em rastrear e emboscar seus alvos, usando ataques à distância para derrotar rapidamente inimigos desatentos, o Arqueiro se concentra em perceber e contra-atacar alvos escondidos e se defender contra eles de forma eficiente. Em essência, os Arqueiros são a antítese dos Patrulheiros.<br/>&emsp;<div class='lb'>A</div>lém disso, os Arqueiros costumam também concentrar-se em praticar para manter os músculos fortes e rijos. Como não têm a disposição dos Patrulheiros para se esgueirar e encontrar locais apertados para se esconderem, Arqueiros têm muito menos necessidade de flexibilidade e agilidade. De fato, eles preferem ficar em áreas abertas, onde podem vigiar áreas mais amplas, e geralmente não se incomodam em passar horas patrulhando uma mesma área. A maioria dos Arqueiros valoriza um braço firme para uma mira precisa e uma constituição robusta para aguentar horas sem precisar de sono ou descanso.",
+      "ra": "Anão, Centauro, Humano, Juban",
+      "ha": "Arqueria",
+      "h": [
+        "Aplicar Força",
+        "Disparo Certeiro",
+        "Disparo Mirado",
+        "Disparo Forte",
+        "Prever Posição",
+        "Retesar Eficiente",
+        "Vigília",
+        "Agarra Flechas",
+        "Disparo Cego",
+        "Disparo Devastador",
+        "Olho de Águia",
+        "Disparo Perfeito"
+      ],
+      "r": [
+        "f",
+        4,
+        "i",
+        4,
+        "h",
+        [
+          "Sentidos Apurados"
+        ]
+      ],
+      "i": "arqueiro.png"
+    },
+    {
+      "n": "Artífice",
+      "d": "&nbsp;&nbsp;<div class='la'>A</div>rtífices são Conjuradores com o conhecimento e técnicas para criar e manipular itens mágicos. Os Rúnicos, cujo método de conjuração lida com a inscrição de magias sobre itens, são os conjuradores que mais comumente se tornam Artífices. Aqueles Feiticeiros que ingressam nesse Caminho geralmente possuem uma curiosidade sobre funcionamentos variantes da magia. Apesar de Conjuradores Místicos não serem capazes de produzir itens mágicos, já que eles canalizam o poder de uma entidade superior, e é impossível estagnar esse poder na forma de um encantamento, alguns deles (particularmente Sacerdotes de Hou) se iniciam nas práticas arcanas para produzir itens mágicos destinados à realizar os desígnios de sua divindade.<br/>&emsp;<div class='lb'>A</div> grande maioria dos Artífices cria apenas itens de pouco poder, rápidos e fáceis de produzir, enquanto alguns se especializam em itens com fins específicos, geralmente trabalhando para a corte de um determinado reino ou metrópole. Na Academia Argêntea há Artífices especializados em itens de proteção, usados por estudantes durante seus primeiros testes (e pela maioria dos professores) enquanto Tebrynia, Arbrat e Tell’Est Triadha mantém Artífices que produzem armas e armaduras mágicas para as tropas que protegem essas capitais, e Arkânia possui Artífices que produzem itens mágicos exclusivamente para a Aurora dos Dragões.<br/>&emsp;<div class='lb'>H</div>á ainda alguns Artífices que dedicam suas vidas à produção de itens mágicos com propriedades realmente impressionantes, e que requerem anos para serem produzidos. Em geral estes itens que consomem grandes quantidades de energia e recursos são criados com um propósito bastante específico – derrotar um perigo particularmente terrível, defender um reino de uma ameaça específica ou produzir uma ameaça ou perigo terríveis! Estes itens mágicos via de regra não estão à disposição de aventureiros, exceto, eventualmente, como pilhagem de suas aventuras.",
+      "ra": "Aesir, Anão, Elfo, Fira, Metadílio",
+      "ha": "Encantar Talismã",
+      "h": [
+        "Conjurar Objeto",
+        "Desativar Item",
+        "Enfeitiçar Arma 1",
+        "Enfeitiçar Armadura",
+        "Dom do Artífice",
+        "Enfeitiçar Arma 2",
+        "Soldar Magia",
+        "Abrir Encantamento"
+      ],
+      "r": [
+        "i",
+        5,
+        "h",
+        [
+          "Conhecimento Arcano"
+        ]
+      ],
+      "i": "artifice.png"
+    },
+    {
+      "n": "Cultista",
+      "d": "&nbsp;&nbsp;<div class='la'>C</div>ultistas são mortais, que, por algum motivo, procuraram um Demônio para fazer um pacto. As motivações que levam um mortal a fazer um pacto – e destinar sua alma ao inferno, no processo – variam, mas normalmente envolvem vingança, poder ou riqueza de forma rápida e eficiente. Outros são atraídos pela simples possibilidade de chegarem ao inferno em uma posição privilegiada, já que, até onde se sabe, um mortal que tenha feito um Pacto com um demônio terá um lugar mais alto na hierarquia infernal do que um mortal que simplesmente chegue lá por suas ações em vida. Se um mortal sabe que seu estilo de vida o levará para o inferno, porque não fazer um pacto e tornar sua existência naquele plano ao menos um pouco mais confortável?",
+      "ra": "Humano e Naga.",
+      "ha": "Círculo de Invocação Infernal",
+      "h": [
+        "Cauda Farpada",
+        "Chifres Pequenos",
+        "Couro Infernal",
+        "Invocar Lemure",
+        "Olhos Infernais",
+        "Patas Infernais",
+        "Resistência Infernal",
+        "Asas Infernais",
+        "Coroa Infernal",
+        "Chifres Grandes",
+        "Invocar Shedin",
+        "Invocar Asura",
+        "Portal Infernal",
+        "Sacrifício das Trevas",
+        "Olhar da Serpente",
+        "Toque de Glycon",
+        "Garantir o Planejamento",
+        "Explosão Profana",
+        "Flagelo de Shyama",
+        "Execrar",
+        "Abraço da Escuridão",
+        "Servo de Nehemoth",
+        "Travessia das Sombras",
+        "Visão de Nehemoth",
+        "Loucura Revelada",
+        "Espelhar Loucura",
+        "Corrente de Loucura",
+        "Visão do Vazio",
+        "Presença de Ereshkigal",
+        "Virulência",
+        "Carícia de Ereshkigal",
+        "Manto de Ereshkigal",
+        "Olhar de Virzú",
+        "Voz de Virzú",
+        "Ajoelhem-se!"
+      ],
+      "r": [
+        "h",
+        [
+          "Pacto"
+        ]
+      ],
+      "i": "cultista.png"
+    },
+    {
+      "n": "Cruzado",
+      "d": "&nbsp;&nbsp;<div class='la'>C</div>ruzados são guerreiros que se dedicaram a cruzar Tebryn destruindo o mal em nome de uma causa maior. Em geral, esta causa é a Justiça, na forma de Mirah – ou, mais raramente, Ahogr – mas muitos Cruzados seguem os desígnios de outras divindades em sua cruzada. De fato, os seguidores mais fervorosos de Hadorn se dedicam a cruzar Tebryn destruindo criaturas malignas – principalmente mortos-vivos – e a Hoste de Hadorn produz um número tão elevado de Cruzados quanto a Ordem da Espada de Mirah. Muitos seguidores de Ellenis e Taranis também se tornam Cruzados, libertando a natureza da influência de criaturas malignas. Alguns seguidores de Denalla, mais ligados ao seu aspecto de Deusa da Vida, também se sentem atraídos por este Caminho, cruzando Tebryn para purgar o reino de criaturas mortas-vivas e espíritos. Seguidores de Hou e Sarfion tem pouca inclinação para seguir este caminho, e pouquíssimos deles se tornam Cruzados.<br/>&emsp;<div class='lb'>E</div>nquanto dentro da Ordem da Espada de Mirah realizar uma cruzada é praticamente mandatório para ser aceito – exceto no caso de alguns cargos destinados especificamente a Sacerdotes – dentro da Hoste de Hadorn não existe uma obrigatoriedade de tornar-se um Cruzado, mas estes guerreiros são amplamente respeitados e gozam de certos privilégios. Posições de liderança são geralmente atribuídos a Cruzados, e eles levam ampla vantagem na disputa para maioria das promoções para cargos elevados dentro da Ordem. Apesar de gozarem de certo respeito dentro de instituições ligadas a outras divindades, Cruzados não recebem nenhum privilégio especial em igrejas que não sejam ligadas a Hadorn ou Mirah.<br/>&emsp;<div class='lb'>C</div>ruzados não formam um grupo coeso, e embora muitos pertençam a uma Ordem, há um bom número de Cruzados solitários que cruzam Tebryn caçando criaturas malignas em nome de sua divindade de forma completamente independente. Não existe nenhuma organização oficial de seus membros, e enquanto alguns deles são orientados por Cruzados mais experientes, alguns trilham este Caminho de forma totalmente independente e espontânea.",
+      "ra": "Anão, Elfo, Humano, Juban, Levent, Tailox",
+      "ha": "Força Divina",
+      "h": [
+        "Ataque Fervoroso",
+        "Contos de Estrada",
+        "Vontade da Lei",
+        "Vontade Sobrenatural",
+        "Expurgo Elemental",
+        "Seguir em Frente",
+        "Vontade Inabalável",
+        "Golpe Justo"
+      ],
+      "r": [
+        "v",
+        4,
+        "h",
+        [
+          "Dogma"
+        ]
+      ],
+      "i": "cruzado.png"
+    },
+    {
+      "n": "Domador",
+      "d": "&nbsp;&nbsp;<div class='la'>D</div>omadores são pessoas com uma afinidade profunda com animais. Sejam cavaleiros com elos com suas montarias, falcoeiros experientes em treinar aves de rapina ou caçadores que desenvolveram uma afinidade com seus animais, Domadores possuem uma capacidade de compreender e influenciar animais (seja através de uma simpatia sincera ou de uma dominância bestial), o que faz deles membros apreciados de qualquer grupo ao qual pertençam – ou ameaças temíveis quando se voltam para o mal.<br/>&emsp;<div class='lb'>A</div>lguns Domadores desenvolvem um elo com um animal em particular e extendem naturalmente esse elo às demais bestas que encontram. Outros, apesar de possuírem uma ligação maior com uma criatura em especial, dedicam sua atenção entre todos os animais que encontra, sejam selvagens ou domesticados, de forma imparcial, muitas vezes reunindo uma pequena horda de “seguidores” selvagens.<br/>&emsp;<div class='lb'>O</div>utros utilizam sua afinidade natural com as feras, subjugando os animais à sua vontade, como uma espécie de alfa de um grupo. Estes Domadores não necessariamente possuem um comportamento vil ou cruel com relação aos animais sobre os quais possui dominância, literalmente liderando seu grupo, defendendo, ensinando e exigindo respeito dos animais em troca. Mas, obviamente, alguns Domadores com esse comportamento agem de forma agressiva com os animais (e, em geral, com todas as criaturas) sob sua influência ou não. Não raro, estes Domadores desenvolvem uma antipatia por grupos sociais civilizados, preferindo a companhia dos animais e daqueles que possuem um elo semelhante com estes.<br/>&emsp;<div class='lb'>E</div> há ainda aqueles Domadores que apenas tratam e treinam animais brevemente, quebrando qualquer vínculo com o animal em seguida, criando vínculos efêmeros com dezenas – as vezes centenas – de animais por breves períodos de tempo.",
+      "ra": "Aesir, Elfo, Faen, Fauno, Fira, Levent, Metadílio, Tailox",
+      "ha": "Companheiro Animal 1",
+      "h": [
+        "Ataque Simultâneo",
+        "Cavaleiro Experiente",
+        "Combate em Grupo",
+        "Combate Montado",
+        "Companheiro Animal 2",
+        "Horda Selvagem",
+        "Companheiro Animal 3",
+        "Mestre Domador",
+        "Comando do Alfa",
+        "Companheiro Animal 4"
+      ],
+      "r": [
+        "v",
+        5,
+        "h",
+        [
+          "Benção de Ellenis"
+        ]
+      ],
+      "i": "domador.png"
+    },
+    {
+      "n": "Escriba",
+      "d": "&nbsp;&nbsp;<div class='la'>E</div>scribas são estudiosos que se dedicam especificamente às diversas linguagens de Cassiopéia - principalmente em sua forma escrita. Muitos Escribas são poliglotas, estudando textos em sua linguagem original ou fazendo traduções acuradas de textos de um idioma para outro, enquanto outros preferem focar em um único idioma e compreender profundamente sua origem, características únicas, as culturas que o utilizam e sua influência no desenvolvimento dessas culturas - ou como eles se desenvolvem dentro de culturas diferentes.<br/>&emsp;<div class='lb'>U</div>m número considerável de Escribas se dedica à escrita de livros, geralmente compilando contos folclóricos dos povos que falam os idiomas que estudam e imprimindo nessas histórias prosa e verso adequados àquelas culturas de onde vieram. A maioria das obras de folclore e poesia das diversas culturas de Cassiopéia foram escritas por Escribas, e eles também são responsáveis pela maioria dos livros copiados à mão - que vêm se tornando cada vez mais raros em Cassiopéia - e extremamente valorizados por colecionadores, conjuradores e pelas diversas igrejas do continente, não só pela qualidade do texto mas também pelo reconhecido trabalho de iluminura pelo qual os Escribas são conhecidos. De fato, o trabalho dos Escribas é tão apreciado pelas diversas igrejas de Cassiopéia que e bastante comum encontrar Escribas copistas especializados em textos religiosos em todas as igrejas de Cassiopéia, embora eles sejam mais comuns entre os seguidores de Sarfion, Denalla e Hou - e as igrejas dessas divindades costumam ter salas especialmente destinadas à copistas na maioria de seus templos.<br/>&emsp;<div class='lb'>M</div>uitos Escribas se dedicam ao estudo de magias presentes em tomos, e é bastante comum encontra-los trabalhando para conjuradores de todos os tipos, seja como empregados de conjuradores abastados, membros de instituições - como a Academia Argêntea - ou como prestadores de serviço, copiando, reformando e revisando grimórios e missais para conjuradores. De fato, na maioria das metrópoles de Cassipéia é possível encontrar estúdios de Escribas especializados em produzir Grimórios e Missais - algumas vezes trabalhando em conjunto com oficinas de outros conjuradores e artesãos especializados, como Artífices e Alquimistas.",
+      "ra": "Anão, Fira, Humano, Metadílio",
+      "ha": "Escrivão",
+      "h": [
+        "Copista Mágico",
+        "Erudito",
+        "Gnóstico",
+        "Luminar",
+        "Teólogo",
+        "Prosa e Verso",
+        "Pergaminho Mágico",
+        "Mensagem Mágica",
+        "A Verdade das Palavras"
+      ],
+      "r": [
+        "i",
+        4
+      ],
+      "i": "escriba.png"
+    },
+    {
+      "n": "Estrige",
+      "d": "&nbsp;&nbsp;<div class='la'>E</div>strige é o nome dado aos membros da Ordem dos Caçadores Sobrenaturais, homens e mulheres que dedicam suas vidas para caçar e destruir criaturas amaldiçoadas de todos os tipos, como fantasmas, lobisomens, demônios e mortos-vivos – assim como aqueles que lidam com essas criaturas, como Cultistas e Necromantes.<br/>&emsp;<div class='lb'>A</div> Ordem foi fundada depois uma epidemia de vampirismo que se abateu na região ao redor de Longuespera. A guarda da cidade estava completamente despreparada para lidar com a ameaça, e mesmo tendo recebido ajuda de membros da Hoste de Hadorn e Espada de Mirah, a ameaça só foi eliminada depois que Tames Harkel, um Patrulheiro membro da Ordem da Espada de Mirah, teve a iniciativa de procurar por aventureiros acostumados a lidar com vampiros.<br/>&emsp;<div class='lb'>A</div>pesar de membros da Ordem da Espada de Mirah e da Hoste de Hadorn serem bastante eficientes para lidar com criaturas sobrenaturais, eles não recebem treinamento próprio contra esse tipo de criatura, focando seu treinamento em combate de forma mais ampla, e negligenciando quase completamente a necessidade de localizar, rastrear e perseguir essas criaturas.<br/>&emsp;<div class='lb'>V</div>endo o despreparo de ambas as Ordens em lidar com a ameaça, o conselho de Tebryn decidiu criar uma Ordem especializada em lidar com esse tipo de problema, e Harkel foi seu primeiro líder. Com a ajuda dos aventureiros que reuniu para lidar com a ameaça em Longuespera, Harkel passou a treinar membros da Ordem da Espada de Mirah e da Hoste de Hadorn para lidar com criaturas amaldiçoadas.<br/>&emsp;<div class='lb'>A</div>pesar de não estar oficialmente ligadas a nenhuma igreja ou instituição religiosa, a Ordem dos Caçadores Sobrenaturais iniciou suas atividades nos monastérios de Sarfion ao redor de Tebryn. Essa decisão de Harkel tinha vários motivos, mas os principais deles era não demonstrar favoritismo em relação a uma ou outra das Ordens que enviavam seus membros para serem treinados para se tornarem Estrigoi, apesar das igrejas tanto de Mirah quanto de Hadorn possuírem quartéis mais bem equipados para treinamento militar, e o fato dos monastérios de Sarfion terem bibliotecas com quantidades enormes de informações que poderiam ser usadas não apenas no treinamento da Ordem, mas em futuras pesquisas; manter boas relações com os Sacerdotes do Conhecimento era fundamental aos olhos de Harkel.<br/>&emsp;<div class='lb'>E</div>ventualmente a Ordem passou a treinar conjuradores, caçadores e combatentes que não vinham exclusivamente das Ordens oficiais de Tebryn, e atualmente a quantidade de Estrigoi vindos de outras Ordens é uma minoria dentro dela. De fato, a maioria dos Sacerdotes que ingressa na Ordem segue os Dogmas de Sarfion. Patrulheiros, Xamãs e Druidas também são comuns na Ordem, acostumados em rastrear e caçar – ou lidar com espíritos e criaturas sobrenaturais. Há um bom número de Ladinos na Ordem também, já que habilidades de infiltração são extremamente valorizadas pelos Estrigoi. O termo Estrige, que nomeia os membros da Ordem, vem do Quoratus e significa literalmente Coruja. O termo passou a ser usado pelos Sacerdotes de Sarfion pouco depois do surgimento da Ordem, já que seus membros, além de caçadores competentes, curiosos e silenciosos, geralmente apareciam nos monastérios apenas durante a noite. O termo acabou se tornando popular entre os membros da Ordem, que o adotou oficialmente, e atualmente é amplamente conhecido em toda Tebryn.<br/>&emsp;<div class='lb'>Q</div>ualquer pessoa com um mínimo de experiência lidando com criaturas sobrenaturais é aceita como membro da Ordem como um acólito, passando por treinamento supervisionado por um Estrige experiente. Esse treinamento geralmente envolve várias horas por dia de leitura em bibliotecas dos templos de Sarfion pesquisando sobre maldições, mortos-vivos, demônios e tudo que se possa conhecer sobre criaturas sobrenaturais – e com quem ter acesso a essas bibliotecas para futuras pesquisas. Depois disso o acólito é levado em uma caçada e, tendo destruído seu alvo, passa a ser considerado um membro da Ordem.<br/>&emsp;<div class='lb'>A</div> estrutura da Ordem é pouco rígida, e embora os membros mais novos respeitem Estrigoi mais experientes, não há qualquer distinção hierárquica entre os membros. É exigido aos membros que apenas efetuem relatos detalhados de qualquer criatura que destruam e qualquer experiência com maldições ou com criaturas sobrenaturais, e que mantenham um diário com suas experiências – caso sejam mortos, suas experiências podem ser de grande valia para outros Estrigoi. Esses relatos devem ser entregues a Sacerdotes de Sarfion específicos, que mantém todos os relatos da Ordem em sessões privadas das bibliotecas de seus templos.<br/>&emsp;<div class='lb'>A</div> atual líder da Ordem é Sirague de Longuespera (Levent Sacerdote Estrige 10) uma Sacerdotisa de Sarfion especializada em lidar com espíritos. Ela vive em Longuespera há anos, investigando o Campo dos Onze Segredos, e está sempre à procura de Estrigoi – ou aventureiros – que queiram desbravar o lugar. De fato, a Ordem mantém excelentes relações com aventureiros, vendo-os como fontes de informações e pistas sobre criaturas sobrenaturais, reforços contra essas criaturas e, claro, potenciais acólitos. A Ordem sempre tem trabalho a oferecer para grupos de aventureiros, particularmente na região oeste do reino.",
+      "ra": "Elfo, Fauno, Humano, Levent, Metadílio, Tailox",
+      "ha": "Caça Sobrenatural",
+      "h": [
+        "Imunidade Sobrenatural",
+        "Sabedoria Sobrenatural",
+        "Semelhança Cadavérica",
+        "Sentidos de Caçador",
+        "Sexto Sentido",
+        "Vontade Sobrenatural",
+        "Matador Sobrenatural",
+        "Perceber Corrupção",
+        "Quebrar a Defesa Sombria",
+        "Sentido de Alerta",
+        "Banir a Perversão"
+      ],
+      "r": [
+        "i",
+        4,
+        "t",
+        "Matado algo sobrenatural"
+      ],
+      "i": "estrige.png"
+    },
+    {
+      "n": "Ilusionista",
+      "d": "&nbsp;&nbsp;<div class='la'>O</div> Ilusionista é um conjurador especializado em enganar os sentidos, utilizando suas habilidades para trapacear a percepção de seus inimigo ou para maravilhar os sentidos daqueles ao seu redor. De fato, a maioria deles usa esse talento voltado para o entretenimento, criando exibições elaborada, mas alguns utilizam suas habilidades como jogadores, golpistas, trapaceiros e, com frequência, espiões.<br/>&emsp;<div class='lb'>G</div>raças à esse segundo grupo, alguns dizem que todo o Ilusionista é um trapaceiro, mentiroso e enganador. Os Astérios tem um ditado que diz: “Confie num ladrão antes de um Ilusionista ”.<br/>&emsp;<div class='lb'>M</div>uitos burgomestres, capitães, nobres e até mesmo monarcas reconhecem as capacidades dos Ilusionistas, e usam os mesmos como conselheiros em questões de seguranças, ou até como conselheiros pessoais. Lorde Esterlin II, regente de Ektória, é conhecido por ter duas guarda-costas Ilusionistas, que estão sempre ao lado dele.<br/>&emsp;<div class='lb'>I</div>ndependente de como utilizam suas habilidades, Ilusionistas comumente utilizam suas capacidades de conjuração para lidar com ameaça sem precisar recorrer à violência. Esse padrão às vezes fazem com que Ilusionistas sejam considerados covardes, mas eles próprios vêem o confronto físico como um desafio débil, a forma como pessoas pouco refinadas lidam com problemas.",
+      "ra": "Elfo, Faen, Metadílio",
+      "ha": "Ilusão 1",
+      "h": [
+        "Aparência Ilusória",
+        "Ilusão 2",
+        "Ilusão Sonora",
+        "Invisibilidade 1",
+        "Luz Mágica",
+        "Som Ilusório",
+        "Abrigo Invisível",
+        "Ilusão 3",
+        "Ilusão Persistente",
+        "Invisibilidade 2",
+        "Ilusão Eterna"
+      ],
+      "r": [
+        "i",
+        5,
+        "h",
+        [
+          "Detectar Magia"
+        ]
+      ],
+      "i": "ilusionista.png"
+    },
+    {
+      "n": "Invocador",
+      "d": "&nbsp;&nbsp;<div class='la'>I</div>nvocadores são Conjuradores especializados em invocar criaturas para auxiliá-los. Apesar das óbvias aplicações combativas, muitos Invocadores na verdade usam suas habilidades para atividades mais mundanas. Como são incansáveis, seguem ordens com exatidão e não se distraem, golens e elementais são trabalhadores extremamente eficientes. A Academia Argêntea e algumas metrópoles de Tebryn, Parband e Dagothar empregam Invocadores como arquitetos e construtores, enquanto muitos utilizam suas invocações como auxiliares em laboratórios, forjas e oficinas.<br/>&emsp;<div class='lb'>M</div>as é obviamente em batalha que os Invocadores mais se destacam. Invocadores particularmente talentosos são capazes de dominar o campo de batalha praticamente sozinhos e sem precisar entrar em confronto direto com nenhum inimigo. Apesar do poder bruto de elementais e golens menores não serem particularmente impressionantes, um número considerável deles é capaz de manter ameaças consideráveis sob controle. De fato, um invocador cercado de elementais e golens – ou talvez espíritos, no caso de Necromantes e Xamãs invocadores – pode ser uma visão suficientemente amedrontadora para fazer com que alguns inimigos simplesmente decidam que não é uma boa idéia enfrentar o grupo.",
+      "ra": "Anão, Fira, Mahok, Levent",
+      "ha": "Invocar Familiar",
+      "h": [
+        "Invocação Persistente",
+        "Invocação Versátil",
+        "Invocar Elemental do Fogo 1",
+        "Invocar Elemental do Gelo 1",
+        "Invocar Elemental do Relâmpago 1",
+        "Invocar Golem 1",
+        "Ampliar Invocação",
+        "Invocar Elemental do Fogo 2",
+        "Invocar Elemental do Gelo 2",
+        "Invocar Elemental do Relâmpago 2",
+        "Invocar Golem 2",
+        "Manter Invocação",
+        "Invocação Prodigiosa"
+      ],
+      "r": [
+        "v",
+        6,
+        "h",
+        [
+          "Detectar Magia"
+        ]
+      ],
+      "i": "invocador.png"
+    },
+    {
+      "n": "Lanceiro",
+      "d": "&nbsp;&nbsp;<div class='la'>L</div>anceiros são especialistas no uso de armas de haste. Apesar de usualmente eles preferirem lanças, particularmente eficientes quando usadas em formação, muitos Lanceiros favorecem alabardas, glaives ou martelos lucernos ao invés de lanças.<br/>&emsp;<div class='lb'>E</div>sse tipo de combate foi trazido de Dagothar, onde combate com armas de haste é tradicional, particularmente em formação – Anões possuem uma formação de combate chamada de “ouriço” que combina Lanceiros rodeados por Escudeiros. Graças a isso, Lanceiros são particularmente comuns entre os Anões de Stord, que utilizam a vantagem de túneis apertados para manterem adversários à distância de forma eficiente utilizando armas de haste. As guardas das terras dos vales, na fronteira com Arkânia também mantém uma tradição no uso de armas de haste, herdada dos combates contra as tropas arkanitas, conhecidas pela sua preferência por esse tipo de arma. De fato, as tropas de frente de Arkânia geralmente utilizam formações de várias linhas de Lanceiro, e para lidar contra essas formações as companhias de soldados das terras dos vales acabaram aprimorando o uso de armas de haste e eventualmente adotando esse tipo de formação em combate campal.<br/>&emsp;<div class='lb'>A</div>pesar de suas vantagens em formação serem reconhecidas, Lanceiros solitários são excelentes combatentes, particularmente em campo aberto. Além disso, eles são excelentes como apoio para combatentes de linha de frente ou para manter vários adversários acuados ao mesmo tempo.",
+      "ra": "Anão, Centauro, Elfo, Fauno Fira, Humano, Levent",
+      "ha": "Manter a Linha",
+      "h": [
+        "Contra-Carga",
+        "Derrubar",
+        "Empunhadura Flexível",
+        "Manter à Distância",
+        "Acuar",
+        "Fique Longe",
+        "Virar o Jogo",
+        "Mestre da Lança"
+      ],
+      "r": [
+        "f",
+        3,
+        "h",
+        [
+          "Sem Escapatória"
+        ]
+      ],
+      "i": "lanceiro.png"
+    },
+    {
+      "n": "Oráculo",
+      "d": "&nbsp;&nbsp;<div class='la'>A</div>pesar de alguns Oráculos possuírem uma predisposição para a profecia, a maioria deles é formada por religiosos que desejam uma compreensão maior sobre a criação da sua divindade ou que buscam a resposta para uma questão específica.<br/>&emsp;<div class='lb'>O</div>ráculos cujo interesse por uma compreensão maior do mundo costumam ser abertos à discussão e estão tão interessados em disseminar o conhecimento quanto em adquirí-lo. Não é surpresa alguma que a um grande número desses Oráculos sejam Sacerdotes dedicados à Sarfion. Sacerdotes de Taranis também são comuns nesse grupo, já que o próprio conceito de liberdade está ligada ao conhecimento – “não há prisão mais terrível do que a ignorância” é um dito comum entre eles. Druidas são conhecidos por engrossar essas fileiras de Oráculos, as vezes para melhor servir à seus propósitos, mas geralmente por uma curiosidade inata comum à todos os membros da Classe.<br/>&emsp;<div class='lb'>M</div>uitos Sacerdotes de Mirah e Hou, por outro lado, se tornam Oráculos em busca de conhecimentos específicos. Sacerdotes de Mirah costumam procurar um meio de chegar à paz absoluta, enquanto Sacerdotes de Hou muitas vezes se dedicam à encontrar respostas relacionadas à grandes artefatos perdidos – como a Mighty Blade – ou civilizações esquecidas – como Mankosh. Sua busca pode ser pelo objeto em si, seu método de construção, o motivo por trás de sua criação ou a identidade e natureza de seus criadores. Apesar de raramente serem capazes de obter a grande resposta que buscam, estes Oráculos costumam reunir informações significativas com relação à sua área de interesse.",
+      "ra": "Aesir, Humano, Juban, Levent, Metadílio, Tailox",
+      "ha": "Clarividência",
+      "h": [
+        "Janela Mágica",
+        "Psicometria",
+        "Retrocognição",
+        "Abrir Janela Mágica",
+        "Atravessar Janela Mágica",
+        "Precognição",
+        "Interferir no Fluxo"
+      ],
+      "r": [
+        "v",
+        6,
+        "h",
+        [
+          "Conhecimento Místico"
+        ]
+      ],
+      "i": "oraculo.png"
+    },
+    {
+      "n": "Sanguíneo",
+      "d": "&nbsp;&nbsp;<div class='la'>S</div>anguíneos são conjuradores arcanos que se especializaram em manipular sangue, músculos e ossos de seus alvos – vivos ou mortos. Graças a uma experiência de quase morte causada por um ferimento particularmente cruel, alguns Conjuradores arcanos desenvolvem uma capacidade inata de compreender os fluxos de energia contidos nos tecidos e fluidos das criaturas vivas, e eles se tornam capazes de manipular estes fluxos de forma semelhante ao controle sobre energias elementais extradimensionais que os conjuradores arcanos geralmente conseguem realizar.<br/>&emsp;<div class='lb'>E</div>ssa manipulação dos fluxos das energias de criaturas vivas é considerada antinatural e mal vista pela maioria dos conjuradores – Arcanos e Místicos – embora indivíduos mais inescrupulosos ignorem essa noção e se utilizem das capacidades dos Sanguíneos quando tiverem a chance – não apenas como um Caminho, mas ao encontrar as Magias deles escritas em itens de Registro. Alguns Conjuradores mais curiosos também podem estudar estas magias e geralmente concordam que elas podem ser particularmente úteis contra mortos-vivos, utilizando elas apenas contra essas criaturas quando a oportunidade aparece. De fato, considerando que a maioria dos Feiticeiros e Rúnicos não possuem capacidades ofensivas para lidarem diretamente com essas criaturas, as Magias desenvolvidas pelos Sanguíneos costumam ser vistas como uma adição bem-vinda em seus arsenais – mas apenas os mais desesperados ou amorais utilizam estas magias contra criaturas vivas.",
+      "ra": "Aesir, Elfo, Fira e Humano.",
+      "ha": "Magia Sanguínea",
+      "h": [
+        "Arma dos Mortos",
+        "Deflagrar Ossos",
+        "Ferimentos Abertos",
+        "Ligação de Sangue",
+        "Percepção Sanguínea",
+        "Coagular Sangue",
+        "Ferida Cruel",
+        "Fonte de Sangue",
+        "Sifão de Sangue",
+        "Vibrar os Ossos"
+      ],
+      "r": [
+        "v",
+        5,
+        "h",
+        [
+          "Conhecimento Arcano"
+        ],
+        "t",
+        "Ficar Por um Fio devido a Sangramento"
+      ],
+      "i": "sanguineo.png"
+    },
+    {
+      "n": "Tohunga",
+      "d": "&nbsp;&nbsp;<div class='la'>E</div>m Reo, o idioma dos Astérios, a palavra Tohunga significa “mestre” ou “especialista”, e era usada como um título de honra para aqueles que mostravam excelência em sua área de atuação. Essa noção – assim como grande parte da cultura ancestral dos Astérios – foi perdida durante a Revoada dos Dragões e posteriormente com sua vinda para Cassiopéia, e o termo hoje é usado apenas para identificar um especialista em tatuagem. Nesse interim, no entanto, o termo ainda possui força, e é usado por todos os que decidem trilhar este Caminho, independente de sua cultura ou idioma.<br/>&emsp;<div class='lb'>A</div>pesar da maioria das qualidades que um Tohunga é capaz de exibir através de suas tatuagens serem um ato de pura determinação, algumas tatuagens podem possuir qualidades mágicas ou sobrenaturais. A maioria destes Tohunga é formada por Rúnicos, Xamãs e Druidas, mas mesmo Guerreiros ou Patrulheiros podem exibir essas capacidades extraordinárias.<br/>&emsp;<div class='lb'>I</div>ndependente de suas crenças, a maioria dos Tohunga faz uso de suas habilidades como tatuadores de maneira ordinária, seja marcando membros de sua comunidade com tatuagens de guerra ou em rituais de passagens, seja tatuando por dinheiro. No entanto, um Tohunga capaz de imprimir poderes nas tatuagens que produzem em outros costuma ser extremamente seletivo ao fazer isso, não sendo afetado por influência ou poder aquisitivo nessa escolha – exceto no caso de um Tohunga desesperado ou com muito pouco escrúpulo.",
+      "ra": "Aesir, Anão, Astério",
+      "ha": "Primeira Marca",
+      "h": [
+        "Tamoko",
+        "Tribal de Proteção",
+        "Tribal de Poder",
+        "Invocar Espírito de Tinta",
+        "Tatuar Objeto",
+        "Tatuar Magia",
+        "Coração de Tinta",
+        "Kirituhi",
+        "Tatuar Efeito",
+        "Invocar Exército de Tinta"
+      ],
+      "r": [
+        "v",
+        3,
+        "antec",
+        [
+          "Artesão"
+        ]
+      ],
+      "i": "tohunga.png"
+    }
+  ]
+}

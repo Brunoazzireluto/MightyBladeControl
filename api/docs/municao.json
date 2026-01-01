@@ -1,0 +1,191 @@
+{
+  "municao": [
+    {
+      "n": "Aljava Comum",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Utensilio usado normalmente nas costas para carregar flechas. Comporta até 20 flechas (compradas separadamente).",
+      "c": 10,
+      "p": 1.5
+    },
+    {
+      "n": "Aljava Compartimentada",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Dividida em quatro “bolsos”, cada um comportando 5 flechas, essa aljava é usada para dividir tipos diferentes de flechas.",
+      "c": 20,
+      "p": 1
+    },
+    {
+      "n": "Balas",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Esferas de metal ou pedra para fustibalo, Prodd e Funda.",
+      "c": 1,
+      "p": 0.02
+    },
+    {
+      "n": "Dardos",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Agulhas para zarabatana, 200 dessas pesam 1kg.",
+      "c": 1,
+      "p": 0.05
+    },
+    {
+      "n": "Flecha Comum",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Flecha usada em todos os tipos de arco.",
+      "c": 2,
+      "p": 0.05
+    },
+    {
+      "n": "Flecha Garateia",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Flecha para acoplar uma garatéia na ponta e uma corda.",
+      "c": 10,
+      "p": 0.2
+    },
+    {
+      "n": "Flecha Alarme",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Causa metade do dano normal, mas produz um som estridente que pode ser ouvido a mais de 1km.",
+      "c": 4,
+      "p": 0.05
+    },
+    {
+      "n": "Flecha Cortante",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Flecha que causa dano por Corte ao invés de Perfuração.",
+      "c": 2,
+      "p": 0.05
+    },
+    {
+      "n": "Flecha de Prata",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Flecha Tradicional banhada em prata.",
+      "c": 10,
+      "p": 0.05
+    },
+    {
+      "n": "Flecha Envenenada",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Comporta e inocula veneno (uma dose para 3 flechas).",
+      "c": 5,
+      "p": 0.05
+    },
+    {
+      "n": "Flecha Explosiva",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Causa dano adicional igual a 12/Fogo.",
+      "c": 150,
+      "p": 0.05
+    },
+    {
+      "n": "Flecha Farpada",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Causa o mesmo dano do ataque ao ser removida, e um efeito de sangramento de metade do dano por 3 turnos.",
+      "c": 5,
+      "p": 0.05
+    },
+    {
+      "n": "Flecha Incendiária",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Dano comum e 4/Fogo quando atingido. 4/Fogo por 3 turnos, ou até ser removida.",
+      "c": 5,
+      "p": 0.05
+    },
+    {
+      "n": "Flecha Perfurante",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Ignora metade do bônus de quaisquer Armaduras e a redução de dano fornecida por armaduras Pesadas.",
+      "c": 3,
+      "p": 0.05
+    },
+    {
+      "n": "Flecha Rede",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Possui uma rede tramada com Prata Fria. Exige um turno de mira com teste Int(14), e no próximo turno dispara ignorando bônus de Armadura e Bloqueio para prender o alvo. Arrebentar exige For(14), mas falhas provocam 6/Corte.",
+      "c": 50,
+      "p": 0.05
+    },
+    {
+      "n": "Virote Comum",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Seta usada em todos os tipos de besta e Plumbata.",
+      "c": 2,
+      "p": 0.04
+    },
+    {
+      "n": "Virote Garateia",
+      "m": "Padrão",
+      "ms": [
+        "padrão"
+      ],
+      "q": true,
+      "de": "Virote para acoplar uma garatéia na ponta e uma corda.",
+      "c": 10,
+      "p": 0.2
+    }
+  ]
+}
