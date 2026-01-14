@@ -16,9 +16,6 @@ Bem-vindo ao **Mighty Blade Control**, um sistema para gerenciamento de fichas e
 
 ### Frontend
 
-🚧 **Em Construção** 🚧
-
-
 ---
 
 ## 📦 Instalação e Execução
@@ -31,6 +28,7 @@ Para rodar o projeto localmente, você precisará ter instalado:
 ### Passo a Passo
 
 1.**Clone o repositório** e entre na pasta do projeto:
+
 ```bash
     git clone https://github.com/seu-usuario/MightyBladeControl.git
     cd MightyBladeControl
@@ -68,6 +66,12 @@ Para rodar o projeto localmente, você precisará ter instalado:
     ```bash
     python manage.py migrate
     python manage.py runserver
+    ```
+
+6.  **Popule o Banco de Dados (Seeds)**:
+    Para carregar os dados base (raças, classes, itens, etc.), execute:
+    ```bash
+    python manage.py mainseeder
     ```
     O servidor estará rodando em `http://127.0.0.1:8000/`.
 
@@ -389,3 +393,6 @@ Todos os direitos do sistema pertencem aos seus criadores. Este projeto é uma f
 
 * **Sistema Oficial**: [Editora Runas - Mighty Blade RPG](https://editorarunas.com.br/mighty-blade-rpg/)
 * **Criador**: Tiago Junges
+
+
+<!-- $ python manage.py makemigrations && python manage.py migrate && python manage.py mainsee -->
