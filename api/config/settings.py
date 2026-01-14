@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     # --- Third Party Apps ---
     "rest_framework",
     "corsheaders",
+    "drf_spectacular",
     # --- Local Apps ---
     "core",
 ]
@@ -141,6 +142,14 @@ REST_FRAMEWORK = {
         "rest_framework.authentication.SessionAuthentication",
         "rest_framework.authentication.BasicAuthentication",
     ],
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+}
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "Mighty Blade Control API",
+    "DESCRIPTION": "Sistema de controle e regras para o RPG Mighty Blade.",
+    "VERSION": "1.0.0",
+    "SERVE_INCLUDE_SCHEMA": False,
 }
 
 # --- CONFIGURAÇÃO DE CORS (Para o Frontend) ---

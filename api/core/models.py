@@ -357,7 +357,7 @@ class Item(models.Model):
         max_digits=6, decimal_places=3, verbose_name="Peso Base (kg)"
     )
     price = models.IntegerField(default=0, verbose_name="Preço Base (Cobre)")
-    is_stackable = models.BooleanField(default=True)
+    is_stackable = models.BooleanField(default=False)
     item_type = models.CharField(max_length=20, choices=ITEM_TYPES, default="gear")
 
     def __str__(self):
